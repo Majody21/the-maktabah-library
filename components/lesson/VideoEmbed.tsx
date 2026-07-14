@@ -1,0 +1,60 @@
+function extractYouTubeId(url: string | null | undefined): string | null {
+  if (!url) return null;
+  const patterns = [
+    /youtube\.com\/watch\?v=([\w-]{6,})/,
+    /youtu\.be\/([\w-]{6,})/,
+    /youtube\.com\/embed\/([\w-]{6,})/,
+  ];
+  for (const p of patterns) {
+    const m = url.match(p);
+    if (m) return m[1];
+  }
+  return null;
+}
+
+export default function VideoEmbed({
+  youtubeUrl,
+  title,
+  scholar,
+}: {
+  youtubeUrl?: string | null;
+  title?: string | null;
+  scholar?: string | null;
+}) {
+  const videoId = extractYouTubeId(youtubeUrl);
+
+  if (!videoId) {
+    return (
+      <div className="card flex min-h-40 items-center justify-center p-6 text-center">
+        <p className="max-w-md text-ink-soft">
+          This video is temporarily unavailable. Please proceed with the text
+          content above.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <figure>
+      <div className="card overflow-hidden">
+        <div className="relative aspect-video w-full">
+          <iframe
+            className="absolute inset-0 h-full w-full"
+            src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+            title={title ?? "Scholar's explanation"}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
+      </div>
+      {(title || scholar) && (
+        <figcaption className="mt-3 text-[0.95rem] text-ink-soft">
+          {title}
+          {title && scholar ? " — " : ""}
+          {scholar && <span className="font-semibold text-forest">{scholar}</span>}
+        </figcaption>
+      )}
+    </figure>
+  );
+}

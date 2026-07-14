@@ -1,0 +1,271 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ————— Scholar's Library palette (white, calm) ————— */
+:root {
+  --bg: #ffffff;
+  --bg-raised: #ffffff;
+  --bg-tint: #f6f5f2;
+  --bg-deep: #efede8;
+  --ink: #37342e;
+  --ink-soft: #6b655a;
+  --ink-faint: #7d766a;
+  --line: #e9e6e0;
+  --line-strong: #d8d3c9;
+  --forest: #35604c;
+  --forest-strong: #27493a;
+  --forest-soft: #56826c;
+  --forest-tint: #eef4f0;
+  --forest-fill: #35604c;
+  --on-forest: #f9f7f0;
+  --gold: #8a6f36;
+  --gold-bright: #b3945a;
+  --gold-tint: #f7f2e6;
+  --elev-card: 0 1px 2px rgba(60, 55, 45, 0.04), 0 2px 8px rgba(60, 55, 45, 0.05);
+  --elev-lift: 0 2px 4px rgba(60, 55, 45, 0.05), 0 6px 16px rgba(60, 55, 45, 0.09);
+  /* Real font-stack variables (next/font sets --font-lora etc. on <body>).
+     These must live here, not only in @theme inline, so component CSS can
+     reference them with var(). */
+  --font-display-stack: var(--font-lora), Georgia, "Times New Roman", serif;
+  --font-body-stack: var(--font-crimson), Georgia, "Times New Roman", serif;
+  --font-arabic-stack: var(--font-amiri), "Traditional Arabic", serif;
+}
+
+/* Dark mode: a plain dark grey, opt-in via the header toggle. */
+.dark {
+  --bg: #222222;
+  --bg-raised: #2a2a2a;
+  --bg-tint: #303030;
+  --bg-deep: #1b1b1b;
+  --ink: #e9e7e2;
+  --ink-soft: #b2aea6;
+  --ink-faint: #969288;
+  --line: #383838;
+  --line-strong: #4a4a4a;
+  --forest: #8fc5a8;
+  --forest-strong: #abd7bf;
+  --forest-soft: #659c7f;
+  --forest-tint: #2a312d;
+  --forest-fill: #3c6b54;
+  --on-forest: #f2f5ef;
+  --gold: #cfa860;
+  --gold-bright: #d9b878;
+  --gold-tint: #322d24;
+  --elev-card: 0 1px 2px rgba(0, 0, 0, 0.25), 0 3px 12px rgba(0, 0, 0, 0.2);
+  --elev-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+@theme inline {
+  --color-parchment: var(--bg);
+  --color-raised: var(--bg-raised);
+  --color-tint: var(--bg-tint);
+  --color-deep: var(--bg-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-forest: var(--forest);
+  --color-forest-strong: var(--forest-strong);
+  --color-forest-soft: var(--forest-soft);
+  --color-forest-tint: var(--forest-tint);
+  --color-forest-fill: var(--forest-fill);
+  --color-on-forest: var(--on-forest);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-gold-tint: var(--gold-tint);
+  --font-display: var(--font-display-stack);
+  --font-body: var(--font-body-stack);
+  --font-arabic: var(--font-arabic-stack);
+  --shadow-card: var(--elev-card);
+  --shadow-lift: var(--elev-lift);
+}
+
+/* ————— Base ————— */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body-stack);
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display-stack);
+    color: var(--ink);
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background: var(--gold-tint);
+    color: var(--ink);
+  }
+}
+
+/* ————— Components ————— */
+/* Inside @layer components so plain Tailwind utilities (e.g. `hidden`)
+   still override these classes. */
+@layer components {
+.arabic {
+  font-family: var(--font-arabic-stack);
+  direction: rtl;
+  text-align: right;
+  font-size: 1.5em;
+  line-height: 2.1;
+}
+
+.arabic-inline {
+  font-family: var(--font-arabic-stack);
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.25em;
+}
+
+.proof-quran {
+  background: var(--gold-tint);
+  border-inline-start: 3px solid var(--gold-bright);
+  border-radius: 0.25rem;
+}
+
+.proof-hadith {
+  background: var(--forest-tint);
+  border-inline-start: 3px solid var(--forest-soft);
+  border-radius: 0.25rem;
+}
+
+.card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 0.25rem;
+  box-shadow: var(--elev-card);
+}
+
+.card-hover {
+  cursor: pointer;
+  transition: box-shadow 200ms ease, border-color 200ms ease;
+}
+
+.card-hover:hover {
+  box-shadow: var(--elev-lift);
+  border-color: var(--line-strong);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-display-stack);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+  padding: 0.55rem 1.2rem;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  text-decoration: none;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--forest-fill);
+  color: var(--on-forest);
+  border: 1px solid var(--forest-fill);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--forest-strong);
+  border-color: var(--forest-strong);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+}
+
+.btn-outline:hover:not(:disabled) {
+  border-color: var(--forest-soft);
+  color: var(--forest);
+  background: var(--forest-tint);
+}
+
+.btn-gold {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+}
+
+.btn-gold:hover:not(:disabled) {
+  background: var(--gold-tint);
+}
+
+.input {
+  width: 100%;
+  background: var(--bg-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: 0.25rem;
+  padding: 0.6rem 0.85rem;
+  font-family: var(--font-body-stack);
+  font-size: 0.95rem;
+  color: var(--ink);
+  min-height: 44px;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--forest-soft);
+  box-shadow: 0 0 0 3px var(--forest-tint);
+}
+
+.input::placeholder {
+  color: var(--ink-faint);
+}
+
+/* Small caps label — used sparingly (quiz results, proof labels) */
+.eyebrow {
+  font-family: var(--font-display-stack);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+/* Prose styles for lesson body text */
+.lesson-prose p {
+  margin-bottom: 1.15em;
+}
+
+.lesson-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.lesson-prose strong {
+  color: var(--forest);
+  font-weight: 700;
+}
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .card-hover,
+  .btn {
+    transition: none;
+  }
+}
