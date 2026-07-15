@@ -17,13 +17,15 @@ const r = (
 
 export const resources: Resource[] = [
   // ——— Aqeedah ———
-  r("r-thalathat-usul", "aqeedah", "Explanation of the Three Fundamental Principles", "Explained by Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "The matn studied in this library's core module, with the standard beginner-level sharh.", drive("1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub")),
-  r("r-qawaid-arba", "aqeedah", "The Four Principles (with explanation)", "Muhammad ibn Abd al-Wahhab; expl. Salih al-Fawzan", "book", "https://darussalam.com/", "A one-page matn exposing the reality of shirk — covered in Module 5.", drive("1FzVvWWHEjzinFKdWJM099fwQ2SPQSfsr")),
-  r("r-kitab-tawheed", "aqeedah", "Kitab at-Tawheed", "Muhammad ibn Abd al-Wahhab", "book", "https://darussalam.com/", "The classical chapter-by-chapter text on tawheed al-uluhiyyah with its evidences.", drive("1zIGTupW21kyecFVYVqBhmk6u1QHlm91b")),
-  r("r-wasitiyyah", "aqeedah", "Sharh al-Aqeedah al-Wasitiyyah", "Ibn Taymiyyah; expl. Ibn Uthaymeen", "book", "https://darussalam.com/", "The reference creed text on Allah's names and attributes upon the way of the Salaf.", drive("1f4U7-60nh7XDfYvBF1_PFx5qYaTPRdMv")),
-  r("r-usul-iman", "aqeedah", "Sharh Usul al-Iman", "Ibn Uthaymeen", "book", "https://darussalam.com/", "A concise explanation of all six pillars of iman — pairs with Module 2."),
-  r("r-aqeedah-tawheed", "aqeedah", "Aqeedah at-Tawheed", "Salih ibn Fawzan al-Fawzan", "book", "https://darussalam.com/", "A modern university-level primer covering the categories of tawheed and their nullifiers."),
-  r("r-usul-sunnah", "aqeedah", "Usul as-Sunnah", "Imam Ahmad ibn Hanbal", "book", "https://darussalam.com/", "The creed of Imam Ahmad — short, early, and foundational for knowing the Salaf's positions.", drive("1pmw3F8i0TaQZut4xVFF-QjPB2kXgs45B")),
+  r("r-thalathat-usul", "aqeedah", "Explanation of the Three Fundamental Principles", "Explained by Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "The matn studied in this library's core module, with an English explanation.", drive("1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub")),
+  r("r-qawaid-arba", "aqeedah", "The Four Principles (with explanation)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "A one-page matn exposing the reality of shirk — covered in the Four Principles module.", drive("1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW")),
+  r("r-nawaqid", "aqeedah", "Nawaqid al-Islam (The Nullifiers of Islam)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "The ten matters that nullify a person's Islam, with their proofs.", drive("1SRd_vBX0SZs7Styutb8PlQ0pOfP0XziH")),
+  r("r-usul-sittah", "aqeedah", "Usul al-Sittah (The Six Foundations)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Ibn Uthaymeen", "book", "https://darussalam.com/", "Six short foundations the author calls astonishing in their clarity — often missed by many.", drive("1ddlIFpoJtny18RWiLm8YzZbSwcExJnhz")),
+  r("r-kitab-tawheed", "aqeedah", "Kitab at-Tawheed", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan", "book", "https://darussalam.com/", "The classical chapter-by-chapter text on tawheed al-uluhiyyah with its evidences.", drive("1_-8INcbDziMMU2oLX9GcS1mSdpQ6Q2iP")),
+  r("r-kashf-shubuhat", "aqeedah", "Kashf al-Shubuhat (Removal of the Doubts)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan", "book", "https://darussalam.com/", "How to answer the doubts the mushrikun raise against tawheed — a decisive short text.", drive("1IKZCenUO1K8zz0mhOlfdrJyydUfJXF_3")),
+  r("r-wasitiyyah", "aqeedah", "Sharh al-Aqeedah al-Wasitiyyah", "Matn of Ibn Taymiyyah; expl. Shaykh Ibn Baz", "book", "https://darussalam.com/", "The reference creed text on Allah's names and attributes upon the way of the Salaf.", drive("1bM5cwCMvAenAQG757GUtWHJ9BmLnb2C4")),
+  r("r-usul-sunnah", "aqeedah", "Usul as-Sunnah", "Matn of Imam Ahmad ibn Hanbal; expl. Shaykh Rabee al-Madkhali", "book", "https://darussalam.com/", "The creed of Imam Ahmad — short, early, and foundational for knowing the Salaf's positions.", drive("1qKU1QZNjUxjz5mfqy_foO3-FizlkmI-e")),
+  r("r-usul-iman", "aqeedah", "Sharh Usul al-Iman", "Ibn Uthaymeen", "book", "https://darussalam.com/", "A concise explanation of all six pillars of iman — pairs with the Six Pillars module."),
   // ——— Fiqh ———
   r("r-mulakhkhas", "fiqh", "A Summary of Islamic Jurisprudence (al-Mulakhkhas al-Fiqhi)", "Salih ibn Fawzan al-Fawzan", "book", "https://darussalam.com/", "A complete survey of worship and transactions with evidences — the planned base text for the fiqh department."),
   r("r-prophets-prayer", "fiqh", "The Prophet's Prayer Described", "Muhammad Nasir ad-Din al-Albani", "book", "https://darussalam.com/", "Describing the prayer ﷺ from takbir to taslim, evidence by evidence."),
@@ -43,16 +45,16 @@ export const resources: Resource[] = [
   r("r-madinaharabic-site", "arabic-language", "MadinahArabic.com", "—", "website", "https://www.madinaharabic.com/", "Free structured Arabic lessons for reading and grammar practice."),
   r("r-arabic-alphabet", "arabic-language", "Arabic Reading & Writing Made Easy", "—", "book", "https://darussalam.com/", "For absolute beginners: letters, harakat and joining before starting Madinah Book 1."),
   // ——— Seerah ———
-  r("r-sealed-nectar", "seerah", "The Sealed Nectar (ar-Raheeq al-Makhtum)", "Safi ar-Rahman al-Mubarakpuri", "book", "https://darussalam.com/", "The standard English biography of the Prophet ﷺ — the base text for the seerah department.", drive("162eXpzNwDnrcgxFVAMqkYtiyA2RvqY5f")),
+  r("r-sealed-nectar", "seerah", "The Sealed Nectar (ar-Raheeq al-Makhtum)", "Safi ar-Rahman al-Mubarakpuri", "book", "https://darussalam.com/", "The standard English biography of the Prophet ﷺ — the base text for the seerah department.", drive("1uB7lHUNdwaY5XMSYC3vRdEUwxYS-JYim")),
   // ——— Tazkiyat al-Nafs ———
   r("r-disease-cure", "tazkiyah", "The Disease and the Cure (ad-Daa' wad-Dawaa')", "Ibn Qayyim al-Jawziyyah", "book", "https://darussalam.com/", "Ibn al-Qayyim's answer to the question: what heals the heart from sin? The base text for tazkiyat al-nafs.", drive("1XXHa_qmnvTOe8yc2z0LPqI8v34ih67cf")),
   // ——— Dawah ———
   r("r-kalimatun-sawa", "dawah", "The Methodology of the Prophets in Calling to Allah", "Rabee' ibn Hadi al-Madkhali", "book", "https://darussalam.com/", "How the prophets called: tawheed first — the base text for the dawah department."),
   r("r-worlddawah", "dawah", "WorldDawah.com", "—", "website", "https://worlddawah.com/", "English da'wah resources and materials for conveying Islam clearly."),
   // ——— Refutations ———
-  r("r-sharh-sunnah-barbahari", "refutations", "Sharh as-Sunnah", "Imam al-Barbahari; expl. al-Fawzan", "book", "https://darussalam.com/", "An early Salafi creed text warning from innovation — foundational before studying the sects.", drive("1VUYnx4VPblYnf5nBZVe8PbVWXNnQu-Cn")),
+  r("r-sharh-sunnah-barbahari", "refutations", "Sharh as-Sunnah", "Imam al-Barbahari; expl. al-Fawzan", "book", "https://darussalam.com/", "An early Salafi creed text warning from innovation — foundational before studying the sects.", drive("151gZDToQ0Pizvil8e1clii8mvhXId0ii")),
   r("r-ibanah", "refutations", "Al-Ibanah 'an Usul ad-Diyanah", "Abu al-Hasan al-Ash'ari", "book", "https://shamela.ws/", "The final creed of al-Ash'ari himself, affirming the way of Ahmad ibn Hanbal (Arabic)."),
-  r("r-lumah", "refutations", "Al-Lum'ah fil-I'tiqad (Sufficiency in Creed)", "Ibn Qudamah; expl. Ibn Uthaymeen", "book", "https://darussalam.com/", "A Hanbali creed text often taught before engaging the positions of the sects.", drive("12QcpTrNHXFiZLF2Sn3A7tyKQ-K4NHbUu")),
+  r("r-lumah", "refutations", "Al-Lum'ah fil-I'tiqad (Sufficiency in Creed)", "Ibn Qudamah; expl. Ibn Uthaymeen", "book", "https://darussalam.com/", "A Hanbali creed text often taught before engaging the positions of the sects.", drive("12U_FibBERzhwQshovF48457WqZMiSF3n")),
   // ——— Fatawa / scholars' portals ———
   r("r-binbaz", "fatawa-library", "Official website of Shaykh Ibn Baz", "Ibn Baz Foundation", "website", "https://binbaz.org.sa/", "Thousands of the Shaykh's fatawa, treatises and audio (Arabic, with some translations)."),
   r("r-binothaimeen", "fatawa-library", "Official website of Shaykh Ibn Uthaymeen", "Ibn Uthaymeen Foundation", "website", "https://binothaimeen.net/", "The Shaykh's books, fatawa and recorded lessons (Arabic)."),

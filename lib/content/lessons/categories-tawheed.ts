@@ -8,16 +8,17 @@ export const categoriesTawheedLessons: Lesson[] = [
     title: "Tawheed ar-Rububiyyah: Oneness of Lordship",
     displayOrder: 1,
     basedOn:
-      "Summarized from Aqeedah at-Tawheed of Shaykh Salih al-Fawzan and the explanations of Shaykh Ibn Uthaymeen.",
+      "Summarized from the explanations of Shaykh Salih al-Fawzan and Shaykh Ibn Uthaymeen.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=8mL4qaGY5yQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "3 Types of Tawheed in Detail",
     bookRecommendations: [
       {
-        title: "Aqeedah at-Tawheed",
-        author: "Salih ibn Fawzan al-Fawzan",
+        title: "Kitab at-Tawheed",
+        pdfUrl: "https://drive.google.com/file/d/1_-8INcbDziMMU2oLX9GcS1mSdpQ6Q2iP/view",
+        author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan",
         url: "https://darussalam.com/",
-        note: "Chapters one and two cover rububiyyah and its implications.",
+        note: "The core text for this module; its opening chapters establish tawheed and its categories.",
       },
     ],
     content: `**Tawheed ar-Rububiyyah** is singling out Allah in His actions: He alone creates, He alone provides, He alone gives life and death, and He alone manages the affairs of the heavens and the earth. No atom moves except by His permission.
@@ -77,14 +78,14 @@ Rububiyyah is the proof; the worship it obligates is the claim. That claim is th
     title: "Tawheed al-Uluhiyyah: Oneness of Worship",
     displayOrder: 2,
     basedOn:
-      "Summarized from Aqeedah at-Tawheed of Shaykh Salih al-Fawzan and the explanations of Shaykh Ibn Baz.",
+      "Summarized from the explanations of Shaykh Salih al-Fawzan and Shaykh Ibn Baz.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=8mL4qaGY5yQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "3 Types of Tawheed in Detail",
     bookRecommendations: [
       {
         title: "Kitab at-Tawheed",
-        pdfUrl: "https://drive.google.com/file/d/1zIGTupW21kyecFVYVqBhmk6u1QHlm91b/view",
+        pdfUrl: "https://drive.google.com/file/d/1_-8INcbDziMMU2oLX9GcS1mSdpQ6Q2iP/view",
         author: "Muhammad ibn Abd al-Wahhab (with explanation by al-Fawzan)",
         url: "https://darussalam.com/",
         note: "The classical text devoted entirely to tawheed al-uluhiyyah.",
@@ -148,15 +149,15 @@ Test every practice against this category. Supplicating to a buried saint for a 
     title: "Tawheed al-Asma wa's-Sifat: Names and Attributes",
     displayOrder: 3,
     basedOn:
-      "Summarized from al-Aqeedah al-Wasitiyyah of Ibn Taymiyyah with the explanation of Shaykh Ibn Uthaymeen.",
+      "Summarized from al-Aqeedah al-Wasitiyyah of Ibn Taymiyyah with the explanation of Shaykh Ibn Baz.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=8mL4qaGY5yQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "3 Types of Tawheed in Detail",
     bookRecommendations: [
       {
         title: "Sharh al-Aqeedah al-Wasitiyyah",
-        pdfUrl: "https://drive.google.com/file/d/1f4U7-60nh7XDfYvBF1_PFx5qYaTPRdMv/view",
-        author: "Ibn Taymiyyah, expl. Muhammad ibn Salih al-Uthaymeen",
+        pdfUrl: "https://drive.google.com/file/d/1bM5cwCMvAenAQG757GUtWHJ9BmLnb2C4/view",
+        author: "Matn of Ibn Taymiyyah; expl. Shaykh Ibn Baz",
         url: "https://darussalam.com/",
         note: "The reference text for the Salafi position on the attributes.",
       },
@@ -220,14 +221,14 @@ Knowing the names has a devotional payoff, not just a doctrinal one:
     title: "What Nullifies Tawheed: Shirk and Its Categories",
     displayOrder: 4,
     basedOn:
-      "Summarized from Aqeedah at-Tawheed of Shaykh Salih al-Fawzan and Kitab at-Tawheed with its explanations.",
+      "Summarized from Kitab at-Tawheed of Shaykh Muhammad ibn Abd al-Wahhab with its explanations.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=e3M3KhNqB8U",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "Shirk — Shaykh Salih al-Fawzan",
     bookRecommendations: [
       {
         title: "Kitab at-Tawheed",
-        pdfUrl: "https://drive.google.com/file/d/1zIGTupW21kyecFVYVqBhmk6u1QHlm91b/view",
+        pdfUrl: "https://drive.google.com/file/d/1_-8INcbDziMMU2oLX9GcS1mSdpQ6Q2iP/view",
         author: "Muhammad ibn Abd al-Wahhab",
         url: "https://darussalam.com/",
         note: "Most chapters address a specific avenue of shirk with its evidence.",

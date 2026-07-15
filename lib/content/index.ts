@@ -4,11 +4,17 @@ import { sixPillarsLessons } from "./lessons/six-pillars";
 import { usulThalathahLessons } from "./lessons/usul-thalathah";
 import { categoriesTawheedLessons } from "./lessons/categories-tawheed";
 import { qawaidArbaLessons } from "./lessons/qawaid-arba";
+import { nawaqidAlIslamLessons } from "./lessons/nawaqid-al-islam";
+import { usulAlSittahLessons } from "./lessons/usul-al-sittah";
+import { kashfAlShubuhatLessons } from "./lessons/kashf-al-shubuhat";
 import { fivePillarsQuiz } from "./quizzes/five-pillars-quiz";
 import { sixPillarsQuiz } from "./quizzes/six-pillars-quiz";
 import { usulThalathahQuiz } from "./quizzes/usul-thalathah-quiz";
 import { categoriesTawheedQuiz } from "./quizzes/categories-tawheed-quiz";
 import { qawaidArbaQuiz } from "./quizzes/qawaid-arba-quiz";
+import { nawaqidAlIslamQuiz } from "./quizzes/nawaqid-al-islam-quiz";
+import { usulAlSittahQuiz } from "./quizzes/usul-al-sittah-quiz";
+import { kashfAlShubuhatQuiz } from "./quizzes/kashf-al-shubuhat-quiz";
 import { glossaryTerms } from "./glossary";
 import { resources } from "./resources";
 import { fatawa } from "./fatawa";
@@ -22,6 +28,9 @@ export const allLessons: Lesson[] = [
   ...usulThalathahLessons,
   ...categoriesTawheedLessons,
   ...qawaidArbaLessons,
+  ...nawaqidAlIslamLessons,
+  ...usulAlSittahLessons,
+  ...kashfAlShubuhatLessons,
 ];
 
 export const allQuizzes: Quiz[] = [
@@ -30,6 +39,9 @@ export const allQuizzes: Quiz[] = [
   usulThalathahQuiz,
   categoriesTawheedQuiz,
   qawaidArbaQuiz,
+  nawaqidAlIslamQuiz,
+  usulAlSittahQuiz,
+  kashfAlShubuhatQuiz,
 ];
 
 export function getDepartmentBySlug(slug: string) {

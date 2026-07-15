@@ -190,6 +190,39 @@ export const modules: Module[] = [
     prerequisiteModuleId: "categories-of-tawheed",
     estimatedMinutes: 170,
   },
+  {
+    id: "nawaqid-al-islam",
+    departmentId: "aqeedah",
+    slug: "nawaqid-al-islam",
+    name: "Nawaqid al-Islam (The Nullifiers of Islam)",
+    description:
+      "The ten matters Shaykh Muhammad ibn Abd al-Wahhab gathered that nullify a person's Islam — each with its proof, so a Muslim knows what to guard against.",
+    displayOrder: 6,
+    prerequisiteModuleId: "qawaid-al-arba",
+    estimatedMinutes: 130,
+  },
+  {
+    id: "usul-al-sittah",
+    departmentId: "aqeedah",
+    slug: "usul-al-sittah",
+    name: "Usul al-Sittah (The Six Foundations)",
+    description:
+      "Six short, decisive foundations of the religion — clear enough that a child could grasp them, yet missed by many. A guided reading of the famous matn.",
+    displayOrder: 7,
+    prerequisiteModuleId: "nawaqid-al-islam",
+    estimatedMinutes: 130,
+  },
+  {
+    id: "kashf-al-shubuhat",
+    departmentId: "aqeedah",
+    slug: "kashf-al-shubuhat",
+    name: "Kashf al-Shubuhat (Removal of the Doubts)",
+    description:
+      "How to answer the doubts raised against tawheed — the very arguments the mushrikun of old and today rely on, dismantled from the Quran and Sunnah.",
+    displayOrder: 8,
+    prerequisiteModuleId: "usul-al-sittah",
+    estimatedMinutes: 170,
+  },
 ];
 
 export function modulesForDepartment(departmentId: string): Module[] {

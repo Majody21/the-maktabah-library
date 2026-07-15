@@ -8,15 +8,15 @@ export const qawaidArbaLessons: Lesson[] = [
     title: "Introduction and the First Principle",
     displayOrder: 1,
     basedOn:
-      "An introductory breakdown of al-Qawa'id al-Arba' of Shaykh Muhammad ibn Abd al-Wahhab, summarized from the sharh of Shaykh Salih al-Fawzan.",
+      "An introductory breakdown of al-Qawa'id al-Arba' of Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=C97kF9uqatQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "The Importance of the Four Principles",
     bookRecommendations: [
       {
         title: "The Four Principles (with explanation)",
-        pdfUrl: "https://drive.google.com/file/d/1FzVvWWHEjzinFKdWJM099fwQ2SPQSfsr/view",
-        author: "Muhammad ibn Abd al-Wahhab, expl. Salih al-Fawzan",
+        pdfUrl: "https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view",
+        author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan",
         url: "https://darussalam.com/",
         note: "A single-sitting matn; read it whole before this module.",
       },
@@ -66,15 +66,15 @@ If lordship-belief alone saved, the Quraysh would have needed no messenger. This
     title: "The Second and Third Principles: 'Nearness' and 'Intercession'",
     displayOrder: 2,
     basedOn:
-      "Summarized from the sharh of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
+      "Summarized from the explanation of Shaykh Haytham Sarhan on al-Qawa'id al-Arba'.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=C97kF9uqatQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "The Importance of the Four Principles",
     bookRecommendations: [
       {
         title: "The Four Principles (with explanation)",
-        pdfUrl: "https://drive.google.com/file/d/1FzVvWWHEjzinFKdWJM099fwQ2SPQSfsr/view",
-        author: "Muhammad ibn Abd al-Wahhab, expl. Salih al-Fawzan",
+        pdfUrl: "https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view",
+        author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan",
         url: "https://darussalam.com/",
         note: "Covers the shubuhat (doubts) of nearness and intercession.",
       },
@@ -135,15 +135,15 @@ The lesson for a student of aqeedah: shirk is defined by the *act directed to ot
     title: "The Fourth Principle: The Shirk of Ease and the Shirk of Hardship",
     displayOrder: 3,
     basedOn:
-      "Summarized from the sharh of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
+      "Summarized from the explanation of Shaykh Haytham Sarhan on al-Qawa'id al-Arba'.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=C97kF9uqatQ",
     videoScholar: "Shaykh Salih al-Fawzan",
     videoTitle: "The Importance of the Four Principles",
     bookRecommendations: [
       {
         title: "The Four Principles (with explanation)",
-        pdfUrl: "https://drive.google.com/file/d/1FzVvWWHEjzinFKdWJM099fwQ2SPQSfsr/view",
-        author: "Muhammad ibn Abd al-Wahhab, expl. Salih al-Fawzan",
+        pdfUrl: "https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view",
+        author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan",
         url: "https://darussalam.com/",
         note: "The closing principle and its proof from Surah al-Ankabut.",
       },
