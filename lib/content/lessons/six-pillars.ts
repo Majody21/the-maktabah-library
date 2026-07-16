@@ -9,13 +9,14 @@ export const sixPillarsLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.",
-    videoYoutubeUrl: null,
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Foundations of Iman",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "Sharh Usul al-Iman (Explanation of the Foundations of Faith)",
-        author: "Muhammad ibn Salih al-Uthaymeen",
+        pdfUrl: "https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf",
+        author: "Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)",
         url: "https://darussalam.com/",
         note: "A short treatise covering all six pillars â€” ideal alongside this module.",
       },
@@ -77,9 +78,9 @@ Notice that even removing something harmful from the road is counted from iman â
     displayOrder: 2,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Salih al-Fawzan",
-    videoTitle: "Belief in Allah and His Angels",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
@@ -146,9 +147,9 @@ Belief in them means believing in their existence, in those named to us by name,
     displayOrder: 3,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.",
-    videoYoutubeUrl: null,
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "Belief in the Revealed Books and the Messengers",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
@@ -217,9 +218,9 @@ Practically, belief in this pillar shapes how you read the Quran: it is not one 
     displayOrder: 4,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Abd al-Aziz ibn Baz",
-    videoTitle: "Belief in the Last Day and the Divine Decree",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",

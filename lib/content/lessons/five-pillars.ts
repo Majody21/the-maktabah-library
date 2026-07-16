@@ -9,9 +9,9 @@ export const fivePillarsLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel (Sharh al-Arba'in an-Nawawiyyah).",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "The Pillars of Islam (Important Lessons series)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "Sharh al-Arba'in an-Nawawiyyah (Explanation of the Forty Hadith)",
@@ -78,9 +78,9 @@ In the coming lessons we take each pillar in turn, learn its meaning, and — as
     displayOrder: 2,
     basedOn:
       "Summarized from the explanations of Shaykh Salih al-Fawzan (Aqeedah at-Tawheed) and Shaykh Ibn Uthaymeen on the meaning and conditions of the shahadah.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "The Pillars of Islam (Important Lessons series)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "Kitab at-Tawheed",
@@ -148,9 +148,9 @@ Hold onto this order in your own learning. Before fiqh rulings, before memorizat
     displayOrder: 3,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Baz and Shaykh Ibn Uthaymeen on the status of the prayer and zakah.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "The Pillars of Islam (Important Lessons series)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "The Prophet's Prayer Described (Sifat Salaat an-Nabi)",
@@ -218,9 +218,9 @@ The one who withholds it is threatened with a painful punishment on the Day of R
     displayOrder: 4,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Uthaymeen (Majalis Shahr Ramadan) and Shaykh al-Fawzan on fasting and pilgrimage.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "The Pillars of Islam (Important Lessons series)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The Pillars of Islam and Iman",
     bookRecommendations: [
       {
         title: "Al-Mulakhkhas al-Fiqhi (A Summary of Islamic Jurisprudence)",

@@ -15,7 +15,7 @@ export const revalidate = 3600;
 export default async function FatawaPage() {
   const fatawa = await getFatawa();
   return (
-    <div className="mx-auto max-w-2xl px-6 py-10">
+    <div className="mx-auto max-w-4xl px-6 py-10">
       <h1 className="font-display text-3xl font-semibold">Fatawa</h1>
       <p className="mt-2 text-ink-soft">
         Summaries of published verdicts from Ibn Baz, Ibn Uthaymeen, al-Fawzan

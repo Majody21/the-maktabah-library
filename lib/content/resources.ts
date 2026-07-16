@@ -25,7 +25,7 @@ export const resources: Resource[] = [
   r("r-kashf-shubuhat", "aqeedah", "Kashf al-Shubuhat (Removal of the Doubts)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan", "book", "https://darussalam.com/", "How to answer the doubts the mushrikun raise against tawheed — a decisive short text.", drive("1IKZCenUO1K8zz0mhOlfdrJyydUfJXF_3")),
   r("r-wasitiyyah", "aqeedah", "Sharh al-Aqeedah al-Wasitiyyah", "Matn of Ibn Taymiyyah; expl. Shaykh Ibn Baz", "book", "https://darussalam.com/", "The reference creed text on Allah's names and attributes upon the way of the Salaf.", drive("1bM5cwCMvAenAQG757GUtWHJ9BmLnb2C4")),
   r("r-usul-sunnah", "aqeedah", "Usul as-Sunnah", "Matn of Imam Ahmad ibn Hanbal; expl. Shaykh Rabee al-Madkhali", "book", "https://darussalam.com/", "The creed of Imam Ahmad — short, early, and foundational for knowing the Salaf's positions.", drive("1qKU1QZNjUxjz5mfqy_foO3-FizlkmI-e")),
-  r("r-usul-iman", "aqeedah", "Sharh Usul al-Iman", "Ibn Uthaymeen", "book", "https://darussalam.com/", "A concise explanation of all six pillars of iman — pairs with the Six Pillars module."),
+  r("r-usul-iman", "aqeedah", "Sharh Usul al-Iman", "Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)", "book", "https://darussalam.com/", "A concise explanation of all six pillars of iman — pairs with the Six Pillars module.", "https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf"),
   r("r-200-qa", "aqeedah", "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)", "Shaykh Hafiz ibn Ahmad al-Hakami", "book", "https://darussalam.com/", "The creed of Ahlus Sunnah in question-and-answer form — companion to the Six Pillars module.", drive("13vKC907IYQdHS0GdLimRBEmkwyJnyhD2")),
   // ——— Fiqh ———
   r("r-mulakhkhas", "fiqh", "A Summary of Islamic Jurisprudence (al-Mulakhkhas al-Fiqhi)", "Salih ibn Fawzan al-Fawzan", "book", "https://darussalam.com/", "A complete survey of worship and transactions with evidences — the planned base text for the fiqh department.", drive("1wHuLp2TNlXy3KU_FS12JilMrHpzRKOv1")),
@@ -39,18 +39,18 @@ export const resources: Resource[] = [
   r("r-noble-quran", "quran-tafsir", "The Noble Quran (Hilali & Khan translation)", "Hilali & Muhsin Khan", "book", "https://darussalam.com/", "The widely used translation with tafsir-based annotations from Sahih sources.", drive("1dcZukpKu5G8Ro6HR6PGz3uooKcAC_1Z8")),
   // ——— Hadith Sciences ———
   r("r-sunnah-com", "hadith-sciences", "Sunnah.com", "—", "website", "https://sunnah.com/", "Search the major hadith collections with Arabic text and English translation — used for every hadith reference on this site."),
-  r("r-nukhbah", "hadith-sciences", "Nukhbat al-Fikar (with explanation)", "Ibn Hajar al-Asqalani", "book", "https://darussalam.com/", "The classical matn of hadith terminology, for when the department opens."),
+  r("r-nukhbah", "hadith-sciences", "Nukhbat al-Fikar (Hadith Terminology)", "Ibn Hajar al-Asqalani", "book", "https://darussalam.com/", "The classical matn of hadith terminology, for when the department opens.", "https://d1.islamhouse.com/data/en/ih_books/single/en_Nukhbat_al_Fikr.pdf"),
   // ——— Arabic ———
   r("r-madinah-books", "arabic-language", "Madinah Arabic Books 1-3", "V. Abdur Rahim", "book", "https://darussalam.com/", "The standard Arabic course taught at the Islamic University of Madinah (full series).", "https://drive.google.com/drive/folders/1FyIANHEXtIN-tC0yZ1A_lGligGqU_SEi"),
   r("r-ajurrumiyyah", "arabic-language", "Al-Ajurrumiyyah (with English commentary)", "Ibn Ajurrum", "book", "https://darussalam.com/", "The classical beginner grammar text this department will teach lesson by lesson.", drive("1s_WQh5wLqgmiTz4hVO5oCJAMuMRqhRWN")),
   r("r-madinaharabic-site", "arabic-language", "MadinahArabic.com", "—", "website", "https://www.madinaharabic.com/", "Free structured Arabic lessons for reading and grammar practice."),
-  r("r-arabic-alphabet", "arabic-language", "Arabic Reading & Writing Made Easy", "—", "book", "https://darussalam.com/", "For absolute beginners: letters, harakat and joining before starting Madinah Book 1."),
+  r("r-arabic-alphabet", "arabic-language", "Al-Qa'idah an-Nuraniyah", "Muhammad Nur Haqqani", "book", "https://darussalam.com/", "For absolute beginners: the classic primer for reading Arabic letters and harakat.", drive("1o5qWJyTc0Pef-o_2A3lDqETF4gjkowOg")),
   // ——— Seerah ———
   r("r-sealed-nectar", "seerah", "The Sealed Nectar (ar-Raheeq al-Makhtum)", "Safi ar-Rahman al-Mubarakpuri", "book", "https://darussalam.com/", "The standard English biography of the Prophet ﷺ — the base text for the seerah department.", drive("1uB7lHUNdwaY5XMSYC3vRdEUwxYS-JYim")),
   // ——— Tazkiyat al-Nafs ———
   r("r-disease-cure", "tazkiyah", "The Disease and the Cure (ad-Daa' wad-Dawaa')", "Ibn Qayyim al-Jawziyyah", "book", "https://darussalam.com/", "Ibn al-Qayyim's answer to the question: what heals the heart from sin? The base text for tazkiyat al-nafs.", drive("1XXHa_qmnvTOe8yc2z0LPqI8v34ih67cf")),
   // ——— Dawah ———
-  r("r-kalimatun-sawa", "dawah", "The Methodology of the Prophets in Calling to Allah", "Rabee' ibn Hadi al-Madkhali", "book", "https://darussalam.com/", "How the prophets called: tawheed first — the base text for the dawah department."),
+  r("r-kalimatun-sawa", "dawah", "The Methodology of the Prophets in Calling to Allah", "Shaykh Rabee ibn Hadi al-Madkhali", "book", "https://darussalam.com/", "How the prophets called: tawheed first — the base text for the dawah department.", "https://www.emaanlibrary.com/wp-content/uploads/2024/09/The-Methodology-of-the-Prophets-in-Calling-to-Allaah-Sh.-Rabee-al-Madkhalee-1.pdf"),
   r("r-worlddawah", "dawah", "WorldDawah.com", "—", "website", "https://worlddawah.com/", "English da'wah resources and materials for conveying Islam clearly."),
   // ——— Refutations ———
   r("r-sharh-sunnah-barbahari", "refutations", "Sharh as-Sunnah", "Imam al-Barbahari; expl. al-Fawzan", "book", "https://darussalam.com/", "An early Salafi creed text warning from innovation — foundational before studying the sects.", drive("151gZDToQ0Pizvil8e1clii8mvhXId0ii")),
@@ -68,5 +68,5 @@ export const resources: Resource[] = [
   r("r-buy-darussalam", null, "Darussalam Publishers", "—", "website", "https://darussalam.com/", "Major publisher of English Islamic books — most titles recommended on this site."),
   r("r-buy-iiph", null, "International Islamic Publishing House (IIPH)", "—", "website", "https://iiph.com/", "Publisher of many translated works of the scholars."),
   r("r-buy-authentic", null, "Authentic Statements Publishing", "—", "website", "https://authenticstatements.com/", "US-based publisher/distributor of Salafi books and matn translations."),
-  r("r-buy-hikmah", null, "Hikmah Publications", "—", "website", "https://hikmahpubs.com/", "Publisher of translations from the scholars of Sunnah, including creed texts."),
+  r("r-buy-hikmah", null, "Hikmah Publications", "—", "website", "https://darussalamus.com/collections/hikmah-publications", "Publisher of translations from the scholars of Sunnah, including creed texts."),
 ];
