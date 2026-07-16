@@ -9,9 +9,9 @@ export const usulThalathahLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "A lesson-by-lesson study of Thalathat al-Usul by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=6lUs09s17ZQ",
-    videoScholar: "Al Sakeenah — translated reading of the matn",
-    videoTitle: "The Three Fundamental Principles (English translation)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=wt15FdZZ9GY",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Thalathah Al-Usul — Full Explanation",
     bookRecommendations: [
       {
         title: "Explanation of the Three Fundamental Principles",
@@ -67,9 +67,9 @@ Notice the order in the ayah: *know* … *then seek forgiveness* — knowledge f
     displayOrder: 2,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=6lUs09s17ZQ",
-    videoScholar: "Al Sakeenah — translated reading of the matn",
-    videoTitle: "The Three Fundamental Principles (English translation)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=wt15FdZZ9GY",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Thalathah Al-Usul — Full Explanation",
     bookRecommendations: [
       {
         title: "Explanation of the Three Fundamental Principles",
@@ -138,9 +138,9 @@ Being nurtured by Him and owned by Him *obligates* worshipping Him alone. That l
     displayOrder: 3,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=6lUs09s17ZQ",
-    videoScholar: "Al Sakeenah — translated reading of the matn",
-    videoTitle: "The Three Fundamental Principles (English translation)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=wt15FdZZ9GY",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Thalathah Al-Usul — Full Explanation",
     bookRecommendations: [
       {
         title: "Explanation of the Three Fundamental Principles",
@@ -196,12 +196,13 @@ Why do the levels matter practically? Because they give your religious life a di
     displayOrder: 4,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=6lUs09s17ZQ",
-    videoScholar: "Al Sakeenah — translated reading of the matn",
-    videoTitle: "The Three Fundamental Principles (English translation)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=wt15FdZZ9GY",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Thalathah Al-Usul — Full Explanation",
     bookRecommendations: [
       {
         title: "The Sealed Nectar (ar-Raheeq al-Makhtum)",
+        pdfUrl: "https://drive.google.com/file/d/1uB7lHUNdwaY5XMSYC3vRdEUwxYS-JYim/view",
         author: "Safi ar-Rahman al-Mubarakpuri",
         url: "https://darussalam.com/",
         note: "The standard English biography of the Prophet ﷺ.",

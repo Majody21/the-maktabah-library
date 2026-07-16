@@ -26,22 +26,23 @@ export const resources: Resource[] = [
   r("r-wasitiyyah", "aqeedah", "Sharh al-Aqeedah al-Wasitiyyah", "Matn of Ibn Taymiyyah; expl. Shaykh Ibn Baz", "book", "https://darussalam.com/", "The reference creed text on Allah's names and attributes upon the way of the Salaf.", drive("1bM5cwCMvAenAQG757GUtWHJ9BmLnb2C4")),
   r("r-usul-sunnah", "aqeedah", "Usul as-Sunnah", "Matn of Imam Ahmad ibn Hanbal; expl. Shaykh Rabee al-Madkhali", "book", "https://darussalam.com/", "The creed of Imam Ahmad — short, early, and foundational for knowing the Salaf's positions.", drive("1qKU1QZNjUxjz5mfqy_foO3-FizlkmI-e")),
   r("r-usul-iman", "aqeedah", "Sharh Usul al-Iman", "Ibn Uthaymeen", "book", "https://darussalam.com/", "A concise explanation of all six pillars of iman — pairs with the Six Pillars module."),
+  r("r-200-qa", "aqeedah", "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)", "Shaykh Hafiz ibn Ahmad al-Hakami", "book", "https://darussalam.com/", "The creed of Ahlus Sunnah in question-and-answer form — companion to the Six Pillars module.", drive("13vKC907IYQdHS0GdLimRBEmkwyJnyhD2")),
   // ——— Fiqh ———
-  r("r-mulakhkhas", "fiqh", "A Summary of Islamic Jurisprudence (al-Mulakhkhas al-Fiqhi)", "Salih ibn Fawzan al-Fawzan", "book", "https://darussalam.com/", "A complete survey of worship and transactions with evidences — the planned base text for the fiqh department."),
-  r("r-prophets-prayer", "fiqh", "The Prophet's Prayer Described", "Muhammad Nasir ad-Din al-Albani", "book", "https://darussalam.com/", "Describing the prayer ﷺ from takbir to taslim, evidence by evidence."),
+  r("r-mulakhkhas", "fiqh", "A Summary of Islamic Jurisprudence (al-Mulakhkhas al-Fiqhi)", "Salih ibn Fawzan al-Fawzan", "book", "https://darussalam.com/", "A complete survey of worship and transactions with evidences — the planned base text for the fiqh department.", drive("1wHuLp2TNlXy3KU_FS12JilMrHpzRKOv1")),
+  r("r-prophets-prayer", "fiqh", "The Prophet's Prayer Described", "Muhammad Nasir ad-Din al-Albani", "book", "https://darussalam.com/", "Describing the prayer ﷺ from takbir to taslim, evidence by evidence.", drive("1Cewcsg6T5SeBRqPhmujDmT_zu0C8_Rfe")),
   r("r-sharh-mumti", "fiqh", "Ash-Sharh al-Mumti' 'ala Zad al-Mustaqni'", "Ibn Uthaymeen", "book", "https://shamela.ws/", "The great Hanbali commentary this department's advanced content will draw from (Arabic)."),
-  r("r-fatawa-arkan", "fiqh", "Fatawa Arkan al-Islam (Islamic Verdicts on the Pillars of Islam)", "Ibn Uthaymeen", "book", "https://darussalam.com/", "Organized fatawa on creed, prayer, zakah, fasting and hajj in English translation."),
+  r("r-fatawa-arkan", "fiqh", "Fatawa Arkan al-Islam (Islamic Verdicts on the Pillars of Islam)", "Ibn Uthaymeen", "book", "https://darussalam.com/", "Organized fatawa on creed, prayer, zakah, fasting and hajj in English translation.", "https://drive.google.com/drive/folders/1LHPNS5f-ciAEuASNzqGS1iqcNAQ5HOuJ"),
   // ——— Quran & Tafsir ———
-  r("r-tafsir-ibn-kathir", "quran-tafsir", "Tafsir Ibn Kathir (abridged, 10 vols.)", "Ibn Kathir", "book", "https://darussalam.com/", "The most relied-upon classical tafsir available in English."),
-  r("r-tafsir-sadi", "quran-tafsir", "Tafsir as-Sa'di", "Abd ar-Rahman as-Sa'di", "book", "https://iiph.com/", "A clear, aqeedah-sound tafsir beloved for beginners — available in English volumes."),
+  r("r-tafsir-ibn-kathir", "quran-tafsir", "Tafsir Ibn Kathir (abridged, 10 vols.)", "Ibn Kathir", "book", "https://darussalam.com/", "The most relied-upon classical tafsir available in English (multi-volume set).", "https://drive.google.com/drive/folders/1MocKf2HBEfsop0adjG-UnwXqTKWNsKqy"),
+  r("r-tafsir-sadi", "quran-tafsir", "Tafsir as-Sa'di", "Abd ar-Rahman as-Sa'di", "book", "https://iiph.com/", "A clear, aqeedah-sound tafsir beloved for beginners — 10-volume English set.", "https://drive.google.com/drive/folders/1Ov6dPIuPbSoZ3e978ybyxQ9GhGFI4Q6J"),
   r("r-quran-com", "quran-tafsir", "Quran.com", "—", "website", "https://quran.com/", "Read the Quran with translations, word-by-word analysis, and audio."),
-  r("r-noble-quran", "quran-tafsir", "The Noble Quran (Hilali & Khan translation)", "Hilali & Muhsin Khan", "book", "https://darussalam.com/", "The widely used translation with tafsir-based annotations from Sahih sources."),
+  r("r-noble-quran", "quran-tafsir", "The Noble Quran (Hilali & Khan translation)", "Hilali & Muhsin Khan", "book", "https://darussalam.com/", "The widely used translation with tafsir-based annotations from Sahih sources.", drive("1dcZukpKu5G8Ro6HR6PGz3uooKcAC_1Z8")),
   // ——— Hadith Sciences ———
   r("r-sunnah-com", "hadith-sciences", "Sunnah.com", "—", "website", "https://sunnah.com/", "Search the major hadith collections with Arabic text and English translation — used for every hadith reference on this site."),
   r("r-nukhbah", "hadith-sciences", "Nukhbat al-Fikar (with explanation)", "Ibn Hajar al-Asqalani", "book", "https://darussalam.com/", "The classical matn of hadith terminology, for when the department opens."),
   // ——— Arabic ———
-  r("r-madinah-books", "arabic-language", "Madinah Arabic Books 1-3", "V. Abdur Rahim", "book", "https://darussalam.com/", "The standard Arabic course taught at the Islamic University of Madinah."),
-  r("r-ajurrumiyyah", "arabic-language", "Al-Ajurrumiyyah (with English commentary)", "Ibn Ajurrum", "book", "https://darussalam.com/", "The classical beginner grammar text this department will teach lesson by lesson."),
+  r("r-madinah-books", "arabic-language", "Madinah Arabic Books 1-3", "V. Abdur Rahim", "book", "https://darussalam.com/", "The standard Arabic course taught at the Islamic University of Madinah (full series).", "https://drive.google.com/drive/folders/1FyIANHEXtIN-tC0yZ1A_lGligGqU_SEi"),
+  r("r-ajurrumiyyah", "arabic-language", "Al-Ajurrumiyyah (with English commentary)", "Ibn Ajurrum", "book", "https://darussalam.com/", "The classical beginner grammar text this department will teach lesson by lesson.", drive("1s_WQh5wLqgmiTz4hVO5oCJAMuMRqhRWN")),
   r("r-madinaharabic-site", "arabic-language", "MadinahArabic.com", "—", "website", "https://www.madinaharabic.com/", "Free structured Arabic lessons for reading and grammar practice."),
   r("r-arabic-alphabet", "arabic-language", "Arabic Reading & Writing Made Easy", "—", "book", "https://darussalam.com/", "For absolute beginners: letters, harakat and joining before starting Madinah Book 1."),
   // ——— Seerah ———
@@ -65,7 +66,7 @@ export const resources: Resource[] = [
   r("r-uthaymeen-yt", "aqeedah", "Ibn Uthaymeen archive lectures (YouTube)", "Ibn Uthaymeen", "video", "https://www.youtube.com/results?search_query=ibn+uthaymeen+english+subtitles", "Recorded lessons of the Shaykh with English subtitles, searchable by matn."),
   // ——— Where to buy ———
   r("r-buy-darussalam", null, "Darussalam Publishers", "—", "website", "https://darussalam.com/", "Major publisher of English Islamic books — most titles recommended on this site."),
-  r("r-buy-iiph", null, "International Islamic Publishing House (IIPH)", "—", "website", "https://iiph.com/", "Publisher of al-Ashqar's creed series and many translated works."),
+  r("r-buy-iiph", null, "International Islamic Publishing House (IIPH)", "—", "website", "https://iiph.com/", "Publisher of many translated works of the scholars."),
   r("r-buy-authentic", null, "Authentic Statements Publishing", "—", "website", "https://authenticstatements.com/", "US-based publisher/distributor of Salafi books and matn translations."),
   r("r-buy-hikmah", null, "Hikmah Publications", "—", "website", "https://hikmahpubs.com/", "Publisher of translations from the scholars of Sunnah, including creed texts."),
 ];

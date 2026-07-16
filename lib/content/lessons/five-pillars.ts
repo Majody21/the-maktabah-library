@@ -9,13 +9,14 @@ export const fivePillarsLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel (Sharh al-Arba'in an-Nawawiyyah).",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "Explanation of the Hadith of Jibreel",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "The Pillars of Islam (Important Lessons series)",
     bookRecommendations: [
       {
         title: "Sharh al-Arba'in an-Nawawiyyah (Explanation of the Forty Hadith)",
-        author: "Muhammad ibn Salih al-Uthaymeen",
+        pdfUrl: "https://drive.google.com/file/d/1jbKQermwmGd3qmrDcVs1MmC4UGdbT3Hh/view",
+        author: "Matn of an-Nawawi; expl. Shaykh Ibn Uthaymeen",
         url: "https://darussalam.com/",
         note: "The hadith of Jibreel is the second hadith; the explanation is beginner-friendly.",
       },
@@ -77,15 +78,16 @@ In the coming lessons we take each pillar in turn, learn its meaning, and — as
     displayOrder: 2,
     basedOn:
       "Summarized from the explanations of Shaykh Salih al-Fawzan (Aqeedah at-Tawheed) and Shaykh Ibn Uthaymeen on the meaning and conditions of the shahadah.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Salih al-Fawzan",
-    videoTitle: "The Meaning of La ilaha illa Allah",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "The Pillars of Islam (Important Lessons series)",
     bookRecommendations: [
       {
-        title: "Aqeedah at-Tawheed",
-        author: "Salih ibn Fawzan al-Fawzan",
+        title: "Kitab at-Tawheed",
+        pdfUrl: "https://drive.google.com/file/d/1_-8INcbDziMMU2oLX9GcS1mSdpQ6Q2iP/view",
+        author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan",
         url: "https://darussalam.com/",
-        note: "A standard modern primer on tawheed, available in English translation.",
+        note: "The classical text on the tawheed the shahadah expresses.",
       },
     ],
     content: `The first pillar is a statement — but not a mere formula. **La ilaha illa Allah** means: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah — every idol, saint, prophet, star, and desire — and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is the very thing every messenger was sent with.
@@ -146,13 +148,14 @@ Hold onto this order in your own learning. Before fiqh rulings, before memorizat
     displayOrder: 3,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Baz and Shaykh Ibn Uthaymeen on the status of the prayer and zakah.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Abd al-Aziz ibn Baz",
-    videoTitle: "The Status of the Prayer in Islam",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "The Pillars of Islam (Important Lessons series)",
     bookRecommendations: [
       {
-        title: "The Prophet's Prayer Described",
-        author: "Muhammad Nasir ad-Din al-Albani",
+        title: "The Prophet's Prayer Described (Sifat Salaat an-Nabi)",
+        pdfUrl: "https://drive.google.com/file/d/1Cewcsg6T5SeBRqPhmujDmT_zu0C8_Rfe/view",
+        author: "Shaykh Muhammad Nasir ad-Din al-Albani",
         url: "https://darussalam.com/",
         note: "The practical companion once the status of prayer is understood.",
       },
@@ -215,15 +218,16 @@ The one who withholds it is threatened with a painful punishment on the Day of R
     displayOrder: 4,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Uthaymeen (Majalis Shahr Ramadan) and Shaykh al-Fawzan on fasting and pilgrimage.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Virtues of Fasting and Hajj",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=SKbOBNkzPgA",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "The Pillars of Islam (Important Lessons series)",
     bookRecommendations: [
       {
-        title: "Majalis Shahr Ramadan (Sittings in the Month of Ramadan)",
-        author: "Muhammad ibn Salih al-Uthaymeen",
-        url: "https://iiph.com/",
-        note: "Thirty sittings covering fasting's rulings and heart-softeners.",
+        title: "Al-Mulakhkhas al-Fiqhi (A Summary of Islamic Jurisprudence)",
+        pdfUrl: "https://drive.google.com/file/d/1wHuLp2TNlXy3KU_FS12JilMrHpzRKOv1/view",
+        author: "Shaykh Salih al-Fawzan",
+        url: "https://darussalam.com/",
+        note: "See the chapters of fasting and hajj for this lesson's rulings.",
       },
     ],
     content: `The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated directly in the Quran, along with its purpose — not hunger for its own sake, but **taqwa**, the fearful mindfulness of Allah:

@@ -12,9 +12,9 @@ export const kashfAlShubuhatLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Salih al-Fawzan",
-    videoTitle: "Explanation of Kashf al-Shubuhat",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=e8YnfLXHqsg",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Kashf ash-Shubuhat — Full Explanation",
     bookRecommendations: [
       {
         title: "Kashf al-Shubuhat (Removal of the Doubts)",
@@ -70,9 +70,9 @@ In the next lesson we take the specific excuses they offered — nearness and in
     displayOrder: 2,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Salih al-Fawzan",
-    videoTitle: "Explanation of Kashf al-Shubuhat",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=e8YnfLXHqsg",
+    videoScholar: "Shaykh Haytham Sarhan",
+    videoTitle: "Kashf ash-Shubuhat — Full Explanation",
     bookRecommendations: [
       {
         title: "Kashf al-Shubuhat (Removal of the Doubts)",

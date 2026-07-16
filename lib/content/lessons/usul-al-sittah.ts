@@ -12,9 +12,9 @@ export const usulAlSittahLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "A guided reading of al-Usul al-Sittah by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Muhammad ibn Salih al-Uthaymeen.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "Explanation of al-Usul al-Sittah",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=z1xm_qhEdsc",
+    videoScholar: "Shaykh Dr. Muhammad al-Hujayli",
+    videoTitle: "Usool as-Sittah — Full Explanation",
     bookRecommendations: [
       {
         title: "Usul al-Sittah (The Six Foundations)",
@@ -85,9 +85,9 @@ The obedience owed is in what is *good* — for "there is no obedience to a crea
     displayOrder: 2,
     basedOn:
       "A guided reading of al-Usul al-Sittah by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Muhammad ibn Salih al-Uthaymeen.",
-    videoYoutubeUrl: null,
-    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "Explanation of al-Usul al-Sittah",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=z1xm_qhEdsc",
+    videoScholar: "Shaykh Dr. Muhammad al-Hujayli",
+    videoTitle: "Usool as-Sittah — Full Explanation",
     bookRecommendations: [
       {
         title: "Usul al-Sittah (The Six Foundations)",

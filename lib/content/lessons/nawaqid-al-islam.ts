@@ -12,9 +12,9 @@ export const nawaqidAlIslamLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "A guided reading of Nawaqid al-Islam by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
-    videoYoutubeUrl: null,
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=kYRhzGRb_kU",
     videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "Explanation of Nawaqid al-Islam",
+    videoTitle: "Nawaqid Al-Islam — Full Explanation",
     bookRecommendations: [
       {
         title: "Nawaqid al-Islam (The Nullifiers of Islam)",
@@ -87,9 +87,9 @@ Notice the mercy in how these are framed: each nullifier is a matter of the hear
     displayOrder: 2,
     basedOn:
       "A guided reading of Nawaqid al-Islam by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
-    videoYoutubeUrl: null,
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=kYRhzGRb_kU",
     videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "Explanation of Nawaqid al-Islam",
+    videoTitle: "Nawaqid Al-Islam — Full Explanation",
     bookRecommendations: [
       {
         title: "Nawaqid al-Islam (The Nullifiers of Islam)",

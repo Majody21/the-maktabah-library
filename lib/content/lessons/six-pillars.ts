@@ -82,10 +82,11 @@ Notice that even removing something harmful from the road is counted from iman �
     videoTitle: "Belief in Allah and His Angels",
     bookRecommendations: [
       {
-        title: "The World of the Noble Angels",
-        author: "Umar Sulayman al-Ashqar",
-        url: "https://iiph.com/",
-        note: "A referenced survey of everything authentically reported about the angels.",
+        title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
+        pdfUrl: "https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view",
+        author: "Shaykh Hafiz ibn Ahmad al-Hakami",
+        url: "https://darussalam.com/",
+        note: "See the questions on belief in Allah and the angels.",
       },
     ],
     content: `**Belief in Allah** contains four things, as the scholars unpack it: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. All four will get a full module of their own later — here we fix the outline in place. A single ayah gathers the whole command:
@@ -150,10 +151,11 @@ Belief in them means believing in their existence, in those named to us by name,
     videoTitle: "Belief in the Revealed Books and the Messengers",
     bookRecommendations: [
       {
-        title: "The Messengers and the Messages",
-        author: "Umar Sulayman al-Ashqar",
-        url: "https://iiph.com/",
-        note: "Covers who the messengers were, their task, and their miracles.",
+        title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
+        pdfUrl: "https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view",
+        author: "Shaykh Hafiz ibn Ahmad al-Hakami",
+        url: "https://darussalam.com/",
+        note: "See the questions on the revealed books and the messengers.",
       },
     ],
     content: `Allah did not create people and leave them to guess. He sent **messengers** to every nation and sent down **books** with them, so that no one could stand before Him on the Day of Judgment and say, “I did not know”:
@@ -220,10 +222,11 @@ Practically, belief in this pillar shapes how you read the Quran: it is not one 
     videoTitle: "Belief in the Last Day and the Divine Decree",
     bookRecommendations: [
       {
-        title: "The Minor Resurrection & The Day of Resurrection",
-        author: "Umar Sulayman al-Ashqar",
-        url: "https://iiph.com/",
-        note: "Two volumes tracing everything from death to the final abode, with evidences.",
+        title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
+        pdfUrl: "https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view",
+        author: "Shaykh Hafiz ibn Ahmad al-Hakami",
+        url: "https://darussalam.com/",
+        note: "See the questions on the Last Day and al-qadar.",
       },
     ],
     content: `**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire — forever. Nothing escapes the reckoning, down to an atom's weight:
