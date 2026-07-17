@@ -21,22 +21,22 @@ export const kashfAlShubuhatLessons: Lesson[] = [
         pdfUrl: FAWZAN_PDF,
         author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan",
         url: "https://darussalam.com/",
-        note: "Read the matn slowly; it is short but dense — the payoff is answering doubts.",
+        note: "Read the matn slowly; it is short but dense, and it trains you to answer doubts.",
       },
     ],
-    content: `You have learned *what* tawheed is. **Kashf al-Shubuhat** — "Removal of the Doubts" — teaches you to *defend* it, by dismantling the arguments raised against it. The author wrote it because a person may know tawheed clearly and still be shaken when a doubt is dressed up persuasively. Firmness comes not only from knowing the truth, but from seeing exactly where the objection fails.
+    content: `You have learned *what* tawheed is. **Kashf al-Shubuhat** ("Removal of the Doubts") teaches you to defend it by answering the arguments raised against it. The author wrote it because a person may know tawheed and still be shaken when a doubt is presented well. So learn the truth, and learn where each objection fails.
 
 The author begins where the Four Principles began: the mushrikun the Messenger ﷺ was sent to already affirmed that Allah alone is the Creator, Provider and Disposer. If you asked them, they answered with Allah's name:
 
 [[proof:1]]
 
-So their shirk was never a denial of the Creator. This is the first key that unlocks every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah* — that Allah alone creates and governs — and this is precisely the tawheed that did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. That is why the Messenger ﷺ, like every messenger, was sent with one command:
+So their shirk was never a denial of the Creator. This is the first principle for answering every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah*, that Allah alone creates and governs, and this tawheed did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. For this the Messenger ﷺ, like every messenger, was sent:
 
 [[proof:2]]
 
-Here is the doubt the author is preparing you for. Someone says: *"The mushrikun the Prophet ﷺ fought were idol-worshippers bowing to stones. But I believe in Allah, I pray, I fast — how could calling on a righteous dead saint put me in their category?"* The answer begins by removing the false picture: the mushrikun of old were **not** atheists and were **not** all worshipping mere stones. They were people who affirmed the Creator and directed acts of worship — especially du'a and the seeking of intercession — to beings they considered close to Allah. Once you see that their shirk lived in the *second* tawheed while their belief in the *first* was intact, the claim "I'm nothing like them because I believe in Allah" collapses: they believed in Allah too. The dividing line was never belief in a Creator. It was worship — and to whom it is given.
+The author prepares you for this doubt. Someone says: *"The mushrikun the Prophet ﷺ fought were idol-worshippers bowing to stones. But I believe in Allah, I pray, I fast; how could calling on a righteous dead saint put me in their category?"* The answer begins by correcting the picture: the mushrikun of old were not atheists, and they were not all worshipping mere stones. They were people who affirmed the Creator and directed acts of worship, especially du'a and the seeking of intercession, to beings they considered close to Allah. Their shirk was in the second tawheed while their belief in the first was intact. So the claim "I am nothing like them because I believe in Allah" carries no weight, for they believed in Allah too. The dividing line was never belief in a Creator; it was worship, and to whom it is given.
 
-In the next lesson we take the specific excuses they offered — nearness and intercession — and see how the Quran answered them.`,
+In the next lesson we take the excuses they offered, nearness and intercession, and see how the Quran answered them.`,
     proofs: [
       {
         id: "kashf-al-shubuhat--two-tawheeds--p1",
@@ -79,26 +79,26 @@ In the next lesson we take the specific excuses they offered — nearness and in
         pdfUrl: FAWZAN_PDF,
         author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan",
         url: "https://darussalam.com/",
-        note: "The core doubts and their answers — the heart of the treatise.",
+        note: "The core doubts and their answers; the heart of the treatise.",
       },
     ],
     content: `**The greatest doubt: "We do not believe these beings create or provide. We only turn to them so they bring us nearer to Allah, and intercede for us with Him."** The author's answer is devastating in its simplicity: *this is word-for-word the excuse of the original mushrikun.* The Quran did not report it to excuse them; it reported it to condemn them:
 
 [[proof:1]]
 
-So the intention of "seeking nearness" was already on trial — and Allah ruled it shirk, not a mitigating circumstance. The act of worship (du'a directed to another) is what counts, whatever noble purpose is claimed for it.
+So the claim of "seeking nearness" was itself what Allah ruled to be shirk. The act of worship, du'a directed to another, is what is judged, whatever purpose is claimed for it.
 
-**"But we are seeking their intercession (shafa'ah), and intercession is real — you cannot deny it."** True — intercession is real. The answer is that intercession belongs entirely to Allah and is sought *from Him*, not demanded from the dead. Allah owns all of it:
+**"But we are seeking their intercession (shafa'ah), and intercession is real; you cannot deny it."** Intercession is indeed real. But it belongs entirely to Allah and is sought from Him, not from the dead. Allah owns all of it:
 
 [[proof:2]]
 
-And no one intercedes with Him except by His permission, and only for those He is pleased with. So the believer asks: *"O Allah, grant me the intercession of Your Prophet ﷺ"* — turning to Allah, the Owner of intercession — rather than calling upon the deceased directly. The mushrik seeks it *from* the creature; the muwahhid seeks it *from Allah*. That is the whole difference, and it is the difference between tawheed and shirk.
+And no one intercedes with Him except by His permission, and only for those He is pleased with. So the believer asks: *"O Allah, grant me the intercession of Your Prophet ﷺ"*, turning to Allah, the Owner of intercession, rather than calling upon the deceased. The mushrik seeks it from the creature; the muwahhid seeks it from Allah. This is the difference between tawheed and shirk.
 
-**"But the ones I call upon are righteous — prophets, angels, awliya — not idols and stones."** The author answers that this makes the case *worse*, not better, and points to the Quran itself: the very beings the mushrikun called upon included the righteous. Allah says of some of the objects of their calls that those objects *themselves* seek nearness to Allah and fear Him:
+**"But the ones I call upon are righteous: prophets, angels, awliya, not idols and stones."** The author answers that the beings the first mushrikun called upon included the righteous, and the ruling did not change. Allah says of some of those who are called upon that they themselves seek nearness to Allah and fear Him:
 
 [[proof:3]]
 
-Righteous people, angels, 'Isa, 'Uzayr — the Quran shows these among the things called upon besides Allah, and Allah still named it shirk. The rank of the one called upon never converts the call into worship deserved. So the doubts, one by one, dissolve against a single principle you now hold firmly: **worship — and du'a is its core — is Allah's right alone, and directing it elsewhere is shirk however it is dressed.** With this, you can hear the persuasive objection and see precisely where it breaks. This is the fruit of Kashf al-Shubuhat: not only knowing tawheed, but being unshakable in it.`,
+The Quran names righteous people, angels, 'Isa, and 'Uzayr among those who were called upon besides Allah, and it still named that call shirk. The rank of the one called upon does not change the ruling. So every doubt returns to one principle: **worship, and du'a is at its core, is the right of Allah alone, and directing it to other than Him is shirk in whatever form it comes.** This is the fruit of Kashf al-Shubuhat: to know tawheed and to remain firm upon it when the doubts are raised.`,
     proofs: [
       {
         id: "kashf-al-shubuhat--intercession--p1",

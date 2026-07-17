@@ -18,22 +18,22 @@ export const sixPillarsLessons: Lesson[] = [
         pdfUrl: "https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf",
         author: "Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)",
         url: "https://darussalam.com/",
-        note: "A short treatise covering all six pillars — ideal alongside this module.",
+        note: "A short treatise covering all six pillars; read it alongside this module.",
       },
     ],
-    content: `If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, the answer enumerated six matters — and these six are the pillars of faith in every revealed religion Allah sent:
+    content: `If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, he answered with six matters. These are the pillars of iman:
 
 [[proof:1]]
 
-The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins not with outward ritual but with these very beliefs:
+The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins with these beliefs:
 
 [[proof:2]]
 
-Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. This definition matters: iman is not a frozen certificate you receive once. It breathes. It rises when you pray at night and sinks when you sin. The Prophet ﷺ said:
+Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. So iman is not one fixed amount: it rises when you obey Allah and falls when you disobey Him. The Prophet ﷺ said:
 
 [[proof:3]]
 
-Notice that even removing something harmful from the road is counted from iman — faith touches everything from the heart's conviction to the street you walk on. In this module we take the six pillars in pairs: Allah and His angels, His books and His messengers, then the Last Day and al-qadar (the divine decree).`,
+Even removing something harmful from the road is counted as part of iman, for faith covers the heart's belief, the tongue's speech, and the limbs' action. In this module we take the six pillars in pairs: Allah and His angels, His books and His messengers, then the Last Day and al-qadar (the divine decree).`,
     proofs: [
       {
         id: "six-pillars--what-is-iman--p1",
@@ -90,17 +90,17 @@ Notice that even removing something harmful from the road is counted from iman �
         note: "See the questions on belief in Allah and the angels.",
       },
     ],
-    content: `**Belief in Allah** contains four things, as the scholars unpack it: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. All four will get a full module of their own later — here we fix the outline in place. A single ayah gathers the whole command:
+    content: `**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command:
 
 [[proof:1]]
 
-Whoever denies any of the six — believing, say, in Allah but rejecting the angels or the decree — has, by the text of this ayah, strayed far. Iman is a package; it is not offered piecemeal.
+Whoever denies any of the six pillars, such as believing in Allah while rejecting the angels or the decree, has strayed far by the text of this ayah. Iman is only accepted whole.
 
 **The angels** are a created world of Allah's servants, made from light, who never disobey Him. They are not divine, not Allah's daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika'il with rain, Israfil with the Horn, the recorders over every person, and the angel of death. Allah describes their perfect obedience:
 
 [[proof:2]]
 
-Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. And it has a practical fruit: the one who remembers that two noble writers record his every word speaks differently. As Allah says, “Not a word does he utter except that with him is an observer prepared” (Surah Qaf 50:18).
+Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue. Allah the Exalted said: “Not a word does he utter except that with him is an observer prepared” (Surah Qaf 50:18).
 
 [[proof:3]]`,
     proofs: [
@@ -159,21 +159,21 @@ Belief in them means believing in their existence, in those named to us by name,
         note: "See the questions on the revealed books and the messengers.",
       },
     ],
-    content: `Allah did not create people and leave them to guess. He sent **messengers** to every nation and sent down **books** with them, so that no one could stand before Him on the Day of Judgment and say, “I did not know”:
+    content: `Allah did not leave His creation without guidance. He sent **messengers** to every nation and sent down **books** with them, so that no one may stand before Him on the Day of Judgment with an excuse:
 
 [[proof:1]]
 
-We believe in every book Allah sent down: the scriptures of Ibrahim, the Tawrah of Musa, the Zabur of Dawud, the Injil of 'Isa, and the **Quran** — and that the earlier books were altered by their people while the Quran is guarded by Allah Himself. The Quran stands over the earlier scriptures as a criterion (*muhaymin*): whatever agrees with it is accepted; whatever contradicts it has been changed.
+We believe in every book Allah sent down: the scriptures of Ibrahim, the Tawrah of Musa, the Zabur of Dawud, the Injil of 'Isa, and the **Quran**. The earlier books were altered by their people, while Allah Himself has guarded the Quran. The Quran stands over the earlier scriptures as a criterion (*muhaymin*): whatever agrees with it is accepted, and whatever contradicts it has been changed.
 
-The message of every messenger was one, even as their laws differed — a fact worth internalizing, because it means tawheed is not the invention of one seventh-century community but the religion of Nuh, Ibrahim, Musa and 'Isa alike:
+The message of every messenger was one, even though their laws differed. Tawheed is the religion of Nuh, Ibrahim, Musa, and 'Isa alike:
 
 [[proof:2]]
 
-We believe in the messengers named in revelation — twenty-five are named in the Quran — and that there were others we were not told about. They were truthful human servants, neither divine nor liars; the best of them are the five of firm resolve: Nuh, Ibrahim, Musa, 'Isa, and Muhammad ﷺ, and Muhammad ﷺ is their seal. No prophet comes after him:
+We believe in the messengers named in revelation (twenty-five are named in the Quran) and that there were others we were not told about. They were truthful human servants, neither divine nor liars. The best of them are the five of firm resolve: Nuh, Ibrahim, Musa, 'Isa, and Muhammad ﷺ, and Muhammad ﷺ is their seal. No prophet comes after him:
 
 [[proof:3]]
 
-Practically, belief in this pillar shapes how you read the Quran: it is not one religious text among many, but the final, protected word of the Lord of the worlds — the only scripture on earth whose Author you can be certain of.`,
+This pillar shapes how you read the Quran: it is the final, protected word of the Lord of the worlds. So read it with certainty, and act upon it.`,
     proofs: [
       {
         id: "six-pillars--books-and-messengers--p1",
@@ -230,19 +230,19 @@ Practically, belief in this pillar shapes how you read the Quran: it is not one 
         note: "See the questions on the Last Day and al-qadar.",
       },
     ],
-    content: `**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire — forever. Nothing escapes the reckoning, down to an atom's weight:
+    content: `**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire, forever. The reckoning covers even an atom's weight:
 
 [[proof:1]]
 
-This pillar is what gives Islamic ethics its seriousness. A person watches himself in the dark when he is certain of the audit. That is why the Quran so often joins “belief in Allah” directly to “and the Last Day”.
+Whoever is certain of this Day watches himself in secret as he does in public. For this reason the Quran often joins belief in Allah to belief in the Last Day.
 
-The sixth pillar is **al-qadar** — that Allah's knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it:
+The sixth pillar is **al-qadar**: that Allah's knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it:
 
 [[proof:2]]
 
 [[proof:3]]
 
-Belief in qadar does not cancel human action — we choose, act and are accountable — but it uproots two diseases: panic over what missed you, and arrogance over what reached you. As Allah says, “No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being... so that you not despair over what has escaped you, nor exult over what He has given you” (Surah al-Hadid 57:22-23). The believer works, takes the means, then rests his heart on the decree of the Most Wise. With this, the six pillars are complete — review, then take the module quiz.`,
+Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you. Allah the Exalted said: “No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being... so that you not despair over what has escaped you, nor exult over what He has given you” (Surah al-Hadid 57:22-23). The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.`,
     proofs: [
       {
         id: "six-pillars--last-day-and-qadar--p1",

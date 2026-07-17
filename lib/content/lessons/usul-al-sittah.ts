@@ -24,23 +24,23 @@ export const usulAlSittahLessons: Lesson[] = [
         note: "A one-page matn; read it before each lesson and note the recurring pattern.",
       },
     ],
-    content: `The author opens this short treatise with a striking observation: these are **six foundations so clear that even the common, unlettered person would grasp them** — yet most people, including many who claim knowledge, fell into the opposite of them. Each foundation follows the same pattern: Allah made a matter plain, and then the majority opposed it. Seeing that pattern is the point of the whole text.
+    content: `The author opens this short treatise with these words: these are **six foundations that Allah made so clear that even the common, unlettered person can grasp them**, yet most people, including many who claim knowledge, fell into the opposite of them. Each foundation follows one pattern: Allah made the matter plain, and the majority opposed it.
 
-**The First Foundation: sincerity (ikhlas) in the religion for Allah alone**, and freeing it from shirk. Allah clarified this so completely that no excuse remains — yet most people opposed it, giving their worship to intermediaries. The purpose of all creation rests on this one word:
+**The First Foundation: sincerity (ikhlas) in the religion for Allah alone**, and freeing it from shirk. Allah clarified this so completely that no excuse remains, yet most people opposed it and gave their worship to intermediaries. For this purpose Allah created the creation:
 
 [[proof:1]]
 
-**The Second Foundation: Allah commanded unity in the religion and forbade division within it.** He did not leave the ummah to splinter into parties each pleased with itself; He tied them to one rope. This foundation is why the study of aqeedah matters so much — division in the religion begins with corruption in creed:
+**The Second Foundation: Allah commanded unity in the religion and forbade division within it.** He did not leave the ummah to split into parties, each pleased with what it has; He commanded them to hold to His rope all together. Division in the religion begins with corruption in creed:
 
 [[proof:2]]
 
-Allah made the point unmistakable — establishing the religion is inseparable from *not* splitting over it (ash-Shura 42:13). Yet, as the author notes, most people came to regard division as a mercy and unity upon the truth as impossible.
+Allah joined the command to establish the religion with the command not to split in it (ash-Shura 42:13). Yet, as the author notes, most people came to regard division as a mercy, and unity upon the truth as impossible.
 
 **The Third Foundation: hearing and obeying the one given authority (wali al-amr)** completes the establishment of the religion and the community. A people cannot uphold the religion collectively while each person answers to no one; Allah joined obedience to the Messenger ﷺ with obedience to those He placed in authority:
 
 [[proof:3]]
 
-The obedience owed is in what is *good* — for "there is no obedience to a created being in disobedience to the Creator," as the Prophet ﷺ taught (Sahih al-Bukhari #7257). But the wholesale rejection of legitimate authority, which some came to consider a virtue of religion, is in fact the opposite of what Allah commanded. Three foundations, one lesson: the religion is sincere to Allah, united, and ordered — not scattered and leaderless.`,
+The obedience owed is in what is *good*, for "there is no obedience to a created being in disobedience to the Creator," as the Prophet ﷺ taught (Sahih al-Bukhari #7257). But rejecting legitimate authority altogether, which some came to consider part of the religion, is the opposite of what Allah commanded. These three foundations gather one meaning: the religion is sincerity to Allah, unity, and obedience in what is good.`,
     proofs: [
       {
         id: "usul-al-sittah--first-three--p1",
@@ -101,15 +101,15 @@ The obedience owed is in what is *good* — for "there is no obedience to a crea
 
 [[proof:1]]
 
-The author notes that people confused this — some elevated ignorant claimants to the rank of scholars, and some cast aside the true scholars. A student's protection is to take knowledge from those grounded in the Book and the Sunnah, upon the way of the Salaf.
+The author notes that people confused this: some raised ignorant claimants to the rank of scholars, and some cast aside the true scholars. The student's protection is to take knowledge from those grounded in the Book and the Sunnah, upon the way of the Salaf.
 
-**The Fifth Foundation: clarifying the allies of Allah (awliya Allah)** and distinguishing them from the pretenders. In popular imagination a "friend of Allah" became someone with strange powers, cut off from the Shariah. Allah gave the actual definition — and it is open to every believer, not a secret elite:
+**The Fifth Foundation: clarifying the allies of Allah (awliya Allah)** and distinguishing them from the pretenders. People imagined that a "friend of Allah" is one with strange powers who is excused from the Shariah. Allah gave the definition Himself, and it is open to every believer:
 
 [[proof:2]]
 
-The awliya of Allah are simply **those who believe and have taqwa** — the more iman and taqwa, the greater the wilayah. There is no sanctity in violating the Shariah; the closer a person is to Allah, the more closely he follows His Messenger ﷺ.
+The awliya of Allah are **those who believe and have taqwa**: the more iman and taqwa, the greater the wilayah. There is no wilayah in violating the Shariah; the closer a person is to Allah, the more closely he follows His Messenger ﷺ.
 
-**The Sixth Foundation: the great doubt** used to abandon the Quran and Sunnah — the claim that only a perfect, all-knowing mujtahid may derive from them, so ordinary people should leave the texts to the elite and follow blind imitation instead. The author calls this one of Shaytan's greatest tricks for emptying people's hands of revelation. Its answer is that Allah made the Quran a clarification and a guidance for *all* people, easy to remember, addressing every questioner:
+**The Sixth Foundation: the great doubt** used to turn people away from the Quran and Sunnah: the claim that only a great mujtahid may take from them, so ordinary people should leave the texts and follow blind imitation instead. The author counts this among the greatest plots of Shaytan against the revelation. Its answer is that Allah made the Quran a clarification and a guidance for all people, and made it easy to remember:
 
 [[proof:3]]
 

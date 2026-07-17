@@ -21,19 +21,19 @@ export const qawaidArbaLessons: Lesson[] = [
         note: "A single-sitting matn; read it whole before this module.",
       },
     ],
-    content: `**Al-Qawa'id al-Arba'** (The Four Principles) is among the shortest texts ever written on shirk — barely a page — yet it dissolves the most common confusions people have about it. The author opens with a du'a for the reader that tells you the spirit of the text: *I ask Allah, the Generous, Lord of the Great Throne, to befriend you in this world and the next, to make you blessed wherever you are, and to make you of those who when given are grateful, when tested are patient, and when they sin seek forgiveness — for these three are the signs of happiness.*
+    content: `**Al-Qawa'id al-Arba'** (The Four Principles) is a short text on shirk, barely a page, yet it removes the most common confusions about it. The author opens with a du'a for the reader: *I ask Allah, the Generous, Lord of the Great Throne, to befriend you in this world and the next, to make you blessed wherever you are, and to make you of those who when given are grateful, when tested are patient, and when they sin seek forgiveness, for these three are the signs of happiness.*
 
-He then sets the stage: know that the **hanifiyyah**, the way of Ibrahim, is that you worship Allah alone, making the religion sincerely for Him — citing the ayah of adh-Dhariyat 51:56 you studied in the last module.
+He then reminds the reader that the **hanifiyyah**, the way of Ibrahim, is to worship Allah alone, making the religion sincerely for Him, and he cites the ayah of adh-Dhariyat 51:56, which you studied in the last module.
 
-**The First Principle:** the disbelievers whom the Messenger of Allah ﷺ fought *affirmed* that Allah is the Creator, the Provider, and the Disposer of affairs — and that affirmation did not enter them into Islam. The proof:
+**The First Principle:** the disbelievers whom the Messenger of Allah ﷺ fought *affirmed* that Allah is the Creator, the Provider, and the Disposer of affairs, and this affirmation did not enter them into Islam. The proof:
 
 [[proof:1]]
 
-Sit with how sharp this principle is. It means the dividing line between tawheed and shirk was never “Does a Creator exist?” Almost everyone concedes that. The dividing line is: *whom do you worship?* — whom do you call upon in fear, slaughter for, hope in, prostrate to?
+This principle means the dividing line between tawheed and shirk was never whether a Creator exists; almost everyone affirms that. The dividing line is: whom do you worship? Whom do you call upon, slaughter for, hope in, and prostrate to?
 
 [[proof:2]]
 
-If lordship-belief alone saved, the Quraysh would have needed no messenger. This first principle demolishes the assumption that shirk is a problem only for those who deny God — and prepares you for the second principle, which examines the excuse the mushrikun actually gave.`,
+If belief in lordship alone saved a person, the Quraysh would have needed no messenger. So shirk is not a problem only for those who deny God. The second principle examines the excuse the mushrikun gave.`,
     proofs: [
       {
         id: "qawaid-al-arba--first-principle--p1",
@@ -85,13 +85,13 @@ If lordship-belief alone saved, the Quraysh would have needed no messenger. This
 
 [[proof:2]]
 
-Allah calls this claim what it is — shirk — and rules on it in the same breath: “Allah will judge between them concerning that over which they differ; indeed, Allah does not guide the one who is a liar and persistently ungrateful” (end of 39:3). The intention of “drawing nearer” did not excuse the act of worship given to a creature. This principle answers the modern form of the same excuse word-for-word: *“We do not worship the saint; we only ask him to carry our request to God.”* The reasoning of Quraysh, returned in new clothing.
+Allah names this claim shirk and rules upon it: “Allah will judge between them concerning that over which they differ; indeed, Allah does not guide the one who is a liar and persistently ungrateful” (end of 39:3). The intention of drawing nearer did not excuse the worship given to a creature. The same excuse exists today in the words: *“We do not worship the saint; we only ask him to carry our request to God.”* This is the reasoning of Quraysh itself.
 
-**The Third Principle** observes that the Prophet ﷺ appeared among people whose objects of worship differed — some worshipped angels, some the prophets and righteous people, some trees and stones, some the sun and the moon — and he called all of them to the same tawheed, making no distinction between the one who venerated an idol and the one who venerated a "holy man." The religion did not treat the worship of a righteous person as a lighter case; if anything, it is the older disease — the first shirk on earth, in the people of Nuh, began with exaggerated veneration of dead righteous men (Wadd, Suwa', Yaghuth, Ya'uq and Nasr, as Ibn Abbas explained in Sahih al-Bukhari #4920).
+**The Third Principle:** the Prophet ﷺ appeared among people whose objects of worship differed: some worshipped angels, some the prophets and righteous people, some trees and stones, and some the sun and the moon. He called all of them to the same tawheed, making no distinction between the one who venerated an idol and the one who venerated a righteous man. The religion did not treat the worship of a righteous person as a lighter case. The first shirk on earth, in the people of Nuh, began with exaggerated veneration of dead righteous men (Wadd, Suwa', Yaghuth, Ya'uq and Nasr, as Ibn Abbas explained in Sahih al-Bukhari #4920).
 
 [[proof:3]]
 
-The lesson for a student of aqeedah: shirk is defined by the *act directed to other than Allah*, not by the worth of the recipient. An angel, a prophet, a saint — nobility of the recipient does not transform worship into permissibility.`,
+The lesson: shirk is judged by the act directed to other than Allah, not by the rank of the one it is directed to. Whether an angel, a prophet, or a saint, the nobility of the recipient does not make worship of him permissible.`,
     proofs: [
       {
         id: "qawaid-al-arba--second-and-third--p1",
@@ -148,19 +148,19 @@ The lesson for a student of aqeedah: shirk is defined by the *act directed to ot
         note: "The closing principle and its proof from Surah al-Ankabut.",
       },
     ],
-    content: `**The Fourth Principle** is an observation about consistency. The mushrikun of the Prophet's ﷺ era were selective in their shirk: in ease and prosperity they called upon their idols and intermediaries, but when the sea closed over them and death pressed in, they abandoned every partner and cried out to Allah alone — because in terror, pretence collapses and the fitrah speaks:
+    content: `**The Fourth Principle:** the mushrikun of the Prophet's ﷺ era called upon their idols and intermediaries in ease, but when the sea surrounded them and they feared drowning, they abandoned every partner and called upon Allah alone, sincere to Him in the religion:
 
 [[proof:1]]
 
-Yet when He delivered them safely to shore, they returned to their partners. The matn draws the sobering comparison: those the author witnessed in his own time — and it applies to whoever matches the description in any time — invoke their intermediaries in ease *and* in hardship alike, never returning to purity even in extremity.
+Yet when He delivered them safely to shore, they returned to their partners. The author then compares them to the mushrikun of his own time, and it applies to whoever matches the description in any time: they invoke their intermediaries in ease and in hardship alike.
 
 The principle teaches you how the Quran evaluates religion: by **ikhlas** (exclusive devotion), the quality Allah demands in every state:
 
 [[proof:2]]
 
-Study this final principle alongside the first three and the text's architecture becomes visible: (1) lordship-belief alone does not make a Muslim; (2) “nearness” and “intercession” do not excuse worship of creatures; (3) the nobility of the one worshipped does not change the ruling; (4) and the sincerity shown only in crisis is a proof against a person, not for him — for it shows he knows precisely to whom real du'a belongs.
+Take the four principles together: (1) belief in lordship alone does not make a person a Muslim; (2) “nearness” and “intercession” do not excuse worship of creatures; (3) the nobility of the one worshipped does not change the ruling; (4) and the sincerity the mushrikun showed in hardship is a proof against them, for it shows they knew to whom du'a truly belongs.
 
-With al-Qawa'id al-Arba' complete, you have finished the Phase 1 aqeedah curriculum: the pillars of Islam and iman, the three fundamentals, the categories of tawheed, and the four principles concerning shirk. Take the module quiz, then — بإذن الله — the Refutations department and the rest of the library open from here. May Allah make your knowledge beneficial and your deeds righteous.`,
+With al-Qawa'id al-Arba' complete, you have finished the Phase 1 aqeedah curriculum: the pillars of Islam and iman, the three fundamentals, the categories of tawheed, and the four principles concerning shirk. Take the module quiz, then, بإذن الله, the Refutations department and the rest of the library open from here. May Allah make your knowledge beneficial and your deeds righteous.`,
     proofs: [
       {
         id: "qawaid-al-arba--fourth-principle--p1",

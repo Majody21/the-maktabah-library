@@ -21,28 +21,28 @@ export const nawaqidAlIslamLessons: Lesson[] = [
         pdfUrl: SARHAN_PDF,
         author: "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan",
         url: "https://darussalam.com/",
-        note: "The ten nullifiers with their evidences — read the matn before each lesson.",
+        note: "The ten nullifiers with their evidences; read the matn before each lesson.",
       },
     ],
-    content: `A person can enter Islam with a sincere testimony and then, without realizing it, do something that cancels it — the way ablution is nullified by what breaks it. Shaykh Muhammad ibn Abd al-Wahhab gathered **ten nullifiers** (nawaqid) of Islam so that a Muslim would recognize the cliff edges and stay far from them. This is not a chapter for declaring others disbelievers — that is the work of the scholars and the courts, with their conditions and barriers — but a chapter for **guarding your own Islam**. Knowing what destroys a thing is part of protecting it.
+    content: `A person can enter Islam with a sincere testimony and then do something that cancels it, as ablution is nullified by what breaks it. Shaykh Muhammad ibn Abd al-Wahhab gathered **ten nullifiers** (nawaqid) of Islam so that a Muslim would know them and stay far from them. This chapter is not for declaring others disbelievers; that is the work of the scholars, with its conditions and barriers. It is for **guarding your own Islam**, for knowing what destroys a thing is part of protecting it.
 
-**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship — du'a, sacrifice, a vow, ultimate reliance — to other than Allah nullifies Islam, because it contradicts the very testimony a Muslim stands upon:
+**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship (du'a, sacrifice, a vow, complete reliance) to other than Allah nullifies Islam, because it contradicts the testimony a Muslim stands upon:
 
 [[proof:1]]
 
-**The Second Nullifier: setting up intermediaries between oneself and Allah** — calling upon them, asking them to intercede, relying upon them. This is the exact practice the mushrikun of Makkah offered as their excuse (they said the idols would "bring us nearer to Allah"), and the scholars state that whoever does this has disbelieved by consensus. You studied its refutation in the Four Principles: the nobility of the intermediary — angel, prophet or saint — never makes worship of him permissible.
+**The Second Nullifier: setting up intermediaries between oneself and Allah**, calling upon them, asking them to intercede, and relying upon them. This is the practice the mushrikun of Makkah offered as their excuse (they said the idols would "bring us nearer to Allah"), and the scholars state that whoever does this has disbelieved by consensus. You studied its refutation in the Four Principles: the nobility of the intermediary, whether angel, prophet or saint, never makes worship of him permissible.
 
-**The Third Nullifier: whoever does not regard the mushrikun as disbelievers, or doubts their disbelief, or holds their way to be correct** — has himself disbelieved. To affirm *La ilaha illa Allah* is to negate the worship of all else; a person who then declares that worship of others is a valid path has torn up the negation he affirmed.
+**The Third Nullifier: whoever does not regard the mushrikun as disbelievers, or doubts their disbelief, or holds their way to be correct**, has himself disbelieved. To affirm *La ilaha illa Allah* is to negate the worship of all else, and whoever declares the worship of others a valid path has contradicted the testimony itself.
 
 **The Fourth Nullifier: whoever believes that some guidance other than the Prophet's ﷺ is more complete, or that another's ruling is better than his ﷺ ruling.** This includes the one who prefers man-made law over the judgement of the Messenger ﷺ, believing it superior. Allah ties iman itself to submitting to his judgement without resistance:
 
 [[proof:2]]
 
-**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it — and this hatred of the revelation nullifies his Islam:
+**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it, and this hatred of the revelation nullifies his Islam:
 
 [[proof:3]]
 
-Notice the mercy in how these are framed: each nullifier is a matter of the heart's stance toward Allah and His Messenger ﷺ — turning worship elsewhere, preferring another way, or despising the revelation. Guard the heart's submission, and the limbs follow.`,
+Each of these five nullifiers returns to the heart's stance toward Allah and His Messenger ﷺ: turning worship elsewhere, preferring another way, or hating the revelation. So guard the submission of the heart, and the limbs will follow it.`,
     proofs: [
       {
         id: "nawaqid-al-islam--first-five--p1",
@@ -99,7 +99,7 @@ Notice the mercy in how these are framed: each nullifier is a matter of the hear
         note: "The remaining five nullifiers, with the closing warning.",
       },
     ],
-    content: `**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ** — mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment. This is not a light matter of humour; the Quran addressed it directly when some at Tabuk joked about the reciters, and Allah answered them without softening:
+    content: `**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ**: mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment. Some men at Tabuk joked about the reciters, and Allah revealed concerning them:
 
 [[proof:1]]
 
@@ -107,17 +107,17 @@ Notice the mercy in how these are framed: each nullifier is a matter of the hear
 
 [[proof:2]]
 
-**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims** — backing disbelief against the people of tawheed in their war upon Islam. Allah warned that allegiance follows to whom one gives it:
+**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims.** Allah warned:
 
 [[proof:3]]
 
-**The Ninth Nullifier: whoever believes that some people are permitted to leave the Shariah of Muhammad ﷺ** — as al-Khidr was permitted to depart from the law of Musa عليه السلام — believing they may worship Allah outside the way the Messenger ﷺ brought. The message of Muhammad ﷺ is for all people and all times; no saint and no seeker stands above it.
+**The Ninth Nullifier: whoever believes that some people are permitted to leave the Shariah of Muhammad ﷺ**, as al-Khidr was permitted to depart from the law of Musa عليه السلام. The message of Muhammad ﷺ is for all people and all times, and no one is above it.
 
-**The Tenth Nullifier: turning away from the religion of Allah entirely** — neither learning it nor acting upon it. Not a lapse or a sin, but a wholesale turning of the back on revelation:
+**The Tenth Nullifier: turning away from the religion of Allah entirely**, neither learning it nor acting upon it:
 
 [[proof:4]]
 
-The author closes with two crucial points. First, **there is no difference in these nullifiers between the one who jokes, the one who is serious, and the one who acts out of fear** — except the one genuinely *coerced*, whose heart remains at rest upon faith. Second — and this is the spirit of the whole chapter — he says they are "among the greatest of what is dangerous and most frequently occurring," so **the Muslim must beware of them and fear them for himself.** Study this list not to measure others, but to inspect your own heart, and to ask Allah for firmness upon His religion until you meet Him.`,
+The author closes with two points. First, **there is no difference in these nullifiers between the one who jokes, the one who is serious, and the one who acts out of fear**, except the one who is coerced while his heart remains at rest upon faith. Second, he says they are "among the greatest of what is dangerous and most frequently occurring," so **the Muslim must beware of them and fear them for himself.** Study this list to inspect your own heart, not to measure others, and ask Allah for firmness upon His religion until you meet Him.`,
     proofs: [
       {
         id: "nawaqid-al-islam--second-five--p1",

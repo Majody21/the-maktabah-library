@@ -21,19 +21,19 @@ export const usulThalathahLessons: Lesson[] = [
         note: "The primary text for this module. Read the matn before each lesson.",
       },
     ],
-    content: `**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim — young or old, new or lifelong — would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
+    content: `**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim, young or old, would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
 
-Before the three principles, the author opens with **four matters** that he says are obligatory upon every one of us to learn: (1) **knowledge** — knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da'wah** — inviting to it; and (4) **patience** upon the harm met along the way. His proof that these four sum up the human obligation is the shortest surah of the Quran:
+Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da'wah**: inviting to it; and (4) **patience** upon the harm that comes in its path. His proof for these four matters is Surah al-Asr:
 
 [[proof:1]]
 
 Imam ash-Shafi'i said about this surah: had Allah sent down nothing else as a proof upon His creation, it would have sufficed them. Every word of the four matters is inside it: loss for all mankind, except those who believe (knowledge), do righteous deeds (action), counsel one another with truth (da'wah), and counsel one another with patience (sabr).
 
-The author then cites the position of Imam al-Bukhari, who titled a chapter of his Sahih: **“Knowledge comes before speech and action”** — deriving it from Allah's command:
+The author then cites the position of Imam al-Bukhari, who titled a chapter of his Sahih **“Knowledge comes before speech and action”**, deriving it from Allah's command:
 
 [[proof:2]]
 
-Notice the order in the ayah: *know* … *then seek forgiveness* — knowledge first, action after it. This is the manhaj of this entire library: no practice without proof, no proof without understanding. In the next three lessons we take the three principles one by one.`,
+The order in the ayah is: know, then seek forgiveness. Knowledge comes first, and action follows it. This library proceeds upon the same order. In the next three lessons we take the three principles one by one.`,
     proofs: [
       {
         id: "usul-al-thalathah--four-matters--p1",
@@ -79,23 +79,23 @@ Notice the order in the ayah: *know* … *then seek forgiveness* — knowledge f
         note: "Covers the section 'If it is said to you: who is your Lord?'",
       },
     ],
-    content: `The author writes: *If it is said to you, “Who is your Lord?” — then say: My Lord is **Allah**, who has nurtured me and nurtured all the worlds with His blessings. He is my object of worship; I have no object of worship besides Him.* The word **Rabb** (Lord) carries all of this: the Creator, the Owner, the Provider, the One who manages every affair of every creature.
+    content: `The author writes: *If it is said to you, “Who is your Lord?”, then say: My Lord is **Allah**, who has nurtured me and nurtured all the worlds with His blessings. He is my object of worship; I have no object of worship besides Him.* The word **Rabb** (Lord) carries all of this: the Creator, the Owner, the Provider, the One who manages every affair of every creature.
 
-His proof is the very first ayah a Muslim recites in every prayer:
+His proof is the first ayah a Muslim recites in every prayer:
 
 [[proof:1]]
 
-How do you *know* your Lord — not inherit Him as a word, but know Him? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them. The Quran points to this constantly:
+How does a person come to know his Lord? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them. The Quran points to this:
 
 [[proof:2]]
 
-Note the end of that ayah: do not prostrate to the sun or the moon — created things, however magnificent — but to the One who created them. The signs lead *past* themselves to their Maker. This is why reflection (**tadabbur**) on creation is an act of worship in Islam, and why blind imitation is never the foundation of a Muslim's creed.
+The end of that ayah forbids prostrating to the sun and the moon, for they are created things; prostration is for the One who created them. So reflection (**tadabbur**) upon creation is an act of worship, and a Muslim's creed is not built upon blind imitation.
 
-The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs — as even the pagans of Makkah did — must accept what follows from it:
+The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs, as even the pagans of Makkah did, must accept what follows from it:
 
 [[proof:3]]
 
-Being nurtured by Him and owned by Him *obligates* worshipping Him alone. That link — from lordship to worship — is the spine of the entire aqeedah curriculum, and the next module (Categories of Tawheed) is built on it.`,
+Being nurtured by Him and owned by Him obligates worshipping Him alone. This link between lordship and worship runs through the whole of aqeedah, and the next module (Categories of Tawheed) is built upon it.`,
     proofs: [
       {
         id: "usul-al-thalathah--who-is-your-lord--p1",
@@ -150,19 +150,19 @@ Being nurtured by Him and owned by Him *obligates* worshipping Him alone. That l
         note: "Covers the definition of Islam and its three levels.",
       },
     ],
-    content: `The author writes: *The religion of Islam is: **submitting to Allah with tawheed, yielding to Him with obedience, and freeing oneself from shirk and its people.*** Memorize this three-part definition — it is the most precise short definition of Islam you will find. Submission alone is not enough (the proud may submit outwardly); it must be submission built on tawheed, expressed in obedience, and completed by disowning shirk.
+    content: `The author writes: *The religion of Islam is: **submitting to Allah with tawheed, yielding to Him with obedience, and freeing oneself from shirk and its people.*** Memorize this three-part definition. Submission alone is not enough; it must be submission built on tawheed, expressed in obedience, and completed by freeing oneself from shirk and its people.
 
 This religion is the only one Allah will accept from anyone, and whoever seeks another path will find it rejected:
 
 [[proof:1]]
 
-The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan** — each level higher than the one before, and each defined by the Prophet ﷺ himself in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion:
+The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan**. Each level is higher than the one before, and each was defined by the Prophet ﷺ in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion:
 
 [[proof:2]]
 
-*To worship Allah as though you see Him* — this is the level of the one whose prayer, charity and speech are the same in public and in private, because the One watching never changes. Even if you do not reach seeing-Him-like worship, the second half of the definition remains: *He sees you.*
+*To worship Allah as though you see Him*: this is the level of the one whose worship is the same in public and in private, because he knows that Allah sees him in both. And if you do not reach that level, the second half of the definition remains: *He sees you.*
 
-Why do the levels matter practically? Because they give your religious life a direction of travel. Entering Islam is a doorway, not a destination. The Salaf described the believer as always ascending: from doing what is obligatory, to leaving the doubtful, to being watchful of Allah in the blink of an eye. When you plan your study schedule on this site, you are — if the intention is right — climbing exactly this ladder.`,
+These levels give the believer something to strive toward. He moves from doing what is obligatory, to leaving the doubtful, to watchfulness of Allah in every moment. So study, and intend by your study to rise through these levels.`,
     proofs: [
       {
         id: "usul-al-thalathah--what-is-your-religion--p1",
@@ -208,23 +208,23 @@ Why do the levels matter practically? Because they give your religious life a di
         note: "The standard English biography of the Prophet ﷺ.",
       },
     ],
-    content: `The third principle is knowing your Prophet: **Muhammad ibn Abdillah ibn Abd al-Muttalib ibn Hashim**, of Quraysh, of the Arabs, of the descendants of Isma'il son of Ibrahim ﷺ. He lived sixty-three years: forty before prophethood, and twenty-three as a prophet and messenger. He was raised an orphan in Makkah, known among his people — before any revelation — as **al-Amin**, the trustworthy.
+    content: `The third principle is knowing your Prophet: **Muhammad ibn Abdillah ibn Abd al-Muttalib ibn Hashim**, of Quraysh, of the Arabs, of the descendants of Isma'il son of Ibrahim ﷺ. He lived sixty-three years: forty before prophethood, and twenty-three as a prophet and messenger. He was raised an orphan in Makkah, known among his people, before any revelation, as **al-Amin**, the trustworthy.
 
-Prophethood began with *Iqra* (Surah al-'Alaq); messengership — the command to warn — came with al-Muddaththir:
+Prophethood began with *Iqra* (Surah al-'Alaq), and messengership, the command to warn, came with al-Muddaththir:
 
 [[proof:1]]
 
-For thirteen years in Makkah he called to tawheed and warned against shirk before most legislation existed — the prayer itself was only enjoined near the end of the Makkan period, on the night of the Mi'raj. The scholars draw a manhaj lesson from this order: creed is rectified before rules, exactly the sequence this curriculum follows. After the hijrah to Madinah the remaining laws descended: zakah, fasting, hajj, and the rest.
+For thirteen years in Makkah he called to tawheed and warned against shirk before most legislation existed; the prayer was enjoined near the end of the Makkan period, on the night of the Mi'raj. The scholars take from this order that creed is rectified before rules, and this curriculum follows the same order. After the hijrah to Madinah the remaining laws descended: zakah, fasting, hajj, and the rest.
 
 His message was not to his tribe or his era. It seals prophethood and reaches every human and jinn until the Hour:
 
 [[proof:2]]
 
-Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone — for obedience to the Messenger is obedience to the One who sent him:
+Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone, for obedience to the Messenger is obedience to the One who sent him:
 
 [[proof:3]]
 
-With the three principles complete — your Lord, your religion, your Prophet ﷺ — you now hold the answers every soul will need in the grave. The module quiz that follows covers all four lessons; take it after reviewing the proofs, not just the summaries.`,
+With this, the three principles are complete: your Lord, your religion, and your Prophet ﷺ. These are the answers to the three questions of the grave. Review the proofs of all four lessons, then take the module quiz.`,
     proofs: [
       {
         id: "usul-al-thalathah--who-is-your-prophet--p1",

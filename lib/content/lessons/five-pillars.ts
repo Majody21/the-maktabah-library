@@ -21,21 +21,21 @@ export const fivePillarsLessons: Lesson[] = [
         note: "The hadith of Jibreel is the second hadith; the explanation is beginner-friendly.",
       },
     ],
-    content: `**Islam** is not a vague identity or a culture inherited from parents — it is a defined religion with pillars, and Allah's Messenger ﷺ himself spelled them out. The clearest description came on a day when the angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ later said, “That was Jibreel; he came to teach you your religion.” This module walks through the first of those answers.
+    content: `**Islam** is a defined religion with pillars, and Allah's Messenger ﷺ named them himself. The angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ then said, “That was Jibreel; he came to teach you your religion.” This module explains the first of those answers.
 
 [[proof:1]]
 
-Notice the structure of the answer. Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up — remove it and the structure collapses or is deficient. The Prophet ﷺ used the same image in another narration:
+Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up. If a pillar is removed, the structure falls or stands deficient. The Prophet ﷺ used this image in another narration:
 
 [[proof:2]]
 
-The scholars draw two lessons from the ordering. First, the **shahadatayn** come before everything, because no deed is accepted without correct belief — worship built on shirk is like a building on no foundation. Second, the pillars pair the rights of Allah in the body (prayer, fasting), in wealth (zakah), and in both (hajj), so that a Muslim's submission covers his whole life, not one corner of it.
+The scholars draw two lessons from the ordering. First, the **shahadatayn** come before everything, because no deed is accepted without correct belief; worship built upon shirk is like a building without a foundation. Second, the pillars cover the rights of Allah in the body (prayer, fasting), in wealth (zakah), and in both (hajj), so that submission covers the whole of a person's life.
 
-Islam is also the only religion Allah accepts. It is the religion of all the prophets — submission to Allah alone — completed and sealed with the message of Muhammad ﷺ:
+Islam is the only religion Allah accepts. It is the religion of all the prophets: submission to Allah alone. It was completed and sealed with the message of Muhammad ﷺ:
 
 [[proof:3]]
 
-In the coming lessons we take each pillar in turn, learn its meaning, and — as with everything on this site — anchor it to its proof from the Quran and the Sunnah.`,
+In the coming lessons we take each pillar in turn: its meaning, and its proof from the Quran and the Sunnah.`,
     proofs: [
       {
         id: "five-pillars--hadith-of-jibreel--p1",
@@ -90,21 +90,21 @@ In the coming lessons we take each pillar in turn, learn its meaning, and — as
         note: "The classical text on the tawheed the shahadah expresses.",
       },
     ],
-    content: `The first pillar is a statement — but not a mere formula. **La ilaha illa Allah** means: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah — every idol, saint, prophet, star, and desire — and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is the very thing every messenger was sent with.
+    content: `The first pillar is the statement **La ilaha illa Allah**: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah, whether an idol, a saint, a prophet, a star, or a desire, and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is what every messenger was sent with.
 
 [[proof:1]]
 
-Knowledge of its meaning is itself an obligation. Allah did not command us to merely pronounce it; He commanded us to *know* it:
+Knowledge of its meaning is itself an obligation. Allah commanded us to know it, not only to say it:
 
 [[proof:2]]
 
-The second testimony — **Muhammadun Rasulullah** — is inseparable from the first. Testifying that Muhammad ﷺ is the Messenger of Allah obligates four things, as the scholars summarize: obeying him in what he commanded, believing him in what he informed, avoiding what he forbade, and worshipping Allah only in the way he legislated. Worship has one gate, and he ﷺ is the one who shows what passes through it.
+The second testimony, **Muhammadun Rasulullah**, is inseparable from the first. Testifying that Muhammad ﷺ is the Messenger of Allah obligates four things, as the scholars summarize: obeying him in what he commanded, believing him in what he informed, avoiding what he forbade, and worshipping Allah only in the way he legislated.
 
-When the Prophet ﷺ dispatched Mu'adh ibn Jabal to Yemen — a land of the People of the Book — he told him to begin with exactly this testimony before anything else, because it is the key without which no other deed counts:
+When the Prophet ﷺ sent Mu'adh ibn Jabal to Yemen, a land of the People of the Book, he commanded him to begin with this testimony before anything else, because no deed is accepted without it:
 
 [[proof:3]]
 
-Hold onto this order in your own learning. Before fiqh rulings, before memorization targets, before anything: know what you testify to, whom you worship, and whom you follow. Everything else in this library builds on this lesson.`,
+Keep this order in your own learning: know what you testify to, whom you worship, and whom you follow, before everything else. Everything that follows builds upon this.`,
     proofs: [
       {
         id: "five-pillars--the-shahadatayn--p1",
@@ -160,21 +160,21 @@ Hold onto this order in your own learning. Before fiqh rulings, before memorizat
         note: "The practical companion once the status of prayer is understood.",
       },
     ],
-    content: `After the testimony, the greatest pillar is the **salah** — the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth:
+    content: `After the testimony, the greatest pillar is the **salah**, the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth:
 
 [[proof:1]]
 
-Note the wording: *establish* the prayer (iqamat as-salah), not merely “perform” it. Establishing it means praying with its conditions, pillars, humility and on its time — building it properly, the way one establishes a structure. The salah is the boundary line the Prophet ﷺ drew in the starkest terms:
+The command is to *establish* the prayer (iqamat as-salah), not only to perform it. Establishing it means praying with its conditions, its pillars, humility, and on its time. The Prophet ﷺ made the prayer the line between a man and disbelief:
 
 [[proof:2]]
 
-The scholars of the Salaf took this with utmost seriousness. Abdullah ibn Shaqiq reported that the Companions of Muhammad ﷺ did not consider the abandonment of any deed to be disbelief other than the prayer. Whatever the detailed rulings, the practical takeaway for a student is simple: guard the five prayers on time, in congregation for men where possible, and treat any laxity in them as an emergency of faith.
+Abdullah ibn Shaqiq reported that the Companions of Muhammad ﷺ did not consider the abandonment of any deed to be disbelief other than the prayer. So guard the five prayers on their times, and for men in congregation where possible. If you fall short in the prayer, correct it before anything else.
 
-**Zakah** is not a tax and not optional charity. It is a fixed, annual right owed on qualifying wealth — 2.5% on stored monetary wealth — purifying the giver and the wealth itself:
+**Zakah** is a fixed right that Allah has obligated on qualifying wealth: 2.5% of stored monetary wealth each year. It purifies the giver and his wealth:
 
 [[proof:3]]
 
-The one who withholds it is threatened with a painful punishment on the Day of Resurrection, while the one who pays it finds his wealth blessed and his heart cured of greed. Prayer disciplines your day; zakah disciplines your attachment to dunya. Together they train the servant to hand both body and property over to his Lord.`,
+Allah has threatened the one who withholds it with a painful punishment on the Day of Resurrection. And whoever pays it, Allah blesses his wealth and purifies his heart from greed.`,
     proofs: [
       {
         id: "five-pillars--salah-and-zakah--p1",
@@ -230,21 +230,21 @@ The one who withholds it is threatened with a painful punishment on the Day of R
         note: "See the chapters of fasting and hajj for this lesson's rulings.",
       },
     ],
-    content: `The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated directly in the Quran, along with its purpose — not hunger for its own sake, but **taqwa**, the fearful mindfulness of Allah:
+    content: `The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated in the Quran, along with its purpose: **taqwa**, the fearful mindfulness of Allah:
 
 [[proof:1]]
 
-Fasting is unique among deeds. It is hidden worship — no one but Allah truly knows you are fasting — and so it trains sincerity (**ikhlas**) like nothing else. The Prophet ﷺ described it as a shield, and warned that a fast unaccompanied by truthful speech and restraint loses its point; Allah has no need of a person leaving food while persisting in false speech and acting upon it (Sahih al-Bukhari #1903).
+Fasting is hidden worship: no one but Allah knows with certainty that you are fasting. So it trains sincerity (**ikhlas**). The Prophet ﷺ described it as a shield, and warned that whoever does not leave false speech and acting upon it, Allah has no need of his leaving food and drink (Sahih al-Bukhari #1903).
 
-The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon the one who is able — able in body, wealth and safety of route:
+The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon whoever is able in body, wealth, and route:
 
 [[proof:2]]
 
-Hajj gathers every kind of worship into a matter of days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the abandonment of adornment and comfort. Its reward is stated plainly:
+Hajj gathers many kinds of worship into a few days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the leaving of adornment and comfort. The Prophet ﷺ stated its reward:
 
 [[proof:3]]
 
-With this lesson the tour of the five pillars is complete. Before the module quiz, review each pillar and ask yourself two questions the Salaf would ask: What is its proof? And what portion of it do I actually practice? Knowledge in this library is always for acting upon.`,
+This completes the five pillars. Before the module quiz, review each pillar and ask: what is its proof, and do I act upon it? For knowledge is sought in order to be acted upon.`,
     proofs: [
       {
         id: "five-pillars--sawm-and-hajj--p1",
