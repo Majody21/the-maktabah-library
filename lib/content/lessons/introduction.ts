@@ -5,23 +5,15 @@ export const introductionLessons: Lesson[] = [
     id: "introduction--ikhlas",
     moduleId: "introduction",
     slug: "ikhlas",
-    title: "Ikhlas: Why You Are Learning",
+    title: "Ikhlas (Sincerity)",
     displayOrder: 1,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on sincerity of intention.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=FuUWeVpN0Ak",
     videoScholar: "Shaykh Salih al-'Usaymi",
     videoTitle: "Learn How to Purify Your Intention",
-    bookRecommendations: [
-      {
-        title: "The Disease and the Cure (ad-Daa' wad-Dawaa')",
-        pdfUrl: "https://drive.google.com/file/d/1XXHa_qmnvTOe8yc2z0LPqI8v34ih67cf/view",
-        author: "Ibn Qayyim al-Jawziyyah",
-        url: "https://darussalam.com/",
-        note: "On the heart's diseases and their cure — sincerity runs through the whole book.",
-      },
-    ],
-    content: `**بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ**
+    bookRecommendations: [],
+    content: `بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
 
 *In the name of Allah, the Most Gracious, the Most Merciful.*
 
@@ -29,11 +21,11 @@ Allah opened His Book with the basmalah, and the Prophet ﷺ opened his letters 
 
 Before the first lesson of aqeedah, ask yourself: **why am I learning this?** Seeking knowledge is worship, and Allah does not accept worship unless it is done for Him alone. This is **ikhlas**: to purify your intention so that you seek the Face of Allah, not the praise of people or a share of this world.
 
-Allah said:
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-And Imam al-Bukhari opened his Sahih with the hadith of intention:
+And Imam al-Bukhari opened his Sahih with the hadith of intention, narrated by Umar ibn al-Khattab (may Allah be pleased with him):
 
 [[proof:2]]
 
@@ -69,35 +61,33 @@ So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised t
     id: "introduction--guidance",
     moduleId: "introduction",
     slug: "guidance-is-from-allah",
-    title: "Guidance Is from Allah: Rely on Him",
+    title: "Hidayah (Guidance)",
     displayOrder: 2,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on seeking guidance and tawakkul.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=UBbkbLezDhg",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
     videoTitle: "The Correct Understanding of Tawakkul upon Allah",
-    bookRecommendations: [
-      {
-        title: "Explanation of the Three Fundamental Principles",
-        pdfUrl: "https://drive.google.com/file/d/1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub/view",
-        author: "Explained by Shaykh Haytham Sarhan",
-        url: "https://darussalam.com/",
-        note: "The first text you will study — approach it asking Allah for guidance.",
-      },
-    ],
-    content: `A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah said to His Prophet ﷺ:
+    bookRecommendations: [],
+    content: `A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah the Almighty said to His Prophet ﷺ:
 
 [[proof:1]]
 
-This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer:
+This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer, in the statement of Allah the Exalted:
 
 [[proof:2]]
 
-You repeat this ayah in every rak'ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. The Prophet ﷺ would swear: *"No, by the Turner of the hearts"* (Sahih al-Bukhari #6628). And in the hadith qudsi, Allah says: **"O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you"** (Sahih Muslim #2577).
-
-So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will:
+You repeat this ayah in every rak'ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
 
 [[proof:3]]
+
+And in the hadith qudsi, reported by Abu Dharr (may Allah be pleased with him), Allah the Exalted says:
+
+[[proof:4]]
+
+So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will. Allah the Most High said:
+
+[[proof:5]]
 
 Begin your study with the name of Allah. Ask Him to teach you what benefits you and to benefit you by what He teaches you. And when a matter is unclear to you, ask Him, for He is the one who teaches His servants.`,
     proofs: [
@@ -124,8 +114,29 @@ Begin your study with the name of Allah. Ask Him to teach you what benefits you 
       {
         id: "introduction--guidance--p3",
         lessonId: "introduction--guidance",
-        type: "quran",
+        type: "hadith",
         displayOrder: 3,
+        arabicText: "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+        englishTranslation:
+          "O Turner of the hearts, keep my heart firm upon Your religion.",
+        reference: "Sunan at-Tirmidhi #2140",
+      },
+      {
+        id: "introduction--guidance--p4",
+        lessonId: "introduction--guidance",
+        type: "hadith",
+        displayOrder: 4,
+        arabicText:
+          "يَا عِبَادِي كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ",
+        englishTranslation:
+          "O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you.",
+        reference: "Sahih Muslim #2577",
+      },
+      {
+        id: "introduction--guidance--p5",
+        lessonId: "introduction--guidance",
+        type: "quran",
+        displayOrder: 5,
         arabicText:
           "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ",
         englishTranslation:
@@ -138,31 +149,31 @@ Begin your study with the name of Allah. Ask Him to teach you what benefits you 
     id: "introduction--seeking-ilm",
     moduleId: "introduction",
     slug: "seeking-ilm",
-    title: "The Virtue of Seeking Ilm, and How to Seek It",
+    title: "Talab al-Ilm (Seeking Knowledge)",
     displayOrder: 3,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on the virtue and etiquette of seeking ilm.",
     videoYoutubeUrl: "https://www.youtube.com/watch?v=QSlxiXbM9hs",
     videoScholar: "Shaykh Abdul-Aziz ibn Baz",
     videoTitle: "Comprehensive Words on How to Seek Knowledge",
-    bookRecommendations: [
-      {
-        title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
-        pdfUrl: "https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view",
-        author: "Shaykh Hafiz ibn Ahmad al-Hakami",
-        url: "https://darussalam.com/",
-        note: "Keep it beside you throughout the curriculum as a creed reference.",
-      },
-    ],
-    content: `Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. The Prophet ﷺ connected it to Paradise:
+    bookRecommendations: [],
+    content: `Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:1]]
 
-And Allah raised its people by degrees:
+And Allah the Most Exalted said:
 
 [[proof:2]]
 
-Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge: *"And say: My Lord, increase me in knowledge"* (Surah Ta-Ha 20:114). And when Allah wants good for a person, He gives him understanding of the religion (Sahih al-Bukhari #71). So if you find in yourself the desire to learn, know that this is from the favour of Allah upon you, and thank Him for it.
+Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge. Allah the Almighty said:
+
+[[proof:3]]
+
+And Mu'awiyah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
+
+[[proof:4]]
+
+So if you find in yourself the desire to learn, know that this is from the favour of Allah upon you, and thank Him for it.
 
 **How is knowledge sought?** The scholars advise the student with the following:
 
@@ -197,6 +208,25 @@ You have set your intention, placed your reliance upon Allah, and learned how kn
         englishTranslation:
           "Allah will raise those who have believed among you and those who were given knowledge by degrees.",
         reference: "Surah al-Mujadilah 58:11",
+      },
+      {
+        id: "introduction--seeking-ilm--p3",
+        lessonId: "introduction--seeking-ilm",
+        type: "quran",
+        displayOrder: 3,
+        arabicText: "وَقُل رَّبِّ زِدْنِي عِلْمًا",
+        englishTranslation: "And say: My Lord, increase me in knowledge.",
+        reference: "Surah Ta-Ha 20:114",
+      },
+      {
+        id: "introduction--seeking-ilm--p4",
+        lessonId: "introduction--seeking-ilm",
+        type: "hadith",
+        displayOrder: 4,
+        arabicText: "مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ",
+        englishTranslation:
+          "Whoever Allah wants good for, He gives him understanding of the religion.",
+        reference: "Sahih al-Bukhari #71",
       },
     ],
   },

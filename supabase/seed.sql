@@ -33,7 +33,7 @@ insert into public.modules (id, department_id, slug, name, description, display_
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('usul-al-sittah', 'aqeedah', 'usul-al-sittah', 'Usul al-Sittah (The Six Foundations)', 'Six short, decisive foundations of the religion — clear enough that a child could grasp them, yet missed by many. A guided reading of the famous matn.', 7, 'nawaqid-al-islam', 130);
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('kashf-al-shubuhat', 'aqeedah', 'kashf-al-shubuhat', 'Kashf al-Shubuhat (Removal of the Doubts)', 'How to answer the doubts raised against tawheed — the very arguments the mushrikun of old and today rely on, dismantled from the Quran and Sunnah.', 8, 'usul-al-sittah', 170);
 
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--ikhlas', 'introduction', 'ikhlas', 'Ikhlas: Why You Are Learning', '**بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ**
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--ikhlas', 'introduction', 'ikhlas', 'Ikhlas (Sincerity)', 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
 
 *In the name of Allah, the Most Gracious, the Most Merciful.*
 
@@ -41,48 +41,64 @@ Allah opened His Book with the basmalah, and the Prophet ﷺ opened his letters 
 
 Before the first lesson of aqeedah, ask yourself: **why am I learning this?** Seeking knowledge is worship, and Allah does not accept worship unless it is done for Him alone. This is **ikhlas**: to purify your intention so that you seek the Face of Allah, not the praise of people or a share of this world.
 
-Allah said:
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-And Imam al-Bukhari opened his Sahih with the hadith of intention:
+And Imam al-Bukhari opened his Sahih with the hadith of intention, narrated by Umar ibn al-Khattab (may Allah be pleased with him):
 
 [[proof:2]]
 
 The scholars warned the student of knowledge about this before everything else, because knowledge sought for other than Allah is a proof against its bearer. The Prophet ﷺ informed us that among the first to be judged on the Day of Resurrection is a man who learned and taught so that people would say of him, "He is a scholar" (Sahih Muslim #1905). Learning raises a person or ruins him according to what he intends by it.
 
-So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised that the student must not seek knowledge for position, fame, or wealth. He seeks it to remove ignorance from himself, then from others, and to preserve and defend the religion of Allah by learning it. So intend this: I am learning to know my Lord, to worship Him upon insight, to act upon what I learn, and to teach it. Renew this intention whenever you return to study, for the intention changes. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If Sufyan found his intention difficult, then we have more reason to watch our own.', 1, 'https://www.youtube.com/watch?v=FuUWeVpN0Ak', 'Shaykh Salih al-''Usaymi', 'Learn How to Purify Your Intention', '[{"title":"The Disease and the Cure (ad-Daa'' wad-Dawaa'')","pdfUrl":"https://drive.google.com/file/d/1XXHa_qmnvTOe8yc2z0LPqI8v34ih67cf/view","author":"Ibn Qayyim al-Jawziyyah","url":"https://darussalam.com/","note":"On the heart''s diseases and their cure — sincerity runs through the whole book."}]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on sincerity of intention.');
+So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised that the student must not seek knowledge for position, fame, or wealth. He seeks it to remove ignorance from himself, then from others, and to preserve and defend the religion of Allah by learning it. So intend this: I am learning to know my Lord, to worship Him upon insight, to act upon what I learn, and to teach it. Renew this intention whenever you return to study, for the intention changes. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If Sufyan found his intention difficult, then we have more reason to watch our own.', 1, 'https://www.youtube.com/watch?v=FuUWeVpN0Ak', 'Shaykh Salih al-''Usaymi', 'Learn How to Purify Your Intention', '[]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on sincerity of intention.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--ikhlas--p1', 'introduction--ikhlas', 'quran', 'وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ', 'And they were not commanded except to worship Allah, making the religion sincerely His, inclining to truth.', 'Surah al-Bayyinah 98:5', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--ikhlas--p2', 'introduction--ikhlas', 'hadith', 'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى', 'Actions are only by intentions, and every person shall have only what he intended.', 'Sahih al-Bukhari #1; Sahih Muslim #1907', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--ikhlas', 'introduction--ikhlas', 'https://www.youtube.com/watch?v=FuUWeVpN0Ak', 'Learn How to Purify Your Intention', 'Shaykh Salih al-''Usaymi', 'Ikhlas: Why You Are Learning');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--guidance', 'introduction', 'guidance-is-from-allah', 'Guidance Is from Allah: Rely on Him', 'A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah said to His Prophet ﷺ:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--ikhlas', 'introduction--ikhlas', 'https://www.youtube.com/watch?v=FuUWeVpN0Ak', 'Learn How to Purify Your Intention', 'Shaykh Salih al-''Usaymi', 'Ikhlas (Sincerity)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--guidance', 'introduction', 'guidance-is-from-allah', 'Hidayah (Guidance)', 'A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah the Almighty said to His Prophet ﷺ:
 
 [[proof:1]]
 
-This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer:
+This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer, in the statement of Allah the Exalted:
 
 [[proof:2]]
 
-You repeat this ayah in every rak''ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. The Prophet ﷺ would swear: *"No, by the Turner of the hearts"* (Sahih al-Bukhari #6628). And in the hadith qudsi, Allah says: **"O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you"** (Sahih Muslim #2577).
-
-So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will:
+You repeat this ayah in every rak''ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
 
 [[proof:3]]
 
-Begin your study with the name of Allah. Ask Him to teach you what benefits you and to benefit you by what He teaches you. And when a matter is unclear to you, ask Him, for He is the one who teaches His servants.', 2, 'https://www.youtube.com/watch?v=UBbkbLezDhg', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Correct Understanding of Tawakkul upon Allah', '[{"title":"Explanation of the Three Fundamental Principles","pdfUrl":"https://drive.google.com/file/d/1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub/view","author":"Explained by Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"The first text you will study — approach it asking Allah for guidance."}]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on seeking guidance and tawakkul.');
+And in the hadith qudsi, reported by Abu Dharr (may Allah be pleased with him), Allah the Exalted says:
+
+[[proof:4]]
+
+So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will. Allah the Most High said:
+
+[[proof:5]]
+
+Begin your study with the name of Allah. Ask Him to teach you what benefits you and to benefit you by what He teaches you. And when a matter is unclear to you, ask Him, for He is the one who teaches His servants.', 2, 'https://www.youtube.com/watch?v=UBbkbLezDhg', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Correct Understanding of Tawakkul upon Allah', '[]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on seeking guidance and tawakkul.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p1', 'introduction--guidance', 'quran', 'إِنَّكَ لَا تَهْدِي مَنْ أَحْبَبْتَ وَلَٰكِنَّ اللَّهَ يَهْدِي مَن يَشَاءُ ۚ وَهُوَ أَعْلَمُ بِالْمُهْتَدِينَ', 'Indeed, you do not guide whom you love, but Allah guides whom He wills. And He is most knowing of the guided.', 'Surah al-Qasas 28:56', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p2', 'introduction--guidance', 'quran', 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ', 'Guide us to the straight path.', 'Surah al-Fatiha 1:6', 2);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p3', 'introduction--guidance', 'quran', 'وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ', 'And whoever relies upon Allah — He is sufficient for him. Indeed, Allah will accomplish His purpose.', 'Surah at-Talaq 65:3', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--guidance', 'introduction--guidance', 'https://www.youtube.com/watch?v=UBbkbLezDhg', 'The Correct Understanding of Tawakkul upon Allah', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Guidance Is from Allah: Rely on Him');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--seeking-ilm', 'introduction', 'seeking-ilm', 'The Virtue of Seeking Ilm, and How to Seek It', 'Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. The Prophet ﷺ connected it to Paradise:
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p3', 'introduction--guidance', 'hadith', 'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ', 'O Turner of the hearts, keep my heart firm upon Your religion.', 'Sunan at-Tirmidhi #2140', 3);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p4', 'introduction--guidance', 'hadith', 'يَا عِبَادِي كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ', 'O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you.', 'Sahih Muslim #2577', 4);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p5', 'introduction--guidance', 'quran', 'وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ', 'And whoever relies upon Allah — He is sufficient for him. Indeed, Allah will accomplish His purpose.', 'Surah at-Talaq 65:3', 5);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--guidance', 'introduction--guidance', 'https://www.youtube.com/watch?v=UBbkbLezDhg', 'The Correct Understanding of Tawakkul upon Allah', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Hidayah (Guidance)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--seeking-ilm', 'introduction', 'seeking-ilm', 'Talab al-Ilm (Seeking Knowledge)', 'Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:1]]
 
-And Allah raised its people by degrees:
+And Allah the Most Exalted said:
 
 [[proof:2]]
 
-Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge: *"And say: My Lord, increase me in knowledge"* (Surah Ta-Ha 20:114). And when Allah wants good for a person, He gives him understanding of the religion (Sahih al-Bukhari #71). So if you find in yourself the desire to learn, know that this is from the favour of Allah upon you, and thank Him for it.
+Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge. Allah the Almighty said:
+
+[[proof:3]]
+
+And Mu''awiyah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
+
+[[proof:4]]
+
+So if you find in yourself the desire to learn, know that this is from the favour of Allah upon you, and thank Him for it.
 
 **How is knowledge sought?** The scholars advise the student with the following:
 
@@ -94,10 +110,12 @@ Allah did not command His Prophet ﷺ to ask for increase in anything except kno
 
 **Take it to act upon it.** The Salaf sought knowledge in order to act upon it, and knowledge without action is a burden upon its bearer. After each lesson, look at what it obligates you to do, and do it.
 
-You have set your intention, placed your reliance upon Allah, and learned how knowledge is sought. Begin now with the Five Pillars of Islam. May Allah grant us and you beneficial knowledge and righteous action.', 3, 'https://www.youtube.com/watch?v=QSlxiXbM9hs', 'Shaykh Abdul-Aziz ibn Baz', 'Comprehensive Words on How to Seek Knowledge', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"Keep it beside you throughout the curriculum as a creed reference."}]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on the virtue and etiquette of seeking ilm.');
+You have set your intention, placed your reliance upon Allah, and learned how knowledge is sought. Begin now with the Five Pillars of Islam. May Allah grant us and you beneficial knowledge and righteous action.', 3, 'https://www.youtube.com/watch?v=QSlxiXbM9hs', 'Shaykh Abdul-Aziz ibn Baz', 'Comprehensive Words on How to Seek Knowledge', '[]'::jsonb, 'Drawn from the scholars'' counsel to students of knowledge on the virtue and etiquette of seeking ilm.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p1', 'introduction--seeking-ilm', 'hadith', 'مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ', 'Whoever treads a path seeking knowledge in it, Allah makes easy for him thereby a path to Paradise.', 'Sahih Muslim #2699', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p2', 'introduction--seeking-ilm', 'quran', 'يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ', 'Allah will raise those who have believed among you and those who were given knowledge by degrees.', 'Surah al-Mujadilah 58:11', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--seeking-ilm', 'introduction--seeking-ilm', 'https://www.youtube.com/watch?v=QSlxiXbM9hs', 'Comprehensive Words on How to Seek Knowledge', 'Shaykh Abdul-Aziz ibn Baz', 'The Virtue of Seeking Ilm, and How to Seek It');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p3', 'introduction--seeking-ilm', 'quran', 'وَقُل رَّبِّ زِدْنِي عِلْمًا', 'And say: My Lord, increase me in knowledge.', 'Surah Ta-Ha 20:114', 3);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p4', 'introduction--seeking-ilm', 'hadith', 'مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ', 'Whoever Allah wants good for, He gives him understanding of the religion.', 'Sahih al-Bukhari #71', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--seeking-ilm', 'introduction--seeking-ilm', 'https://www.youtube.com/watch?v=QSlxiXbM9hs', 'Comprehensive Words on How to Seek Knowledge', 'Shaykh Abdul-Aziz ibn Baz', 'Talab al-Ilm (Seeking Knowledge)');
 insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--hadith-of-jibreel', 'five-pillars', 'hadith-of-jibreel', 'The Hadith of Jibreel: What Islam Is Built Upon', '**Islam** is not a vague identity or a culture inherited from parents — it is a defined religion with pillars, and Allah''s Messenger ﷺ himself spelled them out. The clearest description came on a day when the angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ later said, “That was Jibreel; he came to teach you your religion.” This module walks through the first of those answers.
 
 [[proof:1]]
