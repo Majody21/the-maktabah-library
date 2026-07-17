@@ -136,6 +136,17 @@ export const departments: Department[] = [
 
 export const modules: Module[] = [
   {
+    id: "introduction",
+    departmentId: "aqeedah",
+    slug: "introduction",
+    name: "Introduction: Preparing to Seek Knowledge",
+    description:
+      "Before the first lesson: purifying your intention (ikhlas), knowing that guidance is from Allah and relying upon Him, and the virtue and manners of seeking ilm.",
+    displayOrder: 0,
+    prerequisiteModuleId: null,
+    estimatedMinutes: 150,
+  },
+  {
     id: "five-pillars",
     departmentId: "aqeedah",
     slug: "five-pillars",
@@ -143,7 +154,7 @@ export const modules: Module[] = [
     description:
       "What Islam is built upon: the two testimonies, prayer, zakah, fasting and hajj — each established from the Quran and the Sunnah.",
     displayOrder: 1,
-    prerequisiteModuleId: null,
+    prerequisiteModuleId: "introduction",
     estimatedMinutes: 220,
   },
   {

@@ -76,8 +76,8 @@ export default async function HomePage() {
                 </span>
               </div>
               <p className="max-w-xl text-[0.95rem] text-ink-soft">
-                {aqeedah.description} Five modules, nineteen lessons, a quiz at
-                the end of each module.
+                {aqeedah.description} Nine modules, twenty-eight lessons, a
+                quiz at the end of each module.
               </p>
             </div>
           </Link>

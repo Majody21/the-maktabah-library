@@ -22,7 +22,7 @@ export default function AboutPage() {
         className="mt-6 h-52 w-full"
       />
 
-      <section className="mt-10 space-y-4 leading-relaxed">
+      <section className="mt-10 max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Mission</h2>
         <p>
           A clear, structured path through the foundations of the religion for
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
       <PatternDivider className="my-10" />
 
-      <section className="space-y-4 leading-relaxed">
+      <section className="max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Manhaj</h2>
         <p>
           We follow the way of the Salaf — the Companions and the imams of
@@ -52,7 +52,7 @@ export default function AboutPage() {
 
       <PatternDivider className="my-10" />
 
-      <section className="space-y-4 leading-relaxed">
+      <section className="max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">
           Every claim has its proof
         </h2>

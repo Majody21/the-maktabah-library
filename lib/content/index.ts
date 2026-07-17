@@ -1,4 +1,5 @@
 import { departments, modules, modulesForDepartment } from "./departments";
+import { introductionLessons } from "./lessons/introduction";
 import { fivePillarsLessons } from "./lessons/five-pillars";
 import { sixPillarsLessons } from "./lessons/six-pillars";
 import { usulThalathahLessons } from "./lessons/usul-thalathah";
@@ -7,6 +8,7 @@ import { qawaidArbaLessons } from "./lessons/qawaid-arba";
 import { nawaqidAlIslamLessons } from "./lessons/nawaqid-al-islam";
 import { usulAlSittahLessons } from "./lessons/usul-al-sittah";
 import { kashfAlShubuhatLessons } from "./lessons/kashf-al-shubuhat";
+import { introductionQuiz } from "./quizzes/introduction-quiz";
 import { fivePillarsQuiz } from "./quizzes/five-pillars-quiz";
 import { sixPillarsQuiz } from "./quizzes/six-pillars-quiz";
 import { usulThalathahQuiz } from "./quizzes/usul-thalathah-quiz";
@@ -23,6 +25,7 @@ import type { Lesson, Module, Quiz } from "./types";
 export { departments, modules, modulesForDepartment, glossaryTerms, resources, fatawa };
 
 export const allLessons: Lesson[] = [
+  ...introductionLessons,
   ...fivePillarsLessons,
   ...sixPillarsLessons,
   ...usulThalathahLessons,
@@ -34,6 +37,7 @@ export const allLessons: Lesson[] = [
 ];
 
 export const allQuizzes: Quiz[] = [
+  introductionQuiz,
   fivePillarsQuiz,
   sixPillarsQuiz,
   usulThalathahQuiz,

@@ -222,9 +222,9 @@ Knowing the names has a devotional payoff, not just a doctrinal one:
     displayOrder: 4,
     basedOn:
       "Summarized from Kitab at-Tawheed of Shaykh Muhammad ibn Abd al-Wahhab with its explanations.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=e3M3KhNqB8U",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=xSK94KMy_ec",
     videoScholar: "Shaykh Salih al-Fawzan",
-    videoTitle: "Shirk — Shaykh Salih al-Fawzan",
+    videoTitle: "The Categories of Shirk and Which One Exits You from Islam",
     bookRecommendations: [
       {
         title: "Kitab at-Tawheed",
