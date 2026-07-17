@@ -9,9 +9,9 @@ export const introductionLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on sincerity of intention.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=rzQflcb00HE",
-    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "How to Attain Sincerity in Seeking Knowledge",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=FuUWeVpN0Ak",
+    videoScholar: "Shaykh Salih al-'Usaymi",
+    videoTitle: "Learn How to Purify Your Intention",
     bookRecommendations: [
       {
         title: "The Disease and the Cure (ad-Daa' wad-Dawaa')",
@@ -21,7 +21,13 @@ export const introductionLessons: Lesson[] = [
         note: "On the heart's diseases and their cure — sincerity runs through the whole book.",
       },
     ],
-    content: `Before the first lesson of aqeedah, stop and ask the question the Salaf asked themselves constantly: **why am I learning this?** Knowledge in Islam is worship — and like every act of worship, it is accepted only when it is done sincerely for Allah. This is **ikhlas**: purifying your intention so that you seek Allah's face, not appearance, argument, or applause.
+    content: `**بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ**
+
+*In the name of Allah, the Most Gracious, the Most Merciful.*
+
+We begin in Allah's name because this is how Allah opened His own Book, and how the Prophet ﷺ began his letters and his affairs. Saying the basmalah before a matter places it under Allah's name — seeking His help and His blessing in it — and it reminds you, before a single line is read, that this study is by Him and for Him.
+
+Now, before the first lesson of aqeedah, stop and ask the question the Salaf asked themselves constantly: **why am I learning this?** Knowledge in Islam is worship — and like every act of worship, it is accepted only when it is done sincerely for Allah. This is **ikhlas**: purifying your intention so that you seek Allah's face, not appearance, argument, or applause.
 
 Allah commanded nothing less in His Book:
 
@@ -33,7 +39,7 @@ The Prophet ﷺ placed intention at the very foundation of every deed — the ha
 
 The scholars warned students about this more than anything else, because knowledge sought for the wrong reason becomes a proof *against* its bearer. The Prophet ﷺ warned that among the first to be judged on the Day of Resurrection is a man who learned and taught knowledge so that it would be *said* of him "he is a scholar" (Sahih Muslim #1905). The same act — learning — can raise a person or ruin him, and the difference lives entirely in the heart.
 
-So make your intention now, before the first module: I am learning to know my Lord, to worship Him upon insight, and to act on what I learn. Renew it whenever you return, for intentions drift. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If a man of that rank watched his intention that closely, then a student beginning this path should watch it closer still.`,
+So make your intention now, before the first module. Shaykh Ibn al-Uthaymeen counselled students that the intention in seeking knowledge must never be position, prestige, or wealth — it should be to remove ignorance first from yourself and then from others, and to preserve and defend Allah's religion by learning it. Intend exactly that: I am learning to know my Lord, to worship Him upon insight, to act on what I learn, and to lift ignorance from myself and those around me. Renew it whenever you return, for intentions drift. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If a man of that rank watched his intention that closely, then a student beginning this path should watch it closer still.`,
     proofs: [
       {
         id: "introduction--ikhlas--p1",
@@ -67,9 +73,9 @@ So make your intention now, before the first module: I am learning to know my Lo
     displayOrder: 2,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on seeking guidance and tawakkul.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=bb8TPFDAEcM",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=UBbkbLezDhg",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The True Reliance upon Allah",
+    videoTitle: "The Correct Understanding of Tawakkul upon Allah",
     bookRecommendations: [
       {
         title: "Explanation of the Three Fundamental Principles",
