@@ -9,9 +9,9 @@ export const introductionLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on sincerity of intention.",
-    videoYoutubeUrl: null,
-    videoScholar: "To be added",
-    videoTitle: "On Ikhlas (Sincerity)",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=rzQflcb00HE",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "How to Attain Sincerity in Seeking Knowledge",
     bookRecommendations: [
       {
         title: "The Disease and the Cure (ad-Daa' wad-Dawaa')",
@@ -67,9 +67,9 @@ So make your intention now, before the first module: I am learning to know my Lo
     displayOrder: 2,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on seeking guidance and tawakkul.",
-    videoYoutubeUrl: null,
-    videoScholar: "To be added",
-    videoTitle: "On Guidance Being from Allah",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=bb8TPFDAEcM",
+    videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    videoTitle: "The True Reliance upon Allah",
     bookRecommendations: [
       {
         title: "Explanation of the Three Fundamental Principles",
@@ -136,9 +136,9 @@ Begin every study session with Bismillah, ask Allah to teach you and benefit you
     displayOrder: 3,
     basedOn:
       "Drawn from the scholars' counsel to students of knowledge on the virtue and etiquette of seeking ilm.",
-    videoYoutubeUrl: null,
-    videoScholar: "To be added",
-    videoTitle: "On Seeking Knowledge",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=QSlxiXbM9hs",
+    videoScholar: "Shaykh Abdul-Aziz ibn Baz",
+    videoTitle: "Comprehensive Words on How to Seek Knowledge",
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
