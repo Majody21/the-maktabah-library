@@ -25,21 +25,21 @@ export const introductionLessons: Lesson[] = [
 
 *In the name of Allah, the Most Gracious, the Most Merciful.*
 
-We begin in Allah's name because this is how Allah opened His own Book, and how the Prophet ﷺ began his letters and his affairs. Saying the basmalah before a matter places it under Allah's name — seeking His help and His blessing in it — and it reminds you, before a single line is read, that this study is by Him and for Him.
+Allah opened His Book with the basmalah, and the Prophet ﷺ opened his letters with it. The Muslim begins his affairs in the name of Allah, seeking His help and His blessing in them. Begin your study the same way: in His name, asking Him for success.
 
-Now, before the first lesson of aqeedah, stop and ask the question the Salaf asked themselves constantly: **why am I learning this?** Knowledge in Islam is worship — and like every act of worship, it is accepted only when it is done sincerely for Allah. This is **ikhlas**: purifying your intention so that you seek Allah's face, not appearance, argument, or applause.
+Before the first lesson of aqeedah, ask yourself: **why am I learning this?** Seeking knowledge is worship, and Allah does not accept worship unless it is done for Him alone. This is **ikhlas**: to purify your intention so that you seek the Face of Allah, not the praise of people or a share of this world.
 
-Allah commanded nothing less in His Book:
+Allah said:
 
 [[proof:1]]
 
-The Prophet ﷺ placed intention at the very foundation of every deed — the hadith with which Imam al-Bukhari chose to open his Sahih:
+And Imam al-Bukhari opened his Sahih with the hadith of intention:
 
 [[proof:2]]
 
-The scholars warned students about this more than anything else, because knowledge sought for the wrong reason becomes a proof *against* its bearer. The Prophet ﷺ warned that among the first to be judged on the Day of Resurrection is a man who learned and taught knowledge so that it would be *said* of him "he is a scholar" (Sahih Muslim #1905). The same act — learning — can raise a person or ruin him, and the difference lives entirely in the heart.
+The scholars warned the student of knowledge about this before everything else, because knowledge sought for other than Allah is a proof against its bearer. The Prophet ﷺ informed us that among the first to be judged on the Day of Resurrection is a man who learned and taught so that people would say of him, "He is a scholar" (Sahih Muslim #1905). Learning raises a person or ruins him according to what he intends by it.
 
-So make your intention now, before the first module. Shaykh Ibn al-Uthaymeen counselled students that the intention in seeking knowledge must never be position, prestige, or wealth — it should be to remove ignorance first from yourself and then from others, and to preserve and defend Allah's religion by learning it. Intend exactly that: I am learning to know my Lord, to worship Him upon insight, to act on what I learn, and to lift ignorance from myself and those around me. Renew it whenever you return, for intentions drift. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If a man of that rank watched his intention that closely, then a student beginning this path should watch it closer still.`,
+So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised that the student must not seek knowledge for position, fame, or wealth. He seeks it to remove ignorance from himself, then from others, and to preserve and defend the religion of Allah by learning it. So intend this: I am learning to know my Lord, to worship Him upon insight, to act upon what I learn, and to teach it. Renew this intention whenever you return to study, for the intention changes. Sufyan ath-Thawri said: *"I never treated anything more difficult than my intention, because it keeps turning on me."* If Sufyan found his intention difficult, then we have more reason to watch our own.`,
     proofs: [
       {
         id: "introduction--ikhlas--p1",
@@ -85,21 +85,21 @@ So make your intention now, before the first module. Shaykh Ibn al-Uthaymeen cou
         note: "The first text you will study — approach it asking Allah for guidance.",
       },
     ],
-    content: `A student can own every book and attend every class and still remain unguided — because **guidance is not taken, it is given**. Allah said to His own Prophet ﷺ, the most truthful of callers:
+    content: `A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah said to His Prophet ﷺ:
 
 [[proof:1]]
 
-This is not a discouragement; it is the removal of a burden. Your task is to take the means — read, listen, ask — while the result belongs to Allah. That is why the most repeated du'a in a Muslim's life, recited in every rak'ah of every prayer, is a request for guidance:
+This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer:
 
 [[proof:2]]
 
-The scholars point out the wisdom: if Allah obligated you to ask for guidance seventeen times a day at a minimum, then guidance is something you need constantly — not a possession acquired once. The heart turns, and only the One who holds it keeps it firm. The Prophet ﷺ himself would often swear: *"No, by the Turner of the hearts"* (Sahih al-Bukhari #6628), and in the hadith qudsi Allah says: **"O My servants, all of you are astray except those whom I guide — so seek guidance from Me and I shall guide you"** (Sahih Muslim #2577).
+You repeat this ayah in every rak'ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. The Prophet ﷺ would swear: *"No, by the Turner of the hearts"* (Sahih al-Bukhari #6628). And in the hadith qudsi, Allah says: **"O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you"** (Sahih Muslim #2577).
 
-So pair your study with reliance (**tawakkul**): take the means as if everything depends on them, and depend on Allah knowing that nothing happens without Him:
+So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will:
 
 [[proof:3]]
 
-Begin every study session with Bismillah, ask Allah to teach you and benefit you by what He teaches you, and when a matter confuses you, ask the One who taught Adam the names of all things. The student who learns this before the first lesson has learned something many miss after years.`,
+Begin your study with the name of Allah. Ask Him to teach you what benefits you and to benefit you by what He teaches you. And when a matter is unclear to you, ask Him, for He is the one who teaches His servants.`,
     proofs: [
       {
         id: "introduction--guidance--p1",
@@ -154,7 +154,7 @@ Begin every study session with Bismillah, ask Allah to teach you and benefit you
         note: "Keep it beside you throughout the curriculum as a creed reference.",
       },
     ],
-    content: `Why does this whole site exist? Because seeking knowledge of the religion is not a hobby for the interested — it is the path Allah honoured above others, and a portion of it is an obligation on every Muslim. The Prophet ﷺ tied it directly to Paradise:
+    content: `Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. The Prophet ﷺ connected it to Paradise:
 
 [[proof:1]]
 
@@ -162,19 +162,19 @@ And Allah raised its people by degrees:
 
 [[proof:2]]
 
-The only increase the Prophet ﷺ was commanded to ask for was not wealth or ease — it was knowledge: *"And say: My Lord, increase me in knowledge"* (Surah Ta-Ha 20:114). When Allah wants good for a person, He gives him understanding of the religion (Sahih al-Bukhari #71) — so the very fact that you are here, wanting to learn, is a door Allah has opened. Walk through it with gratitude, not complacency.
+Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge: *"And say: My Lord, increase me in knowledge"* (Surah Ta-Ha 20:114). And when Allah wants good for a person, He gives him understanding of the religion (Sahih al-Bukhari #71). So if you find in yourself the desire to learn, know that this is from the favour of Allah upon you, and thank Him for it.
 
-**How should you seek it?** The scholars' counsel, distilled for this curriculum:
+**How is knowledge sought?** The scholars advise the student with the following:
 
-**Gradually.** Knowledge is taken a little at a time; whoever seizes it all at once loses it all at once. This is why the site gives you a daily plan measured in single lessons — consistency beats intensity, for the most beloved deeds to Allah are the most constant, even if small (Sahih al-Bukhari #6464).
+**Take it gradually.** The early scholars said: whoever seeks knowledge all at once loses it all at once. So take the lessons one by one, at a steady pace, for the most beloved deeds to Allah are the most constant, even if they are few (Sahih al-Bukhari #6464).
 
-**In order.** Foundations before details — the pillars before the subtleties, the clear before the disputed. The modules ahead are sequenced the way the scholars teach them; resist the urge to skip ahead.
+**Take it in order.** Learn the foundations before the details. The modules here follow the order in which the scholars teach these texts, so do not skip ahead.
 
-**With proof.** Tie every belief to its ayah or hadith. You will find a proof under every claim on this site; read them, look them up, and let your creed rest on revelation rather than on a website.
+**Take it with its proofs.** Aqeedah is taken from the Book and the Sunnah. Under every point in these lessons you will find its proof. Read the proofs, so that you know your creed from its sources.
 
-**For action.** The Salaf sought knowledge to act upon it; knowledge that does not reach the limbs and the heart is a burden. After each lesson, ask: what do I now owe Allah that I did not know I owed Him before?
+**Take it to act upon it.** The Salaf sought knowledge in order to act upon it, and knowledge without action is a burden upon its bearer. After each lesson, look at what it obligates you to do, and do it.
 
-With the intention purified, reliance placed in Allah, and the path of seeking understood — you are ready. Begin with the Five Pillars of Islam, and may Allah make you of those He guides and raises by knowledge.`,
+You have set your intention, placed your reliance upon Allah, and learned how knowledge is sought. Begin now with the Five Pillars of Islam. May Allah grant us and you beneficial knowledge and righteous action.`,
     proofs: [
       {
         id: "introduction--seeking-ilm--p1",
