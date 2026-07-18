@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Lora, Crimson_Pro, Amiri } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import LibraryScene from "@/components/layout/LibraryScene";
 import "./globals.css";
 
 const lora = Lora({
@@ -39,8 +40,8 @@ export const viewport: Viewport = {
   ],
 };
 
-// Light by default; dark mode only when the visitor has chosen it.
-const themeInit = `(function(){try{if(localStorage.getItem("maktabah-theme")==="dark")document.documentElement.classList.add("dark");}catch(e){}})();`;
+// Light by default; dark or library mode only when the visitor has chosen it.
+const themeInit = `(function(){try{var t=localStorage.getItem("maktabah-theme");if(t==="dark")document.documentElement.classList.add("dark");else if(t==="library")document.documentElement.classList.add("library");}catch(e){}})();`;
 
 export default function RootLayout({
   children,
@@ -55,6 +56,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
       </head>
       <body className="flex min-h-screen flex-col antialiased">
+        <LibraryScene />
         <p
           lang="ar"
           dir="rtl"

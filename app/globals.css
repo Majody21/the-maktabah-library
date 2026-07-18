@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:where(.dark, .dark *, .library, .library *));
 
 /* ————— Scholar's Library palette (white, calm) ————— */
 :root {
@@ -54,6 +54,32 @@
   --gold-tint: #322d24;
   --elev-card: 0 1px 2px rgba(0, 0, 0, 0.25), 0 3px 12px rgba(0, 0, 0, 0.2);
   --elev-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Library mode: a candlelit reading room. The animated scene (LibraryScene)
+   sits fixed behind the page; surfaces go translucent so its warmth shows
+   through without touching readability. */
+.library {
+  --bg: #191209;
+  --bg-raised: rgba(43, 32, 20, 0.82);
+  --bg-tint: rgba(56, 42, 26, 0.72);
+  --bg-deep: rgba(26, 19, 11, 0.85);
+  --ink: #efe6d3;
+  --ink-soft: #c9ba9e;
+  --ink-faint: #a8987c;
+  --line: rgba(214, 178, 110, 0.16);
+  --line-strong: rgba(214, 178, 110, 0.32);
+  --forest: #a8cdb4;
+  --forest-strong: #c1ddca;
+  --forest-soft: #7fa98d;
+  --forest-tint: rgba(63, 82, 66, 0.38);
+  --forest-fill: #3f6b52;
+  --on-forest: #f2f5ef;
+  --gold: #d9b365;
+  --gold-bright: #e7c987;
+  --gold-tint: rgba(122, 92, 40, 0.3);
+  --elev-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.35);
+  --elev-lift: 0 2px 4px rgba(0, 0, 0, 0.45), 0 10px 26px rgba(0, 0, 0, 0.45);
 }
 
 @theme inline {
@@ -257,6 +283,110 @@
   color: var(--forest);
   font-weight: 700;
 }
+
+/* ————— Library scene (candlelit reading room backdrop) ————— */
+.library-scene {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.library .library-scene {
+  display: block;
+}
+
+.library-scene svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.scene-veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(19, 13, 8, 0.6);
+}
+
+.scene-flame {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: flame-sway 2.4s ease-in-out infinite;
+}
+
+.scene-glow {
+  animation: glow-breathe 5.5s ease-in-out infinite;
+}
+
+.scene-glow-core {
+  animation: glow-breathe 2.4s ease-in-out infinite;
+}
+
+.scene-mote {
+  animation: mote-rise 16s linear infinite;
+}
+
+.scene-mote-2 {
+  animation-delay: -4s;
+  animation-duration: 19s;
+}
+
+.scene-mote-3 {
+  animation-delay: -9s;
+  animation-duration: 14s;
+}
+
+.scene-mote-4 {
+  animation-delay: -13s;
+  animation-duration: 21s;
+}
+
+.scene-mote-5 {
+  animation-delay: -6s;
+  animation-duration: 17s;
+}
+}
+
+@keyframes flame-sway {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.05, 0.96) rotate(-1.8deg);
+  }
+  50% {
+    transform: scale(0.96, 1.06) rotate(1.3deg);
+  }
+  75% {
+    transform: scale(1.03, 0.98) rotate(-0.9deg);
+  }
+}
+
+@keyframes glow-breathe {
+  0%, 100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes mote-rise {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.45;
+  }
+  88% {
+    opacity: 0.28;
+  }
+  100% {
+    transform: translateY(-110px);
+    opacity: 0;
+  }
 }
 
 /* Reduced motion */
@@ -267,5 +397,14 @@
   .card-hover,
   .btn {
     transition: none;
+  }
+  .scene-flame,
+  .scene-glow,
+  .scene-glow-core,
+  .scene-mote {
+    animation: none;
+  }
+  .scene-mote {
+    opacity: 0.25;
   }
 }
