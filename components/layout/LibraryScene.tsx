@@ -128,13 +128,15 @@ export default function LibraryScene() {
           <path d="M748 636 H1012" stroke="#5a422a" strokeWidth="2" opacity="0.6" />
         </g>
 
-        {/* open book on the table */}
-        <g transform="rotate(-2 830 626)">
-          <path d="M795 630 L860 620 L862 633 L797 643 Z" fill="#d9caa9" opacity="0.92" />
-          <path d="M862 633 L860 620 L925 626 L924 639 Z" fill="#cfbf9d" opacity="0.92" />
-          <path d="M861 620.5 L861.5 633.5" stroke="#9c8a68" strokeWidth="1.4" opacity="0.7" />
-          <path d="M804 630 L850 623 M805 634 L851 627 M806 638 L845 632" stroke="#9c8a68" strokeWidth="0.9" opacity="0.55" />
-          <path d="M870 626 L916 630 M869 630 L915 634 M871 634 L910 637" stroke="#9c8a68" strokeWidth="0.9" opacity="0.55" />
+        {/* open book, lying flat on the table */}
+        <g>
+          {/* left and right pages meeting at a low central spine */}
+          <path d="M795 627 L845 622 L845 632 L797 637 Z" fill="#d9caa9" opacity="0.94" />
+          <path d="M845 622 L895 627 L893 637 L845 632 Z" fill="#cfbf9d" opacity="0.94" />
+          <path d="M845 622 L845 632" stroke="#9c8a68" strokeWidth="1.4" opacity="0.7" />
+          {/* text lines */}
+          <path d="M803 629 L840 625 M804 632 L840 628 M805 635 L836 631" stroke="#9c8a68" strokeWidth="0.9" opacity="0.55" />
+          <path d="M850 625 L887 629 M850 628 L886 632 M854 631 L883 635" stroke="#9c8a68" strokeWidth="0.9" opacity="0.55" />
         </g>
 
         {/* candle */}
