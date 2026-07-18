@@ -5,7 +5,7 @@ export const categoriesTawheedLessons: Lesson[] = [
     id: "categories-of-tawheed--rububiyyah",
     moduleId: "categories-of-tawheed",
     slug: "rububiyyah",
-    title: "Tawheed ar-Rububiyyah: Oneness of Lordship",
+    title: "Tawheed ar-Rububiyyah (Lordship)",
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Salih al-Fawzan and Shaykh Ibn Uthaymeen.",
@@ -23,15 +23,21 @@ export const categoriesTawheedLessons: Lesson[] = [
     ],
     content: `**Tawheed ar-Rububiyyah** is singling out Allah in His actions: He alone creates, He alone provides, He alone gives life and death, and He alone manages the affairs of the heavens and the earth. No atom moves except by His permission.
 
+Allah the Most Exalted said:
+
 [[proof:1]]
 
-This category of tawheed is planted in human nature (**fitrah**). Almost no nation in history denied it outright. Even the idol-worshippers of Makkah admitted that the Creator and Provider is Allah alone:
+This category of tawheed is planted in human nature (**fitrah**). Almost no nation in history denied it outright. Even the idol-worshippers of Makkah admitted that the Creator and Provider is Allah alone.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
 But affirming rububiyyah **did not enter those people into Islam**. The Quran testifies that they affirmed the Creator while directing prayer, sacrifice and hope to others besides Him, and it names that shirk. Believing only that God exists and created the world is a belief the mushrikun of every age shared.
 
-So why does the Quran argue from rububiyyah so often? Because it is the *premise* Allah uses against them: if you admit He alone creates and provides, how do you justify worshipping what creates nothing?
+The Quran uses this affirmation as a proof against them: the One who alone creates and provides is alone entitled to worship.
+
+Allah the Exalted said:
 
 [[proof:3]]
 
@@ -75,7 +81,7 @@ Rububiyyah obligates uluhiyyah: whoever affirms that Allah alone creates and pro
     id: "categories-of-tawheed--uluhiyyah",
     moduleId: "categories-of-tawheed",
     slug: "uluhiyyah",
-    title: "Tawheed al-Uluhiyyah: Oneness of Worship",
+    title: "Tawheed al-Uluhiyyah (Worship)",
     displayOrder: 2,
     basedOn:
       "Summarized from the explanations of Shaykh Salih al-Fawzan and Shaykh Ibn Baz.",
@@ -99,11 +105,15 @@ Allah states the purpose of creation in one ayah:
 
 **What is worship ('ibadah)?** Shaykh al-Islam Ibn Taymiyyah gave the definition the scholars still use: *a comprehensive term for everything Allah loves and is pleased with, of statements and actions, inward and outward.* Under this definition falls du'a, fear, hope, charity, and prostration. Directing any of it to other than Allah is shirk.
 
-The right this tawheed represents is the very first right owed by any human being. In the hadith of Mu'adh, the Prophet ﷺ asked: *Do you know what is the right of Allah upon His servants?*, then answered:
+The right this tawheed represents is the first right owed by any human being.
+
+Mu'adh ibn Jabal (may Allah be pleased with him) narrated that the Prophet ﷺ asked him, *Do you know what is the right of Allah upon His servants?*, then answered:
 
 [[proof:2]]
 
-Weigh every practice against this category. Supplicating to a buried saint for a child, sacrificing to a jinn for protection, wearing an amulet while relying upon it: each of these directs worship to a creature. Allah stated this exclusivity in the ayah every Muslim recites at least seventeen times a day:
+Weigh every practice against this category. Supplicating to a buried saint for a child, sacrificing to a jinn for protection, wearing an amulet while relying upon it: each of these directs worship to a creature.
+
+Allah stated this exclusivity in the ayah every Muslim recites at least seventeen times a day:
 
 [[proof:3]]
 
@@ -146,7 +156,7 @@ Weigh every practice against this category. Supplicating to a buried saint for a
     id: "categories-of-tawheed--asma-wa-sifat",
     moduleId: "categories-of-tawheed",
     slug: "asma-wa-sifat",
-    title: "Tawheed al-Asma wa's-Sifat: Names and Attributes",
+    title: "Al-Asma wa's-Sifat (Names and Attributes)",
     displayOrder: 3,
     basedOn:
       "Summarized from al-Aqeedah al-Wasitiyyah of Ibn Taymiyyah with the explanation of Shaykh Ibn Baz.",
@@ -162,11 +172,15 @@ Weigh every practice against this category. Supplicating to a buried saint for a
         note: "The reference text for the Salafi position on the attributes.",
       },
     ],
-    content: `**Tawheed al-Asma wa's-Sifat** is believing in every name Allah named Himself with and every attribute He described Himself with, in His Book or on the tongue of His Messenger ﷺ, affirming them as they came, in the manner that befits His majesty. Allah commanded us to call on Him by them:
+    content: `**Tawheed al-Asma wa's-Sifat** is believing in every name Allah named Himself with and every attribute He described Himself with, in His Book or on the tongue of His Messenger ﷺ, affirming them as they came, in the manner that befits His majesty.
+
+Allah commanded us to call on Him by them:
 
 [[proof:1]]
 
-The manhaj of Ahlus Sunnah here stands on one golden ayah, which contains both a negation and an affirmation:
+The manhaj of Ahlus Sunnah stands upon one ayah, which contains both a negation and an affirmation.
+
+Allah the Most High said:
 
 [[proof:2]]
 
@@ -174,7 +188,9 @@ The manhaj of Ahlus Sunnah here stands on one golden ayah, which contains both a
 
 Precision matters here, because the deviant sects erred in this matter: some denied the attributes, and others likened Allah to His creation. Ahlus Sunnah remain upon the path of the Companions: reading the texts, affirming what they state, and leaving the *how* to Allah.
 
-Knowing the names bears fruit in worship:
+Knowing the names bears fruit in worship.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -218,7 +234,7 @@ Knowing the names bears fruit in worship:
     id: "categories-of-tawheed--shirk",
     moduleId: "categories-of-tawheed",
     slug: "what-nullifies-tawheed",
-    title: "What Nullifies Tawheed: Shirk and Its Categories",
+    title: "Shirk and Its Categories",
     displayOrder: 4,
     basedOn:
       "Summarized from Kitab at-Tawheed of Shaykh Muhammad ibn Abd al-Wahhab with its explanations.",
@@ -234,17 +250,21 @@ Knowing the names bears fruit in worship:
         note: "Most chapters address a specific avenue of shirk with its evidence.",
       },
     ],
-    content: `Having learned what tawheed is, you must learn what destroys it. **Shirk**, associating partners with Allah in what belongs to Him alone, is the greatest sin with which Allah is disobeyed. It is the one sin Allah says He will not forgive if a person dies upon it without repentance:
+    content: `Having learned what tawheed is, you must learn what destroys it. **Shirk**, associating partners with Allah in what belongs to Him alone, is the greatest sin with which Allah is disobeyed. It is the one sin Allah says He will not forgive if a person dies upon it without repentance.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-The scholars divide it into **major shirk** (ash-shirk al-akbar) and **minor shirk** (ash-shirk al-asghar). Major shirk expels a person from Islam entirely: directing worship (du'a, sacrifice, prostration, complete love or reliance) to other than Allah. It is the shirk of the one who calls upon the dead for rescue, or believes a creature controls benefit and harm independently. Luqman's counsel to his son names its gravity:
+The scholars divide it into **major shirk** (ash-shirk al-akbar) and **minor shirk** (ash-shirk al-asghar). Major shirk expels a person from Islam entirely: directing worship (du'a, sacrifice, prostration, complete love or reliance) to other than Allah. It is the shirk of the one who calls upon the dead for rescue, or believes a creature controls benefit and harm independently.
+
+Allah the Almighty related the counsel of Luqman to his son:
 
 [[proof:2]]
 
 Minor shirk does not expel a person from the religion, but it diminishes the perfection of tawheed, and it is more hidden. Its chief example is **riya**: beautifying worship because people are watching. The Prophet ﷺ feared it for the best generation, calling it “the hidden shirk”; swearing by other than Allah is another example he named.
 
-The stakes could not be stated more plainly than in his ﷺ own words:
+Abdullah ibn Mas'ud (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 

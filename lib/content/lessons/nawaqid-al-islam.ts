@@ -8,7 +8,7 @@ export const nawaqidAlIslamLessons: Lesson[] = [
     id: "nawaqid-al-islam--first-five",
     moduleId: "nawaqid-al-islam",
     slug: "first-five-nullifiers",
-    title: "What Nullifies Islam, and the First Five Nullifiers",
+    title: "The First Five Nullifiers",
     displayOrder: 1,
     basedOn:
       "A guided reading of Nawaqid al-Islam by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
@@ -26,7 +26,9 @@ export const nawaqidAlIslamLessons: Lesson[] = [
     ],
     content: `A person can enter Islam with a sincere testimony and then do something that cancels it, as ablution is nullified by what breaks it. Shaykh Muhammad ibn Abd al-Wahhab gathered **ten nullifiers** (nawaqid) of Islam so that a Muslim would know them and stay far from them. This chapter is not for declaring others disbelievers; that is the work of the scholars, with its conditions and barriers. It is for **guarding your own Islam**, for knowing what destroys a thing is part of protecting it.
 
-**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship (du'a, sacrifice, a vow, complete reliance) to other than Allah nullifies Islam, because it contradicts the testimony a Muslim stands upon:
+**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship (du'a, sacrifice, a vow, complete reliance) to other than Allah nullifies Islam, because it contradicts the testimony a Muslim stands upon.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
@@ -34,11 +36,15 @@ export const nawaqidAlIslamLessons: Lesson[] = [
 
 **The Third Nullifier: whoever does not regard the mushrikun as disbelievers, or doubts their disbelief, or holds their way to be correct**, has himself disbelieved. To affirm *La ilaha illa Allah* is to negate the worship of all else, and whoever declares the worship of others a valid path has contradicted the testimony itself.
 
-**The Fourth Nullifier: whoever believes that some guidance other than the Prophet's ﷺ is more complete, or that another's ruling is better than his ﷺ ruling.** This includes the one who prefers man-made law over the judgement of the Messenger ﷺ, believing it superior. Allah ties iman itself to submitting to his judgement without resistance:
+**The Fourth Nullifier: whoever believes that some guidance other than the Prophet's ﷺ is more complete, or that another's ruling is better than his ﷺ ruling.** This includes the one who prefers man-made law over the judgement of the Messenger ﷺ, believing it superior.
+
+Allah ties iman itself to submitting to his ﷺ judgement:
 
 [[proof:2]]
 
-**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it, and this hatred of the revelation nullifies his Islam:
+**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it, and this hatred of the revelation nullifies his Islam.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -99,21 +105,29 @@ Each of these five nullifiers returns to the heart's stance toward Allah and His
         note: "The remaining five nullifiers, with the closing warning.",
       },
     ],
-    content: `**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ**: mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment. Some men at Tabuk joked about the reciters, and Allah revealed concerning them:
+    content: `**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ**: mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment.
+
+Some men at Tabuk joked about the reciters, and Allah revealed concerning them:
 
 [[proof:1]]
 
-**The Seventh Nullifier: magic (sihr)**, including that which turns spouses apart or binds them (sarf and 'atf). Whoever performs it, or is pleased with it being performed, has disbelieved. Allah described the two angels at Babylon warning every person who came to learn it:
+**The Seventh Nullifier: magic (sihr)**, including that which turns spouses apart or binds them (sarf and 'atf). Whoever performs it, or is pleased with it being performed, has disbelieved.
+
+Allah described the two angels at Babylon warning every person who came to learn it:
 
 [[proof:2]]
 
-**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims.** Allah warned:
+**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims.**
+
+Allah the Almighty warned:
 
 [[proof:3]]
 
 **The Ninth Nullifier: whoever believes that some people are permitted to leave the Shariah of Muhammad ﷺ**, as al-Khidr was permitted to depart from the law of Musa عليه السلام. The message of Muhammad ﷺ is for all people and all times, and no one is above it.
 
-**The Tenth Nullifier: turning away from the religion of Allah entirely**, neither learning it nor acting upon it:
+**The Tenth Nullifier: turning away from the religion of Allah entirely**, neither learning it nor acting upon it.
+
+Allah the Exalted said:
 
 [[proof:4]]
 

@@ -55,15 +55,21 @@ So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised t
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--ikhlas--p1', 'introduction--ikhlas', 'quran', 'وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ', 'And they were not commanded except to worship Allah, making the religion sincerely His, inclining to truth.', 'Surah al-Bayyinah 98:5', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--ikhlas--p2', 'introduction--ikhlas', 'hadith', 'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى', 'Actions are only by intentions, and every person shall have only what he intended.', 'Sahih al-Bukhari #1; Sahih Muslim #1907', 2);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--ikhlas', 'introduction--ikhlas', 'https://www.youtube.com/watch?v=FuUWeVpN0Ak', 'Learn How to Purify Your Intention', 'Shaykh Salih al-''Usaymi', 'Ikhlas (Sincerity)');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--guidance', 'introduction', 'guidance-is-from-allah', 'Hidayah (Guidance)', 'A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah the Almighty said to His Prophet ﷺ:
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--guidance', 'introduction', 'guidance-is-from-allah', 'Hidayah (Guidance)', 'A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone.
+
+Allah the Almighty said to His Prophet ﷺ:
 
 [[proof:1]]
 
-This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer, in the statement of Allah the Exalted:
+This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
-You repeat this ayah in every rak''ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
+You repeat this ayah in every rak''ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm.
+
+Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
 
 [[proof:3]]
 
@@ -71,7 +77,9 @@ And in the hadith qudsi, reported by Abu Dharr (may Allah be pleased with him), 
 
 [[proof:4]]
 
-So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will. Allah the Most High said:
+So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will.
+
+Allah the Most High said:
 
 [[proof:5]]
 
@@ -82,7 +90,9 @@ insert into public.proofs (id, lesson_id, type, arabic_text, english_translation
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p4', 'introduction--guidance', 'hadith', 'يَا عِبَادِي كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ', 'O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I shall guide you.', 'Sahih Muslim #2577', 4);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--guidance--p5', 'introduction--guidance', 'quran', 'وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ', 'And whoever relies upon Allah — He is sufficient for him. Indeed, Allah will accomplish His purpose.', 'Surah at-Talaq 65:3', 5);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--guidance', 'introduction--guidance', 'https://www.youtube.com/watch?v=UBbkbLezDhg', 'The Correct Understanding of Tawakkul upon Allah', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Hidayah (Guidance)');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--seeking-ilm', 'introduction', 'seeking-ilm', 'Talab al-Ilm (Seeking Knowledge)', 'Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('introduction--seeking-ilm', 'introduction', 'seeking-ilm', 'Talab al-Ilm (Seeking Knowledge)', 'Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:1]]
 
@@ -90,7 +100,9 @@ And Allah the Most Exalted said:
 
 [[proof:2]]
 
-Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge. Allah the Almighty said:
+Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -116,17 +128,23 @@ insert into public.proofs (id, lesson_id, type, arabic_text, english_translation
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p3', 'introduction--seeking-ilm', 'quran', 'وَقُل رَّبِّ زِدْنِي عِلْمًا', 'And say: My Lord, increase me in knowledge.', 'Surah Ta-Ha 20:114', 3);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('introduction--seeking-ilm--p4', 'introduction--seeking-ilm', 'hadith', 'مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ', 'Whoever Allah wants good for, He gives him understanding of the religion.', 'Sahih al-Bukhari #71', 4);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-introduction--seeking-ilm', 'introduction--seeking-ilm', 'https://www.youtube.com/watch?v=QSlxiXbM9hs', 'Comprehensive Words on How to Seek Knowledge', 'Shaykh Abdul-Aziz ibn Baz', 'Talab al-Ilm (Seeking Knowledge)');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--hadith-of-jibreel', 'five-pillars', 'hadith-of-jibreel', 'The Hadith of Jibreel: What Islam Is Built Upon', '**Islam** is a defined religion with pillars, and Allah''s Messenger ﷺ named them himself. The angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ then said, “That was Jibreel; he came to teach you your religion.” This module explains the first of those answers.
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--hadith-of-jibreel', 'five-pillars', 'hadith-of-jibreel', 'The Hadith of Jibreel', '**Islam** is a defined religion with pillars, and Allah''s Messenger ﷺ named them himself. The angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ then said, “That was Jibreel; he came to teach you your religion.” This module explains the first of those answers.
+
+In the hadith of Jibreel, narrated by Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ answered:
 
 [[proof:1]]
 
-Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up. If a pillar is removed, the structure falls or stands deficient. The Prophet ﷺ used this image in another narration:
+Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up. If a pillar is removed, the structure falls or stands deficient.
+
+The Prophet ﷺ used this image in the narration of Ibn Umar (may Allah be pleased with them):
 
 [[proof:2]]
 
 The scholars draw two lessons from the ordering. First, the **shahadatayn** come before everything, because no deed is accepted without correct belief; worship built upon shirk is like a building without a foundation. Second, the pillars cover the rights of Allah in the body (prayer, fasting), in wealth (zakah), and in both (hajj), so that submission covers the whole of a person''s life.
 
-Islam is the only religion Allah accepts. It is the religion of all the prophets: submission to Allah alone. It was completed and sealed with the message of Muhammad ﷺ:
+Islam is the only religion Allah accepts. It is the religion of all the prophets: submission to Allah alone. It was completed and sealed with the message of Muhammad ﷺ.
+
+Allah the Most High said:
 
 [[proof:3]]
 
@@ -134,18 +152,24 @@ In the coming lessons we take each pillar in turn: its meaning, and its proof fr
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--hadith-of-jibreel--p1', 'five-pillars--hadith-of-jibreel', 'hadith', 'الإِسْلاَمُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤْتِيَ الزَّكَاةَ، وَتَصُومَ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلاً', 'Islam is that you testify that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, that you establish the prayer, give the zakah, fast Ramadan, and perform hajj to the House if you are able to find a way to it.', 'Sahih Muslim #8 (the hadith of Jibreel)', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--hadith-of-jibreel--p2', 'five-pillars--hadith-of-jibreel', 'hadith', 'بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالْحَجِّ، وَصَوْمِ رَمَضَانَ', 'Islam is built upon five: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, hajj, and fasting Ramadan.', 'Sahih al-Bukhari #8; Sahih Muslim #16', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--hadith-of-jibreel--p3', 'five-pillars--hadith-of-jibreel', 'quran', 'إِنَّ الدِّينَ عِندَ اللَّهِ الْإِسْلَامُ', 'Indeed, the religion in the sight of Allah is Islam.', 'Surah Aal Imran 3:19', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--hadith-of-jibreel', 'five-pillars--hadith-of-jibreel', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Hadith of Jibreel: What Islam Is Built Upon');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--the-shahadatayn', 'five-pillars', 'the-shahadatayn', 'The Shahadatayn: The Two Testimonies', 'The first pillar is the statement **La ilaha illa Allah**: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah, whether an idol, a saint, a prophet, a star, or a desire, and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is what every messenger was sent with.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--hadith-of-jibreel', 'five-pillars--hadith-of-jibreel', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Hadith of Jibreel');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--the-shahadatayn', 'five-pillars', 'the-shahadatayn', 'The Shahadatayn (The Two Testimonies)', 'The first pillar is the statement **La ilaha illa Allah**: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah, whether an idol, a saint, a prophet, a star, or a desire, and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is what every messenger was sent with.
+
+Allah the Exalted said:
 
 [[proof:1]]
 
-Knowledge of its meaning is itself an obligation. Allah commanded us to know it, not only to say it:
+Knowledge of its meaning is itself an obligation.
+
+Allah commanded us to know it, not only to say it:
 
 [[proof:2]]
 
 The second testimony, **Muhammadun Rasulullah**, is inseparable from the first. Testifying that Muhammad ﷺ is the Messenger of Allah obligates four things, as the scholars summarize: obeying him in what he commanded, believing him in what he informed, avoiding what he forbade, and worshipping Allah only in the way he legislated.
 
-When the Prophet ﷺ sent Mu''adh ibn Jabal to Yemen, a land of the People of the Book, he commanded him to begin with this testimony before anything else, because no deed is accepted without it:
+When the Prophet ﷺ sent Mu''adh ibn Jabal to Yemen, a land of the People of the Book, he commanded him to begin with this testimony before anything else, because no deed is accepted without it.
+
+Ibn Abbas (may Allah be pleased with them) narrated that the Prophet ﷺ said to Mu''adh:
 
 [[proof:3]]
 
@@ -153,18 +177,24 @@ Keep this order in your own learning: know what you testify to, whom you worship
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--the-shahadatayn--p1', 'five-pillars--the-shahadatayn', 'quran', 'وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ', 'And We certainly sent into every nation a messenger, [saying]: worship Allah and avoid taghut (false objects of worship).', 'Surah an-Nahl 16:36', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--the-shahadatayn--p2', 'five-pillars--the-shahadatayn', 'quran', 'فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ وَاسْتَغْفِرْ لِذَنبِكَ', 'So know that none has the right to be worshipped except Allah, and seek forgiveness for your sin.', 'Surah Muhammad 47:19', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--the-shahadatayn--p3', 'five-pillars--the-shahadatayn', 'hadith', 'إِنَّكَ تَقْدَمُ عَلَى قَوْمٍ مِنْ أَهْلِ الْكِتَابِ، فَلْيَكُنْ أَوَّلَ مَا تَدْعُوهُمْ إِلَيْهِ شَهَادَةُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ', 'You are going to a people of the Book, so let the first thing you call them to be the testimony that none has the right to be worshipped except Allah.', 'Sahih al-Bukhari #1496; Sahih Muslim #19', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--the-shahadatayn', 'five-pillars--the-shahadatayn', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Shahadatayn: The Two Testimonies');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--salah-and-zakah', 'five-pillars', 'salah-and-zakah', 'Salah and Zakah: The Rights of Allah and the Rights of Wealth', 'After the testimony, the greatest pillar is the **salah**, the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--the-shahadatayn', 'five-pillars--the-shahadatayn', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Shahadatayn (The Two Testimonies)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--salah-and-zakah', 'five-pillars', 'salah-and-zakah', 'Salah and Zakah (Prayer and Almsgiving)', 'After the testimony, the greatest pillar is the **salah**, the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
-The command is to *establish* the prayer (iqamat as-salah), not only to perform it. Establishing it means praying with its conditions, its pillars, humility, and on its time. The Prophet ﷺ made the prayer the line between a man and disbelief:
+The command is to *establish* the prayer (iqamat as-salah), not only to perform it. Establishing it means praying with its conditions, its pillars, humility, and on its time. The Prophet ﷺ made the prayer the line between a man and disbelief.
+
+Jabir ibn Abdillah (may Allah be pleased with them) narrated that he ﷺ said:
 
 [[proof:2]]
 
 Abdullah ibn Shaqiq reported that the Companions of Muhammad ﷺ did not consider the abandonment of any deed to be disbelief other than the prayer. So guard the five prayers on their times, and for men in congregation where possible. If you fall short in the prayer, correct it before anything else.
 
-**Zakah** is a fixed right that Allah has obligated on qualifying wealth: 2.5% of stored monetary wealth each year. It purifies the giver and his wealth:
+**Zakah** is a fixed right that Allah has obligated on qualifying wealth: 2.5% of stored monetary wealth each year. It purifies the giver and his wealth.
+
+Allah the Most Exalted said:
 
 [[proof:3]]
 
@@ -172,18 +202,24 @@ Allah has threatened the one who withholds it with a painful punishment on the D
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--salah-and-zakah--p1', 'five-pillars--salah-and-zakah', 'quran', 'وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ', 'And establish the prayer, and give the zakah, and bow with those who bow.', 'Surah al-Baqarah 2:43', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--salah-and-zakah--p2', 'five-pillars--salah-and-zakah', 'hadith', 'بَيْنَ الرَّجُلِ وَبَيْنَ الشِّرْكِ وَالْكُفْرِ تَرْكُ الصَّلاَةِ', 'Between a man and shirk and disbelief stands the abandonment of the prayer.', 'Sahih Muslim #82', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--salah-and-zakah--p3', 'five-pillars--salah-and-zakah', 'quran', 'خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا', 'Take from their wealth a charity by which you purify them and cause them to increase.', 'Surah at-Tawbah 9:103', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--salah-and-zakah', 'five-pillars--salah-and-zakah', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Salah and Zakah: The Rights of Allah and the Rights of Wealth');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--sawm-and-hajj', 'five-pillars', 'sawm-and-hajj', 'Sawm and Hajj: The Fast of Ramadan and the Pilgrimage', 'The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated in the Quran, along with its purpose: **taqwa**, the fearful mindfulness of Allah:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--salah-and-zakah', 'five-pillars--salah-and-zakah', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Salah and Zakah (Prayer and Almsgiving)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('five-pillars--sawm-and-hajj', 'five-pillars', 'sawm-and-hajj', 'Sawm and Hajj (Fasting and Pilgrimage)', 'The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated in the Quran, along with its purpose: **taqwa**, the fearful mindfulness of Allah.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
 Fasting is hidden worship: no one but Allah knows with certainty that you are fasting. So it trains sincerity (**ikhlas**). The Prophet ﷺ described it as a shield, and warned that whoever does not leave false speech and acting upon it, Allah has no need of his leaving food and drink (Sahih al-Bukhari #1903).
 
-The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon whoever is able in body, wealth, and route:
+The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon whoever is able in body, wealth, and route.
+
+Allah the Most High said:
 
 [[proof:2]]
 
-Hajj gathers many kinds of worship into a few days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the leaving of adornment and comfort. The Prophet ﷺ stated its reward:
+Hajj gathers many kinds of worship into a few days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the leaving of adornment and comfort.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -191,16 +227,22 @@ This completes the five pillars. Before the module quiz, review each pillar and 
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--sawm-and-hajj--p1', 'five-pillars--sawm-and-hajj', 'quran', 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ', 'O you who believe, fasting has been prescribed upon you as it was prescribed upon those before you, that you may attain taqwa.', 'Surah al-Baqarah 2:183', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--sawm-and-hajj--p2', 'five-pillars--sawm-and-hajj', 'quran', 'وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا', 'And due to Allah from the people is pilgrimage to the House — for whoever is able to find a way to it.', 'Surah Aal Imran 3:97', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('five-pillars--sawm-and-hajj--p3', 'five-pillars--sawm-and-hajj', 'hadith', 'مَنْ حَجَّ لِلَّهِ فَلَمْ يَرْفُثْ وَلَمْ يَفْسُقْ رَجَعَ كَيَوْمِ وَلَدَتْهُ أُمُّهُ', 'Whoever performs hajj for Allah and does not commit obscenity or transgression returns [free of sin] as on the day his mother bore him.', 'Sahih al-Bukhari #1521', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--sawm-and-hajj', 'five-pillars--sawm-and-hajj', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Sawm and Hajj: The Fast of Ramadan and the Pilgrimage');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--what-is-iman', 'six-pillars', 'what-is-iman', 'What Is Iman? Definition and the Six Pillars', 'If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, he answered with six matters. These are the pillars of iman:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-five-pillars--sawm-and-hajj', 'five-pillars--sawm-and-hajj', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Sawm and Hajj (Fasting and Pilgrimage)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--what-is-iman', 'six-pillars', 'what-is-iman', 'Iman (Faith)', 'If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, he answered with six matters, and these are the pillars of iman.
+
+In the narration of Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ said:
 
 [[proof:1]]
 
-The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins with these beliefs:
+The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins with these beliefs.
+
+Allah the Most Exalted said:
 
 [[proof:2]]
 
-Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. So iman is not one fixed amount: it rises when you obey Allah and falls when you disobey Him. The Prophet ﷺ said:
+Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. So iman is not one fixed amount: it rises when you obey Allah and falls when you disobey Him.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -208,24 +250,35 @@ Even removing something harmful from the road is counted as part of iman, for fa
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p1', 'six-pillars--what-is-iman', 'hadith', 'أَنْ تُؤْمِنَ بِاللَّهِ وَمَلاَئِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الآخِرِ وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ', '[Iman is] that you believe in Allah, His angels, His books, His messengers, and the Last Day, and that you believe in the decree — its good and its bad.', 'Sahih Muslim #8 (the hadith of Jibreel)', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p2', 'six-pillars--what-is-iman', 'quran', 'وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَالْمَلَائِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ', 'But righteousness is [in] the one who believes in Allah, the Last Day, the angels, the Book, and the prophets.', 'Surah al-Baqarah 2:177', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p3', 'six-pillars--what-is-iman', 'hadith', 'الإِيمَانُ بِضْعٌ وَسَبْعُونَ شُعْبَةً، فَأَفْضَلُهَا قَوْلُ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ', 'Iman is seventy-odd branches: the highest of them is the statement ''none has the right to be worshipped except Allah'', the lowest is removing something harmful from the road, and modesty is a branch of iman.', 'Sahih Muslim #35', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--what-is-iman', 'six-pillars--what-is-iman', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'What Is Iman? Definition and the Six Pillars');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--allah-and-the-angels', 'six-pillars', 'allah-and-the-angels', 'Belief in Allah and Belief in the Angels', '**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--what-is-iman', 'six-pillars--what-is-iman', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Iman (Faith)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--allah-and-the-angels', 'six-pillars', 'allah-and-the-angels', 'Belief in Allah and the Angels', '**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
 Whoever denies any of the six pillars, such as believing in Allah while rejecting the angels or the decree, has strayed far by the text of this ayah. Iman is only accepted whole.
 
-**The angels** are a created world of Allah''s servants, made from light, who never disobey Him. They are not divine, not Allah''s daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika''il with rain, Israfil with the Horn, the recorders over every person, and the angel of death. Allah describes their perfect obedience:
+**The angels** are a created world of Allah''s servants, made from light, who never disobey Him. They are not divine, not Allah''s daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika''il with rain, Israfil with the Horn, the recorders over every person, and the angel of death.
+
+Allah the Almighty describes their perfect obedience:
 
 [[proof:2]]
 
-Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue. Allah the Exalted said: “Not a word does he utter except that with him is an observer prepared” (Surah Qaf 50:18).
+Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue.
+
+Allah the Exalted said:
+
+[[proof:4]]
+
+Aisha (may Allah be pleased with her) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:3]]', 2, 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Pillars of Islam and Iman', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on belief in Allah and the angels."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p1', 'six-pillars--allah-and-the-angels', 'quran', 'يَا أَيُّهَا الَّذِينَ آمَنُوا آمِنُوا بِاللَّهِ وَرَسُولِهِ وَالْكِتَابِ الَّذِي نَزَّلَ عَلَىٰ رَسُولِهِ وَالْكِتَابِ الَّذِي أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا', 'O you who believe, believe in Allah and His Messenger and the Book He sent down upon His Messenger and the Book He sent down before. And whoever disbelieves in Allah, His angels, His books, His messengers, and the Last Day has certainly gone far astray.', 'Surah an-Nisa 4:136', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p2', 'six-pillars--allah-and-the-angels', 'quran', 'لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ', 'They do not disobey Allah in what He commands them, and they do what they are commanded.', 'Surah at-Tahrim 66:6', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p3', 'six-pillars--allah-and-the-angels', 'hadith', 'خُلِقَتِ الْمَلاَئِكَةُ مِنْ نُورٍ، وَخُلِقَ الْجَانُّ مِنْ مَارِجٍ مِنْ نَارٍ، وَخُلِقَ آدَمُ مِمَّا وُصِفَ لَكُمْ', 'The angels were created from light, the jinn were created from a smokeless flame of fire, and Adam was created from that which has been described to you.', 'Sahih Muslim #2996', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--allah-and-the-angels', 'six-pillars--allah-and-the-angels', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in Allah and Belief in the Angels');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p4', 'six-pillars--allah-and-the-angels', 'quran', 'مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ', 'Not a word does he utter except that with him is an observer prepared.', 'Surah Qaf 50:18', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--allah-and-the-angels', 'six-pillars--allah-and-the-angels', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in Allah and the Angels');
 insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--books-and-messengers', 'six-pillars', 'books-and-messengers', 'Belief in the Books and the Messengers', 'Allah did not leave His creation without guidance. He sent **messengers** to every nation and sent down **books** with them, so that no one may stand before Him on the Day of Judgment with an excuse:
 
 [[proof:1]]
@@ -245,26 +298,39 @@ insert into public.proofs (id, lesson_id, type, arabic_text, english_translation
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--books-and-messengers--p2', 'six-pillars--books-and-messengers', 'quran', 'وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ', 'And We did not send any messenger before you except that We revealed to him: none has the right to be worshipped except Me, so worship Me.', 'Surah al-Anbiya 21:25', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--books-and-messengers--p3', 'six-pillars--books-and-messengers', 'quran', 'مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ', 'Muhammad is not the father of any of your men, but the Messenger of Allah and the seal of the prophets.', 'Surah al-Ahzab 33:40', 3);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--books-and-messengers', 'six-pillars--books-and-messengers', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Books and the Messengers');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--last-day-and-qadar', 'six-pillars', 'last-day-and-qadar', 'The Last Day and al-Qadar: The Decree', '**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire, forever. The reckoning covers even an atom''s weight:
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--last-day-and-qadar', 'six-pillars', 'last-day-and-qadar', 'The Last Day and al-Qadar (The Decree)', '**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire, forever. The reckoning covers even an atom''s weight:
 
 [[proof:1]]
 
 Whoever is certain of this Day watches himself in secret as he does in public. For this reason the Quran often joins belief in Allah to belief in the Last Day.
 
-The sixth pillar is **al-qadar**: that Allah''s knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it:
+The sixth pillar is **al-qadar**: that Allah''s knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
+And Abdullah ibn Amr ibn al-As (may Allah be pleased with them) narrated that the Messenger of Allah ﷺ said:
+
 [[proof:3]]
 
-Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you. Allah the Exalted said: “No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being... so that you not despair over what has escaped you, nor exult over what He has given you” (Surah al-Hadid 57:22-23). The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.', 4, 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Pillars of Islam and Iman', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the Last Day and al-qadar."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.');
+Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you.
+
+Allah the Exalted said:
+
+[[proof:4]]
+
+The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.', 4, 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Pillars of Islam and Iman', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the Last Day and al-qadar."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p1', 'six-pillars--last-day-and-qadar', 'quran', 'فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ ۝ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ', 'So whoever does an atom''s weight of good will see it, and whoever does an atom''s weight of evil will see it.', 'Surah az-Zalzalah 99:7-8', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p2', 'six-pillars--last-day-and-qadar', 'quran', 'إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ', 'Indeed, all things We created with a decree.', 'Surah al-Qamar 54:49', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p3', 'six-pillars--last-day-and-qadar', 'hadith', 'كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ', 'Allah wrote the decrees of the creation fifty thousand years before He created the heavens and the earth.', 'Sahih Muslim #2653', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--last-day-and-qadar', 'six-pillars--last-day-and-qadar', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Last Day and al-Qadar: The Decree');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--four-matters', 'usul-al-thalathah', 'four-matters', 'Introduction: The Four Matters and the Three Questions', '**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim, young or old, would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p4', 'six-pillars--last-day-and-qadar', 'quran', 'مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ ۝ لِّكَيْلَا تَأْسَوْا عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا بِمَا آتَاكُمْ', 'No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy — so that you not despair over what has escaped you, nor exult over what He has given you.', 'Surah al-Hadid 57:22-23', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-six-pillars--last-day-and-qadar', 'six-pillars--last-day-and-qadar', 'https://www.youtube.com/watch?v=cDSfVWEB49Q', 'The Pillars of Islam and Iman', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Last Day and al-Qadar (The Decree)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--four-matters', 'usul-al-thalathah', 'four-matters', 'The Four Matters', '**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim, young or old, would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
 
-Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da''wah**: inviting to it; and (4) **patience** upon the harm that comes in its path. His proof for these four matters is Surah al-Asr:
+Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da''wah**: inviting to it; and (4) **patience** upon the harm that comes in its path.
+
+His proof for these four matters is the statement of Allah the Exalted in Surah al-Asr:
 
 [[proof:1]]
 
@@ -277,20 +343,24 @@ The author then cites the position of Imam al-Bukhari, who titled a chapter of h
 The order in the ayah is: know, then seek forgiveness. Knowledge comes first, and action follows it. This library proceeds upon the same order. In the next three lessons we take the three principles one by one.', 1, 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Shaykh Haytham Sarhan', 'Thalathah Al-Usul — Full Explanation', '[{"title":"Explanation of the Three Fundamental Principles","pdfUrl":"https://drive.google.com/file/d/1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub/view","author":"Explained by Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"The primary text for this module. Read the matn before each lesson."}]'::jsonb, 'A lesson-by-lesson study of Thalathat al-Usul by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--four-matters--p1', 'usul-al-thalathah--four-matters', 'quran', 'وَالْعَصْرِ ۝ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ ۝ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ', 'By time. Indeed, mankind is in loss — except those who believe, do righteous deeds, counsel one another with the truth, and counsel one another with patience.', 'Surah al-''Asr 103:1-3', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--four-matters--p2', 'usul-al-thalathah--four-matters', 'quran', 'فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ وَاسْتَغْفِرْ لِذَنبِكَ وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ', 'So know that none has the right to be worshipped except Allah, and seek forgiveness for your sin and for the believing men and believing women.', 'Surah Muhammad 47:19', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--four-matters', 'usul-al-thalathah--four-matters', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'Introduction: The Four Matters and the Three Questions');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--who-is-your-lord', 'usul-al-thalathah', 'who-is-your-lord', 'The First Principle: Who Is Your Lord?', 'The author writes: *If it is said to you, “Who is your Lord?”, then say: My Lord is **Allah**, who has nurtured me and nurtured all the worlds with His blessings. He is my object of worship; I have no object of worship besides Him.* The word **Rabb** (Lord) carries all of this: the Creator, the Owner, the Provider, the One who manages every affair of every creature.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--four-matters', 'usul-al-thalathah--four-matters', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The Four Matters');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--who-is-your-lord', 'usul-al-thalathah', 'who-is-your-lord', 'The First Principle (Who Is Your Lord?)', 'The author writes: *If it is said to you, “Who is your Lord?”, then say: My Lord is **Allah**, who has nurtured me and nurtured all the worlds with His blessings. He is my object of worship; I have no object of worship besides Him.* The word **Rabb** (Lord) carries all of this: the Creator, the Owner, the Provider, the One who manages every affair of every creature.
 
 His proof is the first ayah a Muslim recites in every prayer:
 
 [[proof:1]]
 
-How does a person come to know his Lord? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them. The Quran points to this:
+How does a person come to know his Lord? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them.
+
+Allah the Most High said:
 
 [[proof:2]]
 
 The end of that ayah forbids prostrating to the sun and the moon, for they are created things; prostration is for the One who created them. So reflection (**tadabbur**) upon creation is an act of worship, and a Muslim''s creed is not built upon blind imitation.
 
-The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs, as even the pagans of Makkah did, must accept what follows from it:
+The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs, as even the pagans of Makkah did, must accept what follows from it.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -298,14 +368,18 @@ Being nurtured by Him and owned by Him obligates worshipping Him alone. This lin
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-lord--p1', 'usul-al-thalathah--who-is-your-lord', 'quran', 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', 'All praise is due to Allah, Lord of the worlds.', 'Surah al-Fatiha 1:2', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-lord--p2', 'usul-al-thalathah--who-is-your-lord', 'quran', 'وَمِنْ آيَاتِهِ اللَّيْلُ وَالنَّهَارُ وَالشَّمْسُ وَالْقَمَرُ ۚ لَا تَسْجُدُوا لِلشَّمْسِ وَلَا لِلْقَمَرِ وَاسْجُدُوا لِلَّهِ الَّذِي خَلَقَهُنَّ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ', 'And among His signs are the night and the day and the sun and the moon. Do not prostrate to the sun or to the moon, but prostrate to Allah who created them, if it is Him you worship.', 'Surah Fussilat 41:37', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-lord--p3', 'usul-al-thalathah--who-is-your-lord', 'quran', 'يَا أَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ وَالَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ', 'O mankind, worship your Lord who created you and those before you, that you may attain taqwa.', 'Surah al-Baqarah 2:21', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--who-is-your-lord', 'usul-al-thalathah--who-is-your-lord', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The First Principle: Who Is Your Lord?');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--what-is-your-religion', 'usul-al-thalathah', 'what-is-your-religion', 'The Second Principle: What Is Your Religion?', 'The author writes: *The religion of Islam is: **submitting to Allah with tawheed, yielding to Him with obedience, and freeing oneself from shirk and its people.*** Memorize this three-part definition. Submission alone is not enough; it must be submission built on tawheed, expressed in obedience, and completed by freeing oneself from shirk and its people.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--who-is-your-lord', 'usul-al-thalathah--who-is-your-lord', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The First Principle (Who Is Your Lord?)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--what-is-your-religion', 'usul-al-thalathah', 'what-is-your-religion', 'The Second Principle (What Is Your Religion?)', 'The author writes: *The religion of Islam is: **submitting to Allah with tawheed, yielding to Him with obedience, and freeing oneself from shirk and its people.*** Memorize this three-part definition. Submission alone is not enough; it must be submission built on tawheed, expressed in obedience, and completed by freeing oneself from shirk and its people.
 
-This religion is the only one Allah will accept from anyone, and whoever seeks another path will find it rejected:
+This religion is the only one Allah will accept from anyone.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan**. Each level is higher than the one before, and each was defined by the Prophet ﷺ in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion:
+The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan**. Each level is higher than the one before, and each was defined by the Prophet ﷺ in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion.
+
+In the hadith of Jibreel, narrated by Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ defined Ihsan:
 
 [[proof:2]]
 
@@ -314,20 +388,26 @@ The author then divides the religion into **three levels**: Islam, Iman, and **I
 These levels give the believer something to strive toward. He moves from doing what is obligatory, to leaving the doubtful, to watchfulness of Allah in every moment. So study, and intend by your study to rise through these levels.', 3, 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Shaykh Haytham Sarhan', 'Thalathah Al-Usul — Full Explanation', '[{"title":"Explanation of the Three Fundamental Principles","pdfUrl":"https://drive.google.com/file/d/1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub/view","author":"Explained by Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"Covers the definition of Islam and its three levels."}]'::jsonb, 'Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--what-is-your-religion--p1', 'usul-al-thalathah--what-is-your-religion', 'quran', 'وَمَن يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَاسِرِينَ', 'And whoever seeks a religion other than Islam, it will never be accepted from him, and in the Hereafter he will be among the losers.', 'Surah Aal Imran 3:85', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--what-is-your-religion--p2', 'usul-al-thalathah--what-is-your-religion', 'hadith', 'أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ', '[Ihsan is] that you worship Allah as though you see Him; and if you do not see Him, then indeed He sees you.', 'Sahih Muslim #8 (the hadith of Jibreel)', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--what-is-your-religion', 'usul-al-thalathah--what-is-your-religion', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The Second Principle: What Is Your Religion?');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--who-is-your-prophet', 'usul-al-thalathah', 'who-is-your-prophet', 'The Third Principle: Who Is Your Prophet ﷺ?', 'The third principle is knowing your Prophet: **Muhammad ibn Abdillah ibn Abd al-Muttalib ibn Hashim**, of Quraysh, of the Arabs, of the descendants of Isma''il son of Ibrahim ﷺ. He lived sixty-three years: forty before prophethood, and twenty-three as a prophet and messenger. He was raised an orphan in Makkah, known among his people, before any revelation, as **al-Amin**, the trustworthy.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--what-is-your-religion', 'usul-al-thalathah--what-is-your-religion', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The Second Principle (What Is Your Religion?)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--who-is-your-prophet', 'usul-al-thalathah', 'who-is-your-prophet', 'The Third Principle (Who Is Your Prophet ﷺ?)', 'The third principle is knowing your Prophet: **Muhammad ibn Abdillah ibn Abd al-Muttalib ibn Hashim**, of Quraysh, of the Arabs, of the descendants of Isma''il son of Ibrahim ﷺ. He lived sixty-three years: forty before prophethood, and twenty-three as a prophet and messenger. He was raised an orphan in Makkah, known among his people, before any revelation, as **al-Amin**, the trustworthy.
 
-Prophethood began with *Iqra* (Surah al-''Alaq), and messengership, the command to warn, came with al-Muddaththir:
+Prophethood began with *Iqra* (Surah al-''Alaq), and messengership, the command to warn, came with al-Muddaththir.
+
+Allah the Most High said:
 
 [[proof:1]]
 
 For thirteen years in Makkah he called to tawheed and warned against shirk before most legislation existed; the prayer was enjoined near the end of the Makkan period, on the night of the Mi''raj. The scholars take from this order that creed is rectified before rules, and this curriculum follows the same order. After the hijrah to Madinah the remaining laws descended: zakah, fasting, hajj, and the rest.
 
-His message was not to his tribe or his era. It seals prophethood and reaches every human and jinn until the Hour:
+His message seals prophethood and reaches every human and jinn until the Hour.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
-Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone, for obedience to the Messenger is obedience to the One who sent him:
+Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone, for obedience to the Messenger is obedience to the One who sent him.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -335,18 +415,24 @@ With this, the three principles are complete: your Lord, your religion, and your
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-prophet--p1', 'usul-al-thalathah--who-is-your-prophet', 'quran', 'يَا أَيُّهَا الْمُدَّثِّرُ ۝ قُمْ فَأَنذِرْ ۝ وَرَبَّكَ فَكَبِّرْ ۝ وَثِيَابَكَ فَطَهِّرْ ۝ وَالرُّجْزَ فَاهْجُرْ', 'O you wrapped in a cloak: arise and warn, and magnify your Lord, and purify your garments, and shun the idols.', 'Surah al-Muddaththir 74:1-5', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-prophet--p2', 'usul-al-thalathah--who-is-your-prophet', 'quran', 'وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِّلنَّاسِ بَشِيرًا وَنَذِيرًا', 'And We have not sent you except to all of mankind, as a bringer of good tidings and a warner.', 'Surah Saba 34:28', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-thalathah--who-is-your-prophet--p3', 'usul-al-thalathah--who-is-your-prophet', 'quran', 'مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ', 'Whoever obeys the Messenger has obeyed Allah.', 'Surah an-Nisa 4:80', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--who-is-your-prophet', 'usul-al-thalathah--who-is-your-prophet', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The Third Principle: Who Is Your Prophet ﷺ?');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--rububiyyah', 'categories-of-tawheed', 'rububiyyah', 'Tawheed ar-Rububiyyah: Oneness of Lordship', '**Tawheed ar-Rububiyyah** is singling out Allah in His actions: He alone creates, He alone provides, He alone gives life and death, and He alone manages the affairs of the heavens and the earth. No atom moves except by His permission.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-thalathah--who-is-your-prophet', 'usul-al-thalathah--who-is-your-prophet', 'https://www.youtube.com/watch?v=wt15FdZZ9GY', 'Thalathah Al-Usul — Full Explanation', 'Shaykh Haytham Sarhan', 'The Third Principle (Who Is Your Prophet ﷺ?)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--rububiyyah', 'categories-of-tawheed', 'rububiyyah', 'Tawheed ar-Rububiyyah (Lordship)', '**Tawheed ar-Rububiyyah** is singling out Allah in His actions: He alone creates, He alone provides, He alone gives life and death, and He alone manages the affairs of the heavens and the earth. No atom moves except by His permission.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-This category of tawheed is planted in human nature (**fitrah**). Almost no nation in history denied it outright. Even the idol-worshippers of Makkah admitted that the Creator and Provider is Allah alone:
+This category of tawheed is planted in human nature (**fitrah**). Almost no nation in history denied it outright. Even the idol-worshippers of Makkah admitted that the Creator and Provider is Allah alone.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
 But affirming rububiyyah **did not enter those people into Islam**. The Quran testifies that they affirmed the Creator while directing prayer, sacrifice and hope to others besides Him, and it names that shirk. Believing only that God exists and created the world is a belief the mushrikun of every age shared.
 
-So why does the Quran argue from rububiyyah so often? Because it is the *premise* Allah uses against them: if you admit He alone creates and provides, how do you justify worshipping what creates nothing?
+The Quran uses this affirmation as a proof against them: the One who alone creates and provides is alone entitled to worship.
+
+Allah the Exalted said:
 
 [[proof:3]]
 
@@ -354,8 +440,8 @@ Rububiyyah obligates uluhiyyah: whoever affirms that Allah alone creates and pro
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--rububiyyah--p1', 'categories-of-tawheed--rububiyyah', 'quran', 'اللَّهُ خَالِقُ كُلِّ شَيْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ', 'Allah is the Creator of all things, and He is, over all things, Disposer of affairs.', 'Surah az-Zumar 39:62', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--rububiyyah--p2', 'categories-of-tawheed--rububiyyah', 'quran', 'وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ اللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ', 'And if you asked them who created them, they would surely say, ''Allah.'' So how are they deluded away [from the truth]?', 'Surah az-Zukhruf 43:87', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--rububiyyah--p3', 'categories-of-tawheed--rububiyyah', 'quran', 'أَفَمَن يَخْلُقُ كَمَن لَّا يَخْلُقُ ۗ أَفَلَا تَذَكَّرُونَ', 'Is He who creates like one who does not create? Will you not then be reminded?', 'Surah an-Nahl 16:17', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--rububiyyah', 'categories-of-tawheed--rububiyyah', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Tawheed ar-Rububiyyah: Oneness of Lordship');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--uluhiyyah', 'categories-of-tawheed', 'uluhiyyah', 'Tawheed al-Uluhiyyah: Oneness of Worship', '**Tawheed al-Uluhiyyah**, also called tawheed al-''ibadah, is singling out Allah with the actions of the servants: du''a (supplication), fear, hope, reliance, sacrifice, vows, prostration, and every act of worship, inward or outward. This is the tawheed contained in *La ilaha illa Allah*, the tawheed the messengers were sent for, and the tawheed over which mankind divided.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--rububiyyah', 'categories-of-tawheed--rububiyyah', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Tawheed ar-Rububiyyah (Lordship)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--uluhiyyah', 'categories-of-tawheed', 'uluhiyyah', 'Tawheed al-Uluhiyyah (Worship)', '**Tawheed al-Uluhiyyah**, also called tawheed al-''ibadah, is singling out Allah with the actions of the servants: du''a (supplication), fear, hope, reliance, sacrifice, vows, prostration, and every act of worship, inward or outward. This is the tawheed contained in *La ilaha illa Allah*, the tawheed the messengers were sent for, and the tawheed over which mankind divided.
 
 Allah states the purpose of creation in one ayah:
 
@@ -363,11 +449,15 @@ Allah states the purpose of creation in one ayah:
 
 **What is worship (''ibadah)?** Shaykh al-Islam Ibn Taymiyyah gave the definition the scholars still use: *a comprehensive term for everything Allah loves and is pleased with, of statements and actions, inward and outward.* Under this definition falls du''a, fear, hope, charity, and prostration. Directing any of it to other than Allah is shirk.
 
-The right this tawheed represents is the very first right owed by any human being. In the hadith of Mu''adh, the Prophet ﷺ asked: *Do you know what is the right of Allah upon His servants?*, then answered:
+The right this tawheed represents is the first right owed by any human being.
+
+Mu''adh ibn Jabal (may Allah be pleased with him) narrated that the Prophet ﷺ asked him, *Do you know what is the right of Allah upon His servants?*, then answered:
 
 [[proof:2]]
 
-Weigh every practice against this category. Supplicating to a buried saint for a child, sacrificing to a jinn for protection, wearing an amulet while relying upon it: each of these directs worship to a creature. Allah stated this exclusivity in the ayah every Muslim recites at least seventeen times a day:
+Weigh every practice against this category. Supplicating to a buried saint for a child, sacrificing to a jinn for protection, wearing an amulet while relying upon it: each of these directs worship to a creature.
+
+Allah stated this exclusivity in the ayah every Muslim recites at least seventeen times a day:
 
 [[proof:3]]
 
@@ -375,12 +465,16 @@ Weigh every practice against this category. Supplicating to a buried saint for a
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--uluhiyyah--p1', 'categories-of-tawheed--uluhiyyah', 'quran', 'وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ', 'And I did not create the jinn and mankind except to worship Me.', 'Surah adh-Dhariyat 51:56', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--uluhiyyah--p2', 'categories-of-tawheed--uluhiyyah', 'hadith', 'حَقُّ اللَّهِ عَلَى الْعِبَادِ أَنْ يَعْبُدُوهُ وَلاَ يُشْرِكُوا بِهِ شَيْئًا', 'The right of Allah upon the servants is that they worship Him and do not associate anything with Him.', 'Sahih al-Bukhari #2856; Sahih Muslim #30', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--uluhiyyah--p3', 'categories-of-tawheed--uluhiyyah', 'quran', 'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ', 'You alone we worship, and You alone we ask for help.', 'Surah al-Fatiha 1:5', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--uluhiyyah', 'categories-of-tawheed--uluhiyyah', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Tawheed al-Uluhiyyah: Oneness of Worship');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--asma-wa-sifat', 'categories-of-tawheed', 'asma-wa-sifat', 'Tawheed al-Asma wa''s-Sifat: Names and Attributes', '**Tawheed al-Asma wa''s-Sifat** is believing in every name Allah named Himself with and every attribute He described Himself with, in His Book or on the tongue of His Messenger ﷺ, affirming them as they came, in the manner that befits His majesty. Allah commanded us to call on Him by them:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--uluhiyyah', 'categories-of-tawheed--uluhiyyah', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Tawheed al-Uluhiyyah (Worship)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--asma-wa-sifat', 'categories-of-tawheed', 'asma-wa-sifat', 'Al-Asma wa''s-Sifat (Names and Attributes)', '**Tawheed al-Asma wa''s-Sifat** is believing in every name Allah named Himself with and every attribute He described Himself with, in His Book or on the tongue of His Messenger ﷺ, affirming them as they came, in the manner that befits His majesty.
+
+Allah commanded us to call on Him by them:
 
 [[proof:1]]
 
-The manhaj of Ahlus Sunnah here stands on one golden ayah, which contains both a negation and an affirmation:
+The manhaj of Ahlus Sunnah stands upon one ayah, which contains both a negation and an affirmation.
+
+Allah the Most High said:
 
 [[proof:2]]
 
@@ -388,7 +482,9 @@ The manhaj of Ahlus Sunnah here stands on one golden ayah, which contains both a
 
 Precision matters here, because the deviant sects erred in this matter: some denied the attributes, and others likened Allah to His creation. Ahlus Sunnah remain upon the path of the Companions: reading the texts, affirming what they state, and leaving the *how* to Allah.
 
-Knowing the names bears fruit in worship:
+Knowing the names bears fruit in worship.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -396,18 +492,22 @@ Knowing the names bears fruit in worship:
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--asma-wa-sifat--p1', 'categories-of-tawheed--asma-wa-sifat', 'quran', 'وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا ۖ وَذَرُوا الَّذِينَ يُلْحِدُونَ فِي أَسْمَائِهِ', 'And to Allah belong the most beautiful names, so call on Him by them, and leave those who deviate concerning His names.', 'Surah al-A''raf 7:180', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--asma-wa-sifat--p2', 'categories-of-tawheed--asma-wa-sifat', 'quran', 'لَيْسَ كَمِثْلِهِ شَيْءٌ ۖ وَهُوَ السَّمِيعُ الْبَصِيرُ', 'There is nothing like Him, and He is the Hearing, the Seeing.', 'Surah ash-Shura 42:11', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--asma-wa-sifat--p3', 'categories-of-tawheed--asma-wa-sifat', 'hadith', 'إِنَّ لِلَّهِ تِسْعَةً وَتِسْعِينَ اسْمًا، مِائَةً إِلاَّ وَاحِدًا، مَنْ أَحْصَاهَا دَخَلَ الْجَنَّةَ', 'Allah has ninety-nine names — one hundred less one. Whoever enumerates them enters Paradise.', 'Sahih al-Bukhari #2736; Sahih Muslim #2677', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--asma-wa-sifat', 'categories-of-tawheed--asma-wa-sifat', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Tawheed al-Asma wa''s-Sifat: Names and Attributes');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--shirk', 'categories-of-tawheed', 'what-nullifies-tawheed', 'What Nullifies Tawheed: Shirk and Its Categories', 'Having learned what tawheed is, you must learn what destroys it. **Shirk**, associating partners with Allah in what belongs to Him alone, is the greatest sin with which Allah is disobeyed. It is the one sin Allah says He will not forgive if a person dies upon it without repentance:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--asma-wa-sifat', 'categories-of-tawheed--asma-wa-sifat', 'https://www.youtube.com/watch?v=8mL4qaGY5yQ', '3 Types of Tawheed in Detail', 'Shaykh Salih al-Fawzan', 'Al-Asma wa''s-Sifat (Names and Attributes)');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('categories-of-tawheed--shirk', 'categories-of-tawheed', 'what-nullifies-tawheed', 'Shirk and Its Categories', 'Having learned what tawheed is, you must learn what destroys it. **Shirk**, associating partners with Allah in what belongs to Him alone, is the greatest sin with which Allah is disobeyed. It is the one sin Allah says He will not forgive if a person dies upon it without repentance.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-The scholars divide it into **major shirk** (ash-shirk al-akbar) and **minor shirk** (ash-shirk al-asghar). Major shirk expels a person from Islam entirely: directing worship (du''a, sacrifice, prostration, complete love or reliance) to other than Allah. It is the shirk of the one who calls upon the dead for rescue, or believes a creature controls benefit and harm independently. Luqman''s counsel to his son names its gravity:
+The scholars divide it into **major shirk** (ash-shirk al-akbar) and **minor shirk** (ash-shirk al-asghar). Major shirk expels a person from Islam entirely: directing worship (du''a, sacrifice, prostration, complete love or reliance) to other than Allah. It is the shirk of the one who calls upon the dead for rescue, or believes a creature controls benefit and harm independently.
+
+Allah the Almighty related the counsel of Luqman to his son:
 
 [[proof:2]]
 
 Minor shirk does not expel a person from the religion, but it diminishes the perfection of tawheed, and it is more hidden. Its chief example is **riya**: beautifying worship because people are watching. The Prophet ﷺ feared it for the best generation, calling it “the hidden shirk”; swearing by other than Allah is another example he named.
 
-The stakes could not be stated more plainly than in his ﷺ own words:
+Abdullah ibn Mas''ud (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -415,26 +515,34 @@ Guard against both kinds with knowledge and du''a. The Salaf would supplicate: *
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--shirk--p1', 'categories-of-tawheed--shirk', 'quran', 'إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ', 'Indeed, Allah does not forgive that partners be associated with Him, but He forgives what is less than that for whom He wills.', 'Surah an-Nisa 4:48', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--shirk--p2', 'categories-of-tawheed--shirk', 'quran', 'يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ ۖ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ', 'O my son, do not associate anything with Allah. Indeed, shirk is a tremendous injustice.', 'Surah Luqman 31:13', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('categories-of-tawheed--shirk--p3', 'categories-of-tawheed--shirk', 'hadith', 'مَنْ مَاتَ وَهُوَ يَدْعُو مِنْ دُونِ اللَّهِ نِدًّا دَخَلَ النَّارَ', 'Whoever dies while calling upon a rival besides Allah enters the Fire.', 'Sahih al-Bukhari #4497', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--shirk', 'categories-of-tawheed--shirk', 'https://www.youtube.com/watch?v=xSK94KMy_ec', 'The Categories of Shirk and Which One Exits You from Islam', 'Shaykh Salih al-Fawzan', 'What Nullifies Tawheed: Shirk and Its Categories');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--first-principle', 'qawaid-al-arba', 'first-principle', 'Introduction and the First Principle', '**Al-Qawa''id al-Arba''** (The Four Principles) is a short text on shirk, barely a page, yet it removes the most common confusions about it. The author opens with a du''a for the reader: *I ask Allah, the Generous, Lord of the Great Throne, to befriend you in this world and the next, to make you blessed wherever you are, and to make you of those who when given are grateful, when tested are patient, and when they sin seek forgiveness, for these three are the signs of happiness.*
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-categories-of-tawheed--shirk', 'categories-of-tawheed--shirk', 'https://www.youtube.com/watch?v=xSK94KMy_ec', 'The Categories of Shirk and Which One Exits You from Islam', 'Shaykh Salih al-Fawzan', 'Shirk and Its Categories');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--first-principle', 'qawaid-al-arba', 'first-principle', 'The First Principle', '**Al-Qawa''id al-Arba''** (The Four Principles) is a short text on shirk, barely a page, yet it removes the most common confusions about it. The author opens with a du''a for the reader: *I ask Allah, the Generous, Lord of the Great Throne, to befriend you in this world and the next, to make you blessed wherever you are, and to make you of those who when given are grateful, when tested are patient, and when they sin seek forgiveness, for these three are the signs of happiness.*
 
 He then reminds the reader that the **hanifiyyah**, the way of Ibrahim, is to worship Allah alone, making the religion sincerely for Him, and he cites the ayah of adh-Dhariyat 51:56, which you studied in the last module.
 
-**The First Principle:** the disbelievers whom the Messenger of Allah ﷺ fought *affirmed* that Allah is the Creator, the Provider, and the Disposer of affairs, and this affirmation did not enter them into Islam. The proof:
+**The First Principle:** the disbelievers whom the Messenger of Allah ﷺ fought *affirmed* that Allah is the Creator, the Provider, and the Disposer of affairs, and this affirmation did not enter them into Islam.
+
+The proof is the statement of Allah the Exalted:
 
 [[proof:1]]
 
 This principle means the dividing line between tawheed and shirk was never whether a Creator exists; almost everyone affirms that. The dividing line is: whom do you worship? Whom do you call upon, slaughter for, hope in, and prostrate to?
+
+Allah the Most High said:
 
 [[proof:2]]
 
 If belief in lordship alone saved a person, the Quraysh would have needed no messenger. So shirk is not a problem only for those who deny God. The second principle examines the excuse the mushrikun gave.', 1, 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'Shaykh Salih al-Fawzan', 'The Importance of the Four Principles', '[{"title":"The Four Principles (with explanation)","pdfUrl":"https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"A single-sitting matn; read it whole before this module."}]'::jsonb, 'An introductory breakdown of al-Qawa''id al-Arba'' of Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--first-principle--p1', 'qawaid-al-arba--first-principle', 'quran', 'قُلْ مَن يَرْزُقُكُم مِّنَ السَّمَاءِ وَالْأَرْضِ أَمَّن يَمْلِكُ السَّمْعَ وَالْأَبْصَارَ وَمَن يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَمَن يُدَبِّرُ الْأَمْرَ ۚ فَسَيَقُولُونَ اللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ', 'Say: who provides for you from the heaven and the earth? Or who controls hearing and sight? And who brings the living out of the dead and the dead out of the living? And who disposes of every affair? They will say, ''Allah.'' So say: will you not then fear Him?', 'Surah Yunus 10:31', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--first-principle--p2', 'qawaid-al-arba--first-principle', 'quran', 'وَمَا يُؤْمِنُ أَكْثَرُهُم بِاللَّهِ إِلَّا وَهُم مُّشْرِكُونَ', 'And most of them do not believe in Allah except while they associate others with Him.', 'Surah Yusuf 12:106', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--first-principle', 'qawaid-al-arba--first-principle', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'Introduction and the First Principle');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--second-and-third', 'qawaid-al-arba', 'second-and-third-principles', 'The Second and Third Principles: ''Nearness'' and ''Intercession''', '**The Second Principle** answers the excuse the mushrikun themselves offered. They did not say “our idols created us.” They said: we only worship them *to draw near* to Allah, and *to intercede* for us with Him. The Quran records their own words:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--first-principle', 'qawaid-al-arba--first-principle', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'The First Principle');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--second-and-third', 'qawaid-al-arba', 'second-and-third-principles', 'The Second and Third Principles', '**The Second Principle** answers the excuse the mushrikun themselves offered. They did not say “our idols created us.” They said: we only worship them *to draw near* to Allah, and *to intercede* for us with Him.
+
+The Quran records their own words. Allah the Most Exalted said:
 
 [[proof:1]]
+
+And Allah the Almighty said:
 
 [[proof:2]]
 
@@ -442,20 +550,26 @@ Allah names this claim shirk and rules upon it: “Allah will judge between them
 
 **The Third Principle:** the Prophet ﷺ appeared among people whose objects of worship differed: some worshipped angels, some the prophets and righteous people, some trees and stones, and some the sun and the moon. He called all of them to the same tawheed, making no distinction between the one who venerated an idol and the one who venerated a righteous man. The religion did not treat the worship of a righteous person as a lighter case. The first shirk on earth, in the people of Nuh, began with exaggerated veneration of dead righteous men (Wadd, Suwa'', Yaghuth, Ya''uq and Nasr, as Ibn Abbas explained in Sahih al-Bukhari #4920).
 
+Allah the Most High said:
+
 [[proof:3]]
 
 The lesson: shirk is judged by the act directed to other than Allah, not by the rank of the one it is directed to. Whether an angel, a prophet, or a saint, the nobility of the recipient does not make worship of him permissible.', 2, 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'Shaykh Salih al-Fawzan', 'The Importance of the Four Principles', '[{"title":"The Four Principles (with explanation)","pdfUrl":"https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"Covers the shubuhat (doubts) of nearness and intercession."}]'::jsonb, 'Summarized from the explanation of Shaykh Haytham Sarhan on al-Qawa''id al-Arba''.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--second-and-third--p1', 'qawaid-al-arba--second-and-third', 'quran', 'وَالَّذِينَ اتَّخَذُوا مِن دُونِهِ أَوْلِيَاءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَا إِلَى اللَّهِ زُلْفَىٰ', 'And those who take protectors besides Him [say]: ''We only worship them that they may bring us nearer to Allah in position.''', 'Surah az-Zumar 39:3', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--second-and-third--p2', 'qawaid-al-arba--second-and-third', 'quran', 'وَيَعْبُدُونَ مِن دُونِ اللَّهِ مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَيَقُولُونَ هَٰؤُلَاءِ شُفَعَاؤُنَا عِندَ اللَّهِ', 'And they worship besides Allah that which neither harms them nor benefits them, and they say: ''These are our intercessors with Allah.''', 'Surah Yunus 10:18', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--second-and-third--p3', 'qawaid-al-arba--second-and-third', 'quran', 'وَاسْأَلْ مَنْ أَرْسَلْنَا مِن قَبْلِكَ مِن رُّسُلِنَا أَجَعَلْنَا مِن دُونِ الرَّحْمَٰنِ آلِهَةً يُعْبَدُونَ', 'And ask those We sent before you of Our messengers: did We ever appoint gods to be worshipped besides the Most Merciful?', 'Surah az-Zukhruf 43:45', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--second-and-third', 'qawaid-al-arba--second-and-third', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'The Second and Third Principles: ''Nearness'' and ''Intercession''');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--fourth-principle', 'qawaid-al-arba', 'fourth-principle', 'The Fourth Principle: The Shirk of Ease and the Shirk of Hardship', '**The Fourth Principle:** the mushrikun of the Prophet''s ﷺ era called upon their idols and intermediaries in ease, but when the sea surrounded them and they feared drowning, they abandoned every partner and called upon Allah alone, sincere to Him in the religion:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--second-and-third', 'qawaid-al-arba--second-and-third', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'The Second and Third Principles');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('qawaid-al-arba--fourth-principle', 'qawaid-al-arba', 'fourth-principle', 'The Fourth Principle', '**The Fourth Principle:** the mushrikun of the Prophet''s ﷺ era called upon their idols and intermediaries in ease, but when the sea surrounded them and they feared drowning, they abandoned every partner and called upon Allah alone, sincere to Him in the religion.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
 Yet when He delivered them safely to shore, they returned to their partners. The author then compares them to the mushrikun of his own time, and it applies to whoever matches the description in any time: they invoke their intermediaries in ease and in hardship alike.
 
-The principle teaches you how the Quran evaluates religion: by **ikhlas** (exclusive devotion), the quality Allah demands in every state:
+The principle teaches you how the Quran evaluates religion: by **ikhlas** (exclusive devotion), the quality Allah demands in every state.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
@@ -464,10 +578,12 @@ Take the four principles together: (1) belief in lordship alone does not make a 
 With al-Qawa''id al-Arba'' complete, you have finished the Phase 1 aqeedah curriculum: the pillars of Islam and iman, the three fundamentals, the categories of tawheed, and the four principles concerning shirk. Take the module quiz, then, بإذن الله, the Refutations department and the rest of the library open from here. May Allah make your knowledge beneficial and your deeds righteous.', 3, 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'Shaykh Salih al-Fawzan', 'The Importance of the Four Principles', '[{"title":"The Four Principles (with explanation)","pdfUrl":"https://drive.google.com/file/d/1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan","url":"https://darussalam.com/","note":"The closing principle and its proof from Surah al-Ankabut."}]'::jsonb, 'Summarized from the explanation of Shaykh Haytham Sarhan on al-Qawa''id al-Arba''.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--fourth-principle--p1', 'qawaid-al-arba--fourth-principle', 'quran', 'فَإِذَا رَكِبُوا فِي الْفُلْكِ دَعَوُا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ فَلَمَّا نَجَّاهُمْ إِلَى الْبَرِّ إِذَا هُمْ يُشْرِكُونَ', 'And when they board a ship, they call upon Allah, making their religion sincerely His; but when He delivers them to the land, at once they associate others with Him.', 'Surah al-Ankabut 29:65', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('qawaid-al-arba--fourth-principle--p2', 'qawaid-al-arba--fourth-principle', 'quran', 'وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ', 'And they were not commanded except to worship Allah, making the religion sincerely His, inclining to truth.', 'Surah al-Bayyinah 98:5', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--fourth-principle', 'qawaid-al-arba--fourth-principle', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'The Fourth Principle: The Shirk of Ease and the Shirk of Hardship');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('nawaqid-al-islam--first-five', 'nawaqid-al-islam', 'first-five-nullifiers', 'What Nullifies Islam, and the First Five Nullifiers', 'A person can enter Islam with a sincere testimony and then do something that cancels it, as ablution is nullified by what breaks it. Shaykh Muhammad ibn Abd al-Wahhab gathered **ten nullifiers** (nawaqid) of Islam so that a Muslim would know them and stay far from them. This chapter is not for declaring others disbelievers; that is the work of the scholars, with its conditions and barriers. It is for **guarding your own Islam**, for knowing what destroys a thing is part of protecting it.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-qawaid-al-arba--fourth-principle', 'qawaid-al-arba--fourth-principle', 'https://www.youtube.com/watch?v=C97kF9uqatQ', 'The Importance of the Four Principles', 'Shaykh Salih al-Fawzan', 'The Fourth Principle');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('nawaqid-al-islam--first-five', 'nawaqid-al-islam', 'first-five-nullifiers', 'The First Five Nullifiers', 'A person can enter Islam with a sincere testimony and then do something that cancels it, as ablution is nullified by what breaks it. Shaykh Muhammad ibn Abd al-Wahhab gathered **ten nullifiers** (nawaqid) of Islam so that a Muslim would know them and stay far from them. This chapter is not for declaring others disbelievers; that is the work of the scholars, with its conditions and barriers. It is for **guarding your own Islam**, for knowing what destroys a thing is part of protecting it.
 
-**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship (du''a, sacrifice, a vow, complete reliance) to other than Allah nullifies Islam, because it contradicts the testimony a Muslim stands upon:
+**The First Nullifier: shirk in the worship of Allah.** Directing any act of worship (du''a, sacrifice, a vow, complete reliance) to other than Allah nullifies Islam, because it contradicts the testimony a Muslim stands upon.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
@@ -475,11 +591,15 @@ insert into public.lessons (id, module_id, slug, title, content_html, display_or
 
 **The Third Nullifier: whoever does not regard the mushrikun as disbelievers, or doubts their disbelief, or holds their way to be correct**, has himself disbelieved. To affirm *La ilaha illa Allah* is to negate the worship of all else, and whoever declares the worship of others a valid path has contradicted the testimony itself.
 
-**The Fourth Nullifier: whoever believes that some guidance other than the Prophet''s ﷺ is more complete, or that another''s ruling is better than his ﷺ ruling.** This includes the one who prefers man-made law over the judgement of the Messenger ﷺ, believing it superior. Allah ties iman itself to submitting to his judgement without resistance:
+**The Fourth Nullifier: whoever believes that some guidance other than the Prophet''s ﷺ is more complete, or that another''s ruling is better than his ﷺ ruling.** This includes the one who prefers man-made law over the judgement of the Messenger ﷺ, believing it superior.
+
+Allah ties iman itself to submitting to his ﷺ judgement:
 
 [[proof:2]]
 
-**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it, and this hatred of the revelation nullifies his Islam:
+**The Fifth Nullifier: whoever hates something the Messenger ﷺ came with, even if he acts upon it.** A person might perform a command outwardly while hating that Allah legislated it, and this hatred of the revelation nullifies his Islam.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -487,22 +607,30 @@ Each of these five nullifiers returns to the heart''s stance toward Allah and Hi
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('nawaqid-al-islam--first-five--p1', 'nawaqid-al-islam--first-five', 'quran', 'إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ', 'Indeed, Allah does not forgive that partners be associated with Him, but He forgives what is less than that for whom He wills.', 'Surah an-Nisa 4:48', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('nawaqid-al-islam--first-five--p2', 'nawaqid-al-islam--first-five', 'quran', 'فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا', 'But no, by your Lord, they will not believe until they make you judge concerning that which arises between them, then find within themselves no discomfort from what you have judged, and submit in full submission.', 'Surah an-Nisa 4:65', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('nawaqid-al-islam--first-five--p3', 'nawaqid-al-islam--first-five', 'quran', 'ذَٰلِكَ بِأَنَّهُمْ كَرِهُوا مَا أَنزَلَ اللَّهُ فَأَحْبَطَ أَعْمَالَهُمْ', 'That is because they hated what Allah revealed, so He rendered their deeds worthless.', 'Surah Muhammad 47:9', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-nawaqid-al-islam--first-five', 'nawaqid-al-islam--first-five', 'https://www.youtube.com/watch?v=ZVyt3iufvbc&list=PLcNmEBnwyvx5osgWR-7AsrHoh0X9ffGC6', 'The Nullifiers of Islam (lesson series)', 'Ustadh Abu Hakeem Bilal Davis', 'What Nullifies Islam, and the First Five Nullifiers');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('nawaqid-al-islam--second-five', 'nawaqid-al-islam', 'second-five-nullifiers', 'The Second Five Nullifiers', '**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ**: mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment. Some men at Tabuk joked about the reciters, and Allah revealed concerning them:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-nawaqid-al-islam--first-five', 'nawaqid-al-islam--first-five', 'https://www.youtube.com/watch?v=ZVyt3iufvbc&list=PLcNmEBnwyvx5osgWR-7AsrHoh0X9ffGC6', 'The Nullifiers of Islam (lesson series)', 'Ustadh Abu Hakeem Bilal Davis', 'The First Five Nullifiers');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('nawaqid-al-islam--second-five', 'nawaqid-al-islam', 'second-five-nullifiers', 'The Second Five Nullifiers', '**The Sixth Nullifier: mocking something of the religion of the Messenger ﷺ**: mocking Allah, or the Quran, or the Messenger ﷺ, or the reward or the punishment.
+
+Some men at Tabuk joked about the reciters, and Allah revealed concerning them:
 
 [[proof:1]]
 
-**The Seventh Nullifier: magic (sihr)**, including that which turns spouses apart or binds them (sarf and ''atf). Whoever performs it, or is pleased with it being performed, has disbelieved. Allah described the two angels at Babylon warning every person who came to learn it:
+**The Seventh Nullifier: magic (sihr)**, including that which turns spouses apart or binds them (sarf and ''atf). Whoever performs it, or is pleased with it being performed, has disbelieved.
+
+Allah described the two angels at Babylon warning every person who came to learn it:
 
 [[proof:2]]
 
-**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims.** Allah warned:
+**The Eighth Nullifier: supporting and aiding the mushrikun against the Muslims.**
+
+Allah the Almighty warned:
 
 [[proof:3]]
 
 **The Ninth Nullifier: whoever believes that some people are permitted to leave the Shariah of Muhammad ﷺ**, as al-Khidr was permitted to depart from the law of Musa عليه السلام. The message of Muhammad ﷺ is for all people and all times, and no one is above it.
 
-**The Tenth Nullifier: turning away from the religion of Allah entirely**, neither learning it nor acting upon it:
+**The Tenth Nullifier: turning away from the religion of Allah entirely**, neither learning it nor acting upon it.
+
+Allah the Exalted said:
 
 [[proof:4]]
 
@@ -512,40 +640,59 @@ insert into public.proofs (id, lesson_id, type, arabic_text, english_translation
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('nawaqid-al-islam--second-five--p3', 'nawaqid-al-islam--second-five', 'quran', 'وَمَن يَتَوَلَّهُم مِّنكُمْ فَإِنَّهُ مِنْهُمْ ۗ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ', 'And whoever among you takes them as allies — then indeed, he is one of them. Indeed, Allah does not guide the wrongdoing people.', 'Surah al-Ma''idah 5:51', 3);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('nawaqid-al-islam--second-five--p4', 'nawaqid-al-islam--second-five', 'quran', 'وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِآيَاتِ رَبِّهِ ثُمَّ أَعْرَضَ عَنْهَا ۚ إِنَّا مِنَ الْمُجْرِمِينَ مُنتَقِمُونَ', 'And who is more unjust than one who is reminded of the verses of his Lord, then turns away from them? Indeed, We will take retribution from the criminals.', 'Surah as-Sajdah 32:22', 4);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-nawaqid-al-islam--second-five', 'nawaqid-al-islam--second-five', 'https://www.youtube.com/watch?v=ZVyt3iufvbc&list=PLcNmEBnwyvx5osgWR-7AsrHoh0X9ffGC6', 'The Nullifiers of Islam (lesson series)', 'Ustadh Abu Hakeem Bilal Davis', 'The Second Five Nullifiers');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-sittah--first-three', 'usul-al-sittah', 'first-three-foundations', 'The First Three Foundations: Sincerity, Unity, and Obedience', 'The author opens this short treatise with these words: these are **six foundations that Allah made so clear that even the common, unlettered person can grasp them**, yet most people, including many who claim knowledge, fell into the opposite of them. Each foundation follows one pattern: Allah made the matter plain, and the majority opposed it.
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-sittah--first-three', 'usul-al-sittah', 'first-three-foundations', 'The First Three Foundations', 'The author opens this short treatise with these words: these are **six foundations that Allah made so clear that even the common, unlettered person can grasp them**, yet most people, including many who claim knowledge, fell into the opposite of them. Each foundation follows one pattern: Allah made the matter plain, and the majority opposed it.
 
-**The First Foundation: sincerity (ikhlas) in the religion for Allah alone**, and freeing it from shirk. Allah clarified this so completely that no excuse remains, yet most people opposed it and gave their worship to intermediaries. For this purpose Allah created the creation:
+**The First Foundation: sincerity (ikhlas) in the religion for Allah alone**, and freeing it from shirk. Allah clarified this so completely that no excuse remains, yet most people opposed it and gave their worship to intermediaries.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-**The Second Foundation: Allah commanded unity in the religion and forbade division within it.** He did not leave the ummah to split into parties, each pleased with what it has; He commanded them to hold to His rope all together. Division in the religion begins with corruption in creed:
+**The Second Foundation: Allah commanded unity in the religion and forbade division within it.** He did not leave the ummah to split into parties, each pleased with what it has; He commanded them to hold to His rope all together, for division in the religion begins with corruption in creed.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
 Allah joined the command to establish the religion with the command not to split in it (ash-Shura 42:13). Yet, as the author notes, most people came to regard division as a mercy, and unity upon the truth as impossible.
 
-**The Third Foundation: hearing and obeying the one given authority (wali al-amr)** completes the establishment of the religion and the community. A people cannot uphold the religion collectively while each person answers to no one; Allah joined obedience to the Messenger ﷺ with obedience to those He placed in authority:
+**The Third Foundation: hearing and obeying the one given authority (wali al-amr)** completes the establishment of the religion and the community. A people cannot uphold the religion collectively while each person answers to no one.
+
+Allah joined obedience to the Messenger ﷺ with obedience to those He placed in authority:
 
 [[proof:3]]
 
-The obedience owed is in what is *good*, for "there is no obedience to a created being in disobedience to the Creator," as the Prophet ﷺ taught (Sahih al-Bukhari #7257). But rejecting legitimate authority altogether, which some came to consider part of the religion, is the opposite of what Allah commanded. These three foundations gather one meaning: the religion is sincerity to Allah, unity, and obedience in what is good.', 1, 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Shaykh Dr. Muhammad al-Hujayli', 'Usool as-Sittah — Full Explanation', '[{"title":"Usul al-Sittah (The Six Foundations)","pdfUrl":"https://drive.google.com/file/d/1ddlIFpoJtny18RWiLm8YzZbSwcExJnhz/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Ibn Uthaymeen","url":"https://darussalam.com/","note":"A one-page matn; read it before each lesson and note the recurring pattern."}]'::jsonb, 'A guided reading of al-Usul al-Sittah by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Muhammad ibn Salih al-Uthaymeen.');
+The obedience owed is in what is *good*.
+
+Ali (may Allah be pleased with him) narrated that the Prophet ﷺ said:
+
+[[proof:4]]
+
+But rejecting legitimate authority altogether, which some came to consider part of the religion, is the opposite of what Allah commanded. These three foundations gather one meaning: the religion is sincerity to Allah, unity, and obedience in what is good.', 1, 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Shaykh Dr. Muhammad al-Hujayli', 'Usool as-Sittah — Full Explanation', '[{"title":"Usul al-Sittah (The Six Foundations)","pdfUrl":"https://drive.google.com/file/d/1ddlIFpoJtny18RWiLm8YzZbSwcExJnhz/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Ibn Uthaymeen","url":"https://darussalam.com/","note":"A one-page matn; read it before each lesson and note the recurring pattern."}]'::jsonb, 'A guided reading of al-Usul al-Sittah by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Muhammad ibn Salih al-Uthaymeen.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--first-three--p1', 'usul-al-sittah--first-three', 'quran', 'وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ', 'And they were not commanded except to worship Allah, making the religion sincerely His, inclining to truth.', 'Surah al-Bayyinah 98:5', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--first-three--p2', 'usul-al-sittah--first-three', 'quran', 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', 'And hold firmly to the rope of Allah all together, and do not become divided.', 'Surah Aal Imran 3:103', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--first-three--p3', 'usul-al-sittah--first-three', 'quran', 'يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ', 'O you who believe, obey Allah and obey the Messenger and those in authority among you.', 'Surah an-Nisa 4:59', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-sittah--first-three', 'usul-al-sittah--first-three', 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Usool as-Sittah — Full Explanation', 'Shaykh Dr. Muhammad al-Hujayli', 'The First Three Foundations: Sincerity, Unity, and Obedience');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-sittah--last-three', 'usul-al-sittah', 'last-three-foundations', 'The Last Three Foundations: The Scholars, the Allies of Allah, and the Great Doubt', '**The Fourth Foundation: clarifying who the scholars (ulama) truly are.** Knowledge in Islam is not a costume or a title; the scholar is the one who fears Allah because he *knows* Him, and who inherits the guidance of the prophets. Allah defined the people of real knowledge by their fear of Him:
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--first-three--p4', 'usul-al-sittah--first-three', 'hadith', 'إِنَّمَا الطَّاعَةُ فِي الْمَعْرُوفِ', 'Obedience is only in that which is good.', 'Sahih al-Bukhari #7257; Sahih Muslim #1840', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-sittah--first-three', 'usul-al-sittah--first-three', 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Usool as-Sittah — Full Explanation', 'Shaykh Dr. Muhammad al-Hujayli', 'The First Three Foundations');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-sittah--last-three', 'usul-al-sittah', 'last-three-foundations', 'The Last Three Foundations', '**The Fourth Foundation: clarifying who the scholars (ulama) truly are.** The scholar is the one who fears Allah because he knows Him, and who inherits the guidance of the prophets.
+
+Allah defined the people of knowledge by their fear of Him:
 
 [[proof:1]]
 
 The author notes that people confused this: some raised ignorant claimants to the rank of scholars, and some cast aside the true scholars. The student''s protection is to take knowledge from those grounded in the Book and the Sunnah, upon the way of the Salaf.
 
-**The Fifth Foundation: clarifying the allies of Allah (awliya Allah)** and distinguishing them from the pretenders. People imagined that a "friend of Allah" is one with strange powers who is excused from the Shariah. Allah gave the definition Himself, and it is open to every believer:
+**The Fifth Foundation: clarifying the allies of Allah (awliya Allah)** and distinguishing them from the pretenders. People imagined that a "friend of Allah" is one with strange powers who is excused from the Shariah.
+
+Allah gave the definition Himself, and it is open to every believer:
 
 [[proof:2]]
 
 The awliya of Allah are **those who believe and have taqwa**: the more iman and taqwa, the greater the wilayah. There is no wilayah in violating the Shariah; the closer a person is to Allah, the more closely he follows His Messenger ﷺ.
 
-**The Sixth Foundation: the great doubt** used to turn people away from the Quran and Sunnah: the claim that only a great mujtahid may take from them, so ordinary people should leave the texts and follow blind imitation instead. The author counts this among the greatest plots of Shaytan against the revelation. Its answer is that Allah made the Quran a clarification and a guidance for all people, and made it easy to remember:
+**The Sixth Foundation: the great doubt** used to turn people away from the Quran and Sunnah: the claim that only a great mujtahid may take from them, so ordinary people should leave the texts and follow blind imitation instead. The author counts this among the greatest plots of Shaytan against the revelation. Its answer is that Allah made the Quran a clarification and a guidance for all people, and made it easy to remember.
+
+Allah the Most High said:
 
 [[proof:3]]
 
@@ -553,14 +700,18 @@ Allah even promised that no one comes with a doubt (a "false argument") except t
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--last-three--p1', 'usul-al-sittah--last-three', 'quran', 'إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ ۗ إِنَّ اللَّهَ عَزِيزٌ غَفُورٌ', 'Only those who have knowledge among His servants fear Allah. Indeed, Allah is Exalted in Might, Forgiving.', 'Surah Fatir 35:28', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--last-three--p2', 'usul-al-sittah--last-three', 'quran', 'أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ ۝ الَّذِينَ آمَنُوا وَكَانُوا يَتَّقُونَ', 'Unquestionably, the allies of Allah — there will be no fear upon them, nor will they grieve: those who believed and were fearing Allah.', 'Surah Yunus 10:62-63', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('usul-al-sittah--last-three--p3', 'usul-al-sittah--last-three', 'quran', 'وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ', 'And We have sent down to you the Book as a clarification for all things, and as guidance and mercy and good tidings for the Muslims.', 'Surah an-Nahl 16:89', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-sittah--last-three', 'usul-al-sittah--last-three', 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Usool as-Sittah — Full Explanation', 'Shaykh Dr. Muhammad al-Hujayli', 'The Last Three Foundations: The Scholars, the Allies of Allah, and the Great Doubt');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('kashf-al-shubuhat--two-tawheeds', 'kashf-al-shubuhat', 'the-doubt-at-the-root', 'The Doubt at the Root: The Tawheed They Affirmed and the Tawheed They Denied', 'You have learned *what* tawheed is. **Kashf al-Shubuhat** ("Removal of the Doubts") teaches you to defend it by answering the arguments raised against it. The author wrote it because a person may know tawheed and still be shaken when a doubt is presented well. So learn the truth, and learn where each objection fails.
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-usul-al-sittah--last-three', 'usul-al-sittah--last-three', 'https://www.youtube.com/watch?v=z1xm_qhEdsc', 'Usool as-Sittah — Full Explanation', 'Shaykh Dr. Muhammad al-Hujayli', 'The Last Three Foundations');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('kashf-al-shubuhat--two-tawheeds', 'kashf-al-shubuhat', 'the-doubt-at-the-root', 'The Root of the Doubts', 'You have learned *what* tawheed is. **Kashf al-Shubuhat** ("Removal of the Doubts") teaches you to defend it by answering the arguments raised against it. The author wrote it because a person may know tawheed and still be shaken when a doubt is presented well. So learn the truth, and learn where each objection fails.
 
-The author begins where the Four Principles began: the mushrikun the Messenger ﷺ was sent to already affirmed that Allah alone is the Creator, Provider and Disposer. If you asked them, they answered with Allah''s name:
+The author begins where the Four Principles began: the mushrikun the Messenger ﷺ was sent to already affirmed that Allah alone is the Creator, Provider and Disposer. If you asked them, they answered with Allah''s name.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
-So their shirk was never a denial of the Creator. This is the first principle for answering every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah*, that Allah alone creates and governs, and this tawheed did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. For this the Messenger ﷺ, like every messenger, was sent:
+So their shirk was never a denial of the Creator. This is the first principle for answering every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah*, that Allah alone creates and governs, and this tawheed did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. For this the Messenger ﷺ, like every messenger, was sent.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
@@ -569,20 +720,26 @@ The author prepares you for this doubt. Someone says: *"The mushrikun the Prophe
 In the next lesson we take the excuses they offered, nearness and intercession, and see how the Quran answered them.', 1, 'https://www.youtube.com/watch?v=e8YnfLXHqsg', 'Shaykh Haytham Sarhan', 'Kashf ash-Shubuhat — Full Explanation', '[{"title":"Kashf al-Shubuhat (Removal of the Doubts)","pdfUrl":"https://drive.google.com/file/d/1IKZCenUO1K8zz0mhOlfdrJyydUfJXF_3/view","author":"Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Salih al-Fawzan","url":"https://darussalam.com/","note":"Read the matn slowly; it is short but dense, and it trains you to answer doubts."}]'::jsonb, 'A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('kashf-al-shubuhat--two-tawheeds--p1', 'kashf-al-shubuhat--two-tawheeds', 'quran', 'وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ لَيَقُولُنَّ اللَّهُ ۚ قُلِ الْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ', 'And if you asked them who created the heavens and the earth, they would surely say, ''Allah.'' Say: all praise is due to Allah. But most of them do not know.', 'Surah Luqman 31:25', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('kashf-al-shubuhat--two-tawheeds--p2', 'kashf-al-shubuhat--two-tawheeds', 'quran', 'وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ', 'And We certainly sent into every nation a messenger, [saying]: worship Allah and avoid taghut.', 'Surah an-Nahl 16:36', 2);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-kashf-al-shubuhat--two-tawheeds', 'kashf-al-shubuhat--two-tawheeds', 'https://www.youtube.com/watch?v=e8YnfLXHqsg', 'Kashf ash-Shubuhat — Full Explanation', 'Shaykh Haytham Sarhan', 'The Doubt at the Root: The Tawheed They Affirmed and the Tawheed They Denied');
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('kashf-al-shubuhat--intercession', 'kashf-al-shubuhat', 'answering-the-doubts', 'Answering the Doubts: Nearness, Intercession, and the Righteous', '**The greatest doubt: "We do not believe these beings create or provide. We only turn to them so they bring us nearer to Allah, and intercede for us with Him."** The author''s answer is devastating in its simplicity: *this is word-for-word the excuse of the original mushrikun.* The Quran did not report it to excuse them; it reported it to condemn them:
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-kashf-al-shubuhat--two-tawheeds', 'kashf-al-shubuhat--two-tawheeds', 'https://www.youtube.com/watch?v=e8YnfLXHqsg', 'Kashf ash-Shubuhat — Full Explanation', 'Shaykh Haytham Sarhan', 'The Root of the Doubts');
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('kashf-al-shubuhat--intercession', 'kashf-al-shubuhat', 'answering-the-doubts', 'Answering the Doubts', '**The greatest doubt: "We do not believe these beings create or provide. We only turn to them so they bring us nearer to Allah, and intercede for us with Him."** The author answers: this is the very excuse of the original mushrikun, and the Quran reported it from them and condemned it.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
 So the claim of "seeking nearness" was itself what Allah ruled to be shirk. The act of worship, du''a directed to another, is what is judged, whatever purpose is claimed for it.
 
-**"But we are seeking their intercession (shafa''ah), and intercession is real; you cannot deny it."** Intercession is indeed real. But it belongs entirely to Allah and is sought from Him, not from the dead. Allah owns all of it:
+**"But we are seeking their intercession (shafa''ah), and intercession is real; you cannot deny it."** Intercession is indeed real. But it belongs entirely to Allah and is sought from Him, not from the dead.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
 And no one intercedes with Him except by His permission, and only for those He is pleased with. So the believer asks: *"O Allah, grant me the intercession of Your Prophet ﷺ"*, turning to Allah, the Owner of intercession, rather than calling upon the deceased. The mushrik seeks it from the creature; the muwahhid seeks it from Allah. This is the difference between tawheed and shirk.
 
-**"But the ones I call upon are righteous: prophets, angels, awliya, not idols and stones."** The author answers that the beings the first mushrikun called upon included the righteous, and the ruling did not change. Allah says of some of those who are called upon that they themselves seek nearness to Allah and fear Him:
+**"But the ones I call upon are righteous: prophets, angels, awliya, not idols and stones."** The author answers that the beings the first mushrikun called upon included the righteous, and the ruling did not change.
+
+Allah the Most High says of some of those who are called upon that they themselves seek nearness to Him:
 
 [[proof:3]]
 
@@ -590,7 +747,7 @@ The Quran names righteous people, angels, ''Isa, and ''Uzayr among those who wer
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('kashf-al-shubuhat--intercession--p1', 'kashf-al-shubuhat--intercession', 'quran', 'وَالَّذِينَ اتَّخَذُوا مِن دُونِهِ أَوْلِيَاءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَا إِلَى اللَّهِ زُلْفَىٰ', 'And those who take protectors besides Him [say]: ''We only worship them that they may bring us nearer to Allah in position.''', 'Surah az-Zumar 39:3', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('kashf-al-shubuhat--intercession--p2', 'kashf-al-shubuhat--intercession', 'quran', 'قُل لِّلَّهِ الشَّفَاعَةُ جَمِيعًا ۖ لَّهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ', 'Say: to Allah belongs [the right to allow] all intercession. To Him belongs the dominion of the heavens and the earth.', 'Surah az-Zumar 39:44', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('kashf-al-shubuhat--intercession--p3', 'kashf-al-shubuhat--intercession', 'quran', 'أُولَٰئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ الْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُ وَيَخَافُونَ عَذَابَهُ', 'Those whom they invoke are themselves seeking the means of nearness to their Lord — which of them is nearest — and hoping for His mercy and fearing His punishment.', 'Surah al-Isra 17:57', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-kashf-al-shubuhat--intercession', 'kashf-al-shubuhat--intercession', 'https://www.youtube.com/watch?v=e8YnfLXHqsg', 'Kashf ash-Shubuhat — Full Explanation', 'Shaykh Haytham Sarhan', 'Answering the Doubts: Nearness, Intercession, and the Righteous');
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values ('video-kashf-al-shubuhat--intercession', 'kashf-al-shubuhat--intercession', 'https://www.youtube.com/watch?v=e8YnfLXHqsg', 'Kashf ash-Shubuhat — Full Explanation', 'Shaykh Haytham Sarhan', 'Answering the Doubts');
 
 insert into public.quizzes (id, module_id) values ('quiz-introduction', 'introduction');
 insert into public.quiz_questions (id, quiz_id, question_text, options, correct_answer_index, explanation, topic_tag, difficulty) values ('q-in-01', 'quiz-introduction', 'What is ikhlas, as this introduction defines it?', '["Purifying the intention so that learning and worship are for Allah''s face alone","Performing acts of worship with technical precision and correct form","Concealing all of one''s good deeds from every other person","Learning the religion from many teachers to avoid bias"]'::jsonb, 0, 'Ikhlas is sincerity of intention — seeking Allah, not appearance or applause. Concealing deeds can help protect sincerity but is not its definition; a public deed done for Allah remains sincere.', 'ikhlas', 'recall');

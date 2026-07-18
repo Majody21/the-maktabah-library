@@ -5,7 +5,7 @@ export const usulThalathahLessons: Lesson[] = [
     id: "usul-al-thalathah--four-matters",
     moduleId: "usul-al-thalathah",
     slug: "four-matters",
-    title: "Introduction: The Four Matters and the Three Questions",
+    title: "The Four Matters",
     displayOrder: 1,
     basedOn:
       "A lesson-by-lesson study of Thalathat al-Usul by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Haytham Sarhan.",
@@ -23,7 +23,9 @@ export const usulThalathahLessons: Lesson[] = [
     ],
     content: `**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim, young or old, would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
 
-Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da'wah**: inviting to it; and (4) **patience** upon the harm that comes in its path. His proof for these four matters is Surah al-Asr:
+Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da'wah**: inviting to it; and (4) **patience** upon the harm that comes in its path.
+
+His proof for these four matters is the statement of Allah the Exalted in Surah al-Asr:
 
 [[proof:1]]
 
@@ -63,7 +65,7 @@ The order in the ayah is: know, then seek forgiveness. Knowledge comes first, an
     id: "usul-al-thalathah--who-is-your-lord",
     moduleId: "usul-al-thalathah",
     slug: "who-is-your-lord",
-    title: "The First Principle: Who Is Your Lord?",
+    title: "The First Principle (Who Is Your Lord?)",
     displayOrder: 2,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
@@ -85,13 +87,17 @@ His proof is the first ayah a Muslim recites in every prayer:
 
 [[proof:1]]
 
-How does a person come to know his Lord? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them. The Quran points to this:
+How does a person come to know his Lord? The author answers: through His signs (**ayat**) and His creations. Among His signs are the night and the day, the sun and the moon; among His creations are the seven heavens and the seven earths and everything within them.
+
+Allah the Most High said:
 
 [[proof:2]]
 
 The end of that ayah forbids prostrating to the sun and the moon, for they are created things; prostration is for the One who created them. So reflection (**tadabbur**) upon creation is an act of worship, and a Muslim's creed is not built upon blind imitation.
 
-The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs, as even the pagans of Makkah did, must accept what follows from it:
+The section closes with the decisive point: the Lord is the only one deserving of worship. Whoever affirms that Allah alone creates, provides and governs, as even the pagans of Makkah did, must accept what follows from it.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
@@ -134,7 +140,7 @@ Being nurtured by Him and owned by Him obligates worshipping Him alone. This lin
     id: "usul-al-thalathah--what-is-your-religion",
     moduleId: "usul-al-thalathah",
     slug: "what-is-your-religion",
-    title: "The Second Principle: What Is Your Religion?",
+    title: "The Second Principle (What Is Your Religion?)",
     displayOrder: 3,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
@@ -152,11 +158,15 @@ Being nurtured by Him and owned by Him obligates worshipping Him alone. This lin
     ],
     content: `The author writes: *The religion of Islam is: **submitting to Allah with tawheed, yielding to Him with obedience, and freeing oneself from shirk and its people.*** Memorize this three-part definition. Submission alone is not enough; it must be submission built on tawheed, expressed in obedience, and completed by freeing oneself from shirk and its people.
 
-This religion is the only one Allah will accept from anyone, and whoever seeks another path will find it rejected:
+This religion is the only one Allah will accept from anyone.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
-The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan**. Each level is higher than the one before, and each was defined by the Prophet ﷺ in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion:
+The author then divides the religion into **three levels**: Islam, Iman, and **Ihsan**. Each level is higher than the one before, and each was defined by the Prophet ﷺ in the hadith of Jibreel. Islam covers the five outward pillars you studied in Module 1; Iman covers the six inward pillars of Module 2; and Ihsan is a single pillar, the summit of the religion.
+
+In the hadith of Jibreel, narrated by Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ defined Ihsan:
 
 [[proof:2]]
 
@@ -192,7 +202,7 @@ These levels give the believer something to strive toward. He moves from doing w
     id: "usul-al-thalathah--who-is-your-prophet",
     moduleId: "usul-al-thalathah",
     slug: "who-is-your-prophet",
-    title: "The Third Principle: Who Is Your Prophet ﷺ?",
+    title: "The Third Principle (Who Is Your Prophet ﷺ?)",
     displayOrder: 4,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",
@@ -210,17 +220,23 @@ These levels give the believer something to strive toward. He moves from doing w
     ],
     content: `The third principle is knowing your Prophet: **Muhammad ibn Abdillah ibn Abd al-Muttalib ibn Hashim**, of Quraysh, of the Arabs, of the descendants of Isma'il son of Ibrahim ﷺ. He lived sixty-three years: forty before prophethood, and twenty-three as a prophet and messenger. He was raised an orphan in Makkah, known among his people, before any revelation, as **al-Amin**, the trustworthy.
 
-Prophethood began with *Iqra* (Surah al-'Alaq), and messengership, the command to warn, came with al-Muddaththir:
+Prophethood began with *Iqra* (Surah al-'Alaq), and messengership, the command to warn, came with al-Muddaththir.
+
+Allah the Most High said:
 
 [[proof:1]]
 
 For thirteen years in Makkah he called to tawheed and warned against shirk before most legislation existed; the prayer was enjoined near the end of the Makkan period, on the night of the Mi'raj. The scholars take from this order that creed is rectified before rules, and this curriculum follows the same order. After the hijrah to Madinah the remaining laws descended: zakah, fasting, hajj, and the rest.
 
-His message was not to his tribe or his era. It seals prophethood and reaches every human and jinn until the Hour:
+His message seals prophethood and reaches every human and jinn until the Hour.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
-Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone, for obedience to the Messenger is obedience to the One who sent him:
+Knowing him ﷺ obligates loving him, believing his reports, obeying his commands, and worshipping Allah by his Sunnah alone, for obedience to the Messenger is obedience to the One who sent him.
+
+Allah the Almighty said:
 
 [[proof:3]]
 

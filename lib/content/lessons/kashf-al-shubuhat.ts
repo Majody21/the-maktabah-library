@@ -8,7 +8,7 @@ export const kashfAlShubuhatLessons: Lesson[] = [
     id: "kashf-al-shubuhat--two-tawheeds",
     moduleId: "kashf-al-shubuhat",
     slug: "the-doubt-at-the-root",
-    title: "The Doubt at the Root: The Tawheed They Affirmed and the Tawheed They Denied",
+    title: "The Root of the Doubts",
     displayOrder: 1,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
@@ -26,11 +26,15 @@ export const kashfAlShubuhatLessons: Lesson[] = [
     ],
     content: `You have learned *what* tawheed is. **Kashf al-Shubuhat** ("Removal of the Doubts") teaches you to defend it by answering the arguments raised against it. The author wrote it because a person may know tawheed and still be shaken when a doubt is presented well. So learn the truth, and learn where each objection fails.
 
-The author begins where the Four Principles began: the mushrikun the Messenger ﷺ was sent to already affirmed that Allah alone is the Creator, Provider and Disposer. If you asked them, they answered with Allah's name:
+The author begins where the Four Principles began: the mushrikun the Messenger ﷺ was sent to already affirmed that Allah alone is the Creator, Provider and Disposer. If you asked them, they answered with Allah's name.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
-So their shirk was never a denial of the Creator. This is the first principle for answering every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah*, that Allah alone creates and governs, and this tawheed did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. For this the Messenger ﷺ, like every messenger, was sent:
+So their shirk was never a denial of the Creator. This is the first principle for answering every later doubt: **tawheed has more than one part.** They affirmed *tawheed ar-rububiyyah*, that Allah alone creates and governs, and this tawheed did not save them. What they refused was *tawheed al-uluhiyyah*: to direct all worship to Allah alone. For this the Messenger ﷺ, like every messenger, was sent.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
@@ -66,7 +70,7 @@ In the next lesson we take the excuses they offered, nearness and intercession, 
     id: "kashf-al-shubuhat--intercession",
     moduleId: "kashf-al-shubuhat",
     slug: "answering-the-doubts",
-    title: "Answering the Doubts: Nearness, Intercession, and the Righteous",
+    title: "Answering the Doubts",
     displayOrder: 2,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
@@ -82,19 +86,25 @@ In the next lesson we take the excuses they offered, nearness and intercession, 
         note: "The core doubts and their answers; the heart of the treatise.",
       },
     ],
-    content: `**The greatest doubt: "We do not believe these beings create or provide. We only turn to them so they bring us nearer to Allah, and intercede for us with Him."** The author's answer is devastating in its simplicity: *this is word-for-word the excuse of the original mushrikun.* The Quran did not report it to excuse them; it reported it to condemn them:
+    content: `**The greatest doubt: "We do not believe these beings create or provide. We only turn to them so they bring us nearer to Allah, and intercede for us with Him."** The author answers: this is the very excuse of the original mushrikun, and the Quran reported it from them and condemned it.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
 So the claim of "seeking nearness" was itself what Allah ruled to be shirk. The act of worship, du'a directed to another, is what is judged, whatever purpose is claimed for it.
 
-**"But we are seeking their intercession (shafa'ah), and intercession is real; you cannot deny it."** Intercession is indeed real. But it belongs entirely to Allah and is sought from Him, not from the dead. Allah owns all of it:
+**"But we are seeking their intercession (shafa'ah), and intercession is real; you cannot deny it."** Intercession is indeed real. But it belongs entirely to Allah and is sought from Him, not from the dead.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
 And no one intercedes with Him except by His permission, and only for those He is pleased with. So the believer asks: *"O Allah, grant me the intercession of Your Prophet ﷺ"*, turning to Allah, the Owner of intercession, rather than calling upon the deceased. The mushrik seeks it from the creature; the muwahhid seeks it from Allah. This is the difference between tawheed and shirk.
 
-**"But the ones I call upon are righteous: prophets, angels, awliya, not idols and stones."** The author answers that the beings the first mushrikun called upon included the righteous, and the ruling did not change. Allah says of some of those who are called upon that they themselves seek nearness to Allah and fear Him:
+**"But the ones I call upon are righteous: prophets, angels, awliya, not idols and stones."** The author answers that the beings the first mushrikun called upon included the righteous, and the ruling did not change.
+
+Allah the Most High says of some of those who are called upon that they themselves seek nearness to Him:
 
 [[proof:3]]
 

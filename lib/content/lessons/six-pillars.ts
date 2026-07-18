@@ -5,7 +5,7 @@ export const sixPillarsLessons: Lesson[] = [
     id: "six-pillars--what-is-iman",
     moduleId: "six-pillars",
     slug: "what-is-iman",
-    title: "What Is Iman? Definition and the Six Pillars",
+    title: "Iman (Faith)",
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.",
@@ -21,15 +21,21 @@ export const sixPillarsLessons: Lesson[] = [
         note: "A short treatise covering all six pillars; read it alongside this module.",
       },
     ],
-    content: `If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, he answered with six matters. These are the pillars of iman:
+    content: `If Islam describes the outward submission of the limbs, **iman** describes what the heart believes, says and does. When Jibreel asked the Prophet ﷺ, “What is iman?”, he answered with six matters, and these are the pillars of iman.
+
+In the narration of Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ said:
 
 [[proof:1]]
 
-The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins with these beliefs:
+The Quran gathers the same pillars. When Allah describes true righteousness (**birr**), He begins with these beliefs.
+
+Allah the Most Exalted said:
 
 [[proof:2]]
 
-Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. So iman is not one fixed amount: it rises when you obey Allah and falls when you disobey Him. The Prophet ﷺ said:
+Ahlus Sunnah define iman as *statement of the tongue, belief of the heart, and action of the limbs; it increases with obedience and decreases with sin*. So iman is not one fixed amount: it rises when you obey Allah and falls when you disobey Him.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
@@ -74,7 +80,7 @@ Even removing something harmful from the road is counted as part of iman, for fa
     id: "six-pillars--allah-and-the-angels",
     moduleId: "six-pillars",
     slug: "allah-and-the-angels",
-    title: "Belief in Allah and Belief in the Angels",
+    title: "Belief in Allah and the Angels",
     displayOrder: 2,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.",
@@ -90,17 +96,27 @@ Even removing something harmful from the road is counted as part of iman, for fa
         note: "See the questions on belief in Allah and the angels.",
       },
     ],
-    content: `**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command:
+    content: `**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command.
+
+Allah the Most Exalted said:
 
 [[proof:1]]
 
 Whoever denies any of the six pillars, such as believing in Allah while rejecting the angels or the decree, has strayed far by the text of this ayah. Iman is only accepted whole.
 
-**The angels** are a created world of Allah's servants, made from light, who never disobey Him. They are not divine, not Allah's daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika'il with rain, Israfil with the Horn, the recorders over every person, and the angel of death. Allah describes their perfect obedience:
+**The angels** are a created world of Allah's servants, made from light, who never disobey Him. They are not divine, not Allah's daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika'il with rain, Israfil with the Horn, the recorders over every person, and the angel of death.
+
+Allah the Almighty describes their perfect obedience:
 
 [[proof:2]]
 
-Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue. Allah the Exalted said: “Not a word does he utter except that with him is an observer prepared” (Surah Qaf 50:18).
+Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue.
+
+Allah the Exalted said:
+
+[[proof:4]]
+
+Aisha (may Allah be pleased with her) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:3]]`,
     proofs: [
@@ -136,6 +152,16 @@ Belief in them means believing in their existence, in those named to us by name,
         englishTranslation:
           "The angels were created from light, the jinn were created from a smokeless flame of fire, and Adam was created from that which has been described to you.",
         reference: "Sahih Muslim #2996",
+      },
+      {
+        id: "six-pillars--allah-and-the-angels--p4",
+        lessonId: "six-pillars--allah-and-the-angels",
+        type: "quran",
+        displayOrder: 4,
+        arabicText: "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+        englishTranslation:
+          "Not a word does he utter except that with him is an observer prepared.",
+        reference: "Surah Qaf 50:18",
       },
     ],
   },
@@ -214,7 +240,7 @@ This pillar shapes how you read the Quran: it is the final, protected word of th
     id: "six-pillars--last-day-and-qadar",
     moduleId: "six-pillars",
     slug: "last-day-and-qadar",
-    title: "The Last Day and al-Qadar: The Decree",
+    title: "The Last Day and al-Qadar (The Decree)",
     displayOrder: 4,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.",
@@ -236,13 +262,23 @@ This pillar shapes how you read the Quran: it is the final, protected word of th
 
 Whoever is certain of this Day watches himself in secret as he does in public. For this reason the Quran often joins belief in Allah to belief in the Last Day.
 
-The sixth pillar is **al-qadar**: that Allah's knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it:
+The sixth pillar is **al-qadar**: that Allah's knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it.
+
+Allah the Almighty said:
 
 [[proof:2]]
 
+And Abdullah ibn Amr ibn al-As (may Allah be pleased with them) narrated that the Messenger of Allah ﷺ said:
+
 [[proof:3]]
 
-Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you. Allah the Exalted said: “No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being... so that you not despair over what has escaped you, nor exult over what He has given you” (Surah al-Hadid 57:22-23). The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.`,
+Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you.
+
+Allah the Exalted said:
+
+[[proof:4]]
+
+The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.`,
     proofs: [
       {
         id: "six-pillars--last-day-and-qadar--p1",
@@ -274,6 +310,17 @@ Belief in qadar does not cancel human action; we choose, act, and are held to ac
         englishTranslation:
           "Allah wrote the decrees of the creation fifty thousand years before He created the heavens and the earth.",
         reference: "Sahih Muslim #2653",
+      },
+      {
+        id: "six-pillars--last-day-and-qadar--p4",
+        lessonId: "six-pillars--last-day-and-qadar",
+        type: "quran",
+        displayOrder: 4,
+        arabicText:
+          "مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ ۝ لِّكَيْلَا تَأْسَوْا عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا بِمَا آتَاكُمْ",
+        englishTranslation:
+          "No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy — so that you not despair over what has escaped you, nor exult over what He has given you.",
+        reference: "Surah al-Hadid 57:22-23",
       },
     ],
   },

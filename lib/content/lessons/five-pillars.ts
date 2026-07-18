@@ -5,7 +5,7 @@ export const fivePillarsLessons: Lesson[] = [
     id: "five-pillars--hadith-of-jibreel",
     moduleId: "five-pillars",
     slug: "hadith-of-jibreel",
-    title: "The Hadith of Jibreel: What Islam Is Built Upon",
+    title: "The Hadith of Jibreel",
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel (Sharh al-Arba'in an-Nawawiyyah).",
@@ -23,15 +23,21 @@ export const fivePillarsLessons: Lesson[] = [
     ],
     content: `**Islam** is a defined religion with pillars, and Allah's Messenger ﷺ named them himself. The angel **Jibreel** came to the Prophet ﷺ in the form of a man and questioned him in front of his Companions: What is Islam? What is iman? What is ihsan? The Prophet ﷺ then said, “That was Jibreel; he came to teach you your religion.” This module explains the first of those answers.
 
+In the hadith of Jibreel, narrated by Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ answered:
+
 [[proof:1]]
 
-Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up. If a pillar is removed, the structure falls or stands deficient. The Prophet ﷺ used this image in another narration:
+Islam is built on **five pillars**: the testimony that none has the right to be worshipped except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving the zakah, fasting Ramadan, and making pilgrimage to the House for whoever is able. A pillar is what holds a structure up. If a pillar is removed, the structure falls or stands deficient.
+
+The Prophet ﷺ used this image in the narration of Ibn Umar (may Allah be pleased with them):
 
 [[proof:2]]
 
 The scholars draw two lessons from the ordering. First, the **shahadatayn** come before everything, because no deed is accepted without correct belief; worship built upon shirk is like a building without a foundation. Second, the pillars cover the rights of Allah in the body (prayer, fasting), in wealth (zakah), and in both (hajj), so that submission covers the whole of a person's life.
 
-Islam is the only religion Allah accepts. It is the religion of all the prophets: submission to Allah alone. It was completed and sealed with the message of Muhammad ﷺ:
+Islam is the only religion Allah accepts. It is the religion of all the prophets: submission to Allah alone. It was completed and sealed with the message of Muhammad ﷺ.
+
+Allah the Most High said:
 
 [[proof:3]]
 
@@ -74,7 +80,7 @@ In the coming lessons we take each pillar in turn: its meaning, and its proof fr
     id: "five-pillars--the-shahadatayn",
     moduleId: "five-pillars",
     slug: "the-shahadatayn",
-    title: "The Shahadatayn: The Two Testimonies",
+    title: "The Shahadatayn (The Two Testimonies)",
     displayOrder: 2,
     basedOn:
       "Summarized from the explanations of Shaykh Salih al-Fawzan (Aqeedah at-Tawheed) and Shaykh Ibn Uthaymeen on the meaning and conditions of the shahadah.",
@@ -92,15 +98,21 @@ In the coming lessons we take each pillar in turn: its meaning, and its proof fr
     ],
     content: `The first pillar is the statement **La ilaha illa Allah**: *none has the right to be worshipped except Allah*. It contains a negation and an affirmation. It negates the right of worship from everything besides Allah, whether an idol, a saint, a prophet, a star, or a desire, and it affirms worship for Allah alone. The scholars call this the word of **tawheed**, and it is what every messenger was sent with.
 
+Allah the Exalted said:
+
 [[proof:1]]
 
-Knowledge of its meaning is itself an obligation. Allah commanded us to know it, not only to say it:
+Knowledge of its meaning is itself an obligation.
+
+Allah commanded us to know it, not only to say it:
 
 [[proof:2]]
 
 The second testimony, **Muhammadun Rasulullah**, is inseparable from the first. Testifying that Muhammad ﷺ is the Messenger of Allah obligates four things, as the scholars summarize: obeying him in what he commanded, believing him in what he informed, avoiding what he forbade, and worshipping Allah only in the way he legislated.
 
-When the Prophet ﷺ sent Mu'adh ibn Jabal to Yemen, a land of the People of the Book, he commanded him to begin with this testimony before anything else, because no deed is accepted without it:
+When the Prophet ﷺ sent Mu'adh ibn Jabal to Yemen, a land of the People of the Book, he commanded him to begin with this testimony before anything else, because no deed is accepted without it.
+
+Ibn Abbas (may Allah be pleased with them) narrated that the Prophet ﷺ said to Mu'adh:
 
 [[proof:3]]
 
@@ -144,7 +156,7 @@ Keep this order in your own learning: know what you testify to, whom you worship
     id: "five-pillars--salah-and-zakah",
     moduleId: "five-pillars",
     slug: "salah-and-zakah",
-    title: "Salah and Zakah: The Rights of Allah and the Rights of Wealth",
+    title: "Salah and Zakah (Prayer and Almsgiving)",
     displayOrder: 3,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Baz and Shaykh Ibn Uthaymeen on the status of the prayer and zakah.",
@@ -160,17 +172,23 @@ Keep this order in your own learning: know what you testify to, whom you worship
         note: "The practical companion once the status of prayer is understood.",
       },
     ],
-    content: `After the testimony, the greatest pillar is the **salah**, the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth:
+    content: `After the testimony, the greatest pillar is the **salah**, the five daily prayers. Throughout the Quran, Allah pairs the command to establish prayer with the command to give zakah, because the first is the right of Allah upon the body and the second is His right upon wealth.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
-The command is to *establish* the prayer (iqamat as-salah), not only to perform it. Establishing it means praying with its conditions, its pillars, humility, and on its time. The Prophet ﷺ made the prayer the line between a man and disbelief:
+The command is to *establish* the prayer (iqamat as-salah), not only to perform it. Establishing it means praying with its conditions, its pillars, humility, and on its time. The Prophet ﷺ made the prayer the line between a man and disbelief.
+
+Jabir ibn Abdillah (may Allah be pleased with them) narrated that he ﷺ said:
 
 [[proof:2]]
 
 Abdullah ibn Shaqiq reported that the Companions of Muhammad ﷺ did not consider the abandonment of any deed to be disbelief other than the prayer. So guard the five prayers on their times, and for men in congregation where possible. If you fall short in the prayer, correct it before anything else.
 
-**Zakah** is a fixed right that Allah has obligated on qualifying wealth: 2.5% of stored monetary wealth each year. It purifies the giver and his wealth:
+**Zakah** is a fixed right that Allah has obligated on qualifying wealth: 2.5% of stored monetary wealth each year. It purifies the giver and his wealth.
+
+Allah the Most Exalted said:
 
 [[proof:3]]
 
@@ -214,7 +232,7 @@ Allah has threatened the one who withholds it with a painful punishment on the D
     id: "five-pillars--sawm-and-hajj",
     moduleId: "five-pillars",
     slug: "sawm-and-hajj",
-    title: "Sawm and Hajj: The Fast of Ramadan and the Pilgrimage",
+    title: "Sawm and Hajj (Fasting and Pilgrimage)",
     displayOrder: 4,
     basedOn:
       "Summarized from the explanations of Shaykh Ibn Uthaymeen (Majalis Shahr Ramadan) and Shaykh al-Fawzan on fasting and pilgrimage.",
@@ -230,17 +248,23 @@ Allah has threatened the one who withholds it with a painful punishment on the D
         note: "See the chapters of fasting and hajj for this lesson's rulings.",
       },
     ],
-    content: `The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated in the Quran, along with its purpose: **taqwa**, the fearful mindfulness of Allah:
+    content: `The fourth pillar is fasting **Ramadan**: abstaining from food, drink and marital relations from true dawn until sunset, as worship of Allah. Its obligation is stated in the Quran, along with its purpose: **taqwa**, the fearful mindfulness of Allah.
+
+Allah the Almighty said:
 
 [[proof:1]]
 
 Fasting is hidden worship: no one but Allah knows with certainty that you are fasting. So it trains sincerity (**ikhlas**). The Prophet ﷺ described it as a shield, and warned that whoever does not leave false speech and acting upon it, Allah has no need of his leaving food and drink (Sahih al-Bukhari #1903).
 
-The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon whoever is able in body, wealth, and route:
+The fifth pillar is **hajj**: the pilgrimage to the Sacred House in Makkah, obligatory once in a lifetime upon whoever is able in body, wealth, and route.
+
+Allah the Most High said:
 
 [[proof:2]]
 
-Hajj gathers many kinds of worship into a few days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the leaving of adornment and comfort. The Prophet ﷺ stated its reward:
+Hajj gathers many kinds of worship into a few days: tawheed proclaimed in the talbiyah, prayer, sacrifice, charity, patience, and the leaving of adornment and comfort.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 

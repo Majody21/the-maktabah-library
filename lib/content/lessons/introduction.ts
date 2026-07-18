@@ -69,15 +69,21 @@ So set your intention before the first module. Shaykh Ibn al-Uthaymeen advised t
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
     videoTitle: "The Correct Understanding of Tawakkul upon Allah",
     bookRecommendations: [],
-    content: `A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone. Allah the Almighty said to His Prophet ﷺ:
+    content: `A person may gather books and attend classes and still remain unguided, because guidance is in the Hand of Allah alone.
+
+Allah the Almighty said to His Prophet ﷺ:
 
 [[proof:1]]
 
-This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer, in the statement of Allah the Exalted:
+This ayah lifts a weight from you. Your task is to take the means: read, listen, and ask. The result belongs to Allah. For this reason, Allah made the request for guidance part of every prayer.
+
+Allah the Exalted said:
 
 [[proof:2]]
 
-You repeat this ayah in every rak'ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm. Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
+You repeat this ayah in every rak'ah, seventeen times a day in the obligatory prayers alone. The scholars explain: you need guidance at every moment, and the heart does not remain firm except by Allah keeping it firm.
+
+Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ would often say:
 
 [[proof:3]]
 
@@ -85,7 +91,9 @@ And in the hadith qudsi, reported by Abu Dharr (may Allah be pleased with him), 
 
 [[proof:4]]
 
-So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will. Allah the Most High said:
+So join your study to reliance upon Allah (**tawakkul**): take the means, and depend upon Allah for the result, for nothing comes about except by His will.
+
+Allah the Most High said:
 
 [[proof:5]]
 
@@ -157,7 +165,9 @@ Begin your study with the name of Allah. Ask Him to teach you what benefits you 
     videoScholar: "Shaykh Abdul-Aziz ibn Baz",
     videoTitle: "Comprehensive Words on How to Seek Knowledge",
     bookRecommendations: [],
-    content: `Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim. Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
+    content: `Seeking knowledge of the religion is among the greatest acts of worship, and learning what the worship of Allah requires is an obligation upon every Muslim.
+
+Abu Hurairah (may Allah be pleased with him) narrated that the Messenger of Allah ﷺ said:
 
 [[proof:1]]
 
@@ -165,7 +175,9 @@ And Allah the Most Exalted said:
 
 [[proof:2]]
 
-Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge. Allah the Almighty said:
+Allah did not command His Prophet ﷺ to ask for increase in anything except knowledge.
+
+Allah the Almighty said:
 
 [[proof:3]]
 
