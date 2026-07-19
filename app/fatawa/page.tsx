@@ -7,7 +7,7 @@ import { fatawaPhoto } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Fatawa Library",
   description:
-    "A curated, searchable collection of verdicts from Ibn Baz, Ibn Uthaymeen, al-Fawzan and the Permanent Committee, organized by topic.",
+    "Published fatawa of the major scholars, reproduced in full and translated, each linked to the fatwa on the scholar's official site.",
 };
 
 export const revalidate = 3600;
@@ -18,8 +18,8 @@ export default async function FatawaPage() {
     <div className="mx-auto max-w-4xl px-6 py-10">
       <h1 className="font-display text-3xl font-semibold">Fatawa</h1>
       <p className="mt-2 text-ink-soft">
-        Summaries of published verdicts from Ibn Baz, Ibn Uthaymeen, al-Fawzan
-        and the Permanent Committee, with sources cited.
+        Published verdicts reproduced in full — the scholar's own answer, not a
+        summary — each linked to the fatwa on his official site.
       </p>
       <Photo
         photo={fatawaPhoto}

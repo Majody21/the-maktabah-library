@@ -107,8 +107,16 @@ export type Fatwa = {
   id: string;
   topic: string;
   question: string;
+  /** The scholar's own words, translated in full — never a paraphrase. */
   answerText: string;
   scholar: string;
+  /** Printed citation (book, volume/page or fatwa number). */
   sourceReference: string;
+  /** Primary source: the fatwa on the scholar's own official site. */
+  sourceUrl: string | null;
+  /** Who produced the English wording, when it is a published translation. */
+  translationCredit: string | null;
+  /** Link to that published translation, if any. */
+  translationUrl: string | null;
   category: string;
 };

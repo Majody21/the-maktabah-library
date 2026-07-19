@@ -90,13 +90,44 @@ export default function FatawaClient({ fatawa }: { fatawa: Fatwa[] }) {
               </button>
               {open && (
                 <div className="border-t border-line px-5 pb-5 pt-4">
-                  <p className="text-[0.95rem] leading-relaxed">{f.answerText}</p>
+                  <div className="space-y-3 text-[0.95rem] leading-relaxed">
+                    {f.answerText.split(/\n\s*\n/).map((para, i) => (
+                      <p key={i}>{para.trim()}</p>
+                    ))}
+                  </div>
                   <p className="mt-4 text-sm font-semibold text-forest">
                     — {f.scholar}
                   </p>
-                  <p className="mt-1 text-xs italic text-ink-faint">
-                    {f.sourceReference}
-                  </p>
+                  {f.sourceUrl ? (
+                    <a
+                      href={f.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1 inline-block text-xs text-gold underline decoration-dotted underline-offset-2 hover:decoration-solid"
+                    >
+                      {f.sourceReference} ↗
+                    </a>
+                  ) : (
+                    <p className="mt-1 text-xs italic text-ink-faint">
+                      {f.sourceReference}
+                    </p>
+                  )}
+                  {f.translationCredit && (
+                    <p className="mt-1 text-xs text-ink-faint">
+                      {f.translationUrl ? (
+                        <a
+                          href={f.translationUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline decoration-dotted underline-offset-2"
+                        >
+                          {f.translationCredit} ↗
+                        </a>
+                      ) : (
+                        f.translationCredit
+                      )}
+                    </p>
+                  )}
                 </div>
               )}
             </li>

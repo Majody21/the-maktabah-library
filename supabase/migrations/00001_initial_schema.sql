@@ -115,6 +115,9 @@ create table public.fatawa (
   answer_text text not null,
   scholar text not null,
   source_reference text,
+  source_url text,
+  translation_credit text,
+  translation_url text,
   category text not null default 'General'
 );
 

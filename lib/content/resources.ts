@@ -17,6 +17,7 @@ const r = (
 
 export const resources: Resource[] = [
   // ——— Aqeedah ———
+  r("r-duroos-muhimma", "aqeedah", "Al-Duroos al-Muhimmah li 'Aammat al-Ummah (Important Lessons for Every Muslim)", "Matn of Shaykh Abd al-Aziz ibn Baz; expl. Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "Ibn Baz's short primer on what every Muslim must know — tawheed, the prayer, purification and manners — with an English explanation.", "https://www.inkpotcollege.com/wp-content/uploads/2021/09/Explanation-of-the-Important-Lessons-for-Every-Muslim.pdf"),
   r("r-thalathat-usul", "aqeedah", "Explanation of the Three Fundamental Principles", "Explained by Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "The matn studied in this library's core module, with an English explanation.", drive("1RW23U4G6tT8dPVWsGMnapTNNNsVjZpub")),
   r("r-qawaid-arba", "aqeedah", "The Four Principles (with explanation)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "A one-page matn exposing the reality of shirk — covered in the Four Principles module.", drive("1gSL4VRco9eaGn7MyGeee9u9__4XY_PKW")),
   r("r-nawaqid", "aqeedah", "Nawaqid al-Islam (The Nullifiers of Islam)", "Matn of Muhammad ibn Abd al-Wahhab; expl. Shaykh Haytham Sarhan", "book", "https://darussalam.com/", "The ten matters that nullify a person's Islam, with their proofs.", drive("1SRd_vBX0SZs7Styutb8PlQ0pOfP0XziH")),

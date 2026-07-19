@@ -104,7 +104,7 @@ lines.push("");
 
 for (const f of fatawa) {
   lines.push(
-    `insert into public.fatawa (id, topic, question, answer_text, scholar, source_reference, category) values (${q(f.id)}, ${q(f.topic)}, ${q(f.question)}, ${q(f.answerText)}, ${q(f.scholar)}, ${q(f.sourceReference)}, ${q(f.category)});`
+    `insert into public.fatawa (id, topic, question, answer_text, scholar, source_reference, source_url, translation_credit, translation_url, category) values (${q(f.id)}, ${q(f.topic)}, ${q(f.question)}, ${q(f.answerText)}, ${q(f.scholar)}, ${q(f.sourceReference)}, ${q(f.sourceUrl ?? null)}, ${q(f.translationCredit ?? null)}, ${q(f.translationUrl ?? null)}, ${q(f.category)});`
   );
 }
 

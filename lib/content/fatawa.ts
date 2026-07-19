@@ -7,220 +7,137 @@ const f = (
   question: string,
   answerText: string,
   scholar: string,
-  sourceReference: string
-): Fatwa => ({ id, category, topic, question, answerText, scholar, sourceReference });
+  sourceReference: string,
+  sourceUrl: string | null = null,
+  translationCredit: string | null = null,
+  translationUrl: string | null = null
+): Fatwa => ({
+  id,
+  category,
+  topic,
+  question,
+  answerText,
+  scholar,
+  sourceReference,
+  sourceUrl,
+  translationCredit,
+  translationUrl,
+});
+
+/** binbaz.org.sa fatwa permalink (the Arabic slug, percent-encoded). */
+const binbaz = (id: number, slug: string) =>
+  `https://binbaz.org.sa/fatwas/${id}/${encodeURIComponent(slug)}`;
+
+const OUR_TRANSLATION =
+  "Translated in full for The Maktabah Library from the Arabic original";
 
 /**
- * Curated summaries of well-known published verdicts. Answers are faithful
- * paraphrases of the scholars' documented positions, with the source cited
- * for anyone who wants the full original wording.
+ * Every entry is a published fatwa reproduced in full — the questioner's words
+ * and the scholar's entire answer, nothing summarized or abridged. Each links
+ * to the fatwa on the scholar's own official site so the Arabic can be checked
+ * against the translation.
  */
 export const fatawa: Fatwa[] = [
   f(
     "f-dua-to-dead",
     "Tawheed",
-    "Calling upon the dead",
-    "Some people call upon deceased righteous men at their graves, asking for cures or children. What is the ruling?",
-    "Supplicating to the dead — asking them for benefit, cure or rescue — is major shirk, because du'a is worship and worship belongs to Allah alone. The deceased cannot answer anyone; Allah says, 'If you call upon them, they do not hear your call' (Fatir 35:14). Whoever needs something asks Allah directly, for He is near and answers the caller. The righteous dead are honoured by following their way, not by supplicating to them.",
+    "Supplicating to the dead",
+    "Some people attach themselves to the righteous while they are dead. You see such a person going to these dead people, asking them to fulfil needs and relieve distresses, even though they have died, and he claims that they are righteous. What is the ruling on what these people do?",
+    `What some people do, of going to the graves of the righteous, or to the grave of the Prophet ﷺ, supplicating and seeking rescue — this is major shirk. This is the shirk of the mushrikun; this is the shirk of the jahiliyyah, we seek refuge in Allah. The people of the jahiliyyah used to ask from the dead. They used to ask al-Lat and draw near to him, and he was a righteous man; they claimed that he used to knead barley porridge for the pilgrims. When he died they devoted themselves at his grave and began asking him besides Allah and seeking rescue from him. For this reason the Prophet ﷺ said: "Allah cursed the Jews and the Christians; they took the graves of their prophets as places of prostration." And he ﷺ said: "Indeed, those before you used to take the graves of their prophets and their righteous ones as places of prostration. Do not take the graves as places of prostration; I forbid you from that."
+
+So it is obligatory upon every accountable person that he fear Allah, that he be watchful of Allah, and that he single Allah out with worship: he supplicates to none but Allah, seeks rescue from none but Him, and seeks protection from none but Him. He, glorified be He, is the One who is supplicated to and hoped in, Mighty and Exalted. Allah the Exalted said: "And the places of prostration are for Allah, so do not invoke anyone along with Allah" [al-Jinn 18]. He, glorified be He, said: "Call upon Me; I will respond to you" [Ghafir 60]. Allah the Exalted said: "And whoever invokes besides Allah another deity for which he has no proof — then his account is only with his Lord. Indeed, the disbelievers will not succeed" [al-Mu'minun 117]. Allah the Exalted said: "And do not invoke besides Allah that which neither benefits you nor harms you; for if you did, then indeed you would be among the wrongdoers" [Yunus 106] — meaning the mushrikun.
+
+So whoever heads for the people of the graves, even if they are righteous, and asks them for rescue, or for intercession, or for the forgiveness of sins, or for safety from the evil of enemies — all of this is shirk with Allah, major shirk. And likewise supplicating to the jinn and seeking rescue from the jinn, or from idols and statues: all of this is major shirk, we ask Allah for well-being. So it is obligatory to beware of that. This is the religion of the mushrikun: supplicating to the dead and seeking rescue from the dead, and from idols, and from the jinn, and from the stars. This is the shirk of the mushrikun; this is their false religion. We ask Allah for well-being.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa wa Maqalat Ibn Baz"
-  ),
-  f(
-    "f-tawassul-status",
-    "Tawheed",
-    "Seeking intercession of the Prophet ﷺ today",
-    "Is it permissible to say 'O Messenger of Allah, intercede for me'?",
-    "Addressing the Prophet ﷺ after his death with requests is not permissible; asking intercession from him now is asking the dead, which the Companions never did. Rather one says: 'O Allah, grant Your Prophet the station of intercession and grant me his intercession.' The legislated tawassul is through Allah's names, one's own righteous deeds, or the du'a of a living righteous person — as Umar sought rain through the du'a of the living al-Abbas, not at the grave of the Prophet ﷺ.",
-    "Al-Lajnah ad-Da'imah (Permanent Committee)",
-    "Summarized from Fatawa al-Lajnah ad-Da'imah, section on aqeedah"
+    "Nur 'ala ad-Darb — fatwa no. 14463",
+    binbaz(14463, "حكم-دعاء-الاموات"),
+    OUR_TRANSLATION
   ),
   f(
     "f-amulets",
     "Tawheed",
-    "Wearing amulets and charms",
-    "What is the ruling on wearing an amulet (ta'wiz) containing writings for protection?",
-    "Hanging amulets is forbidden and is a means to shirk; the Prophet ﷺ said, 'Whoever hangs an amulet has committed shirk.' If the amulet contains other than the Quran — symbols, unknown names, numbers — it is forbidden by agreement, and attaching one's heart to it is shirk. As for amulets made purely of Quranic verses, the correct of the two scholarly positions is that they are also to be prevented, closing the door to shirk and protecting the Quran from disrespect.",
+    "Hanging amulets and charms",
+    "There are people who hang beads on their eyes, their necks and their ears because of illnesses, as he says. Is this shirk that expels one from the religion, or what?",
+    `This is minor shirk, and it is from the hanging of amulets and charms — whether they be beads, or papers, or cowrie shells, or other than that. The Prophet ﷺ says: "Whoever attaches an amulet, may Allah not complete [the matter] for him; and whoever attaches a cowrie shell, may Allah not grant him ease." And in the other wording: "Whoever attaches an amulet has committed shirk."
+
+The amulets (tama'im) are the charms which some people hang, and they are also called al-hujub — whether they are of beads, or of cowrie shells, or of other than that, or of bones, or of papers on which verses or ahadith are written.
+
+The correct position is that even what is written of verses and ahadith, it is not permissible to hang it. Rather, the treatment is by reciting over the sick person — reciting over him and supplicating for him. As for hanging upon him papers, or threads, or bones, or beads, or other than this for the sake of a cure, this is not permissible, and it is minor shirk. It does not expel one from the religion, but it negates the completeness of the obligatory tawheed. For example, one says: "What Allah wills and what so-and-so wills," "Were it not for Allah and so-and-so" — this is minor shirk. Like swearing by other than Allah: by the Prophet, or by trust — minor shirk. It is obligatory to beware of it. And it may be major shirk, if the one doing it believes that these things benefit by themselves apart from Allah, and that they act independently in bringing benefit apart from Allah — this is major shirk. We ask Allah for well-being.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa Ibn Baz"
+    "Nur 'ala ad-Darb — fatwa no. 10707",
+    binbaz(10707, "حكم-تعليق-التماىم"),
+    OUR_TRANSLATION
   ),
   f(
-    "f-swearing-by-other",
+    "f-fortune-tellers",
     "Tawheed",
-    "Swearing by other than Allah",
-    "People habitually swear by the Prophet ﷺ, by their parents, or by honour. What is the ruling?",
-    "Swearing by other than Allah is not permissible; the Prophet ﷺ said, 'Whoever swears, let him swear by Allah or remain silent,' and he counted swearing by other than Allah among shirk and disobedience. It is minor shirk when said out of habit, and can reach major shirk if the swearer venerates the one sworn by as Allah is venerated. The tongue must be retrained: one swears by Allah alone or not at all.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Fatawa Arkan al-Islam"
-  ),
-  f(
-    "f-magic-fortune",
-    "Tawheed",
-    "Going to fortune-tellers",
-    "Is it permissible to visit fortune-tellers or 'spiritual healers' who claim knowledge of the unseen?",
-    "Visiting fortune-tellers is forbidden: whoever merely goes to one and asks him, his prayer is not accepted for forty days, and whoever believes what he says has disbelieved in what was revealed to Muhammad ﷺ, as the authentic hadith states. Knowledge of the unseen belongs to Allah alone. Healing is sought through the Quran, the legislated supplications, and permissible medicine — never through those who traffic with the jinn.",
-    "Shaykh Salih al-Fawzan",
-    "Summarized from al-Muntaqa min Fatawa al-Fawzan"
-  ),
-  f(
-    "f-riya-small-deeds",
-    "Tawheed",
-    "Fearing riya (showing off)",
-    "I sometimes abandon good deeds fearing I am doing them to be seen. What should I do?",
-    "Abandoning deeds for fear of riya is itself from Shaytan's deception — he first corrupts the deed with showing off, and if he fails, he prevents the deed altogether. The believer performs the deed and fights the whisper, renewing sincerity within it. Riya is treated by remembering that people control neither benefit nor harm, and by concealing voluntary deeds where possible; it is not treated by handing the deed to Shaytan.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Majmu' Fatawa wa Rasa'il al-Uthaymeen"
-  ),
-  f(
-    "f-leaving-salah",
-    "Salah",
-    "One who does not pray",
-    "What is the state of a person who believes in Islam but never prays?",
-    "The prayer is the pillar of the religion after the two testimonies, and abandoning it is the gravest of matters: the Prophet ﷺ said, 'Between a man and shirk and disbelief stands the abandonment of the prayer' (Muslim). The scholars differed whether the lazy abandoner leaves Islam, but they did not differ that he stands on the edge of destruction and must repent immediately and guard the five prayers. There is no share in Islam's rest for the one who has no share in the prayer.",
+    "Going to soothsayers and diviners",
+    "I am a woman who has been afflicted by the evil eye for six years, and no treatment has benefited me. Now a woman has told me of a man who has some treatment, and I am being treated by him without my husband's knowledge. What is your view concerning one who uses recitation, and in it uses the consulting of a book, this book containing the gathering of the jinn and their dispersal — so where is this illness from? Is it from them or from other than them?",
+    `This treatment with the likes of this man is not permissible. This one is called a diviner ('arraf) and is called a soothsayer (kahin). It is not permissible to come to him, nor to ask him, nor to be treated by him. It is not permissible for you to do this even if your husband permitted you — so how when he does not know? This is never permissible for you; even if the husband told you [to do it], obedience to him in what Allah has forbidden would not be permissible for you.
+
+The Prophet ﷺ said: "Whoever comes to a diviner and asks him about something, no prayer will be accepted from him for forty nights" — Muslim reported it in the Sahih. And he, upon him be prayers and peace, said: "Whoever comes to a soothsayer and believes him in what he says has disbelieved in what was revealed to Muhammad, upon him be prayers and peace." And when he was asked about the diviners and the soothsayers, he said: "Do not come to them."
+
+So what is obligatory upon you is repentance to Allah and not coming to him — because by this action he is a soothsayer who seeks the aid of the jinn and worships them besides Allah, for they do not benefit him nor obey him except when he draws near to them by slaughtering for them, or vowing to them, or supplicating to them and seeking rescue from them, or the like of that; and this is major shirk. So it is not for you to be treated by this one or his like. You must repent to Allah, and ask Him, Mighty and Exalted, to cure you of what has afflicted you. There is no objection to treatment with the known physicians, and with the good among people who recite over you and blow over you with the Quranic verses and the prophetic supplications. If a righteous woman possessing knowledge is available to recite over you, that will benefit, if Allah wills. If she is not available, then a righteous man may recite over you and blow over you — but he must not be alone with you; rather he recites over you while your husband, or your mother, or your sister, or the like of that is present, for seclusion is not permissible. It is not permissible for a man to be alone with a woman who is not a mahram for him. Or he may recite for you into water which you then drink or wash with.
+
+All of this is fine, and all praise is due to Allah. And if you know of someone accused of [striking with] the eye, you contact him and ask him to wash for you: he washes his face and his hands and rinses his mouth in the water, then you wash with it, and it benefits by Allah's permission. He, upon him be prayers and peace, said: "The eye is real, and if you are asked to wash, then wash" — meaning, if it is said to the one accused of the glance of the eye, "Wash your face and your hands for us," then he should not refuse; he washes his extremities for them, and that benefits by Allah's permission when it is poured over the one struck by the eye, as the Prophet, upon him be prayers and peace, commanded with that. As for coming to the soothsayers, the astrologers, and whoever employs the jinn — that is never permissible, neither for the eye nor for any other illness.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa Ibn Baz, section on salah"
+    "Nur 'ala ad-Darb — fatwa no. 8586",
+    binbaz(8586, "حكم-الذهاب-الى-الكهنة-والعرافين"),
+    OUR_TRANSLATION
   ),
   f(
-    "f-congregation",
-    "Salah",
-    "Praying in congregation",
-    "Is praying in the mosque obligatory for men, or is praying at home sufficient?",
-    "Congregational prayer in the mosque is obligatory upon men who hear the call, based on the Prophet's ﷺ statement to the blind man who asked for a concession: 'Do you hear the call to prayer? Then respond.' He ﷺ even considered burning the houses of men who stay away from it. A man who prays at home without excuse — illness or genuine fear — is sinful though his prayer counts. Women's prayer at home is better for them, and they are not prevented from the mosques.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Fatawa Arkan al-Islam"
-  ),
-  f(
-    "f-missed-prayers-sleep",
-    "Salah",
-    "Missing Fajr due to sleep",
-    "A person regularly sleeps through Fajr and prays it after sunrise. What must he do?",
-    "Whoever sleeps through a prayer or forgets it prays it when he wakes or remembers — 'there is no expiation for it except that,' as the Prophet ﷺ said. But this concession is for the one overcome despite taking the means; the one who habitually neglects the means — staying up late without need, ignoring alarms, having no one wake him — is negligent and sinful. Sleep early, use every means of waking, and let a man's household wake one another for the prayer.",
+    "f-mawlid-bidah-hasanah",
+    "Bid'ah",
+    "The mawlid, and whether there is a 'good bid'ah'",
+    "We ask you about the birthday of the greatest Prophet ﷺ — is it an innovation? I have heard in some lands, and from some scholars, that they say it is a good innovation (bid'ah hasanah), and Allah knows best.",
+    `In the name of Allah, the Most Merciful, the Bestower of mercy. All praise is due to Allah, Lord of the worlds, and prayers and peace be upon His slave and Messenger, His close friend and the one entrusted with His revelation, our Prophet and our Imam Muhammad ibn Abdillah, and upon his family and his Companions, and whoever is guided by his guidance. To proceed:
+
+Celebrating the mawlids only came about in the later centuries, after the best generations — after the first, the second and the third centuries. It is among the innovations that some people introduced, deeming it good and supposing it to be something fine. The correct and true position, which the verifiers among the people of knowledge hold, is that it is an innovation. The celebrations of the mawlids are all innovation, and among them is celebrating the birthday of the Prophet. And why? Because the Messenger ﷺ did not do it, nor his Companions, nor his rightly-guided successors, nor the best generations — none of them did this thing. The good lies in following them, not in what people introduced after them. It is authentically established from him, upon him be prayers and peace, that he said: "Beware of newly invented matters." And he, upon him be prayers and peace, said: "The worst of affairs are the newly invented ones, and every innovation is misguidance." And he, upon him be prayers and peace, said: "Whoever introduces into this affair of ours what is not from it, it is rejected"; "Whoever performs a deed that is not in accordance with our affair, it is rejected" — meaning: thrown back upon him.
+
+So the Prophet ﷺ clarified the matter and made plain that innovations in the religion are detestable, and that it is not for anyone to introduce into the religion what Allah has not permitted. Allah has censured whoever does this, in His statement, glorified be He: "Or do they have partners who have legislated for them of the religion that which Allah has not permitted?" [ash-Shura 21]. The celebration is a newly invented matter which Allah did not permit, nor did His Messenger, upon him be prayers and peace. The Companions are the best of people after the prophets, and the most beloved of people to the Prophet ﷺ, and the quickest of people to every good — and they did not do this: not Abu Bakr, nor Umar, nor Uthman, nor Ali, nor the rest of the ten, nor the rest of the Companions. And likewise the Tabi'un and the followers of the Tabi'un did not do this. It only came about from some of the Fatimid Shi'ah in Egypt in the fourth century, as some of the historians have mentioned. Then it came about in the sixth century, at its end, or at the beginning of the seventh, from the king of Irbil, who supposed that this was something good and so did it. The truth is that it is an innovation, because it is an act of worship which Allah did not legislate. The Messenger ﷺ conveyed the message clearly, and did not conceal anything of what Allah legislated; rather he conveyed everything Allah legislated and commanded. And Allah, glorified be He, said: "This day I have perfected for you your religion" [al-Ma'idah 3].
+
+So Allah has perfected the religion and completed it, and celebrating the mawlids is not part of that religion which Allah perfected. By this it is known that it is a detestable innovation, not a good one. There is no good innovation in the religion; rather all innovations are misguidance, all of them detestable. And the Prophet said: "Every innovation is misguidance." So it is not permissible for any of the Muslims to say that among the innovations there is something good, while the Messenger ﷺ says: "Every innovation is misguidance" — because this is contradicting and opposing the Messenger ﷺ. It is authentically established from him that he said: "Every innovation is misguidance," so it is not permissible for us to say other than his statement, upon him be prayers and peace.
+
+As for what some people suppose to be an innovation while it is from what the Shari'ah brought, it is not an innovation — such as the writing of the mus-hafs, and such as the tarawih. These are not innovations; all of these are legislated, and calling them innovation has no basis. As for what is narrated from Umar, that he said concerning the tarawih, "What an excellent innovation," what is intended by this is from the angle of the language, not from the angle of the religion. Moreover, the statement of Umar does not contradict what the Messenger ﷺ said, nor does it oppose it; the statement of the Messenger takes precedence, upon him be prayers and peace, because he said: "Every innovation is misguidance," and he said: "Beware of newly invented matters," and he ﷺ said in the Friday sermon: "To proceed: the best of speech is the Book of Allah, and the best guidance is the guidance of Muhammad ﷺ, and the worst of affairs are the newly invented ones, and every innovation is misguidance." This is his ruling, upon him be prayers and peace — Muslim reported it in the Sahih.
+
+So it is not permissible for a Muslim to oppose what Allah has legislated, nor to contend with what the Prophet of Allah brought, upon him be prayers and peace. Rather it is obligatory upon him to submit to the legislation of Allah, and to refrain from what Allah has forbidden of innovations and acts of disobedience. May Allah grant everyone guidance.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Fatawa Nur 'ala ad-Darb"
-  ),
-  f(
-    "f-khushu",
-    "Salah",
-    "Weak concentration in prayer",
-    "My mind wanders constantly in prayer. Does this invalidate it, and how do I treat it?",
-    "Wandering thoughts do not invalidate the prayer, but they strip its reward in proportion to their extent. The treatment: perform wudu well, come early, seek refuge in Allah from Shaytan when whispering intensifies, understand what you recite, and pray as the Prophet ﷺ instructed — 'pray the prayer of one bidding farewell.' Khushu' is the heart's presence before its Lord; it grows with practice like everything the soul is trained upon.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Majmu' Fatawa wa Rasa'il al-Uthaymeen"
-  ),
-  f(
-    "f-jumuah-obligation",
-    "Salah",
-    "Who must attend Jumu'ah",
-    "Is the Friday prayer obligatory on every Muslim, including travelers and women?",
-    "Jumu'ah is an individual obligation upon every free, adult, resident male with no valid excuse; Allah commands, 'When the call is made for prayer on Friday, hasten to the remembrance of Allah' (al-Jumu'ah 62:9). It is not obligatory upon women, travelers, or the ill — though if they attend, it suffices them in place of Dhuhr. Whoever abandons three Jumu'ahs out of negligence, Allah places a seal over his heart, as the authentic warning states.",
-    "Al-Lajnah ad-Da'imah (Permanent Committee)",
-    "Summarized from Fatawa al-Lajnah ad-Da'imah, section on salah"
-  ),
-  f(
-    "f-mawlid",
-    "Bid'ah",
-    "Celebrating the Prophet's ﷺ birthday",
-    "Is celebrating the mawlid an act of love for the Prophet ﷺ?",
-    "Celebrating the mawlid was not done by the Prophet ﷺ, his Companions, or the three praised generations — and all goodness is in following them. It entered centuries later, and the Prophet ﷺ said, 'Whoever introduces into this affair of ours what is not from it, it is rejected.' True love of him ﷺ is obeying his Sunnah, sending salah upon him, and following his guidance — not an annual gathering he never legislated. Had it been good, the Companions — who loved him most — would have preceded us to it.",
-    "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa Ibn Baz, section on innovations"
-  ),
-  f(
-    "f-bidah-hasanah",
-    "Bid'ah",
-    "Is there 'good bid'ah'?",
-    "Some say there is bid'ah hasanah (good innovation) in religion, citing Umar's statement about tarawih. Is this correct?",
-    "The Prophet ﷺ said, 'Every bid'ah is misguidance' — a universal statement from the one given the most comprehensive speech; it admits no exceptions in matters of worship. Umar's words 'what a good bid'ah' referred to the linguistic sense: reviving a congregational prayer the Prophet ﷺ himself had led and left only fearing it would be made obligatory — a revived Sunnah, not an invention. Whoever legislates a new act of worship implies the religion was incomplete, and Allah has said, 'This day I have perfected for you your religion.'",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Majmu' Fatawa wa Rasa'il al-Uthaymeen"
-  ),
-  f(
-    "f-grave-visits",
-    "Bid'ah",
-    "Visiting graves — Sunnah and excess",
-    "What is the correct manner of visiting graves, and what practices at graves are forbidden?",
-    "Visiting graves is Sunnah for men — the Prophet ﷺ said, 'Visit the graves, for they remind you of the Hereafter' — with the legislated greeting and du'a *for* the dead. Forbidden at graves: supplicating *to* the buried, seeking blessing from the soil, circumambulating them, building structures over them, and taking them as places of prayer — all means to shirk that the Prophet ﷺ blocked, cursing those who take graves as masajid. Visit to remember death; leave having supplicated for them, not to them.",
-    "Shaykh Salih al-Fawzan",
-    "Summarized from al-Muntaqa min Fatawa al-Fawzan"
-  ),
-  f(
-    "f-dhikr-beads-counts",
-    "Bid'ah",
-    "Invented dhikr formulas",
-    "Groups gather to chant Allah's name in unison with swaying movements, claiming it polishes the heart. What is the ruling?",
-    "Remembrance of Allah is among the greatest worship — but worship is built on following, not invention. Collective chanting in unison, dancing or swaying, and dhikr formulas with invented counts and manners were not practiced by the Prophet ﷺ or his Companions; they are innovations regardless of the sincerity behind them. The legislated dhikr — with its authentic wordings and times — suffices, and in it is all the heart's polish; 'verily in the remembrance of Allah do hearts find rest' (ar-Ra'd 13:28).",
-    "Al-Lajnah ad-Da'imah (Permanent Committee)",
-    "Summarized from Fatawa al-Lajnah ad-Da'imah, section on aqeedah and dhikr"
+    "Nur 'ala ad-Darb — fatwa no. 13480",
+    binbaz(13480, "هل-الاحتفال-بالمولد-النبوي-بدعة-حسنة"),
+    OUR_TRANSLATION
   ),
   f(
     "f-fasting-traveler",
     "Sawm",
-    "Fasting while traveling",
-    "Is it better for a traveler in Ramadan to fast or to break the fast?",
-    "Both are permissible by the text of the Quran — 'whoever is ill or on a journey, then an equal number of other days' (al-Baqarah 2:185). If fasting brings no hardship, fasting is fine and discharges the duty sooner; if travel is hard, breaking the fast is better, for 'Allah loves that His concessions be taken.' The Prophet ﷺ did both in travel. What is not permissible is fasting that harms — when he ﷺ saw a man shaded and collapsing, he said: 'It is not righteousness to fast in travel' in such a state.",
+    "Fasting while travelling",
+    "Fasting now — for one who has gone on a journey?",
+    `The better course while travelling is to break the fast; and if he fasts there is no harm, so long as there is no hardship upon him. If he fasts while travelling, in Ramadan or other than it, there is no harm. When he leaves the town he fasts; when he leaves the town he breaks the fast. And if he continues fasting while travelling there is no blame. The Prophet ﷺ fasted and broke the fast, and the Companions fasted and broke the fast.
+
+[Questioner:] At the airport, does the breaking of the fast begin?
+
+The Shaykh: The breaking of the fast is when he leaves the town — when he leaves the built-up area of the town, in any town.
+
+[Questioner:] Is the recommendation upon the original ruling?
+
+The Shaykh: Breaking the fast is better while travelling, without restriction; and when the heat is severe it is more emphatically so — meaning: "It is not righteousness to fast while travelling."
+
+[Questioner:] He does not break the fast on the white days, being constant upon them while resident?
+
+The Shaykh: If he fasts them, may Allah reward him with good. If he is able, that is fine; several ahadith have come concerning them — it is not a single hadith.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa Ibn Baz, section on siyam"
+    "Nur 'ala ad-Darb — fatwa no. 22828",
+    binbaz(22828, "هل-الافضل-في-السفر-الفطر-ام-الصوم"),
+    OUR_TRANSLATION
   ),
   f(
     "f-fasting-forgetting",
     "Sawm",
     "Eating forgetfully while fasting",
-    "Someone ate and drank forgetting he was fasting. Is his fast broken?",
-    "His fast is sound and he completes his day; the Prophet ﷺ said, 'Whoever forgets while fasting and eats or drinks, let him complete his fast, for it is only Allah who fed him and gave him drink.' Forgetfulness lifts blame in this ummah by Allah's mercy. But the moment he remembers, he must stop immediately, and whoever sees a fasting person eating forgetfully should remind him.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Fatawa Arkan al-Islam"
-  ),
-  f(
-    "f-zakah-salary",
-    "Zakah",
-    "Zakah on monthly salaries",
-    "How does an employee with a monthly salary calculate zakah on his savings?",
-    "Zakah is due on savings that reach the nisab and remain in one's possession for a full lunar year, at 2.5%. For salaries saved month by month, the easiest sound method: fix one zakah date each year — when your first savings reached nisab — and on that date pay 2.5% of everything held, even if some of it has not individually completed a year. Paying zakah early for later months is permissible and simpler, and the excess counts as hastened zakah or charity.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Fatawa Arkan al-Islam, section on zakah"
-  ),
-  f(
-    "f-zakah-recipients-family",
-    "Zakah",
-    "Giving zakah to relatives",
-    "May I give my zakah to my poor brother or other relatives?",
-    "Giving zakah to poor relatives whom you are not already obligated to maintain — such as brothers, sisters, uncles and aunts — is not only valid but doubly rewarded: the Prophet ﷺ said charity to kin is 'charity and upholding of ties.' It may not be given to those whose maintenance is your duty, like parents, grandparents, children and wife, because it would return a benefit to yourself. It also may not be given to the rich or the strong able earner.",
-    "Al-Lajnah ad-Da'imah (Permanent Committee)",
-    "Summarized from Fatawa al-Lajnah ad-Da'imah, section on zakah"
-  ),
-  f(
-    "f-quran-without-wudu",
-    "General",
-    "Touching the mushaf without wudu",
-    "May a person read the Quran without wudu, from memory or from the mushaf?",
-    "Reciting from memory without wudu is permissible by agreement — the Prophet ﷺ would remember Allah in all his states, and only janabah prevented him from recitation. As for touching the mushaf itself, the majority of scholars hold that purification is required, based on 'none touch it except the purified' and the letter of the Prophet ﷺ to Amr ibn Hazm. Reading from a phone screen without wudu is permissible, since the device is not a mushaf.",
+    "It is known that if the fasting person eats forgetfully, there is nothing upon him. Does this apply only to the obligatory fast, or to fasting in general?",
+    `To fasting in general — the obligatory and the voluntary, Ramadan and other than it. If he eats forgetfully, and drinks forgetfully, his fast is sound, and all praise is due to Allah.`,
     "Shaykh Abd al-Aziz ibn Baz",
-    "Summarized from Majmu' Fatawa Ibn Baz"
-  ),
-  f(
-    "f-seeking-knowledge-priority",
-    "General",
-    "Where should a beginner start seeking knowledge?",
-    "There are so many books and lectures. In what order should a beginner student of knowledge study?",
-    "Begin with what is obligatory upon you personally: sound aqeedah, purification and prayer. Take short foundational texts with a qualified teacher — Thalathat al-Usul, al-Qawa'id al-Arba', then Kitab at-Tawheed in creed; the short fiqh texts in worship — and do not race to big books before firming the foundations. Knowledge is taken gradually: 'whoever seizes knowledge all at once loses it all at once,' as the Salaf said. Consistency upon a little is beloved to Allah and builds what cramming never will.",
-    "Shaykh Salih al-Fawzan",
-    "Summarized from the Shaykh's advice to beginners in seeking knowledge"
-  ),
-  f(
-    "f-dreams",
-    "General",
-    "Acting upon dreams",
-    "I saw a dream instructing me to do a specific act of worship. Should I follow it?",
-    "Good dreams are from Allah and may glad-tidings be taken from them, but the Shariah is complete and dreams legislate nothing. An act of worship is accepted only with proof from the Quran and Sunnah; a dream cannot obligate, prohibit or specify worship — even the dream of a righteous person. If a dream conforms to the Shariah, the Shariah was already sufficient; if it contradicts it, it is discarded. Relate good dreams to those you love, spit dryly to the left three times from bad ones, and seek refuge in Allah.",
-    "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    "Summarized from Majmu' Fatawa wa Rasa'il al-Uthaymeen"
-  ),
-  f(
-    "f-new-muslim-past",
-    "General",
-    "A new Muslim's past sins",
-    "Someone entered Islam after a life of serious sins. Must he make up for what passed?",
-    "Islam demolishes what was before it — the Prophet ﷺ said this to Amr ibn al-As when he accepted Islam, and Allah says the one who repents and believes, 'Allah will replace their evil deeds with good' (al-Furqan 25:70). He is not required to make up past prayers or fasts, for he was not addressed with them before his Islam. Let him enter his new life with hope, guard the obligations from today, and know that his record opened white on the day he testified.",
-    "Al-Lajnah ad-Da'imah (Permanent Committee)",
-    "Summarized from Fatawa al-Lajnah ad-Da'imah"
+    "Nur 'ala ad-Darb — fatwa no. 15525",
+    binbaz(15525, "حكم-صوم-من-اكل-ناسيا"),
+    OUR_TRANSLATION
   ),
 ];

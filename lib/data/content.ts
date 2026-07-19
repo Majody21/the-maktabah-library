@@ -245,6 +245,9 @@ export async function getFatawa(): Promise<Fatwa[]> {
     answerText: r.answer_text,
     scholar: r.scholar,
     sourceReference: r.source_reference ?? "",
+    sourceUrl: r.source_url ?? null,
+    translationCredit: r.translation_credit ?? null,
+    translationUrl: r.translation_url ?? null,
     category: r.category ?? "General",
   }));
 }
