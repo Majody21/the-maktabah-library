@@ -31,6 +31,8 @@ const binbaz = (id: number, slug: string) =>
 const OUR_TRANSLATION =
   "Translated in full for The Maktabah Library from the Arabic original";
 
+const PUBLISHED_EN = "English translation published by IslamQA";
+
 /**
  * Every entry is a published fatwa reproduced in full — the questioner's words
  * and the scholar's entire answer, nothing summarized or abridged. Each links
@@ -139,5 +141,61 @@ The Shaykh: If he fasts them, may Allah reward him with good. If he is able, tha
     "Nur 'ala ad-Darb — fatwa no. 15525",
     binbaz(15525, "حكم-صوم-من-اكل-ناسيا"),
     OUR_TRANSLATION
+  ),
+  f(
+    "f-minor-shirk-forgiveness",
+    "Tawheed",
+    "Whether minor shirk is forgiven",
+    "Do the words of Allah, \"Verily, Allah forgives not that partners should be set up with Him (in worship)\" [al-Nisa' 4:48], include minor shirk?",
+    `The scholars differed concerning that. Some of them said that it includes all kinds of shirk, even minor shirk such as swearing by something other than Allah; Allah will not forgive him. But with regard to major sins, such as drinking alcohol and zina, they are subject to the will of Allah; if Allah wills He will forgive them and if He wills He will punish them.
+
+Shaykh al-Islam [Ibn Taymiyah] said different things. On one occasion he said: Allah does not forgive shirk even if it is minor. And on another occasion he said: That which Allah does not forgive is major shirk.
+
+Whatever the case, we must beware of shirk altogether, because the general meaning may include minor shirk too, because He says "Verily, Allah forgives not that partners should be set up with Him" meaning any partner, therefore it suggests any kind of shirk.`,
+    "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    "Majmoo' Fataawa al-Shaykh Ibn 'Uthaymeen, 2/203",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/91763"
+  ),
+  f(
+    "f-congregation-travelling",
+    "Salah",
+    "Praying in congregation while travelling",
+    "The Shaykh was asked about a group of travellers who were going to attend a conference: should they pray in the mosques or not?",
+    `The basic principle is that you should attend prayers in congregation in the mosque with the people if you are in a place where you can hear the adhaan without a loudspeaker because you are near the mosque. If you are in a far place where you cannot hear the call to prayer even with a loudspeaker, then pray in congregation where you are. Similarly if going to the mosque will detract from the purpose for which you came then pray in congregation where you are.`,
+    "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    "Fatawa al-Shaykh Ibn 'Uthaymeen, 15/381",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/21498"
+  ),
+  f(
+    "f-dhikr-in-unison",
+    "Bid'ah",
+    "Du'a and dhikr recited in unison",
+    "The Standing Committee was asked about du'a and dhikr recited in unison.",
+    `The basic principle concerning dhikr and acts of worship is that there is no room for adding or subtracting anything. Allah should only be worshipped in the ways that He has prescribed; this applies whether it is something that can be done at any time or something that is limited to a specific time and how it is to be done and how many times it is to be done. With regard to dhikrs and du'as that Allah has prescribed and all kinds of worship that are not limited with regard to time and numbers, location or a particular way in which they are to be done, it is not permissible for us to adhere to a particular way, time or number; rather we are to do these acts of worship without restrictions as it was prescribed.
+
+In matters where it is proven in the words or deeds of the Prophet (peace and blessings of Allah be upon him) that an action is to be done at a certain time or a certain number of times or in a certain place or in a certain manner, then we should worship Allah in accordance with what has been prescribed. It has not been proven from the words or deeds or approval of the Prophet (peace and blessings of Allah be upon him) that he recited du'a in unison with others following the prayers, or after reading Quran, or following each lesson, whether that took the form of the imaam reciting du'a and the congregation saying Ameen to his du'a, or whether they all recited du'a together in unison. That was not known at the time of the Rightly-Guided Khaleefahs or any of the Sahaabah (may Allah be pleased with them). Whoever adheres to the practice of reciting du'a in unison following the prayers or after reading Quran or after every lesson has innovated something and introduced into the religion something which is not a part of it. It was narrated that the Prophet (peace and blessings of Allah be upon him) said: "Whoever innovates something in this matter of ours (i.e. Islam) that is not part of it will have it rejected." And he said: "Whoever does something that is not in accordance with this matter of ours (Islam) will have it rejected."
+
+If it were prescribed to adhere to a certain way of doing it, the Prophet (peace and blessings of Allah be upon him) and his successors (khulafa') after him would have adhered to that. We have stated above that no such thing was proven from him or from his companions (may Allah be pleased with them). All goodness is to be found in following the guidance of the Prophet (peace and blessings of Allah be upon him) and the guidance of the Rightly-Guided Khulafa' (may Allah be pleased with them); all evil is to be found in going against their guidance and following the innovated matters against which the Prophet (peace and blessings of Allah be upon him) warned us by saying, "Beware of newly-innovated matters, for every innovation is misguidance." May Allah bless our Prophet Muhammad and his family and companions, and grant them peace.`,
+    "Al-Lajnah ad-Da'imah (The Permanent Committee)",
+    "Fatawa Islamiyyah, 4/178",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/10491"
+  ),
+  f(
+    "f-riya-naseehah",
+    "General",
+    "Fearing riya when advising others",
+    "A woman is asking: I am so afraid of showing off that I cannot advise some people or tell them not to do certain things such as backbiting, gossiping, and so on. I am afraid that that will be showing off on my part, and I am afraid that people will think that I am showing off. So I do not give them any advice (naseehah). I tell myself: They are educated people, they do not need any advice. What do you suggest?",
+    `This is one of the traps of the Shaytaan, by means of which he prevents people from calling others to Allaah and from enjoining what is good and forbidding what is evil. One of the ways in which he does this is to make them think that this is showing off, or that people will think that it is showing off. You should not pay any attention to that, rather what you should do is go ahead and advise your sisters and brothers in faith, if you see them falling short in any duty or committing haraam (impermissible) actions such as gossiping, setting people against one another, or not covering in front of men. Do not be afraid of showing off, rather do it solely for the sake of Allaah, be sincere in your intention and receive glad tiding of goodness. Ignore the tricks and whispers of the Shaytaan. Allaah knows what is in your heart, your intention and your sincerity towards Him and your sincerity towards His slaves. Undoubtedly showing off is shirk and is not permissible, but it is not permissible for a believing man or woman to refrain from doing something that Allaah has enjoined, such as calling people to Him or enjoining what is good and forbidding what is evil, for fear of showing off, so they should beware of that. They should do what they are obliged to do among men and women, and men and women are equal in this regard. Allaah has stated that in His Holy Book where He says (interpretation of the meaning): "The believers, men and women, are Awliyaa' (helpers, supporters, friends, protectors) of one another; they enjoin (on the people) Al-Ma'roof, and forbid (people) from Al-Munkar; they perform As-Salaah, and give the Zakaah, and obey Allaah and His Messenger. Allaah will have His Mercy on them. Surely, Allaah is All-Mighty, All-Wise" [al-Tawbah 9:71].`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Fataawa Ibn Baaz, 6/403",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/67617"
   ),
 ];
