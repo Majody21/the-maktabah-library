@@ -112,6 +112,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Everything (type, spacing, container widths) is sized in rem, so
+       lifting the root size scales the whole page like a 110% zoom. */
+    font-size: 110%;
   }
 
   body {

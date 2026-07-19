@@ -253,6 +253,58 @@ If it were prescribed to adhere to a certain way of doing it, the Prophet (peace
     "https://islamqa.info/en/answers/10491"
   ),
   f(
+    "f-wiping-socks-intention",
+    "General",
+    "Whether an intention is needed to wipe over socks",
+    "Is it essential, in order for it to be permissible to wipe over the leather slippers, that one should have the intention of wiping over them and also the intention of the period (during which one will wipe over them)?",
+    `In this case, the intention is not required, because this is a matter in which the ruling has to do with having socks on, and it does not require an intention. Similarly, if a person puts on a garment, it is not essential to have the intention of covering the 'Awrah during prayer, for example.
+
+And when putting on the leather slippers, he does not have to intend to wipe over them or to intend a period for which he will do that. Rather if he is travelling, he may wipe over them for three days and nights whether he intends that or not, and if he is not travelling, he may wipe over them for one day and one night, whether he intends that or not.`,
+    "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    "Majmu' Fatawa Ibn 'Uthaymin, 11/117",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/112323"
+  ),
+  f(
+    "f-dreams-decisions",
+    "General",
+    "Acting upon a dream about a suitor",
+    "A man proposed marriage to a woman, and in a dream she saw him clean-shaven. Should she agree to marry him or not? In real life he appears to be good, and he does not shave his beard; he is religiously-committed, but Allah knows best about him.",
+    `If a woman sees a man who has proposed to her as clean-shaven in a dream, when in reality he does not shave his beard, what she sees in her dream does not matter, and that should not prevent her from marrying him, so long as he is upright in his religious commitment and character.`,
+    "Shaykh Muhammad ibn Salih al-Uthaymeen",
+    "Liqa' al-Bab al-Maftuh, no. 5, question 17",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/93399"
+  ),
+  f(
+    "f-wandering-thoughts-prayer",
+    "Salah",
+    "A mind that wanders throughout the prayer",
+    "When I say the opening takbeer and start to recite al-Faatihah, I always lose my focus and my mind strays to matters other than prayer, until I finish the prayer…",
+    `Your prayer is valid if you have done all the obligatory parts of the prayer. Our advice to you is to ward off the Shaytaan from yourself as much as you can and strive your utmost, until these whispers depart from you and the plot of the Shaytaan is foiled.
+
+Something that will help you to do that is turning to Allaah and seeking refuge in Him from the Shaytaan when beginning to recite, and to say that quietly to yourself all the time; pondering the meanings of the Qur'aan in such a way as to make you think of the greatness of Allaah; reciting takbeer (Allaahu akbar — Allaah is Most Great), tahleel (La ilaaha ill-Allaah — there is no god except Allaah), tasbeeh (Subhaan Allaah — glory be to Allaah) and tahmeed (Al-hamdu Lillaah — praise be to Allaah); remembering that you are standing before Allaah and conversing with Him in your prayer and that you must observe proper etiquette with Him; focusing on what you say when you speak to Him and call upon Him in du'aa'; hoping that Allaah will ward off these whispers and save you from the traps of the Shaytaan and that He will help you to turn to Him and turn away from the Shaytaan.`,
+    "Al-Lajnah ad-Da'imah (The Permanent Committee)",
+    "Fataawa al-Lajnah, 7/156",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/34570"
+  ),
+  f(
+    "f-innovated-occasions",
+    "Bid'ah",
+    "Commemorating Laylat al-Qadr, mid-Sha'ban, the Mi'raj and the Mawlid",
+    "The Standing Committee was asked about commemorating these occasions, and about helping others to hold such celebrations.",
+    `It is not permissible to celebrate the occasion of Laylat al-Qadr or any other night, or to commemorate other occasions, such as the night of the fifteenth of Sha'baan (laylat an-nusf min Sha'baan), the night of the Mi'raaj (Prophet's ascent to heaven), and the Prophet's birthday (Mawlid), because these are innovations that have been introduced into Islam and that were not narrated from the Prophet (blessings and peace of Allah be upon him) or from his Companions. The Prophet (blessings and peace of Allah be upon him) said: "Whoever does an action that is not part of this matter of ours (i.e., Islam) will have it rejected." It is not permissible to help others to hold these celebrations by means of money, gifts or distributing cups of tea, or by giving speeches and lectures on these occasions, because that comes under the heading of approving of them and encouraging them. Rather one should denounce them and not attend them.`,
+    "Al-Lajnah ad-Da'imah (The Permanent Committee)",
+    "Fatawa al-Lajnah ad-Da'imah, 2/257-258",
+    null,
+    PUBLISHED_EN,
+    "https://islamqa.info/en/answers/175577"
+  ),
+  f(
     "f-riya-naseehah",
     "General",
     "Fearing riya when advising others",
