@@ -19,8 +19,8 @@ export default async function DepartmentsPage() {
     <div className="mx-auto max-w-3xl px-6 py-10">
       <h1 className="font-display text-3xl font-semibold">Departments</h1>
       <p className="mt-2 text-ink-soft">
-        Ordered modules, proof-backed lessons, a quiz at the end of each
-        module. Begin with Aqeedah.
+        Each department is taught in ordered modules. Every lesson brings its
+        proof, and each module ends with a quiz. Begin with Aqeedah.
       </p>
 
       <div className="mt-8 space-y-4">

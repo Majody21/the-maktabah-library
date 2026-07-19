@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-10">
+    <div className="mx-auto max-w-4xl px-6 py-10 text-center">
       <h1 className="font-display text-3xl font-semibold">About the library</h1>
 
       <Photo
@@ -22,52 +22,58 @@ export default function AboutPage() {
         className="mt-6 h-52 w-full"
       />
 
-      <section className="mt-10 max-w-2xl space-y-4 leading-relaxed">
+      <section className="mx-auto mt-10 max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Mission</h2>
         <p>
-          A clear, structured path through the foundations of the religion for
-          English speakers — grounded in the Qur&rsquo;an, the authentic
-          Sunnah, and the understanding of the Salaf us-Salih.
+          This library teaches the foundations of the religion to English
+          speakers upon the Book of Allah, the authentic Sunnah, and the
+          understanding of the Salaf us-Salih.
         </p>
         <p className="text-ink-soft">
-          Short, focused lessons. Every claim tied to its evidence. The
-          scholars&rsquo; own explanations beside the text.
+          The lessons are short and ordered. Every point is tied to its
+          evidence, and the explanation of the scholars is placed beside the
+          text.
         </p>
       </section>
 
       <PatternDivider className="my-10" />
 
-      <section className="max-w-2xl space-y-4 leading-relaxed">
+      <section className="mx-auto max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Manhaj</h2>
         <p>
-          We follow the way of the Salaf — the Companions and the imams of
-          guidance after them — in creed, worship and methodology. Lessons
-          draw from the explanations of the recognized scholars of Ahlus
-          Sunnah: <strong>Ibn Baz</strong>, <strong>Ibn Uthaymeen</strong> and{" "}
-          <strong>al-Fawzan</strong> among the later imams;{" "}
-          <strong>Ibn Taymiyyah</strong> and <strong>Ibn al-Qayyim</strong>{" "}
-          among the earlier. Each lesson states whose explanation it summarizes.
+          We follow the way of the Salaf us-Salih in creed, in worship, and in
+          manhaj: the way of the Companions and the imams of guidance who came
+          after them.
+        </p>
+        <p>
+          The lessons are taken from the explanations of the recognized
+          scholars of Ahlus Sunnah. Among the later imams:{" "}
+          <strong>Ibn Baz</strong>, <strong>Ibn Uthaymeen</strong> and{" "}
+          <strong>al-Fawzan</strong>. Among those who preceded them:{" "}
+          <strong>Ibn Taymiyyah</strong> and <strong>Ibn al-Qayyim</strong>.
+          Each lesson names the scholar whose explanation it draws upon.
         </p>
       </section>
 
       <PatternDivider className="my-10" />
 
-      <section className="max-w-2xl space-y-4 leading-relaxed">
+      <section className="mx-auto max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">
-          Every claim has its proof
+          Evidence
         </h2>
         <p>
-          No lesson states a belief or ruling without citing the ayah or
-          hadith it stands on — in Arabic, with translation and reference.
-          Check the proofs, and ask the people of knowledge.
+          No lesson states a belief or a ruling without its proof from the Book
+          or the Sunnah, given in Arabic with its translation and its
+          reference. Read the proofs, and ask the people of knowledge about
+          what is unclear to you.
         </p>
         <p className="text-sm text-ink-faint">
-          Found an error in a reference or translation? That is a trust upon
-          us — please tell us so we can correct it.
+          If you find an error in a reference or a translation, inform us so
+          that it may be corrected, for conveying knowledge is a trust.
         </p>
       </section>
 
-      <div className="mt-14 text-center">
+      <div className="mt-14">
         <Link href="/departments/aqeedah" className="btn btn-primary">
           Start with Aqeedah
         </Link>

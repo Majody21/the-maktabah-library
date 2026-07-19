@@ -65,11 +65,11 @@ export default async function DepartmentPage({
         <span className="mt-1 text-forest">
           <DeptIcon name={department.icon} size={30} />
         </span>
-        <div>
+        <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
           <h1 className="font-display text-3xl font-semibold">{department.name}</h1>
-          <p className="arabic-inline mt-1 !text-[1.05rem] text-ink-faint" dir="rtl" lang="ar">
+          <span className="arabic-inline !text-[1.15rem] text-ink-faint" dir="rtl" lang="ar">
             {department.arabicName}
-          </p>
+          </span>
         </div>
       </div>
       <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">

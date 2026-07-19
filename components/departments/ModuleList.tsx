@@ -124,9 +124,9 @@ export default function ModuleList({
             >
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div className="min-w-0">
-                  <div className="flex items-center gap-2.5">
+                  <div className="flex items-center gap-2">
                     <span
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded font-display text-[0.95rem] font-bold ${
+                      className={`flex h-6 w-6 shrink-0 items-center justify-center rounded font-display text-[0.78rem] font-bold ${
                         complete
                           ? "bg-forest-fill text-on-forest"
                           : unlocked

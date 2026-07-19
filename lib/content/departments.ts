@@ -7,7 +7,7 @@ export const departments: Department[] = [
     name: "Aqeedah",
     arabicName: "العقيدة",
     description:
-      "Correct belief in Allah — the pillars, tawheed, and the proof for every point of creed.",
+      "Correct belief in Allah: the pillars, tawheed, and the proof for every point of creed.",
     icon: "pillar",
     displayOrder: 1,
     isActive: true,
@@ -59,7 +59,7 @@ export const departments: Department[] = [
     name: "Seerah",
     arabicName: "السيرة النبوية",
     description:
-      "The life of the Prophet ﷺ from Makkah to Madinah — his biography as guidance.",
+      "The life of the Prophet ﷺ from Makkah to Madinah, read as guidance.",
     icon: "palm",
     displayOrder: 5,
     isActive: false,
@@ -111,7 +111,7 @@ export const departments: Department[] = [
     name: "Refutations & Warnings",
     arabicName: "الردود",
     description:
-      "What bid'ah is, and the positions of the historical sects — once the foundations are firm.",
+      "What bid'ah is, and the positions of the historical sects, studied once the foundations are firm.",
     icon: "shield",
     displayOrder: 9,
     isActive: false,
@@ -139,7 +139,7 @@ export const modules: Module[] = [
     id: "introduction",
     departmentId: "aqeedah",
     slug: "introduction",
-    name: "Introduction: Preparing to Seek Knowledge",
+    name: "Introduction",
     description:
       "Before the first lesson: purifying your intention (ikhlas), knowing that guidance is from Allah and relying upon Him, and the virtue and manners of seeking ilm.",
     displayOrder: 0,
@@ -152,7 +152,7 @@ export const modules: Module[] = [
     slug: "five-pillars",
     name: "The Five Pillars of Islam",
     description:
-      "What Islam is built upon: the two testimonies, prayer, zakah, fasting and hajj — each established from the Quran and the Sunnah.",
+      "What Islam is built upon: the two testimonies, prayer, zakah, fasting and hajj, each established from the Quran and the Sunnah.",
     displayOrder: 1,
     prerequisiteModuleId: "introduction",
     estimatedMinutes: 220,
@@ -163,7 +163,7 @@ export const modules: Module[] = [
     slug: "six-pillars",
     name: "The Six Pillars of Iman",
     description:
-      "Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar — the inward foundation of the religion.",
+      "Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar, which are the inward foundation of the religion.",
     displayOrder: 2,
     prerequisiteModuleId: "five-pillars",
     estimatedMinutes: 220,
@@ -172,9 +172,9 @@ export const modules: Module[] = [
     id: "usul-al-thalathah",
     departmentId: "aqeedah",
     slug: "usul-al-thalathah",
-    name: "Usul al-Thalathah (The Three Fundamentals)",
+    name: "Usul al-Thalathah",
     description:
-      "A guided journey through Shaykh Muhammad ibn Abd al-Wahhab's primer on the three questions every soul will be asked: Who is your Lord? What is your religion? Who is your Prophet ﷺ?",
+      "Shaykh Muhammad ibn Abd al-Wahhab's primer on the three questions every soul is asked in the grave: Who is your Lord? What is your religion? Who is your Prophet ﷺ?",
     displayOrder: 3,
     prerequisiteModuleId: "six-pillars",
     estimatedMinutes: 220,
@@ -185,7 +185,7 @@ export const modules: Module[] = [
     slug: "categories-of-tawheed",
     name: "The Categories of Tawheed",
     description:
-      "Tawheed of lordship, of worship, and of Allah's names and attributes — and the shirk that nullifies each.",
+      "Tawheed of lordship, of worship, and of Allah's names and attributes, and the shirk that nullifies each.",
     displayOrder: 4,
     prerequisiteModuleId: "usul-al-thalathah",
     estimatedMinutes: 220,
@@ -194,9 +194,9 @@ export const modules: Module[] = [
     id: "qawaid-al-arba",
     departmentId: "aqeedah",
     slug: "qawaid-al-arba",
-    name: "Al-Qawa'id al-Arba' (The Four Principles)",
+    name: "Al-Qawa'id al-Arba'",
     description:
-      "Four short principles that expose the reality of shirk in every era — an introductory breakdown of the famous matn.",
+      "Four short principles that expose the reality of shirk in every age.",
     displayOrder: 5,
     prerequisiteModuleId: "categories-of-tawheed",
     estimatedMinutes: 170,
@@ -205,9 +205,9 @@ export const modules: Module[] = [
     id: "nawaqid-al-islam",
     departmentId: "aqeedah",
     slug: "nawaqid-al-islam",
-    name: "Nawaqid al-Islam (The Nullifiers of Islam)",
+    name: "Nawaqid al-Islam",
     description:
-      "The ten matters Shaykh Muhammad ibn Abd al-Wahhab gathered that nullify a person's Islam — each with its proof, so a Muslim knows what to guard against.",
+      "The ten matters Shaykh Muhammad ibn Abd al-Wahhab gathered that nullify a person's Islam, each with its proof, so that a Muslim knows what to guard against.",
     displayOrder: 6,
     prerequisiteModuleId: "qawaid-al-arba",
     estimatedMinutes: 130,
@@ -216,9 +216,9 @@ export const modules: Module[] = [
     id: "usul-al-sittah",
     departmentId: "aqeedah",
     slug: "usul-al-sittah",
-    name: "Usul al-Sittah (The Six Foundations)",
+    name: "Usul al-Sittah",
     description:
-      "Six short, decisive foundations of the religion — clear enough that a child could grasp them, yet missed by many. A guided reading of the famous matn.",
+      "Six foundations that Allah made clear enough for the common person to grasp, yet most people fell into the opposite of them.",
     displayOrder: 7,
     prerequisiteModuleId: "nawaqid-al-islam",
     estimatedMinutes: 130,
@@ -227,9 +227,9 @@ export const modules: Module[] = [
     id: "kashf-al-shubuhat",
     departmentId: "aqeedah",
     slug: "kashf-al-shubuhat",
-    name: "Kashf al-Shubuhat (Removal of the Doubts)",
+    name: "Kashf al-Shubuhat",
     description:
-      "How to answer the doubts raised against tawheed — the very arguments the mushrikun of old and today rely on, dismantled from the Quran and Sunnah.",
+      "How to answer the doubts raised against tawheed, from the Book of Allah and the Sunnah.",
     displayOrder: 8,
     prerequisiteModuleId: "usul-al-sittah",
     estimatedMinutes: 170,
