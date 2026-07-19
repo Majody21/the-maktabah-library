@@ -143,6 +143,72 @@ The Shaykh: If he fasts them, may Allah reward him with good. If he is able, tha
     OUR_TRANSLATION
   ),
   f(
+    "f-leaving-salah",
+    "Salah",
+    "Abandoning the prayer out of laziness",
+    "We hope you would kindly inform us about the issue of the one who abandons the prayer: does he disbelieve or not? We want from you a complete detailing of this, and we want the evidences from the Book of Allah, the Sunnah of His Messenger ﷺ, and the statements of the Companions concerning that — because this subject has occupied the minds of many Muslims.",
+    `In the name of Allah, the Most Merciful, the Bestower of mercy. All praise is due to Allah, and prayers and peace be upon the Messenger of Allah, and upon his family and his Companions and whoever is guided by his guidance. To proceed:
+
+This issue is among the great issues over which the scholars have differed, and it is the issue of abandoning the prayer out of negligence and laziness, not out of denial of its obligation. A group of the people of knowledge held that one disbelieves thereby, due to many evidences. Among them: His statement, Mighty and Exalted: "What put you into Saqar?" They will say: "We were not of those who prayed, nor did we used to feed the poor" [al-Muddaththir 42-44]. And among them: His statement, Mighty and Exalted: "But if they repent, establish the prayer and give the zakah, then they are your brothers in religion" [at-Tawbah 11] — this indicates that whoever does not pray is not a brother in religion, even if he does not deny the obligation. And the statement of the Prophet ﷺ in the authentic hadith: "The covenant that is between us and them is the prayer; whoever abandons it has disbelieved" — Imam Ahmad and the compilers of the Sunan reported it with an authentic chain. And his statement, upon him be prayers and peace: "Between a man and disbelief and shirk is the abandonment of the prayer" — Muslim reported it in his Sahih; and this is "disbelief" defined with the definite article and "shirk" defined with the definite article, which indicates that it is major disbelief and major shirk. And his statement ﷺ: "The head of the affair is Islam, and its pillar is the prayer" — and a thing whose pillar is abandoned does not remain, but rather collapses. And his statement, may Allah's prayers and peace be upon him, when he was asked about the rulers who introduce innovations into the religion and change it, "Shall we not fight them?" He said: "No, so long as they establish the prayer among you." And in the other wording he said: "No, unless you see clear disbelief concerning which you have proof from Allah." So he made the abandonment of the prayer part of clear disbelief, which necessitates the disbelief of the one who does it.
+
+And Abdullah ibn Shaqiq al-'Uqayli, the noble Tabi'i, mentioned from the Companions, may Allah be pleased with them and satisfy them, that they did not consider the abandonment of anything to be disbelief except the prayer. So he related from all the Companions that they considered the abandonment of the prayer to be disbelief, and it was not transmitted from them that they stipulated denial of the obligation. That indicates that abandoning it without denying the obligation is disbelief. And the unrestricted use of "disbelief" in this context requires that it be major disbelief, because there are actions, in the view of the Companions, whose abandonment is disbelief and whose performance is disbelief, but which are not major disbelief — such as slandering lineage, and wailing over the dead: the Prophet ﷺ named it "disbelief," but it is minor disbelief. And likewise disowning one's lineage: the Prophet ﷺ named it "disbelief" — a person disowning his father: "and indeed it is disbelief on your part to disown your fathers" — it is minor disbelief. So this indicates that the disbelief which Abdullah ibn Shaqiq related from the Companions is major disbelief. And Umar said: "There is no share in Islam for the one who abandons the prayer." This statement is the more correct of the two statements and the stronger of the two from the angle of evidence. As for the one who denies the obligation, he is a disbeliever in the view of all: whoever denies the obligation of the prayer is a disbeliever in the view of all, even if he prays with the people, because he is belying Allah and His Messenger when he denies the obligation.
+
+So it is obligatory upon every Muslim man and every Muslim woman to hasten and rush to the prayer and to preserve it in its times, and to fear Allah concerning that, and to beware of being among the disbelievers and counted among the disbelievers while he does not realize it. For the prayer is the pillar of Islam and the greatest of its pillars after the two testimonies. So it is obligatory upon all the Muslims to preserve it, and to take care of it, and to perform it in its times, and that the man pray it in congregation in the mosques of Allah, in obedience to Allah and His Messenger ﷺ, and out of caution from what the one who abandons it has been described with of disbelief. We ask Allah for all the Muslims success, guidance, and well-being from everything that angers Him.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Nur 'ala ad-Darb — fatwa no. 8357",
+    binbaz(8357, "حكم-ترك-الصلاة-تهاونا-وكسلا"),
+    OUR_TRANSLATION
+  ),
+  f(
+    "f-zakah-salary",
+    "Zakah",
+    "Zakah on savings from a monthly salary",
+    "I work in the government sector and receive a monthly income like any government employee. Often I save from the monthly salary an unspecified amount according to circumstances — in one month I may be able to save 2,000 riyals, in another 4,000 riyals, and in another I may not be able to save anything. With the passing of the days and months I come to have a considerable sum. Is zakah obligatory upon it? And how can I determine it — is it by the passing of a complete year over each sum, given that I do not follow a particular system of saving, which makes determining the year difficult? I fear that I may have disobeyed the command of Allah concerning zakah without knowledge or awareness.",
+    `What is obligatory upon you is to pay the zakah of every sum when its year has passed over it, and you must record that in writing so that you may be upon clarity. And if you pay the zakah of all of it when the year has passed over the first saving, that suffices and your liability is discharged, because hastening the zakah before the completion of its year is not objectionable. And Allah is the Guardian of success.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Majmu' Fatawa wa Maqalat Ibn Baz, 14/143",
+    binbaz(5789, "كيفية-اخراج-الزكاة-من-الراتب-الشهري"),
+    OUR_TRANSLATION
+  ),
+  f(
+    "f-zakah-relatives",
+    "Zakah",
+    "Giving zakah to relatives",
+    "Is zakah permissible from a brother to his needy brother (he supports a family and works, but his income does not suffice him)? And likewise, is it permissible for a poor paternal uncle? And likewise, may a woman pay the zakah of her wealth to her brother, or her paternal aunt, or her sister?",
+    `There is no objection to a man or a woman paying their zakah to a poor brother, a poor sister, a poor paternal uncle, a poor paternal aunt, and the rest of the poor relatives, due to the generality of the evidences; rather, zakah given to them is charity and the joining of ties, due to the statement of the Prophet ﷺ: "Charity given to a poor person is charity, and to a relative it is charity and the joining of ties." This is apart from the parents, however high they may be, and the children — male or female, however low they may be — for zakah is not to be paid to them even if they are poor. Rather, it is binding upon him to spend on them from his wealth if he is able to do so and there is no one other than him to undertake spending on them.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Majmu' Fatawa wa Maqalat Ibn Baz, 14/301",
+    binbaz(6725, "حكم-دفع-الزكاة-للاخ-والاخت-والعم-والعمة-وساىر-الاقارب"),
+    OUR_TRANSLATION
+  ),
+  f(
+    "f-quran-without-wudu",
+    "General",
+    "Touching the mushaf without wudu",
+    "What is the ruling on touching the mushaf without wudu, or carrying it or moving it from one place to another, knowing that the one who touched it is pure in his body?",
+    `Touching the mushaf without wudu is not permissible in the view of the majority of the people of knowledge, and it is what the four Imams — may Allah's mercy be upon them — held, and it is what the Companions of the Prophet, upon him be prayers and peace, used to give fatwa with: that none touches the Quran except one who is pure. There has come concerning that an authentic hadith, sound enough, from the hadith of Amr ibn Hazm, that the Prophet ﷺ wrote to the people of Yemen: "that none should touch the Quran except one who is pure." It is a good hadith, having routes that strengthen one another.
+
+This is what is obligatory. And likewise the carrying of the mushaf or moving it from place to place: none should move it except one who is pure, or if that is done by means of an intermediary — such as taking it in a wrapping, or the mushaf being in a wrapping and he takes it by its cover. As for taking it directly with his hands while he is not in a state of purity, that is not permissible according to the correct position, which is what the majority of the people of knowledge hold.
+
+As for recitation, there is no objection to his reciting from memory while in a state of minor impurity, or that he recites while someone else holds the Quran for him and corrects him — there is no objection to that.
+
+But the one in a state of janabah does not recite, because it is established from the Prophet ﷺ that nothing would keep him from recitation except janabah. Ahmad reported with a good chain from Aishah, may Allah be pleased with her, that the Prophet ﷺ came out from relieving himself and recited something of the Quran and said: "This is for the one who is not in a state of janabah; as for the one in janabah, then no — not even a verse."
+
+The point is that whoever is in a state of janabah does not recite from the mushaf nor from memory until he performs ghusl. As for the one in a state of minor impurity who is not in janabah, this one recites from memory and does not touch the mushaf.
+
+And here there is an issue connected to this, and it is the menstruating woman and the woman in post-natal bleeding: do they recite or not? Concerning that there is a difference among the people of knowledge. Among them are those who said: they do not recite. And among them are those who said: they recite from memory without touching the mushaf, because their period is lengthy — that is, the period of menstruation and post-natal bleeding — and it is not like the one in janabah, who performs ghusl immediately and recites; but the period of menstruation may be lengthy and reach ten days or thereabouts, and the woman in post-natal bleeding likewise, her period being longer than that.
+
+So the correct position is that there is no barrier to their reciting from memory, and this is the stronger view. For it is established in the two Sahihs from the Prophet ﷺ that he said to Aishah when she menstruated during the Hajj: "Do what the pilgrim does, except that you do not circumambulate the House until you become pure."
+
+And the pilgrim recites the Quran, and the Prophet ﷺ did not exclude it; so that indicates the permissibility of recitation for her. And likewise he said to Asma bint Umays when she gave birth to Muhammad ibn Abi Bakr at the miqat during the Farewell Hajj — this indicates that she recites, but without touching the mushaf.
+
+As for the hadith of Ibn Umar from the Prophet ﷺ that he said: "The menstruating woman and the one in janabah do not recite anything of the Quran," it is a weak hadith. In its chain is Musa ibn Uqbah, and in its chain is Ibn Ayyash from Musa ibn Uqbah, and the people of knowledge of hadith weaken this narration and say: he is good in his narration from the people of Sham, his land, but he is weak in his narration from the people of the Hijaz — and this hadith is from his narration from the people of the Hijaz, so it is weak.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Majmu' Fatawa wa Maqalat Ibn Baz, 24/336",
+    binbaz(19810, "لا-يمس-القران-الا-طاهر"),
+    OUR_TRANSLATION
+  ),
+  f(
     "f-minor-shirk-forgiveness",
     "Tawheed",
     "Whether minor shirk is forgiven",
