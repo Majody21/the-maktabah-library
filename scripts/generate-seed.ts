@@ -71,8 +71,13 @@ for (const l of allLessons) {
   // Video metadata row (swappable without redeploy) — created even when the
   // URL is pending so editors can fill it in from the dashboard.
   lines.push(
-    `insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic) values (${q(`video-${l.id}`)}, ${q(l.id)}, ${q(l.videoYoutubeUrl)}, ${q(l.videoTitle)}, ${q(l.videoScholar)}, ${q(l.title)});`
+    `insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values (${q(`video-${l.id}`)}, ${q(l.id)}, ${q(l.videoYoutubeUrl)}, ${q(l.videoTitle)}, ${q(l.videoScholar)}, ${q(l.title)}, 1);`
   );
+  (l.additionalVideos ?? []).forEach((v, i) => {
+    lines.push(
+      `insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values (${q(`video-${l.id}-${i + 2}`)}, ${q(l.id)}, ${q(v.youtubeUrl)}, ${q(v.title)}, ${q(v.scholar)}, ${q(l.title)}, ${i + 2});`
+    );
+  });
 }
 lines.push("");
 

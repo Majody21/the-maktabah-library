@@ -9,9 +9,9 @@ export const sixPillarsLessons: Lesson[] = [
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=qcpPwjgdT_k",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Pillars of Islam and Iman",
+    videoTitle: "The Hadith of Jibreel and the Levels of the Religion",
     bookRecommendations: [
       {
         title: "Sharh Usul al-Iman (Explanation of the Foundations of Faith)",
@@ -84,9 +84,16 @@ Even removing something harmful from the road is counted as part of iman, for fa
     displayOrder: 2,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=45zm4odyZlc",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Pillars of Islam and Iman",
+    videoTitle: "Faith in Allah and What It Includes",
+    additionalVideos: [
+      {
+        youtubeUrl: "https://www.youtube.com/watch?v=V6ZXj4c1rsE",
+        scholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+        title: "Faith in the Angels and What It Includes",
+      },
+    ],
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
@@ -173,9 +180,16 @@ Aisha (may Allah be pleased with her) narrated that the Messenger of Allah ﷺ s
     displayOrder: 3,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=YIG9AWCn0wQ",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Pillars of Islam and Iman",
+    videoTitle: "Faith in the Books and What It Includes",
+    additionalVideos: [
+      {
+        youtubeUrl: "https://www.youtube.com/watch?v=36O7Pn86YO0",
+        scholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
+        title: "Faith in the Messengers and What It Includes",
+      },
+    ],
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",
@@ -244,9 +258,16 @@ This pillar shapes how you read the Quran: it is the final, protected word of th
     displayOrder: 4,
     basedOn:
       "Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=cDSfVWEB49Q",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=JeNyVjSG1TQ",
     videoScholar: "Shaykh Muhammad ibn Salih al-Uthaymeen",
-    videoTitle: "The Pillars of Islam and Iman",
+    videoTitle: "The Day of Resurrection",
+    additionalVideos: [
+      {
+        youtubeUrl: "https://www.youtube.com/watch?v=ep6kYnJSoE8",
+        scholar: "Shaykh Salih al-Fawzan",
+        title: "Belief in the Qadar of Allah and Contentment with It",
+      },
+    ],
     bookRecommendations: [
       {
         title: "200 Q&A on Islamic Creed (A'lam as-Sunnah al-Manshurah)",

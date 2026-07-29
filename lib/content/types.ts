@@ -43,6 +43,12 @@ export type BookRecommendation = {
   pdfUrl?: string | null;
 };
 
+export type LessonVideo = {
+  youtubeUrl: string;
+  scholar: string;
+  title: string;
+};
+
 export type Lesson = {
   id: string;
   moduleId: string;
@@ -58,6 +64,8 @@ export type Lesson = {
   videoYoutubeUrl: string | null;
   videoScholar: string | null;
   videoTitle: string | null;
+  /** Further videos, for a lesson that covers more than one topic. */
+  additionalVideos?: LessonVideo[];
   bookRecommendations: BookRecommendation[];
   /** Which scholar's explanation the lesson summary draws from. */
   basedOn: string;

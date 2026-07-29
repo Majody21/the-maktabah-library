@@ -60,13 +60,16 @@ create table public.proofs (
 
 -- Video metadata lives in its own table so broken links can be swapped
 -- without touching lesson content or redeploying.
+-- A lesson may carry more than one scholar video (e.g. a lesson covering two
+-- pillars), so lesson_id is not unique; display_order fixes the sequence.
 create table public.videos (
   id text primary key,
-  lesson_id text not null references public.lessons(id) on delete cascade unique,
+  lesson_id text not null references public.lessons(id) on delete cascade,
   youtube_url text,
   title text,
   scholar text,
-  topic text
+  topic text,
+  display_order integer not null default 1
 );
 
 create table public.quizzes (

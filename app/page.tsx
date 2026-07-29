@@ -3,7 +3,7 @@ import { getDepartments } from "@/lib/data/content";
 import DeptIcon from "@/components/ui/DeptIcon";
 import Photo from "@/components/ui/Photo";
 import ArabicText from "@/components/arabic/ArabicText";
-import { heroPhoto, departmentPhoto } from "@/lib/images";
+import { departmentPhoto } from "@/lib/images";
 
 export const revalidate = 3600;
 
@@ -41,12 +41,6 @@ export default async function HomePage() {
             </Link>
           </div>
         </div>
-        <Photo
-          photo={heroPhoto}
-          priority
-          sizes="(max-width: 896px) 100vw, 896px"
-          className="mt-10 h-56 w-full sm:h-72"
-        />
       </section>
 
       {/* ————— What you'll study ————— */}

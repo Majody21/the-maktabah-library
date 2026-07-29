@@ -65,7 +65,18 @@ const mapProof = (r: Row): Proof => ({
   displayOrder: r.display_order ?? 0,
 });
 
-const mapLesson = (r: Row, proofs: Proof[], video: Row | null): Lesson => ({
+/** `videos` is ordered by display_order; the first is the lesson's main video. */
+const mapLesson = (r: Row, proofs: Proof[], videos: Row[]): Lesson => {
+  const [video, ...extra] = videos;
+  return mapLessonRow(r, proofs, video ?? null, extra);
+};
+
+const mapLessonRow = (
+  r: Row,
+  proofs: Proof[],
+  video: Row | null,
+  extra: Row[]
+): Lesson => ({
   id: r.id,
   moduleId: r.module_id,
   slug: r.slug,
@@ -75,6 +86,13 @@ const mapLesson = (r: Row, proofs: Proof[], video: Row | null): Lesson => ({
   videoYoutubeUrl: video?.youtube_url ?? r.video_youtube_url ?? null,
   videoScholar: video?.scholar ?? r.video_scholar ?? null,
   videoTitle: video?.title ?? r.video_title ?? null,
+  additionalVideos: extra
+    .filter((v) => v.youtube_url)
+    .map((v) => ({
+      youtubeUrl: v.youtube_url as string,
+      scholar: v.scholar ?? "",
+      title: v.title ?? "",
+    })),
   bookRecommendations: r.book_recommendations ?? [],
   basedOn: r.based_on ?? "",
   proofs,
@@ -141,13 +159,13 @@ export async function getLessonsForModule(moduleId: string): Promise<Lesson[]> {
   const ids = lessonRows.map((l) => l.id);
   const [{ data: proofRows }, { data: videoRows }] = await Promise.all([
     supabase.from("proofs").select("*").in("lesson_id", ids).order("display_order"),
-    supabase.from("videos").select("*").in("lesson_id", ids),
+    supabase.from("videos").select("*").in("lesson_id", ids).order("display_order"),
   ]);
   return lessonRows.map((l) =>
     mapLesson(
       l,
       (proofRows ?? []).filter((p) => p.lesson_id === l.id).map(mapProof),
-      (videoRows ?? []).find((v) => v.lesson_id === l.id) ?? null
+      (videoRows ?? []).filter((v) => v.lesson_id === l.id)
     )
   );
 }

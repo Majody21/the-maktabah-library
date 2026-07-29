@@ -155,12 +155,20 @@ export default async function LessonPage({
         <h2 className="font-display text-xl font-semibold">
           Hear it from the scholars
         </h2>
-        <div className="mt-5">
+        <div className="mt-5 space-y-6">
           <VideoEmbed
             youtubeUrl={lesson.videoYoutubeUrl}
             title={lesson.videoTitle}
             scholar={lesson.videoScholar}
           />
+          {lesson.additionalVideos?.map((v) => (
+            <VideoEmbed
+              key={v.youtubeUrl}
+              youtubeUrl={v.youtubeUrl}
+              title={v.title}
+              scholar={v.scholar}
+            />
+          ))}
         </div>
       </section>
 
