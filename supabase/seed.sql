@@ -25,7 +25,7 @@ insert into public.departments (id, slug, name, arabic_name, description, icon, 
 
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('introduction', 'aqeedah', 'introduction', 'Introduction', 'Before the first lesson: purifying your intention (ikhlas), knowing that guidance is from Allah and relying upon Him, and the virtue and manners of seeking ilm.', 0, NULL, 150);
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('five-pillars', 'aqeedah', 'five-pillars', 'The Five Pillars of Islam', 'What Islam is built upon: the two testimonies, prayer, zakah, fasting and hajj, each established from the Quran and the Sunnah.', 1, 'introduction', 220);
-insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('six-pillars', 'aqeedah', 'six-pillars', 'The Six Pillars of Iman', 'Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar, which are the inward foundation of the religion.', 2, 'five-pillars', 220);
+insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('six-pillars', 'aqeedah', 'six-pillars', 'The Six Pillars of Iman', 'Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar, each taken on its own, closing with the level of ihsan.', 2, 'five-pillars', 320);
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('usul-al-thalathah', 'aqeedah', 'usul-al-thalathah', 'Usul al-Thalathah', 'Shaykh Muhammad ibn Abd al-Wahhab''s primer on the three questions every soul is asked in the grave: Who is your Lord? What is your religion? Who is your Prophet ﷺ?', 3, 'six-pillars', 220);
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('categories-of-tawheed', 'aqeedah', 'categories-of-tawheed', 'The Categories of Tawheed', 'Tawheed of lordship, of worship, and of Allah''s names and attributes, and the shirk that nullifies each.', 4, 'usul-al-thalathah', 220);
 insert into public.modules (id, department_id, slug, name, description, display_order, prerequisite_module_id, estimated_minutes) values ('qawaid-al-arba', 'aqeedah', 'qawaid-al-arba', 'Al-Qawa''id al-Arba''', 'Four short principles that expose the reality of shirk in every age.', 5, 'categories-of-tawheed', 170);
@@ -246,89 +246,220 @@ Abu Hurairah (may Allah be pleased with him) narrated that the Prophet ﷺ said:
 
 [[proof:3]]
 
-Even removing something harmful from the road is counted as part of iman, for faith covers the heart''s belief, the tongue''s speech, and the limbs'' action. In this module we take the six pillars in pairs: Allah and His angels, His books and His messengers, then the Last Day and al-qadar (the divine decree).', 1, 'https://www.youtube.com/watch?v=qcpPwjgdT_k', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Hadith of Jibreel and the Levels of the Religion', '[{"title":"Sharh Usul al-Iman (Explanation of the Foundations of Faith)","pdfUrl":"https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf","author":"Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)","url":"https://darussalam.com/","note":"A short treatise covering all six pillars; read it alongside this module."}]'::jsonb, 'Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.');
+Even removing something harmful from the road is counted as part of iman, for faith covers the heart''s belief, the tongue''s speech, and the limbs'' action.
+
+In the lessons that follow we take each of the six pillars on its own, and then the level of **ihsan**, which is the highest of the three levels of the religion.', 1, 'https://www.youtube.com/watch?v=qcpPwjgdT_k', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Hadith of Jibreel and the Levels of the Religion', '[{"title":"Sharh Usul al-Iman (Explanation of the Foundations of Faith)","pdfUrl":"https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf","author":"Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)","url":"https://darussalam.com/","note":"A short treatise covering all six pillars; read it alongside this module."}]'::jsonb, 'Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.');
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p1', 'six-pillars--what-is-iman', 'hadith', 'أَنْ تُؤْمِنَ بِاللَّهِ وَمَلاَئِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الآخِرِ وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ', '[Iman is] that you believe in Allah, His angels, His books, His messengers, and the Last Day, and that you believe in the decree — its good and its bad.', 'Sahih Muslim #8 (the hadith of Jibreel)', 1);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p2', 'six-pillars--what-is-iman', 'quran', 'وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَالْمَلَائِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ', 'But righteousness is [in] the one who believes in Allah, the Last Day, the angels, the Book, and the prophets.', 'Surah al-Baqarah 2:177', 2);
 insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--what-is-iman--p3', 'six-pillars--what-is-iman', 'hadith', 'الإِيمَانُ بِضْعٌ وَسَبْعُونَ شُعْبَةً، فَأَفْضَلُهَا قَوْلُ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ', 'Iman is seventy-odd branches: the highest of them is the statement ''none has the right to be worshipped except Allah'', the lowest is removing something harmful from the road, and modesty is a branch of iman.', 'Sahih Muslim #35', 3);
 insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--what-is-iman', 'six-pillars--what-is-iman', 'https://www.youtube.com/watch?v=qcpPwjgdT_k', 'The Hadith of Jibreel and the Levels of the Religion', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Iman (Faith)', 1);
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--allah-and-the-angels', 'six-pillars', 'allah-and-the-angels', 'Belief in Allah and the Angels', '**Belief in Allah** contains four things, as the scholars explain: belief in His existence; belief in His **rububiyyah** (He alone creates, owns and governs); belief in His **uluhiyyah** (He alone deserves worship); and belief in His **names and attributes** as He and His Messenger ﷺ described them. Each of these will be studied in a later module; here we learn the outline. One ayah gathers the whole command.
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-allah', 'six-pillars', 'belief-in-allah', 'Belief in Allah', '**Belief in Allah** is the first pillar of iman and the foundation of the rest. The scholars explain that it contains four matters: belief in His existence, belief in His **rububiyyah**, belief in His **uluhiyyah**, and belief in His **names and attributes**.
+
+Whoever denies any one of the six pillars, such as believing in Allah while rejecting the angels or the decree, has strayed far.
 
 Allah the Most Exalted said:
 
 [[proof:1]]
 
-Whoever denies any of the six pillars, such as believing in Allah while rejecting the angels or the decree, has strayed far by the text of this ayah. Iman is only accepted whole.
+**His existence** is affirmed by the fitrah, by the intellect, by the senses, and by the revelation. Every created thing points to the One who created it, and the sound fitrah acknowledges its Lord without being taught.
 
-**The angels** are a created world of Allah''s servants, made from light, who never disobey Him. They are not divine, not Allah''s daughters as the pagans claimed, and not metaphors for forces of nature. Among them: Jibreel entrusted with revelation, Mika''il with rain, Israfil with the Horn, the recorders over every person, and the angel of death.
+**His rububiyyah** means that He alone creates, He alone owns, and He alone manages the affair of the heavens and the earth. No one shares this with Him. Even the mushrikun of Makkah affirmed this much, and it did not enter them into Islam.
 
-Allah the Almighty describes their perfect obedience:
-
-[[proof:2]]
-
-Belief in them means believing in their existence, in those named to us by name, in their described attributes, and in their works. This belief bears fruit: whoever remembers that two noble recorders write his every word watches his tongue.
-
-Allah the Exalted said:
-
-[[proof:4]]
-
-Aisha (may Allah be pleased with her) narrated that the Messenger of Allah ﷺ said:
-
-[[proof:3]]', 2, 'https://www.youtube.com/watch?v=45zm4odyZlc', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in Allah and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on belief in Allah and the angels."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.');
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p1', 'six-pillars--allah-and-the-angels', 'quran', 'يَا أَيُّهَا الَّذِينَ آمَنُوا آمِنُوا بِاللَّهِ وَرَسُولِهِ وَالْكِتَابِ الَّذِي نَزَّلَ عَلَىٰ رَسُولِهِ وَالْكِتَابِ الَّذِي أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا', 'O you who believe, believe in Allah and His Messenger and the Book He sent down upon His Messenger and the Book He sent down before. And whoever disbelieves in Allah, His angels, His books, His messengers, and the Last Day has certainly gone far astray.', 'Surah an-Nisa 4:136', 1);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p2', 'six-pillars--allah-and-the-angels', 'quran', 'لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ', 'They do not disobey Allah in what He commands them, and they do what they are commanded.', 'Surah at-Tahrim 66:6', 2);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p3', 'six-pillars--allah-and-the-angels', 'hadith', 'خُلِقَتِ الْمَلاَئِكَةُ مِنْ نُورٍ، وَخُلِقَ الْجَانُّ مِنْ مَارِجٍ مِنْ نَارٍ، وَخُلِقَ آدَمُ مِمَّا وُصِفَ لَكُمْ', 'The angels were created from light, the jinn were created from a smokeless flame of fire, and Adam was created from that which has been described to you.', 'Sahih Muslim #2996', 3);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--allah-and-the-angels--p4', 'six-pillars--allah-and-the-angels', 'quran', 'مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ', 'Not a word does he utter except that with him is an observer prepared.', 'Surah Qaf 50:18', 4);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--allah-and-the-angels', 'six-pillars--allah-and-the-angels', 'https://www.youtube.com/watch?v=45zm4odyZlc', 'Faith in Allah and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in Allah and the Angels', 1);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--allah-and-the-angels-2', 'six-pillars--allah-and-the-angels', 'https://www.youtube.com/watch?v=V6ZXj4c1rsE', 'Faith in the Angels and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in Allah and the Angels', 2);
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--books-and-messengers', 'six-pillars', 'books-and-messengers', 'Belief in the Books and the Messengers', 'Allah did not leave His creation without guidance. He sent **messengers** to every nation and sent down **books** with them, so that no one may stand before Him on the Day of Judgment with an excuse:
-
-[[proof:1]]
-
-We believe in every book Allah sent down: the scriptures of Ibrahim, the Tawrah of Musa, the Zabur of Dawud, the Injil of ''Isa, and the **Quran**. The earlier books were altered by their people, while Allah Himself has guarded the Quran. The Quran stands over the earlier scriptures as a criterion (*muhaymin*): whatever agrees with it is accepted, and whatever contradicts it has been changed.
-
-The message of every messenger was one, even though their laws differed. Tawheed is the religion of Nuh, Ibrahim, Musa, and ''Isa alike:
-
-[[proof:2]]
-
-We believe in the messengers named in revelation (twenty-five are named in the Quran) and that there were others we were not told about. They were truthful human servants, neither divine nor liars. The best of them are the five of firm resolve: Nuh, Ibrahim, Musa, ''Isa, and Muhammad ﷺ, and Muhammad ﷺ is their seal. No prophet comes after him:
-
-[[proof:3]]
-
-This pillar shapes how you read the Quran: it is the final, protected word of the Lord of the worlds. So read it with certainty, and act upon it.', 3, 'https://www.youtube.com/watch?v=YIG9AWCn0wQ', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in the Books and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the revealed books and the messengers."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.');
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--books-and-messengers--p1', 'six-pillars--books-and-messengers', 'quran', 'لَقَدْ أَرْسَلْنَا رُسُلَنَا بِالْبَيِّنَاتِ وَأَنزَلْنَا مَعَهُمُ الْكِتَابَ وَالْمِيزَانَ لِيَقُومَ النَّاسُ بِالْقِسْطِ', 'We have certainly sent Our messengers with clear proofs, and We sent down with them the Book and the balance so that the people may uphold justice.', 'Surah al-Hadid 57:25', 1);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--books-and-messengers--p2', 'six-pillars--books-and-messengers', 'quran', 'وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ', 'And We did not send any messenger before you except that We revealed to him: none has the right to be worshipped except Me, so worship Me.', 'Surah al-Anbiya 21:25', 2);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--books-and-messengers--p3', 'six-pillars--books-and-messengers', 'quran', 'مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ', 'Muhammad is not the father of any of your men, but the Messenger of Allah and the seal of the prophets.', 'Surah al-Ahzab 33:40', 3);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--books-and-messengers', 'six-pillars--books-and-messengers', 'https://www.youtube.com/watch?v=YIG9AWCn0wQ', 'Faith in the Books and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Books and the Messengers', 1);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--books-and-messengers-2', 'six-pillars--books-and-messengers', 'https://www.youtube.com/watch?v=36O7Pn86YO0', 'Faith in the Messengers and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Books and the Messengers', 2);
-insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--last-day-and-qadar', 'six-pillars', 'last-day-and-qadar', 'The Last Day and al-Qadar (The Decree)', '**Belief in the Last Day** means certainty in everything the revelation reports after death: the trial of the grave and its bliss or punishment, the Resurrection, the gathering, the records handed to the right or the left, the scale, the sirat, the intercession, and finally Paradise or the Fire, forever. The reckoning covers even an atom''s weight:
-
-[[proof:1]]
-
-Whoever is certain of this Day watches himself in secret as he does in public. For this reason the Quran often joins belief in Allah to belief in the Last Day.
-
-The sixth pillar is **al-qadar**: that Allah''s knowledge, writing, will and creation encompass everything that happens. Nothing occurs in the heavens or the earth, sweet or bitter, except that Allah knew it, wrote it fifty thousand years before creation, willed it, and created it.
+**His uluhiyyah** means that worship belongs to Him alone: du''a, fear, hope, reliance, sacrifice, and every other act of worship. This is the meaning of *La ilaha illa Allah*, and it is what the messengers were sent with. For this Allah created the creation.
 
 Allah the Almighty said:
 
 [[proof:2]]
 
-And Abdullah ibn Amr ibn al-As (may Allah be pleased with them) narrated that the Messenger of Allah ﷺ said:
+**His names and attributes** are affirmed as they came in the Book and in the Sunnah, in the manner that befits His majesty. We do not liken them to the attributes of creation, and we do not ask how they are.
+
+Allah the Most High said:
 
 [[proof:3]]
 
-Belief in qadar does not cancel human action; we choose, act, and are held to account. But it removes two diseases: despair over what escaped you, and exultation over what reached you.
+These four matters are taken in full in the module on the Categories of Tawheed. Learn the outline here, and worship your Lord upon knowledge of Him.', 2, 'https://www.youtube.com/watch?v=45zm4odyZlc', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in Allah and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on belief in Allah."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and Aqeedah at-Tawheed of Shaykh al-Fawzan.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-allah--p1', 'six-pillars--belief-in-allah', 'quran', 'يَا أَيُّهَا الَّذِينَ آمَنُوا آمِنُوا بِاللَّهِ وَرَسُولِهِ وَالْكِتَابِ الَّذِي نَزَّلَ عَلَىٰ رَسُولِهِ وَالْكِتَابِ الَّذِي أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا', 'O you who believe, believe in Allah and His Messenger and the Book He sent down upon His Messenger and the Book He sent down before. And whoever disbelieves in Allah, His angels, His books, His messengers, and the Last Day has certainly gone far astray.', 'Surah an-Nisa 4:136', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-allah--p2', 'six-pillars--belief-in-allah', 'quran', 'وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ', 'And I did not create the jinn and mankind except to worship Me.', 'Surah adh-Dhariyat 51:56', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-allah--p3', 'six-pillars--belief-in-allah', 'quran', 'لَيْسَ كَمِثْلِهِ شَيْءٌ ۖ وَهُوَ السَّمِيعُ الْبَصِيرُ', 'There is nothing like Him, and He is the Hearing, the Seeing.', 'Surah ash-Shura 42:11', 3);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-allah', 'six-pillars--belief-in-allah', 'https://www.youtube.com/watch?v=45zm4odyZlc', 'Faith in Allah and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in Allah', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-the-angels', 'six-pillars', 'belief-in-the-angels', 'Belief in the Angels', '**The angels** are a created world from among the servants of Allah. He created them from light and charged them with obedience to Him. They are not divine, they are not the daughters of Allah as the pagans claimed, and they are not names for the forces of nature.
+
+Allah the Almighty described their obedience:
+
+[[proof:1]]
+
+Aisha (may Allah be pleased with her) narrated that the Messenger of Allah ﷺ said:
+
+[[proof:2]]
+
+Belief in the angels rests upon four matters, as the scholars enumerate them.
+
+**Belief in their existence.** They are a real creation, though we do not see them.
+
+**Belief in those named to us by name**, such as Jibreel, and belief in the rest of them in general.
+
+**Belief in the attributes with which they are described.** Among these is that Allah gave them wings, and that Jibreel was seen by the Prophet ﷺ in the form in which Allah created him.
+
+**Belief in the works Allah charged them with.** Jibreel is entrusted with the revelation, Mika''il with the rain and the vegetation, Israfil with the blowing of the Horn, the angel of death with taking the souls, and the noble recorders with writing the deeds of the servants.
+
+Allah the Exalted said:
+
+[[proof:3]]
+
+This belief bears fruit in the servant. Whoever knows that two noble recorders write down his every word guards his tongue. So believe in them, and be watchful of what is being written for you and against you.', 3, 'https://www.youtube.com/watch?v=V6ZXj4c1rsE', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in the Angels and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on belief in the angels."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-angels--p1', 'six-pillars--belief-in-the-angels', 'quran', 'لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ', 'They do not disobey Allah in what He commands them, and they do what they are commanded.', 'Surah at-Tahrim 66:6', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-angels--p2', 'six-pillars--belief-in-the-angels', 'hadith', 'خُلِقَتِ الْمَلاَئِكَةُ مِنْ نُورٍ، وَخُلِقَ الْجَانُّ مِنْ مَارِجٍ مِنْ نَارٍ، وَخُلِقَ آدَمُ مِمَّا وُصِفَ لَكُمْ', 'The angels were created from light, the jinn were created from a smokeless flame of fire, and Adam was created from that which has been described to you.', 'Sahih Muslim #2996', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-angels--p3', 'six-pillars--belief-in-the-angels', 'quran', 'مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ', 'Not a word does he utter except that with him is an observer prepared.', 'Surah Qaf 50:18', 3);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-the-angels', 'six-pillars--belief-in-the-angels', 'https://www.youtube.com/watch?v=V6ZXj4c1rsE', 'Faith in the Angels and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Angels', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-the-books', 'six-pillars', 'belief-in-the-books', 'Belief in the Books', 'Allah did not leave His creation without guidance. He sent down **books** with His messengers, so that people would know how their Lord is to be worshipped and would have no excuse before Him.
+
+Allah the Most Exalted said:
+
+[[proof:1]]
+
+We believe in every book Allah sent down. We believe in general in all of them, and by name in those He named for us: the scriptures of Ibrahim, the **Tawrah** given to Musa, the **Zabur** given to Dawud, the **Injil** given to ''Isa, and the **Quran** revealed to Muhammad ﷺ.
+
+We also believe in the rulings of these books that have not been altered, and we accept them so long as they are not abrogated by the Quran.
+
+The earlier books were altered by their people, and Allah did not take upon Himself their preservation. The Quran is different.
+
+Allah the Almighty said:
+
+[[proof:2]]
+
+The Quran stands over the scriptures before it as a criterion (**muhaymin**). Whatever agrees with it is accepted, and whatever contradicts it has been changed by the hands of men.
+
+Allah the Most High said:
+
+[[proof:3]]
+
+The Quran abrogates the books before it, and it is the Book by which Allah will judge you. So read it with certainty, and act upon what it commands.', 4, 'https://www.youtube.com/watch?v=YIG9AWCn0wQ', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in the Books and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the revealed books."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-books--p1', 'six-pillars--belief-in-the-books', 'quran', 'لَقَدْ أَرْسَلْنَا رُسُلَنَا بِالْبَيِّنَاتِ وَأَنزَلْنَا مَعَهُمُ الْكِتَابَ وَالْمِيزَانَ لِيَقُومَ النَّاسُ بِالْقِسْطِ', 'We have certainly sent Our messengers with clear proofs, and We sent down with them the Book and the balance so that the people may uphold justice.', 'Surah al-Hadid 57:25', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-books--p2', 'six-pillars--belief-in-the-books', 'quran', 'إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ', 'Indeed, it is We who sent down the Reminder, and indeed, We will be its guardian.', 'Surah al-Hijr 15:9', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-books--p3', 'six-pillars--belief-in-the-books', 'quran', 'وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ', 'And We have revealed to you the Book in truth, confirming what came before it of the Scripture and as a criterion over it.', 'Surah al-Ma''idah 5:48', 3);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-the-books', 'six-pillars--belief-in-the-books', 'https://www.youtube.com/watch?v=YIG9AWCn0wQ', 'Faith in the Books and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Books', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-the-messengers', 'six-pillars', 'belief-in-the-messengers', 'Belief in the Messengers', 'Allah sent to every nation a messenger calling to the worship of Allah alone. Their message was one, even though their laws differed.
+
+Allah the Most Exalted said:
+
+[[proof:1]]
+
+And Allah the Almighty said:
+
+[[proof:2]]
+
+The messengers were human servants of Allah. They possess nothing of lordship and nothing of divinity. Allah honoured them with revelation, and they conveyed the message in full and advised the ummah. Whoever raises them above the rank Allah gave them has gone beyond bounds, and whoever belies them has disbelieved.
+
+We believe in all of them, and we do not distinguish between them by accepting some and rejecting others.
+
+Allah the Exalted said:
+
+[[proof:3]]
+
+Twenty-five are named in the Quran, and there were others whom Allah did not name for us. The best of them are the five of firm resolve: Nuh, Ibrahim, Musa, ''Isa, and Muhammad ﷺ.
+
+Muhammad ﷺ is the last of them. No prophet comes after him, and whoever claims prophethood after him is a liar.
+
+Allah the Most High said:
+
+[[proof:4]]
+
+So believe in the messengers, all of them, and follow the one sent to you: Muhammad ﷺ.', 5, 'https://www.youtube.com/watch?v=36O7Pn86YO0', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Faith in the Messengers and What It Includes', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the messengers."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-messengers--p1', 'six-pillars--belief-in-the-messengers', 'quran', 'وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ', 'And We certainly sent into every nation a messenger, [saying]: worship Allah and avoid taghut (false objects of worship).', 'Surah an-Nahl 16:36', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-messengers--p2', 'six-pillars--belief-in-the-messengers', 'quran', 'وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ', 'And We did not send any messenger before you except that We revealed to him: none has the right to be worshipped except Me, so worship Me.', 'Surah al-Anbiya 21:25', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-messengers--p3', 'six-pillars--belief-in-the-messengers', 'quran', 'كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ', 'All of them have believed in Allah and His angels and His books and His messengers, [saying]: We make no distinction between any of His messengers.', 'Surah al-Baqarah 2:285', 3);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-messengers--p4', 'six-pillars--belief-in-the-messengers', 'quran', 'مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ', 'Muhammad is not the father of any of your men, but the Messenger of Allah and the seal of the prophets.', 'Surah al-Ahzab 33:40', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-the-messengers', 'six-pillars--belief-in-the-messengers', 'https://www.youtube.com/watch?v=36O7Pn86YO0', 'Faith in the Messengers and What It Includes', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Messengers', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-the-last-day', 'six-pillars', 'belief-in-the-last-day', 'Belief in the Last Day', '**Belief in the Last Day** is certainty in everything the revelation reports of what comes after death.
+
+It begins with the trial of the grave, where the servant is questioned about his Lord, his religion and his Prophet ﷺ, and the grave is then either a garden of bliss or a pit of punishment. Then the Horn is blown and the dead are raised. Then comes the gathering, the records handed to the right hand or to the left, the scale in which the deeds are weighed, the sirat, the intercession by Allah''s permission, and finally Paradise or the Fire, without end.
+
+Allah the Most Exalted said:
+
+[[proof:1]]
+
+The disbelievers denied the Resurrection, and Allah commanded His Prophet ﷺ to swear to them that it will come.
+
+Allah the Almighty said:
+
+[[proof:2]]
+
+Nothing is lost in that reckoning, and nothing is too small to be brought forward.
+
+Allah the Most High said:
+
+[[proof:3]]
+
+Whoever is certain of this Day watches himself in private as he does in public. For this reason Allah joins belief in Him to belief in the Last Day in many places in His Book. So prepare for it with the deeds you would wish to find before you.', 6, 'https://www.youtube.com/watch?v=JeNyVjSG1TQ', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Day of Resurrection', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the Last Day."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-last-day--p1', 'six-pillars--belief-in-the-last-day', 'quran', 'ثُمَّ إِنَّكُم بَعْدَ ذَٰلِكَ لَمَيِّتُونَ ۝ ثُمَّ إِنَّكُمْ يَوْمَ الْقِيَامَةِ تُبْعَثُونَ', 'Then indeed, after that you are to die. Then indeed you, on the Day of Resurrection, will be resurrected.', 'Surah al-Mu''minun 23:15-16', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-last-day--p2', 'six-pillars--belief-in-the-last-day', 'quran', 'زَعَمَ الَّذِينَ كَفَرُوا أَن لَّن يُبْعَثُوا ۚ قُلْ بَلَىٰ وَرَبِّي لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ', 'Those who disbelieve have claimed that they will never be resurrected. Say: Yes, by my Lord, you will surely be resurrected; then you will surely be informed of what you did.', 'Surah at-Taghabun 64:7', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-the-last-day--p3', 'six-pillars--belief-in-the-last-day', 'quran', 'فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ ۝ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ', 'So whoever does an atom''s weight of good will see it, and whoever does an atom''s weight of evil will see it.', 'Surah az-Zalzalah 99:7-8', 3);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-the-last-day', 'six-pillars--belief-in-the-last-day', 'https://www.youtube.com/watch?v=JeNyVjSG1TQ', 'The Day of Resurrection', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Belief in the Last Day', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--belief-in-al-qadar', 'six-pillars', 'belief-in-al-qadar', 'Belief in al-Qadar', '**Al-qadar** is the decree of Allah. Belief in it rests upon four matters, as the scholars enumerate them.
+
+**His knowledge.** Allah knows all things: what has been, what will be, and how that which has not happened would be if it were to happen.
+
+**His writing.** He wrote all of that with Him in the Preserved Tablet.
+
+Abdullah ibn Amr ibn al-As (may Allah be pleased with them) narrated that the Messenger of Allah ﷺ said:
+
+[[proof:1]]
+
+**His will.** Nothing occurs in the heavens or the earth except by the will of Allah. What He wills comes to be, and what He does not will does not come to be.
+
+**His creating.** He is the Creator of all things, and the actions of the servants are from among the things He created.
+
+Allah the Most Exalted said:
+
+[[proof:2]]
+
+And Allah the Almighty said:
+
+[[proof:3]]
+
+Belief in the decree does not cancel the action of the servant. You choose, you act, and you are held to account for what you do. Allah commanded you to take the means, and He made the means themselves part of the decree. No one may argue with the decree as an excuse for abandoning a command or falling into what is forbidden.
+
+This belief cures the heart of two diseases: grief over what escaped you, and arrogance over what reached you.
 
 Allah the Exalted said:
 
 [[proof:4]]
 
-The believer works and takes the means, and his heart is at rest with the decree of his Lord. With this the six pillars are complete. Review them, then take the module quiz.', 4, 'https://www.youtube.com/watch?v=JeNyVjSG1TQ', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Day of Resurrection', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on the Last Day and al-qadar."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.');
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p1', 'six-pillars--last-day-and-qadar', 'quran', 'فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ ۝ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ', 'So whoever does an atom''s weight of good will see it, and whoever does an atom''s weight of evil will see it.', 'Surah az-Zalzalah 99:7-8', 1);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p2', 'six-pillars--last-day-and-qadar', 'quran', 'إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ', 'Indeed, all things We created with a decree.', 'Surah al-Qamar 54:49', 2);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p3', 'six-pillars--last-day-and-qadar', 'hadith', 'كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ', 'Allah wrote the decrees of the creation fifty thousand years before He created the heavens and the earth.', 'Sahih Muslim #2653', 3);
-insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--last-day-and-qadar--p4', 'six-pillars--last-day-and-qadar', 'quran', 'مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ ۝ لِّكَيْلَا تَأْسَوْا عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا بِمَا آتَاكُمْ', 'No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy — so that you not despair over what has escaped you, nor exult over what He has given you.', 'Surah al-Hadid 57:22-23', 4);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--last-day-and-qadar', 'six-pillars--last-day-and-qadar', 'https://www.youtube.com/watch?v=JeNyVjSG1TQ', 'The Day of Resurrection', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'The Last Day and al-Qadar (The Decree)', 1);
-insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--last-day-and-qadar-2', 'six-pillars--last-day-and-qadar', 'https://www.youtube.com/watch?v=ep6kYnJSoE8', 'Belief in the Qadar of Allah and Contentment with It', 'Shaykh Salih al-Fawzan', 'The Last Day and al-Qadar (The Decree)', 2);
+So take the means, and let your heart rest upon the decree of your Lord. With this the six pillars of iman are complete.', 7, 'https://www.youtube.com/watch?v=ep6kYnJSoE8', 'Shaykh Salih al-Fawzan', 'Belief in the Qadar of Allah and Contentment with It', '[{"title":"200 Q&A on Islamic Creed (A''lam as-Sunnah al-Manshurah)","pdfUrl":"https://drive.google.com/file/d/13vKC907IYQdHS0GdLimRBEmkwyJnyhD2/view","author":"Shaykh Hafiz ibn Ahmad al-Hakami","url":"https://darussalam.com/","note":"See the questions on al-qadar."}]'::jsonb, 'Summarized from Sharh Usul al-Iman of Shaykh Ibn Uthaymeen and the explanations of Shaykh Ibn Baz on belief in the decree.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-al-qadar--p1', 'six-pillars--belief-in-al-qadar', 'hadith', 'كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ', 'Allah wrote the decrees of the creation fifty thousand years before He created the heavens and the earth.', 'Sahih Muslim #2653', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-al-qadar--p2', 'six-pillars--belief-in-al-qadar', 'quran', 'إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ', 'Indeed, all things We created with a decree.', 'Surah al-Qamar 54:49', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-al-qadar--p3', 'six-pillars--belief-in-al-qadar', 'quran', 'وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّرَهُ تَقْدِيرًا', 'And He created everything and determined it with [precise] determination.', 'Surah al-Furqan 25:2', 3);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--belief-in-al-qadar--p4', 'six-pillars--belief-in-al-qadar', 'quran', 'مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ ۝ لِّكَيْلَا تَأْسَوْا عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا بِمَا آتَاكُمْ', 'No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy — so that you not despair over what has escaped you, nor exult over what He has given you.', 'Surah al-Hadid 57:22-23', 4);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--belief-in-al-qadar', 'six-pillars--belief-in-al-qadar', 'https://www.youtube.com/watch?v=ep6kYnJSoE8', 'Belief in the Qadar of Allah and Contentment with It', 'Shaykh Salih al-Fawzan', 'Belief in al-Qadar', 1);
+insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('six-pillars--ihsan', 'six-pillars', 'ihsan', 'Ihsan (Excellence)', 'After Jibreel asked the Prophet ﷺ about Islam and about iman, he asked him about **ihsan**. The religion has three levels: Islam, then iman, then ihsan, and ihsan is the highest of them.
+
+In the narration of Umar ibn al-Khattab (may Allah be pleased with him), the Prophet ﷺ said:
+
+[[proof:1]]
+
+The scholars explain that this definition contains two stations, one above the other.
+
+**The station of seeking.** The servant worships Allah as though he sees Him. His heart is drawn to his Lord by longing and love, and he worships Him as one who is present before Him. This is the higher of the two stations.
+
+**The station of watchfulness.** If he does not reach the first, he worships Allah knowing that Allah sees him. This is **muraqabah**, and it is enough to keep a man upright when no eye of the creation is upon him.
+
+Allah the Most Exalted said:
+
+[[proof:2]]
+
+Ihsan is not a fourth pillar set beside the pillars of Islam and the pillars of iman. It is the perfection of both: that the outward worship of the limbs and the inward belief of the heart are performed as they ought to be performed, in public and in private without difference.
+
+And Allah has promised the people of ihsan that He is with them.
+
+Allah the Almighty said:
+
+[[proof:3]]
+
+So look at your prayer, your speech and your dealings, and ask yourself whether they are the same when people see you as when they do not. May Allah make us and you of the muhsinun, and grant us and you beneficial knowledge and righteous action.', 8, 'https://www.youtube.com/watch?v=whPxy1HuaPk', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Ihsan and Attaining the Love of Allah', '[{"title":"Sharh Usul al-Iman (Explanation of the Foundations of Faith)","pdfUrl":"https://abdurrahman.org/wp-content/uploads/2014/08/explaining-the-foundations-of-faith-sharh-usool-al-eemaan-shaykh-uthaymeen-dr-saleh-as-saleh.pdf","author":"Shaykh Ibn Uthaymeen (trans. Dr. Saleh as-Saleh)","url":"https://darussalam.com/","note":"See the closing section on ihsan and the levels of the religion."}]'::jsonb, 'Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel.');
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--ihsan--p1', 'six-pillars--ihsan', 'hadith', 'أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ', '[Ihsan is] that you worship Allah as though you see Him; and if you do not see Him, then indeed He sees you.', 'Sahih Muslim #8 (the hadith of Jibreel)', 1);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--ihsan--p2', 'six-pillars--ihsan', 'quran', 'وَتَوَكَّلْ عَلَى الْعَزِيزِ الرَّحِيمِ ۝ الَّذِي يَرَاكَ حِينَ تَقُومُ ۝ وَتَقَلُّبَكَ فِي السَّاجِدِينَ', 'And rely upon the Exalted in Might, the Merciful, who sees you when you arise and your movement among those who prostrate.', 'Surah ash-Shu''ara 26:217-219', 2);
+insert into public.proofs (id, lesson_id, type, arabic_text, english_translation, reference, display_order) values ('six-pillars--ihsan--p3', 'six-pillars--ihsan', 'quran', 'إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ', 'Indeed, Allah is with those who fear Him and those who are doers of good.', 'Surah an-Nahl 16:128', 3);
+insert into public.videos (id, lesson_id, youtube_url, title, scholar, topic, display_order) values ('video-six-pillars--ihsan', 'six-pillars--ihsan', 'https://www.youtube.com/watch?v=whPxy1HuaPk', 'Ihsan and Attaining the Love of Allah', 'Shaykh Muhammad ibn Salih al-Uthaymeen', 'Ihsan (Excellence)', 1);
 insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values ('usul-al-thalathah--four-matters', 'usul-al-thalathah', 'four-matters', 'The Four Matters', '**Thalathat al-Usul** (The Three Fundamental Principles) is a short primer written by Shaykh Muhammad ibn Abd al-Wahhab so that every Muslim, young or old, would know the answers to the three questions of the grave: *Who is your Lord? What is your religion? Who is your prophet?* Generations of students across the world begin their study of aqeedah with this text, and so do we.
 
 Before the three principles, the author opens with **four matters** that are obligatory upon every one of us to learn: (1) **knowledge**: knowing Allah, knowing His Prophet ﷺ, and knowing the religion of Islam with its proofs; (2) **action** upon that knowledge; (3) **da''wah**: inviting to it; and (4) **patience** upon the harm that comes in its path.

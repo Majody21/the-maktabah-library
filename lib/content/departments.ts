@@ -163,10 +163,10 @@ export const modules: Module[] = [
     slug: "six-pillars",
     name: "The Six Pillars of Iman",
     description:
-      "Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar, which are the inward foundation of the religion.",
+      "Belief in Allah, His angels, His books, His messengers, the Last Day, and al-qadar, each taken on its own, closing with the level of ihsan.",
     displayOrder: 2,
     prerequisiteModuleId: "five-pillars",
-    estimatedMinutes: 220,
+    estimatedMinutes: 320,
   },
   {
     id: "usul-al-thalathah",
