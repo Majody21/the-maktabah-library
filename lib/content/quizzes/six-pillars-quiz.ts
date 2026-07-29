@@ -276,5 +276,56 @@ export const sixPillarsQuiz: Quiz = {
       topicTag: "iman-definition",
       difficulty: "application",
     },
+    {
+      id: "q-sp-17",
+      quizId: "quiz-six-pillars",
+      questionText:
+        "When Jibreel asked the Prophet ﷺ about ihsan, how did he ﷺ define it?",
+      options: [
+        "That you perfect your outward acts of worship so that others may take you as an example",
+        "That you deal justly and generously with people, for the religion is good treatment",
+        "That you worship Allah as though you see Him; and if you do not see Him, then indeed He sees you",
+        "That you perform the obligations and add voluntary acts until your good deeds outweigh your bad",
+      ],
+      correctAnswerIndex: 2,
+      explanation:
+        "The wording is from the hadith of Jibreel (Sahih Muslim #8). Notice that ihsan is defined by the state of the heart during worship, not by the quantity of deeds or by how the deed appears to people — which is why the first option is in fact closer to riya than to ihsan. Good treatment of people is commanded and is included in ihsan in its wider sense, but the Prophet ﷺ answered here with the servant's standing before his Lord.",
+      topicTag: "ihsan",
+      difficulty: "recall",
+    },
+    {
+      id: "q-sp-18",
+      quizId: "quiz-six-pillars",
+      questionText:
+        "A Muslim complains that however hard he tries, he cannot pray with the sense of worshipping Allah “as though he sees Him.” What does the second half of the definition of ihsan offer him?",
+      options: [
+        "He should suspend his voluntary worship until the state is attained, since worship without it is not accepted",
+        "He falls back on muraqabah — worshipping with the certainty that Allah sees him — which is enough to keep a man upright",
+        "He should seek a guide who can transmit the state to him through spiritual exercises",
+        "The definition describes the prophets and the elect, so it places no demand on him at all",
+      ],
+      correctAnswerIndex: 1,
+      explanation:
+        "The Prophet ﷺ gave the second clause for exactly this case: “and if you do not see Him, then indeed He sees you.” The first station is higher, but muraqabah is within the reach of every believer, and Allah described it of His Prophet ﷺ: “Who sees you when you arise” (ash-Shu'ara 26:218). Suspending worship for want of a state inverts the matter, because the state grows through worship rather than before it; and seeking the state through devised exercises is the path of those who added to the religion what Allah did not legislate.",
+      topicTag: "ihsan",
+      difficulty: "application",
+    },
+    {
+      id: "q-sp-19",
+      quizId: "quiz-six-pillars",
+      questionText:
+        "How does ihsan stand in relation to the pillars of Islam and the pillars of iman?",
+      options: [
+        "It is a seventh pillar of iman, listed after belief in al-qadar",
+        "It concerns dealings with people, whereas Islam and iman concern dealings with Allah",
+        "It replaces the outward obligations for those who reach it, since the goal has been attained",
+        "It is the perfection of both — the same outward deeds and inward beliefs, performed as they ought to be",
+      ],
+      correctAnswerIndex: 3,
+      explanation:
+        "The hadith of Jibreel presents three levels of one religion: Islam, then iman, then ihsan. Ihsan adds no new pillar and no new act; it raises the quality of what is already obligatory, so that a man's worship is the same in private as in public. The claim that obligations fall away from those who reach a station is a deviation the scholars refuted, and Allah commanded His Prophet ﷺ: “And worship your Lord until there comes to you the certainty” (al-Hijr 15:99), meaning until death.",
+      topicTag: "ihsan",
+      difficulty: "analysis",
+    },
   ],
 };
