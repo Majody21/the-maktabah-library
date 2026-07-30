@@ -11,6 +11,7 @@ import {
 import LessonBody from "@/components/lesson/LessonBody";
 import LessonActions from "@/components/lesson/LessonActions";
 import VideoEmbed from "@/components/lesson/VideoEmbed";
+import RevealableVideo from "@/components/lesson/RevealableVideo";
 import QuizSection from "@/components/quiz/QuizSection";
 
 export const revalidate = 3600;
@@ -161,14 +162,24 @@ export default async function LessonPage({
             title={lesson.videoTitle}
             scholar={lesson.videoScholar}
           />
-          {lesson.additionalVideos?.map((v) => (
-            <VideoEmbed
-              key={v.youtubeUrl}
-              youtubeUrl={v.youtubeUrl}
-              title={v.title}
-              scholar={v.scholar}
-            />
-          ))}
+          {lesson.additionalVideos?.map((v) =>
+            v.revealPrompt ? (
+              <RevealableVideo
+                key={v.youtubeUrl}
+                youtubeUrl={v.youtubeUrl}
+                title={v.title}
+                scholar={v.scholar}
+                prompt={v.revealPrompt}
+              />
+            ) : (
+              <VideoEmbed
+                key={v.youtubeUrl}
+                youtubeUrl={v.youtubeUrl}
+                title={v.title}
+                scholar={v.scholar}
+              />
+            )
+          )}
         </div>
       </section>
 

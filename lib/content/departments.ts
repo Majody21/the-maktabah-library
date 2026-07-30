@@ -196,10 +196,10 @@ export const modules: Module[] = [
     slug: "qawaid-al-arba",
     name: "Al-Qawa'id al-Arba'",
     description:
-      "Four short principles that expose the reality of shirk in every age.",
+      "The author's introduction, then four short principles that expose the reality of shirk in every age, each taken on its own.",
     displayOrder: 5,
     prerequisiteModuleId: "categories-of-tawheed",
-    estimatedMinutes: 170,
+    estimatedMinutes: 220,
   },
   {
     id: "nawaqid-al-islam",

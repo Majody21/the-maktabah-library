@@ -92,6 +92,7 @@ const mapLessonRow = (
       youtubeUrl: v.youtube_url as string,
       scholar: v.scholar ?? "",
       title: v.title ?? "",
+      revealPrompt: v.reveal_prompt ?? undefined,
     })),
   bookRecommendations: r.book_recommendations ?? [],
   basedOn: r.based_on ?? "",

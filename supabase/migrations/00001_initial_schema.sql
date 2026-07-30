@@ -69,7 +69,9 @@ create table public.videos (
   title text,
   scholar text,
   topic text,
-  display_order integer not null default 1
+  display_order integer not null default 1,
+  -- when set, the player stays collapsed behind a button carrying this text
+  reveal_prompt text
 );
 
 create table public.quizzes (

@@ -47,6 +47,11 @@ export type LessonVideo = {
   youtubeUrl: string;
   scholar: string;
   title: string;
+  /**
+   * When set, the video starts collapsed behind a button carrying this text,
+   * so a follow-on part is not stacked under the one being watched.
+   */
+  revealPrompt?: string;
 };
 
 export type Lesson = {
