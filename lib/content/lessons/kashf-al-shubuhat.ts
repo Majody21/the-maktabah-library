@@ -8,13 +8,13 @@ export const kashfAlShubuhatLessons: Lesson[] = [
     id: "kashf-al-shubuhat--two-tawheeds",
     moduleId: "kashf-al-shubuhat",
     slug: "the-doubt-at-the-root",
-    title: "The Root of the Doubts",
+    title: "The Removal of the Doubts",
     displayOrder: 1,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=e8YnfLXHqsg",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "Kashf ash-Shubuhat — Full Explanation",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=-yJZWvyiwG8",
+    videoScholar: "Shaykh Salih al-Fawzan",
+    videoTitle: "Introduction to Kashf al-Shubuhat",
     bookRecommendations: [
       {
         title: "Kashf al-Shubuhat (Removal of the Doubts)",
@@ -40,7 +40,9 @@ Allah the Exalted said:
 
 The author prepares you for this doubt. Someone says: *"The mushrikun the Prophet ﷺ fought were idol-worshippers bowing to stones. But I believe in Allah, I pray, I fast; how could calling on a righteous dead saint put me in their category?"* The answer begins by correcting the picture: the mushrikun of old were not atheists, and they were not all worshipping mere stones. They were people who affirmed the Creator and directed acts of worship, especially du'a and the seeking of intercession, to beings they considered close to Allah. Their shirk was in the second tawheed while their belief in the first was intact. So the claim "I am nothing like them because I believe in Allah" carries no weight, for they believed in Allah too. The dividing line was never belief in a Creator; it was worship, and to whom it is given.
 
-In the next lesson we take the excuses they offered, nearness and intercession, and see how the Quran answered them.`,
+In the next lesson we take the excuses they offered, nearness and intercession, and see how the Quran answered them.
+
+**A note on the video below.** It covers the introduction of the treatise only. The remaining parts of the explanation are published by [Scholarly Subtitles](https://www.patreon.com/Scholarly_Subtitles/posts/introduction-of-61145794?utm_source=post-search-result), so follow the series with them to hear it to its end. Whoever does not follow it there must read the book itself, for the quiz at the end of this module covers the whole of it.`,
     proofs: [
       {
         id: "kashf-al-shubuhat--two-tawheeds--p1",

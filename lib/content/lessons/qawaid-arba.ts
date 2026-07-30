@@ -81,9 +81,9 @@ Upon this he builds the four principles. Read the treatise once from its beginni
     displayOrder: 2,
     basedOn:
       "Summarized from the explanation of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=HGdigStLye8",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=cj6kAXqWNF0",
     videoScholar: FAWZAN,
-    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 1)",
+    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 2)",
     bookRecommendations: [
       { ...MATN, note: "The first principle and its proof from Surah Yunus." },
     ],
@@ -139,9 +139,9 @@ So do not be satisfied with knowing that Allah exists. Look at your worship, and
     displayOrder: 3,
     basedOn:
       "Summarized from the explanation of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=cj6kAXqWNF0",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=vRG2lK6SMOE",
     videoScholar: FAWZAN,
-    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 2)",
+    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 3)",
     bookRecommendations: [
       { ...MATN, note: "The doubt of nearness and intercession, and its answer." },
     ],
@@ -211,9 +211,9 @@ So carry your need to Allah directly, for He is near and answers the one who cal
     displayOrder: 4,
     basedOn:
       "Summarized from the explanation of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=vRG2lK6SMOE",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=8-rBiR_4Gj0",
     videoScholar: FAWZAN,
-    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 3)",
+    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 4)",
     bookRecommendations: [
       { ...MATN, note: "The third principle: the differing objects of worship." },
     ],
@@ -269,17 +269,9 @@ The lesson: shirk is judged by the act that is directed to other than Allah, and
     displayOrder: 5,
     basedOn:
       "Summarized from the explanation of Shaykh Salih al-Fawzan on al-Qawa'id al-Arba'.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=8-rBiR_4Gj0",
+    videoYoutubeUrl: "https://www.youtube.com/watch?v=9iu00A806dQ",
     videoScholar: FAWZAN,
-    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 4)",
-    additionalVideos: [
-      {
-        youtubeUrl: "https://www.youtube.com/watch?v=9iu00A806dQ",
-        scholar: FAWZAN,
-        title: "Explanation of al-Qawa'id al-Arba' (Part 5)",
-        revealPrompt: "When you have finished Part 4, open Part 5",
-      },
-    ],
+    videoTitle: "Explanation of al-Qawa'id al-Arba' (Part 5)",
     bookRecommendations: [
       { ...MATN, note: "The closing principle and its proof from Surah al-Ankabut." },
     ],
