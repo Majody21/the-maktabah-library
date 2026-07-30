@@ -112,7 +112,8 @@ export default async function LessonPage({
         <p className="text-sm text-ink-faint">
           Lesson {idx + 1} of {moduleLessons.length}
         </p>
-        <h1 className="mt-2 font-display text-[1.7rem] font-semibold leading-snug sm:text-3xl">
+        {/* Sized so the longest title in the curriculum still sits on one line. */}
+        <h1 className="mt-2 font-display text-[1.5rem] font-semibold leading-snug sm:text-[1.65rem] lg:text-[1.75rem]">
           {lesson.title}
         </h1>
       </header>

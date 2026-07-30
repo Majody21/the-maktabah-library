@@ -20,7 +20,7 @@ export const sixPillarsLessons: Lesson[] = [
     id: "six-pillars--what-is-iman",
     moduleId: "six-pillars",
     slug: "what-is-iman",
-    title: "Iman (Faith)",
+    title: "Iman",
     displayOrder: 1,
     basedOn:
       "Summarized from the explanations of Shaykh Muhammad ibn Salih al-Uthaymeen on the hadith of Jibreel and Sharh Usul al-Iman.",

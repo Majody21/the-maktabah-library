@@ -140,7 +140,7 @@ Being nurtured by Him and owned by Him obligates worshipping Him alone. This lin
     id: "usul-al-thalathah--what-is-your-religion",
     moduleId: "usul-al-thalathah",
     slug: "what-is-your-religion",
-    title: "The Second Principle (What Is Your Religion?)",
+    title: "The Second Principle (What Is Your Deen?)",
     displayOrder: 3,
     basedOn:
       "Summarized from the explanation of Shaykh Haytham Sarhan on Thalathat al-Usul.",

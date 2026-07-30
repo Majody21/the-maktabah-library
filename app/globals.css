@@ -113,8 +113,8 @@
   html {
     scroll-behavior: smooth;
     /* Everything (type, spacing, container widths) is sized in rem, so
-       lifting the root size scales the whole page like a 110% zoom. */
-    font-size: 110%;
+       lifting the root size scales the whole page like a 120% zoom. */
+    font-size: 120%;
   }
 
   body {
@@ -294,10 +294,17 @@
   inset: 0;
   z-index: -1;
   pointer-events: none;
+  /* held back at the top of the page; fades in once the reader scrolls */
+  opacity: 0;
+  transition: opacity 350ms ease;
 }
 
 .library .library-scene {
   display: block;
+}
+
+.library-scene.is-visible {
+  opacity: 1;
 }
 
 .library-scene svg {
@@ -399,6 +406,9 @@
   }
   .card-hover,
   .btn {
+    transition: none;
+  }
+  .library-scene {
     transition: none;
   }
   .scene-flame,
