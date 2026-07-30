@@ -12,6 +12,7 @@ import LessonBody from "@/components/lesson/LessonBody";
 import LessonActions from "@/components/lesson/LessonActions";
 import VideoEmbed from "@/components/lesson/VideoEmbed";
 import RevealableVideo from "@/components/lesson/RevealableVideo";
+import PdfReader from "@/components/lesson/PdfReader";
 import QuizSection from "@/components/quiz/QuizSection";
 
 export const revalidate = 3600;
@@ -152,36 +153,55 @@ export default async function LessonPage({
       )}
 
       {/* ————— B. Scholar's video ————— */}
-      <section className="mt-14">
-        <h2 className="font-display text-xl font-semibold">
-          Hear it from the scholars
-        </h2>
-        <div className="mt-5 space-y-6">
-          <VideoEmbed
-            youtubeUrl={lesson.videoYoutubeUrl}
-            title={lesson.videoTitle}
-            scholar={lesson.videoScholar}
-          />
-          {lesson.additionalVideos?.map((v) =>
-            v.revealPrompt ? (
-              <RevealableVideo
-                key={v.youtubeUrl}
-                youtubeUrl={v.youtubeUrl}
-                title={v.title}
-                scholar={v.scholar}
-                prompt={v.revealPrompt}
-              />
-            ) : (
-              <VideoEmbed
-                key={v.youtubeUrl}
-                youtubeUrl={v.youtubeUrl}
-                title={v.title}
-                scholar={v.scholar}
-              />
-            )
-          )}
-        </div>
-      </section>
+      {(lesson.videoYoutubeUrl || lesson.additionalVideos?.length) && (
+        <section className="mt-14">
+          <h2 className="font-display text-xl font-semibold">
+            Hear it from the scholars
+          </h2>
+          <div className="mt-5 space-y-6">
+            <VideoEmbed
+              youtubeUrl={lesson.videoYoutubeUrl}
+              title={lesson.videoTitle}
+              scholar={lesson.videoScholar}
+            />
+            {lesson.additionalVideos?.map((v) =>
+              v.revealPrompt ? (
+                <RevealableVideo
+                  key={v.youtubeUrl}
+                  youtubeUrl={v.youtubeUrl}
+                  title={v.title}
+                  scholar={v.scholar}
+                  prompt={v.revealPrompt}
+                />
+              ) : (
+                <VideoEmbed
+                  key={v.youtubeUrl}
+                  youtubeUrl={v.youtubeUrl}
+                  title={v.title}
+                  scholar={v.scholar}
+                />
+              )
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* ————— B2. The book itself, read on the page ————— */}
+      {lesson.inlinePdfUrl && (
+        <section className="mt-14">
+          <h2 className="font-display text-xl font-semibold">Read the book</h2>
+          <p className="mt-2 max-w-2xl text-ink-soft">
+            Read the treatise itself below, to its end. The quiz that follows
+            covers the whole of it.
+          </p>
+          <div className="mt-5">
+            <PdfReader
+              url={lesson.inlinePdfUrl}
+              title={lesson.bookRecommendations[0]?.title ?? "The book"}
+            />
+          </div>
+        </section>
+      )}
 
       {/* ————— Completion + C. quiz on the final lesson ————— */}
       <LessonActions

@@ -71,6 +71,11 @@ export type Lesson = {
   videoTitle: string | null;
   /** Further videos, for a lesson that covers more than one topic. */
   additionalVideos?: LessonVideo[];
+  /**
+   * A Google Drive file link (…/file/d/ID/view). When set, the book is
+   * rendered on the page itself so it can be read without leaving the lesson.
+   */
+  inlinePdfUrl?: string | null;
   bookRecommendations: BookRecommendation[];
   /** Which scholar's explanation the lesson summary draws from. */
   basedOn: string;

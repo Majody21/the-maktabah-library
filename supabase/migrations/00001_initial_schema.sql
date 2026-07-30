@@ -45,6 +45,8 @@ create table public.lessons (
   video_title text,
   book_recommendations jsonb not null default '[]'::jsonb,
   based_on text,
+  -- Drive link to a book rendered on the lesson page itself
+  inline_pdf_url text,
   unique (module_id, slug)
 );
 

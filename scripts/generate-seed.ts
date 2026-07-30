@@ -61,7 +61,7 @@ lines.push("");
 
 for (const l of allLessons) {
   lines.push(
-    `insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on) values (${q(l.id)}, ${q(l.moduleId)}, ${q(l.slug)}, ${q(l.title)}, ${q(l.content)}, ${n(l.displayOrder)}, ${q(l.videoYoutubeUrl)}, ${q(l.videoScholar)}, ${q(l.videoTitle)}, ${qj(l.bookRecommendations)}, ${q(l.basedOn)});`
+    `insert into public.lessons (id, module_id, slug, title, content_html, display_order, video_youtube_url, video_scholar, video_title, book_recommendations, based_on, inline_pdf_url) values (${q(l.id)}, ${q(l.moduleId)}, ${q(l.slug)}, ${q(l.title)}, ${q(l.content)}, ${n(l.displayOrder)}, ${q(l.videoYoutubeUrl)}, ${q(l.videoScholar)}, ${q(l.videoTitle)}, ${qj(l.bookRecommendations)}, ${q(l.basedOn)}, ${q(l.inlinePdfUrl ?? null)});`
   );
   for (const p of l.proofs) {
     lines.push(

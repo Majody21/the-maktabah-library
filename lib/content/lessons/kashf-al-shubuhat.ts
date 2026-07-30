@@ -76,9 +76,10 @@ In the next lesson we take the excuses they offered, nearness and intercession, 
     displayOrder: 2,
     basedOn:
       "A guided reading of Kashf al-Shubuhat by Shaykh Muhammad ibn Abd al-Wahhab, summarized from the explanation of Shaykh Salih al-Fawzan.",
-    videoYoutubeUrl: "https://www.youtube.com/watch?v=e8YnfLXHqsg",
-    videoScholar: "Shaykh Haytham Sarhan",
-    videoTitle: "Kashf ash-Shubuhat — Full Explanation",
+    videoYoutubeUrl: null,
+    videoScholar: null,
+    videoTitle: null,
+    inlinePdfUrl: FAWZAN_PDF,
     bookRecommendations: [
       {
         title: "Kashf al-Shubuhat (Removal of the Doubts)",
@@ -110,7 +111,9 @@ Allah the Most High says of some of those who are called upon that they themselv
 
 [[proof:3]]
 
-The Quran names righteous people, angels, 'Isa, and 'Uzayr among those who were called upon besides Allah, and it still named that call shirk. The rank of the one called upon does not change the ruling. So every doubt returns to one principle: **worship, and du'a is at its core, is the right of Allah alone, and directing it to other than Him is shirk in whatever form it comes.** This is the fruit of Kashf al-Shubuhat: to know tawheed and to remain firm upon it when the doubts are raised.`,
+The Quran names righteous people, angels, 'Isa, and 'Uzayr among those who were called upon besides Allah, and it still named that call shirk. The rank of the one called upon does not change the ruling. So every doubt returns to one principle: **worship, and du'a is at its core, is the right of Allah alone, and directing it to other than Him is shirk in whatever form it comes.** This is the fruit of Kashf al-Shubuhat: to know tawheed and to remain firm upon it when the doubts are raised.
+
+What has passed here is a summary of the treatise, and a summary does not stand in place of the book. **Read Kashf al-Shubuhat itself below, from its beginning to its end**, for the author raises doubts and answers them one after another, and the quiz at the end of this module covers all of it.`,
     proofs: [
       {
         id: "kashf-al-shubuhat--intercession--p1",

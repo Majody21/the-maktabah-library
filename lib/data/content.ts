@@ -94,6 +94,7 @@ const mapLessonRow = (
       title: v.title ?? "",
       revealPrompt: v.reveal_prompt ?? undefined,
     })),
+  inlinePdfUrl: r.inline_pdf_url ?? null,
   bookRecommendations: r.book_recommendations ?? [],
   basedOn: r.based_on ?? "",
   proofs,
