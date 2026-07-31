@@ -209,6 +209,57 @@ As for the hadith of Ibn Umar from the Prophet ﷺ that he said: "The menstruati
     OUR_TRANSLATION
   ),
   f(
+    "f-music",
+    "Halal & Haram",
+    "Listening to songs and music",
+    "Is listening to and watching songs on the radio or the television forbidden in Islam at some times, whether by night or by day? Inform us, may Allah benefit you.",
+    `Yes. Listening to songs and instruments of amusement is forbidden in Islam, as Allah said: "And among the people is he who buys idle talk to mislead others from the way of Allah" [Luqman 6]. Most of the scholars said that "idle talk" here is singing, and to it are added the sounds of the instruments of amusement, such as the tanbur, the lute, the violin and the like of that. All of them turn people away from the path of Allah, and they harden the hearts and make them sick.
+
+The Lord, glorified be He, informed us that this is among the causes of misguidance and of misguiding others, and among the causes of the servant's arrogance towards listening to the Book of Allah. When the heart is given over to songs and listens to them often, they turn it away from the truth and bring upon it dangerous diseases, and heaviness towards obedience to Allah and His Messenger, and towards listening to the Quran and to admonitions. Abdullah ibn Mas'ud (may Allah be pleased with him) even said: "It grows hypocrisy in the heart as water grows crops."
+
+And the Prophet ﷺ said: "There will certainly be among my ummah a people who declare lawful fornication, silk, wine and musical instruments." He informed us that at the end of time there will be a people who declare musical instruments lawful, while they are forbidden. And *al-ma'azif* means songs and the instruments of amusement. And Allah is the One whose help is sought.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Nur 'ala ad-Darb — fatwa no. 7808",
+    binbaz(7808, "حكم-سماع-الاغاني"),
+    OUR_TRANSLATION
+  ),
+  f(
+    "f-shaving-the-beard",
+    "Halal & Haram",
+    "Shaving or trimming the beard",
+    "What is the ruling concerning one who shaves his beard, and is there a proof from the Quran for that? Inform us, may Allah reward you with good.",
+    `Shaving the beard or cutting it is all forbidden and prohibited. It is not permissible for a Muslim to cut his beard nor to shave it, because of what is established from the Messenger of Allah, upon him be prayers and peace, that he said: "Trim the moustaches and leave the beards to grow; differ from the mushrikun." Thus he said, upon him be prayers and peace, in what is authentic from him, reported by al-Bukhari and Muslim in the two Sahihs from the hadith of Ibn Umar (may Allah be pleased with them both). And he also said, upon him be prayers and peace: "Cut the moustaches and let the beards grow; differ from the Magians." And in another wording: "and leave the beards full." Muslim reported it in the Sahih. This indicates the obligation of letting the beard grow, honouring it, leaving it full and letting it hang down.
+
+And in the text of the Noble Quran, Allah says: "Whoever obeys the Messenger has obeyed Allah" [an-Nisa 80]. And He says, glorified be He, in another noble ayah: "And whatever the Messenger gives you, take it; and whatever he forbids you from, refrain from it. And fear Allah; indeed, Allah is severe in punishment" [al-Hashr 7]. And He says, glorified be He: "So let those beware who differ from his order" — meaning the order of the Prophet ﷺ — "lest a trial strike them or a painful punishment strike them" [an-Nur 63]. This is a great threat for whoever opposes the order of the Messenger ﷺ.
+
+So what is obligatory upon the ummah is to follow the Messenger ﷺ, to obey his command and to leave what he forbade. This is what is obligatory upon the whole ummah. It is established from him, upon him be prayers and peace, that he said: "All of my ummah will enter Paradise except whoever refuses." It was said: "O Messenger of Allah, who refuses?" He said: "Whoever obeys me enters Paradise, and whoever disobeys me has refused." Al-Bukhari reported it.
+
+So my advice to all the Muslims in every place is that they leave the beard full, that they honour it and let it hang down, and that they beware of shaving it and cutting it, and that they do not take as an example those people who do that today, for those who do it today have become many. It is not fitting for the believer to take such a person as an example. Rather let them take the command of the Prophet ﷺ and obey him, upon him be prayers and peace, and let a man leave his beard and honour it, in obedience to Allah and in following His legislation. And Allah is the Guardian of success.`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Nur 'ala ad-Darb — fatwa no. 6960",
+    binbaz(6960, "حكم-حلق-اللحية-او-تقصيرها"),
+    OUR_TRANSLATION
+  ),
+  f(
+    "f-birr-al-walidayn",
+    "Manners",
+    "Dutifulness to parents",
+    "Many fathers and mothers complain of the undutifulness of their children. Is there some blessed direction you can give?",
+    `Yes. It is obligatory upon the children that they be dutiful to their parents and that they fear Allah, for undutifulness is among the ugliest of the major sins. He, glorified be He, says: "And worship Allah and associate nothing with Him, and to parents do good" [an-Nisa 36]. And He says, Mighty and Exalted: "Be grateful to Me and to your parents; to Me is the final destination" [Luqman 14]. Allah commanded gratitude to Him, and gratitude to one's parents.
+
+So what is obligatory upon all the children, males and females alike, is that they be dutiful to their parents, that they do good to them, and that they beware of undutifulness: of evil speech, or evil action, or rebuking them, or raising the voice, or opposing the commands they need which are not disobedience. All of this is obligatory upon them.
+
+He must be dutiful to his parents, and hear and obey them in what is good, and beware of raising his voice at them or reviling them. All of this is detestable. In the authentic hadith he ﷺ says: "Allah has cursed whoever curses his parents." And in another hadith he says, upon him be prayers and peace: "Among the major sins is a man reviling his parents." It was said: "O Messenger of Allah, and does a man revile his own parents?" The people found this strange. The Prophet ﷺ said: "He reviles a man's father, so that man reviles his father; and he reviles his mother, so he reviles his mother." Meaning: he brings it about. So if the one who merely brings it about has committed a major sin, then what of the one who does it directly?
+
+And the Prophet ﷺ says: "Shall I not inform you of the greatest of the major sins?" three times. They said: "Yes, O Messenger of Allah." He said: "Associating partners with Allah, and undutifulness to parents" — he placed it alongside shirk. And he had been reclining, so he sat up and said: "Beware of false speech, and bearing false witness."
+
+So what is obligatory is to beware of this great affliction. It is obligatory upon the child to fear Allah, to be dutiful to his parents, to do good to them, and to hear and obey them in what is good; and his care for the mother should be greater, and his dutifulness to her greater, and his attending to her greater, because her right is greater. A man said: "O Messenger of Allah, to whom should I be dutiful?" He said: "Your mother." He said: "Then who?" He said: "Your mother." He said: "Then who?" He said: "Your mother." He said: "Then who?" He said: "Your father, then the nearest and then the nearest."`,
+    "Shaykh Abd al-Aziz ibn Baz",
+    "Nur 'ala ad-Darb — fatwa no. 16911",
+    binbaz(16911, "وجوب-بر-الوالدين"),
+    OUR_TRANSLATION
+  ),
+  f(
     "f-minor-shirk-forgiveness",
     "Tawheed",
     "Whether minor shirk is forgiven",
