@@ -1,13 +1,8 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 /**
  * Candlelit reading-room backdrop for the "Library" theme.
  * Pure SVG, animated with CSS (flame sway, glow breathing, drifting dust);
  * all motion stops under prefers-reduced-motion, leaving a still scene.
- * Hidden unless <html> carries the `library` class (see globals.css), and
- * held back until the reader scrolls away from the top of the page.
+ * Hidden unless <html> carries the `library` class (see globals.css).
  */
 
 const SPINES: ReadonlyArray<readonly [number, number]> = [
@@ -69,20 +64,8 @@ function ShelfCase({ x }: { x: number }) {
 }
 
 export default function LibraryScene() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
-    <div
-      className={`library-scene${scrolled ? " is-visible" : ""}`}
-      aria-hidden="true"
-    >
+    <div className="library-scene" aria-hidden="true">
       <svg
         viewBox="0 0 1440 900"
         preserveAspectRatio="xMidYMax slice"

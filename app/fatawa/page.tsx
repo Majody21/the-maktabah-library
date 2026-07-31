@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { getFatawa } from "@/lib/data/content";
 import FatawaClient from "@/components/fatawa/FatawaClient";
-import Photo from "@/components/ui/Photo";
-import { fatawaPhoto } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Fatawa Library",
@@ -21,11 +19,6 @@ export default async function FatawaPage() {
         Published verdicts reproduced in full — the scholar's own answer, not a
         summary — each linked to the fatwa on his official site.
       </p>
-      <Photo
-        photo={fatawaPhoto}
-        sizes="(max-width: 640px) 100vw, 672px"
-        className="mt-6 h-36 w-full sm:h-44"
-      />
       <FatawaClient fatawa={fatawa} />
     </div>
   );

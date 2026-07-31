@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Department, Resource } from "@/lib/content/types";
 
 const TYPE_LABEL: Record<Resource["type"], string> = {
@@ -9,14 +9,30 @@ const TYPE_LABEL: Record<Resource["type"], string> = {
   website: "Website",
 };
 
-/** Real cover image when provided; otherwise a styled book-cover placeholder. */
+/**
+ * Real cover image when provided; otherwise a styled book-cover placeholder.
+ * A cover that fails to load falls back to the placeholder rather than
+ * leaving a broken image.
+ */
 function BookCover({ resource }: { resource: Resource }) {
-  if (resource.coverUrl) {
+  const [coverFailed, setCoverFailed] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // An image that 404s before hydration never fires onError, so re-check
+  // once mounted: a finished load with no intrinsic width means it failed.
+  useEffect(() => {
+    const el = imgRef.current;
+    if (el?.complete && el.naturalWidth === 0) setCoverFailed(true);
+  }, []);
+
+  if (resource.coverUrl && !coverFailed) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
+        ref={imgRef}
         src={resource.coverUrl}
         alt={`Cover of ${resource.title}`}
+        onError={() => setCoverFailed(true)}
         className="h-28 w-20 shrink-0 rounded-sm border border-line object-cover"
       />
     );

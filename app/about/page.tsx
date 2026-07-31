@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PatternDivider from "@/components/ui/PatternDivider";
-import Photo from "@/components/ui/Photo";
-import { aboutPhoto } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "About",
@@ -14,13 +12,6 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-10 text-center">
       <h1 className="font-display text-3xl font-semibold">About the library</h1>
-
-      <Photo
-        photo={aboutPhoto}
-        priority
-        sizes="(max-width: 640px) 100vw, 576px"
-        className="mt-6 h-52 w-full"
-      />
 
       <section className="mx-auto mt-10 max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Mission</h2>
@@ -41,17 +32,39 @@ export default function AboutPage() {
       <section className="mx-auto max-w-2xl space-y-4 leading-relaxed">
         <h2 className="font-display text-lg font-semibold text-forest">Manhaj</h2>
         <p>
-          We follow the way of the Salaf us-Salih in creed, in worship, and in
-          manhaj: the way of the Companions and the imams of guidance who came
-          after them.
+          Our manhaj is taken from the Messenger of Allah ﷺ. He conveyed the
+          religion complete and left nothing of it unclear, and he informed us
+          that the saved group is the one upon what he and his Companions were
+          upon.
         </p>
         <p>
-          The lessons are taken from the explanations of the recognized
-          scholars of Ahlus Sunnah. Among the later imams:{" "}
-          <strong>Ibn Baz</strong>, <strong>Ibn Uthaymeen</strong> and{" "}
-          <strong>al-Fawzan</strong>. Among those who preceded them:{" "}
-          <strong>Ibn Taymiyyah</strong> and <strong>Ibn al-Qayyim</strong>.
-          Each lesson names the scholar whose explanation it draws upon.
+          After him it is taken from his <strong>Companions</strong>, may Allah
+          be pleased with them. They are the ones who received the revelation
+          from him directly and understood it as he intended, and Allah praised
+          them and was pleased with them. Whoever wishes to understand the Book
+          and the Sunnah correctly understands them as the Companions did, for
+          they are the best of this ummah and the most knowledgeable of it.
+        </p>
+        <p>
+          Then it is taken from the <strong>Tabi'un</strong> and those who
+          followed them, and from the <strong>imams of the Salaf</strong> who
+          carried this knowledge after them, such as{" "}
+          <strong>Imam Malik</strong>, <strong>Imam ash-Shafi'i</strong>,{" "}
+          <strong>Imam Ahmad ibn Hanbal</strong> and{" "}
+          <strong>Imam al-Bukhari</strong>. The Prophet ﷺ testified to the
+          excellence of the first three generations, so the religion is
+          understood as they understood it.
+        </p>
+        <p>
+          Then it is taken from those who followed them in goodness and
+          revived their way in the ages after them, such as{" "}
+          <strong>Ibn Taymiyyah</strong> and <strong>Ibn al-Qayyim</strong>,
+          and in our own time <strong>Ibn Baz</strong>,{" "}
+          <strong>Ibn Uthaymeen</strong> and <strong>al-Fawzan</strong>. These
+          scholars are not a source beside the Book and the Sunnah. They are
+          the ones who transmit them and explain them upon the understanding
+          of the Salaf, and each lesson here names the scholar whose
+          explanation it draws upon.
         </p>
       </section>
 

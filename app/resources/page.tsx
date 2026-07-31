@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { getDepartments, getResources } from "@/lib/data/content";
 import ResourcesClient from "@/components/resources/ResourcesClient";
-import Photo from "@/components/ui/Photo";
-import { resourcesPhoto } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Resources",
@@ -23,11 +21,6 @@ export default async function ResourcesPage() {
       <p className="mt-2 text-ink-soft">
         The books and sites this library draws from, organized by department.
       </p>
-      <Photo
-        photo={resourcesPhoto}
-        sizes="(max-width: 896px) 100vw, 896px"
-        className="mt-6 h-40 w-full sm:h-48"
-      />
       <ResourcesClient resources={resources} departments={departments} />
     </div>
   );

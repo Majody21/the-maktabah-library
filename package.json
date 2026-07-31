@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed:generate": "tsx scripts/generate-seed.ts"
+    "seed:generate": "tsx scripts/generate-seed.ts",
+    "covers": "node scripts/shrink-covers.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
